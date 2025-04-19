@@ -1,0 +1,39 @@
+{
+  "navbar": {
+    "title": "Travel Journey"
+  },
+  "hero": {
+    "description": "I'm a Venezuelan developer who left home three years ago and began checking off destinations from my dream list. This page is a simple way to capture those journeys — not just for others to see, but to remind myself that every place I've visited still lives in me. My memories stay, and this is how I share them."
+  },
+  "pages": {
+    "tokyo_title": "Tokyo Adventure",
+    "tokyo_description": "Neon lights and cherry blossoms.",
+    "paris_title": "Paris Escape",
+    "paris_description": "Croissants and Eiffel Tower.",
+
+    "home_title": "About me",
+    "japan_title": "Favorite Country"
+  },
+  "japanCities": {
+    "tokyo": {
+      "title": "My favorite city in the world.",
+      "description": "Tokyo is my favorite city in Japan. I’ve visited twice, and each time felt like discovering a new world within the same place. It’s a city of contrasts—futuristic yet traditional, chaotic yet peaceful. Every corner of Tokyo offers something unique and endlessly fascinating to explore."
+    },
+    "kyoto": {
+      "title": "The most beautiful city I’ve ever seen.",
+      "description": "Kyoto is, without question, the most beautiful city I’ve visited. I’ve been there twice, both times during cherry blossom season, and the scenery felt like a dream. From ancient temples and quiet gardens to geisha alleys and peaceful rivers, Kyoto carries the timeless soul of Japan."
+    },
+    "osaka": {
+      "title": "The first city I ever saw in Japan.",
+      "description": "Osaka was the first Japanese city I stepped into, arriving from South Korea. I explored the lively Namba district and instantly felt its distinct character—friendly people, incredible food, and a warm, urban vibe. Osaka gave me my first true taste of Japan, and I’ll never forget it."
+    },
+    "nara": {
+      "title": "A peaceful encounter with nature and tradition.",
+      "description": "I visited Nara during cherry blossom season and spent time in the famous deer park. Walking among gentle deer, ancient temples, and blooming trees felt peaceful and surreal. Nara stands out as a quiet spiritual escape, deeply connected to nature and Japanese heritage."
+    },
+    "kamakura": {
+      "title": "Where tradition meets nostalgia.",
+      "description": "My visit to Kamakura was short but full of charm. I saw the Great Buddha, strolled traditional streets, and admired the ocean view made iconic by Slam Dunk. It’s a perfect mix of historical sites, nostalgic scenery, and the calm, coastal side of Japan’s cultural depth."
+    }
+  }
+}

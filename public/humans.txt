@@ -1,0 +1,13 @@
+/* TEAM */
+Developer: Jonathan Cuotto
+Location: Dubai, UAE
+Site: https://yourportfolio.com
+GitHub: https://github.com/yourusername
+
+/* SITE */
+Last updated: 2025-04-18
+Language: Vue 3, Tailwind CSS, TypeScript
+Frameworks: Vite, Headless UI, i18next, Swiper
+
+/* FUN */
+You found me!

@@ -1,0 +1,38 @@
+{
+  "navbar": {
+    "title": "Viaje Inolvidable"
+  },
+  "hero": {
+    "description": "Soy un desarrollador venezolano que salió de su país hace tres años y empezó a recorrer los destinos de su lista de sueños. Esta página es una forma sencilla de capturar esos viajes, no solo para mostrarlos, sino para recordarme que cada lugar que conocí sigue vivo en mí. Mis recuerdos se quedan, y así los comparto."
+  },
+  "pages": {
+    "tokyo_title": "Aventura en Tokio",
+    "tokyo_description": "Luces de neón y flores de cerezo.",
+    "paris_title": "Escapada a París",
+    "paris_description": "Croissants y Torre Eiffel.",
+    "home_title": "Acerca de mí",
+    "japan_title": "Mi país favorito"
+  },
+  "japanCities": {
+    "tokyo": {
+      "title": "Mi ciudad favorita en el mundo.",
+      "description": "Tokio es mi ciudad favorita en Japón. La he visitado dos veces, y cada vez se siente como descubrir un mundo nuevo dentro del mismo lugar. Es una ciudad de contrastes: futurista y tradicional, caótica y tranquila al mismo tiempo. Cada rincón ofrece algo único y fascinante por explorar."
+    },
+    "kyoto": {
+      "title": "La ciudad más hermosa que he visto.",
+      "description": "Kyoto es, sin duda, la ciudad más hermosa que he visitado. He estado allí dos veces, ambas durante la temporada de los cerezos en flor, y el paisaje parecía un sueño. Desde templos antiguos y jardines silenciosos hasta callejones de geishas y ríos tranquilos, Kyoto representa el alma atemporal de Japón."
+    },
+    "osaka": {
+      "title": "La primera ciudad que conocí en Japón.",
+      "description": "Osaka fue la primera ciudad japonesa en la que estuve, llegando desde Corea del Sur. Recorrí el animado distrito de Namba y de inmediato sentí su carácter distintivo: gente amable, comida increíble y una energía urbana cálida. Osaka fue mi primer verdadero contacto con Japón, y nunca lo olvidaré."
+    },
+    "nara": {
+      "title": "Un encuentro tranquilo con la naturaleza y la tradición.",
+      "description": "Visité Nara durante la temporada de floración de los cerezos y pasé tiempo en su famoso parque de ciervos. Caminar entre ciervos amistosos, templos antiguos y árboles en flor fue una experiencia pacífica y casi irreal. Nara destaca como un escape espiritual, profundamente conectado con la naturaleza y el patrimonio japonés."
+    },
+    "kamakura": {
+      "title": "Donde la tradición se encuentra con la nostalgia.",
+      "description": "Mi visita a Kamakura fue corta pero llena de encanto. Vi el Gran Buda, recorrí calles tradicionales y admiré la famosa vista al mar que aparece en Slam Dunk. Es una mezcla perfecta de historia, paisajes nostálgicos y el lado costero y tranquilo de la riqueza cultural japonesa."
+    }
+  }
+}
