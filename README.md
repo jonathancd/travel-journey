@@ -27,6 +27,8 @@ Make sure Docker is installed and running.
 
 ````bash
 docker-compose up --build
+```
+
 
 
 

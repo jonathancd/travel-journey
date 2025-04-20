@@ -6,12 +6,597 @@
     "description": "Soy un desarrollador venezolano que salió de su país hace tres años y empezó a recorrer los destinos de su lista de sueños. Esta página es una forma sencilla de capturar esos viajes, no solo para mostrarlos, sino para recordarme que cada lugar que conocí sigue vivo en mí. Mis recuerdos se quedan, y así los comparto."
   },
   "pages": {
-    "tokyo_title": "Aventura en Tokio",
-    "tokyo_description": "Luces de neón y flores de cerezo.",
-    "paris_title": "Escapada a París",
-    "paris_description": "Croissants y Torre Eiffel.",
     "home_title": "Acerca de mí",
-    "japan_title": "Mi país favorito"
+    "japan_title": "Mi país favorito",
+    "country_list": "Listado de países"
+  },
+  "countries_tabs": {
+    "pending": "Quizás Algun día",
+    "visited": "Países visitados"
+  },
+  "countries": {
+    "must_visit": "✨Obligatorio!",
+    "top_place": "⭐Top!",
+    "visited": {
+      "hr": {
+        "name": "Croacia",
+        "title": "Recuerdos de Croacia",
+        "summary": "Croacia me dejó una impresión profunda con su cultura y belleza.",
+        "overlay": {
+          "label": "Visitado varias veces",
+          "favorite": false
+        },
+        "details": {
+          "livedThere": false,
+          "wouldReturn": true,
+          "rating": 9,
+          "yearsVisited": ["2022", "2023"],
+          "notes": "Una experiencia increíble, me encantaría volver."
+        }
+      },
+      "cu": {
+        "name": "Cuba",
+        "title": "Recuerdos de Cuba",
+        "summary": "Cuba me dejó una impresión profunda con su cultura y belleza.",
+        "overlay": {
+          "label": "Visitado varias veces",
+          "favorite": false
+        },
+        "details": {
+          "livedThere": false,
+          "wouldReturn": true,
+          "rating": 9,
+          "yearsVisited": ["2022", "2023"],
+          "notes": "Una experiencia increíble, me encantaría volver."
+        }
+      },
+      "eg": {
+        "name": "Egipto",
+        "title": "Recuerdos de Egipto",
+        "summary": "Egipto me dejó una impresión profunda con su cultura y belleza.",
+        "overlay": {
+          "label": "Visitado varias veces",
+          "favorite": false
+        },
+        "details": {
+          "livedThere": false,
+          "wouldReturn": true,
+          "rating": 9,
+          "yearsVisited": ["2022", "2023"],
+          "notes": "Una experiencia increíble, me encantaría volver."
+        }
+      },
+      "fr": {
+        "name": "Francia",
+        "title": "Recuerdos de Francia",
+        "summary": "Francia me dejó una impresión profunda con su cultura y belleza.",
+        "overlay": {
+          "label": "Visitado varias veces",
+          "favorite": false
+        },
+        "details": {
+          "livedThere": false,
+          "wouldReturn": true,
+          "rating": 9,
+          "yearsVisited": ["2022", "2023"],
+          "notes": "Una experiencia increíble, me encantaría volver."
+        }
+      },
+      "de": {
+        "name": "Alemania",
+        "title": "Recuerdos de Alemania",
+        "summary": "Alemania me dejó una impresión profunda con su cultura y belleza.",
+        "overlay": {
+          "label": "Visitado varias veces",
+          "favorite": false
+        },
+        "details": {
+          "livedThere": false,
+          "wouldReturn": true,
+          "rating": 9,
+          "yearsVisited": ["2022", "2023"],
+          "notes": "Una experiencia increíble, me encantaría volver."
+        }
+      },
+      "gr": {
+        "name": "Grecia",
+        "title": "Recuerdos de Grecia",
+        "summary": "Grecia me dejó una impresión profunda con su cultura y belleza.",
+        "overlay": {
+          "label": "Visitado varias veces",
+          "favorite": false
+        },
+        "details": {
+          "livedThere": false,
+          "wouldReturn": true,
+          "rating": 9,
+          "yearsVisited": ["2022", "2023"],
+          "notes": "Una experiencia increíble, me encantaría volver."
+        }
+      },
+      "hk": {
+        "name": "Hong Kong",
+        "title": "Recuerdos de Hong Kong",
+        "summary": "Hong Kong me dejó una impresión profunda con su cultura y belleza.",
+        "overlay": {
+          "label": "Visitado varias veces",
+          "favorite": false
+        },
+        "details": {
+          "livedThere": false,
+          "wouldReturn": true,
+          "rating": 9,
+          "yearsVisited": ["2022", "2023"],
+          "notes": "Una experiencia increíble, me encantaría volver."
+        }
+      },
+      "id": {
+        "name": "Indonesia",
+        "title": "Recuerdos de Indonesia",
+        "summary": "Indonesia me dejó una impresión profunda con su cultura y belleza.",
+        "overlay": {
+          "label": "Visitado varias veces",
+          "favorite": false
+        },
+        "details": {
+          "livedThere": false,
+          "wouldReturn": true,
+          "rating": 9,
+          "yearsVisited": ["2022", "2023"],
+          "notes": "Una experiencia increíble, me encantaría volver."
+        }
+      },
+      "it": {
+        "name": "Italia",
+        "title": "Recuerdos de Italia",
+        "summary": "Italia me dejó una impresión profunda con su cultura y belleza.",
+        "overlay": {
+          "label": "Visitado varias veces",
+          "favorite": false
+        },
+        "details": {
+          "livedThere": false,
+          "wouldReturn": true,
+          "rating": 9,
+          "yearsVisited": ["2022", "2023"],
+          "notes": "Una experiencia increíble, me encantaría volver."
+        }
+      },
+      "jp": {
+        "name": "Japón",
+        "title": "Recuerdos de Japón",
+        "summary": "Japón me dejó una impresión profunda con su cultura y belleza.",
+        "overlay": {
+          "label": "Visitado varias veces",
+          "favorite": true
+        },
+        "details": {
+          "livedThere": false,
+          "wouldReturn": true,
+          "rating": 9,
+          "yearsVisited": ["2022", "2023"],
+          "notes": "Una experiencia increíble, me encantaría volver."
+        }
+      },
+      "mv": {
+        "name": "Maldivas",
+        "title": "Recuerdos de Maldivas",
+        "summary": "Maldivas me dejó una impresión profunda con su cultura y belleza.",
+        "overlay": {
+          "label": "Visitado varias veces",
+          "favorite": false
+        },
+        "details": {
+          "livedThere": false,
+          "wouldReturn": true,
+          "rating": 9,
+          "yearsVisited": ["2022", "2023"],
+          "notes": "Una experiencia increíble, me encantaría volver."
+        }
+      },
+      "pt": {
+        "name": "Portugal",
+        "title": "Recuerdos de Portugal",
+        "summary": "Portugal me dejó una impresión profunda con su cultura y belleza.",
+        "overlay": {
+          "label": "Visitado varias veces",
+          "favorite": false
+        },
+        "details": {
+          "livedThere": false,
+          "wouldReturn": true,
+          "rating": 9,
+          "yearsVisited": ["2022", "2023"],
+          "notes": "Una experiencia increíble, me encantaría volver."
+        }
+      },
+      "kr": {
+        "name": "Corea del Sur",
+        "title": "Recuerdos de Corea del Sur",
+        "summary": "Corea del Sur me dejó una impresión profunda con su cultura y belleza.",
+        "overlay": {
+          "label": "Visitado varias veces",
+          "favorite": false
+        },
+        "details": {
+          "livedThere": false,
+          "wouldReturn": true,
+          "rating": 9,
+          "yearsVisited": ["2022", "2023"],
+          "notes": "Una experiencia increíble, me encantaría volver."
+        }
+      },
+      "es": {
+        "name": "España",
+        "title": "Recuerdos de España",
+        "summary": "España me dejó una impresión profunda con su cultura y belleza.",
+        "overlay": {
+          "label": "Visitado varias veces",
+          "favorite": true
+        },
+        "details": {
+          "livedThere": false,
+          "wouldReturn": true,
+          "rating": 9,
+          "yearsVisited": ["2022", "2023"],
+          "notes": "Una experiencia increíble, me encantaría volver."
+        }
+      },
+      "th": {
+        "name": "Tailandia",
+        "title": "Recuerdos de Tailandia",
+        "summary": "Tailandia me dejó una impresión profunda con su cultura y belleza.",
+        "overlay": {
+          "label": "Visitado varias veces",
+          "favorite": false
+        },
+        "details": {
+          "livedThere": false,
+          "wouldReturn": true,
+          "rating": 9,
+          "yearsVisited": ["2022", "2023"],
+          "notes": "Una experiencia increíble, me encantaría volver."
+        }
+      },
+      "ae": {
+        "name": "Emiratos Árabes Unidos",
+        "title": "Recuerdos de Emiratos Árabes Unidos",
+        "summary": "Emiratos Árabes Unidos me dejó una impresión profunda con su cultura y belleza.",
+        "overlay": {
+          "label": "Visitado varias veces",
+          "favorite": false
+        },
+        "details": {
+          "livedThere": true,
+          "wouldReturn": true,
+          "rating": 9,
+          "yearsVisited": ["2022", "2023"],
+          "notes": "Una experiencia increíble, me encantaría volver."
+        }
+      },
+      "va": {
+        "name": "Ciudad del Vaticano",
+        "title": "Recuerdos de Ciudad del Vaticano",
+        "summary": "Ciudad del Vaticano me dejó una impresión profunda con su cultura y belleza.",
+        "overlay": {
+          "label": "Visitado varias veces",
+          "favorite": false
+        },
+        "details": {
+          "livedThere": false,
+          "wouldReturn": true,
+          "rating": 9,
+          "yearsVisited": ["2022", "2023"],
+          "notes": "Una experiencia increíble, me encantaría volver."
+        }
+      },
+      "ve": {
+        "name": "Venezuela",
+        "title": "Recuerdos de Venezuela",
+        "summary": "Venezuela me dejó una impresión profunda con su cultura y belleza.",
+        "overlay": {
+          "label": "Visitado varias veces",
+          "favorite": false
+        },
+        "details": {
+          "livedThere": true,
+          "wouldReturn": true,
+          "rating": 9,
+          "yearsVisited": ["2022", "2023"],
+          "notes": "Una experiencia increíble, me encantaría volver."
+        }
+      }
+    },
+    "pending": {
+      "mx": {
+        "name": "México",
+        "title": "Un sueño visitar México",
+        "summary": "México me fascina por su oferta única.",
+        "overlay": {
+          "label": "En mi lista de deseos"
+        },
+        "details": {
+          "reason": "Quiero explorar la belleza y cultura de México.",
+          "placesToGo": ["Capital", "Maravilla natural", "Sitio cultural"]
+        }
+      },
+      "us": {
+        "name": "Estados Unidos",
+        "title": "Un sueño visitar Estados Unidos",
+        "summary": "Estados Unidos me fascina por su oferta única.",
+        "overlay": {
+          "label": "En mi lista de deseos"
+        },
+        "details": {
+          "reason": "Quiero explorar la belleza y cultura de Estados Unidos.",
+          "placesToGo": ["Capital", "Maravilla natural", "Sitio cultural"]
+        }
+      },
+      "cr": {
+        "name": "Costa Rica",
+        "title": "Un sueño visitar Costa Rica",
+        "summary": "Costa Rica me fascina por su oferta única.",
+        "overlay": {
+          "label": "En mi lista de deseos"
+        },
+        "details": {
+          "reason": "Quiero explorar la belleza y cultura de Costa Rica.",
+          "placesToGo": ["Capital", "Maravilla natural", "Sitio cultural"]
+        }
+      },
+      "br": {
+        "name": "Brasil",
+        "title": "Un sueño visitar Brasil",
+        "summary": "Brasil me fascina por su oferta única.",
+        "overlay": {
+          "label": "En mi lista de deseos"
+        },
+        "details": {
+          "reason": "Quiero explorar la belleza y cultura de Brasil.",
+          "placesToGo": ["Capital", "Maravilla natural", "Sitio cultural"]
+        }
+      },
+      "gb": {
+        "name": "Reino Unido",
+        "title": "Un sueño visitar Reino Unido",
+        "summary": "Reino Unido me fascina por su oferta única.",
+        "overlay": {
+          "label": "En mi lista de deseos"
+        },
+        "details": {
+          "reason": "Quiero explorar la belleza y cultura de Reino Unido.",
+          "placesToGo": ["Capital", "Maravilla natural", "Sitio cultural"]
+        }
+      },
+      "is": {
+        "name": "Islandia",
+        "title": "Un sueño visitar Islandia",
+        "summary": "Islandia me fascina por su oferta única.",
+        "overlay": {
+          "label": "En mi lista de deseos"
+        },
+        "details": {
+          "reason": "Quiero explorar la belleza y cultura de Islandia.",
+          "placesToGo": ["Capital", "Maravilla natural", "Sitio cultural"]
+        }
+      },
+      "no": {
+        "name": "Noruega",
+        "title": "Un sueño visitar Noruega",
+        "summary": "Noruega me fascina por su oferta única.",
+        "overlay": {
+          "label": "En mi lista de deseos"
+        },
+        "details": {
+          "reason": "Quiero explorar la belleza y cultura de Noruega.",
+          "placesToGo": ["Capital", "Maravilla natural", "Sitio cultural"]
+        }
+      },
+      "fi": {
+        "name": "Finlandia",
+        "title": "Un sueño visitar Finlandia",
+        "summary": "Finlandia me fascina por su oferta única.",
+        "overlay": {
+          "label": "En mi lista de deseos"
+        },
+        "details": {
+          "reason": "Quiero explorar la belleza y cultura de Finlandia.",
+          "placesToGo": ["Capital", "Maravilla natural", "Sitio cultural"]
+        }
+      },
+      "ch": {
+        "name": "Suiza",
+        "title": "Un sueño visitar Suiza",
+        "summary": "Suiza me fascina por su oferta única.",
+        "overlay": {
+          "label": "En mi lista de deseos"
+        },
+        "details": {
+          "reason": "Quiero explorar la belleza y cultura de Suiza.",
+          "placesToGo": ["Capital", "Maravilla natural", "Sitio cultural"]
+        }
+      },
+      "ba": {
+        "name": "Bosnia y Herzegovina",
+        "title": "Un sueño visitar Bosnia y Herzegovina",
+        "summary": "Bosnia y Herzegovina me fascina por su oferta única.",
+        "overlay": {
+          "label": "En mi lista de deseos"
+        },
+        "details": {
+          "reason": "Quiero explorar la belleza y cultura de Bosnia y Herzegovina.",
+          "placesToGo": ["Capital", "Maravilla natural", "Sitio cultural"]
+        }
+      },
+      "cz": {
+        "name": "República Checa",
+        "title": "Un sueño visitar República Checa",
+        "summary": "República Checa me fascina por su oferta única.",
+        "overlay": {
+          "label": "En mi lista de deseos"
+        },
+        "details": {
+          "reason": "Quiero explorar la belleza y cultura de República Checa.",
+          "placesToGo": ["Capital", "Maravilla natural", "Sitio cultural"]
+        }
+      },
+      "hu": {
+        "name": "Hungría",
+        "title": "Un sueño visitar Hungría",
+        "summary": "Hungría me fascina por su oferta única.",
+        "overlay": {
+          "label": "En mi lista de deseos"
+        },
+        "details": {
+          "reason": "Quiero explorar la belleza y cultura de Hungría.",
+          "placesToGo": ["Capital", "Maravilla natural", "Sitio cultural"]
+        }
+      },
+      "az": {
+        "name": "Azerbaiyán",
+        "title": "Un sueño visitar Azerbaiyán",
+        "summary": "Azerbaiyán me fascina por su oferta única.",
+        "overlay": {
+          "label": "En mi lista de deseos"
+        },
+        "details": {
+          "reason": "Quiero explorar la belleza y cultura de Azerbaiyán.",
+          "placesToGo": ["Capital", "Maravilla natural", "Sitio cultural"]
+        }
+      },
+      "tr": {
+        "name": "Turquía",
+        "title": "Un sueño visitar Turquía",
+        "summary": "Turquía me fascina por su oferta única.",
+        "overlay": {
+          "label": "En mi lista de deseos"
+        },
+        "details": {
+          "reason": "Quiero explorar la belleza y cultura de Turquía.",
+          "placesToGo": ["Capital", "Maravilla natural", "Sitio cultural"]
+        }
+      },
+      "iq": {
+        "name": "Irak",
+        "title": "Un sueño visitar Irak",
+        "summary": "Irak me fascina por su oferta única.",
+        "overlay": {
+          "label": "En mi lista de deseos"
+        },
+        "details": {
+          "reason": "Quiero explorar la belleza y cultura de Irak.",
+          "placesToGo": ["Capital", "Maravilla natural", "Sitio cultural"]
+        }
+      },
+      "om": {
+        "name": "Omán",
+        "title": "Un sueño visitar Omán",
+        "summary": "Omán me fascina por su oferta única.",
+        "overlay": {
+          "label": "En mi lista de deseos"
+        },
+        "details": {
+          "reason": "Quiero explorar la belleza y cultura de Omán.",
+          "placesToGo": ["Capital", "Maravilla natural", "Sitio cultural"]
+        }
+      },
+      "ma": {
+        "name": "Marruecos",
+        "title": "Un sueño visitar Marruecos",
+        "summary": "Marruecos me fascina por su oferta única.",
+        "overlay": {
+          "label": "En mi lista de deseos"
+        },
+        "details": {
+          "reason": "Quiero explorar la belleza y cultura de Marruecos.",
+          "placesToGo": ["Capital", "Maravilla natural", "Sitio cultural"]
+        }
+      },
+      "ke": {
+        "name": "Kenia",
+        "title": "Un sueño visitar Kenia",
+        "summary": "Kenia me fascina por su oferta única.",
+        "overlay": {
+          "label": "En mi lista de deseos"
+        },
+        "details": {
+          "reason": "Quiero explorar la belleza y cultura de Kenia.",
+          "placesToGo": ["Capital", "Maravilla natural", "Sitio cultural"]
+        }
+      },
+      "tz": {
+        "name": "Tanzania",
+        "title": "Un sueño visitar Tanzania",
+        "summary": "Tanzania me fascina por su oferta única.",
+        "overlay": {
+          "label": "En mi lista de deseos"
+        },
+        "details": {
+          "reason": "Quiero explorar la belleza y cultura de Tanzania.",
+          "placesToGo": ["Capital", "Maravilla natural", "Sitio cultural"]
+        }
+      },
+      "sc": {
+        "name": "Seychelles",
+        "title": "Un sueño visitar Seychelles",
+        "summary": "Seychelles me fascina por su oferta única.",
+        "overlay": {
+          "label": "En mi lista de deseos"
+        },
+        "details": {
+          "reason": "Quiero explorar la belleza y cultura de Seychelles.",
+          "placesToGo": ["Capital", "Maravilla natural", "Sitio cultural"]
+        }
+      },
+      "cn": {
+        "name": "China",
+        "title": "Un sueño visitar China",
+        "summary": "China me fascina por su oferta única.",
+        "overlay": {
+          "label": "En mi lista de deseos"
+        },
+        "details": {
+          "reason": "Quiero explorar la belleza y cultura de China.",
+          "placesToGo": ["Capital", "Maravilla natural", "Sitio cultural"]
+        }
+      },
+      "sg": {
+        "name": "Singapur",
+        "title": "Un sueño visitar Singapur",
+        "summary": "Singapur me fascina por su oferta única.",
+        "overlay": {
+          "label": "En mi lista de deseos"
+        },
+        "details": {
+          "reason": "Quiero explorar la belleza y cultura de Singapur.",
+          "placesToGo": ["Capital", "Maravilla natural", "Sitio cultural"]
+        }
+      },
+      "ph": {
+        "name": "Filipinas",
+        "title": "Un sueño visitar Filipinas",
+        "summary": "Filipinas me fascina por su oferta única.",
+        "overlay": {
+          "label": "En mi lista de deseos"
+        },
+        "details": {
+          "reason": "Quiero explorar la belleza y cultura de Filipinas.",
+          "placesToGo": ["Capital", "Maravilla natural", "Sitio cultural"]
+        }
+      },
+      "vn": {
+        "name": "Vietnam",
+        "title": "Un sueño visitar Vietnam",
+        "summary": "Vietnam me fascina por su oferta única.",
+        "overlay": {
+          "label": "En mi lista de deseos"
+        },
+        "details": {
+          "reason": "Quiero explorar la belleza y cultura de Vietnam.",
+          "placesToGo": ["Capital", "Maravilla natural", "Sitio cultural"]
+        }
+      }
+    }
   },
   "japanCities": {
     "tokyo": {

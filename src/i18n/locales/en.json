@@ -6,13 +6,483 @@
     "description": "I'm a Venezuelan developer who left home three years ago and began checking off destinations from my dream list. This page is a simple way to capture those journeys — not just for others to see, but to remind myself that every place I've visited still lives in me. My memories stay, and this is how I share them."
   },
   "pages": {
-    "tokyo_title": "Tokyo Adventure",
-    "tokyo_description": "Neon lights and cherry blossoms.",
-    "paris_title": "Paris Escape",
-    "paris_description": "Croissants and Eiffel Tower.",
-
     "home_title": "About me",
-    "japan_title": "Favorite Country"
+    "japan_title": "Favorite Country",
+    "country_list": "List of Countries"
+  },
+  "countries_tabs": {
+    "pending": "Bucket List",
+    "visited": "Visited Countries"
+  },
+  "countries": {
+    "must_visit": "✨Must!",
+    "top_place": "⭐Top!",
+    "visited": {
+      "ae": {
+        "name": "United Arab Emirates",
+        "title": "Memories from United Arab Emirates",
+        "short_summary": "United Arab Emirates left a deep impression on me with its culture and beauty.",
+        "tag": {
+          "label": "Visited multiple times"
+        },
+        "details": {
+          "notes": "Amazing experience, would love to go again!"
+        }
+      },
+      "cu": {
+        "name": "Cuba",
+        "title": "Memories from Cuba",
+        "short_summary": "Cuba left a deep impression on me with its culture and beauty.",
+        "tag": {
+          "label": "Visited multiple times"
+        },
+        "details": {
+          "notes": "Amazing experience, would love to go again!"
+        }
+      },
+      "de": {
+        "name": "Germany",
+        "title": "Memories from Germany",
+        "short_summary": "Germany left a deep impression on me with its culture and beauty.",
+        "tag": {
+          "label": "Visited multiple times"
+        },
+        "details": {
+          "notes": "Amazing experience, would love to go again!"
+        }
+      },
+      "eg": {
+        "name": "Egypt",
+        "title": "Memories from Egypt",
+        "short_summary": "Egypt left a deep impression on me with its culture and beauty.",
+        "tag": {
+          "label": "Visited multiple times"
+        },
+        "details": {
+          "notes": "Amazing experience, would love to go again!"
+        }
+      },
+      "es": {
+        "name": "Spain",
+        "title": "Memories from Spain",
+        "short_summary": "Spain left a deep impression on me with its culture and beauty.",
+        "tag": {
+          "label": "Visited multiple times"
+        },
+        "details": {
+          "notes": "Amazing experience, would love to go again!"
+        }
+      },
+      "fr": {
+        "name": "France",
+        "title": "Memories from France",
+        "short_summary": "France left a deep impression on me with its culture and beauty.",
+        "tag": {
+          "label": "Visited multiple times"
+        },
+        "details": {
+          "notes": "Amazing experience, would love to go again!"
+        }
+      },
+      "gr": {
+        "name": "Greece",
+        "title": "Memories from Greece",
+        "short_summary": "Greece left a deep impression on me with its culture and beauty.",
+        "tag": {
+          "label": "Visited multiple times"
+        },
+        "details": {
+          "notes": "Amazing experience, would love to go again!"
+        }
+      },
+      "hk": {
+        "name": "Hong Kong",
+        "title": "Memories from Hong Kong",
+        "short_summary": "Hong Kong left a deep impression on me with its culture and beauty.",
+        "tag": {
+          "label": "Visited multiple times"
+        },
+        "details": {
+          "notes": "Amazing experience, would love to go again!"
+        }
+      },
+      "hr": {
+        "name": "Croatia",
+        "title": "Memories from Croatia",
+        "short_summary": "Croatia left a deep impression on me with its culture and beauty.",
+        "tag": {
+          "label": "Visited multiple times"
+        },
+        "details": {
+          "notes": "Amazing experience, would love to go again!"
+        }
+      },
+      "id": {
+        "name": "Indonesia",
+        "title": "Memories from Indonesia",
+        "short_summary": "Indonesia left a deep impression on me with its culture and beauty.",
+        "tag": {
+          "label": "Visited multiple times"
+        },
+        "details": {
+          "notes": "Amazing experience, would love to go again!"
+        }
+      },
+      "it": {
+        "name": "Italy",
+        "title": "Memories from Italy",
+        "short_summary": "Italy left a deep impression on me with its culture and beauty.",
+        "tag": {
+          "label": "Visited multiple times"
+        },
+        "details": {
+          "notes": "Amazing experience, would love to go again!"
+        }
+      },
+      "jp": {
+        "name": "Japan",
+        "title": "Memories from Japan",
+        "short_summary": "Japan left a deep impression on me with its culture and beauty.",
+        "tag": {
+          "label": "Visited multiple times"
+        },
+        "details": {
+          "notes": "Amazing experience, would love to go again!"
+        }
+      },
+      "kr": {
+        "name": "South Korea",
+        "title": "Memories from South Korea",
+        "short_summary": "South Korea left a deep impression on me with its culture and beauty.",
+        "tag": {
+          "label": "Visited multiple times"
+        },
+        "details": {
+          "notes": "Amazing experience, would love to go again!"
+        }
+      },
+      "mv": {
+        "name": "Maldives",
+        "title": "Memories from Maldives",
+        "short_summary": "Maldives left a deep impression on me with its culture and beauty.",
+        "tag": {
+          "label": "Visited multiple times"
+        },
+        "details": {
+          "notes": "Amazing experience, would love to go again!"
+        }
+      },
+      "pt": {
+        "name": "Portugal",
+        "title": "Memories from Portugal",
+        "short_summary": "Portugal left a deep impression on me with its culture and beauty.",
+        "tag": {
+          "label": "Visited multiple times"
+        },
+        "details": {
+          "notes": "Amazing experience, would love to go again!"
+        }
+      },
+      "th": {
+        "name": "Thailand",
+        "title": "Memories from Thailand",
+        "short_summary": "Thailand left a deep impression on me with its culture and beauty.",
+        "tag": {
+          "label": "Visited multiple times"
+        },
+        "details": {
+          "notes": "Amazing experience, would love to go again!"
+        }
+      },
+      "va": {
+        "name": "Vatican City",
+        "title": "Memories from Vatican City",
+        "short_summary": "Vatican City left a deep impression on me with its culture and beauty.",
+        "tag": {
+          "label": "Visited multiple times"
+        },
+        "details": {
+          "notes": "Amazing experience, would love to go again!"
+        }
+      },
+      "ve": {
+        "name": "Venezuela",
+        "title": "Memories from Venezuela",
+        "short_summary": "Venezuela left a deep impression on me with its culture and beauty.",
+        "tag": {
+          "label": "Visited multiple times"
+        },
+        "details": {
+          "notes": "Amazing experience, would love to go again!"
+        }
+      }
+    },
+    "pending": {
+      "az": {
+        "name": "Azerbaijan",
+        "title": "A dream to visit Azerbaijan",
+        "short_summary": "Azerbaijan fascinates me with its unique offerings.",
+        "tag": {
+          "label": "On my bucket list"
+        },
+        "details": {
+          "reason": "I want to explore the beauty and culture of Azerbaijan."
+        }
+      },
+      "ba": {
+        "name": "Bosnia and Herzegovina",
+        "title": "A dream to visit Bosnia and Herzegovina",
+        "short_summary": "Bosnia and Herzegovina fascinates me with its unique offerings.",
+        "tag": {
+          "label": "On my bucket list"
+        },
+        "details": {
+          "reason": "I want to explore the beauty and culture of Bosnia and Herzegovina."
+        }
+      },
+      "br": {
+        "name": "Brazil",
+        "title": "A dream to visit Brazil",
+        "short_summary": "Brazil fascinates me with its unique offerings.",
+        "tag": {
+          "label": "On my bucket list"
+        },
+        "details": {
+          "reason": "I want to explore the beauty and culture of Brazil."
+        }
+      },
+      "ch": {
+        "name": "Switzerland",
+        "title": "A dream to visit Switzerland",
+        "short_summary": "Switzerland fascinates me with its unique offerings.",
+        "tag": {
+          "label": "On my bucket list"
+        },
+        "details": {
+          "reason": "I want to explore the beauty and culture of Switzerland."
+        }
+      },
+      "cn": {
+        "name": "China",
+        "title": "A dream to visit China",
+        "short_summary": "China fascinates me with its unique offerings.",
+        "tag": {
+          "label": "On my bucket list"
+        },
+        "details": {
+          "reason": "I want to explore the beauty and culture of China."
+        }
+      },
+      "cr": {
+        "name": "Costa Rica",
+        "title": "A dream to visit Costa Rica",
+        "short_summary": "Costa Rica fascinates me with its unique offerings.",
+        "tag": {
+          "label": "On my bucket list"
+        },
+        "details": {
+          "reason": "I want to explore the beauty and culture of Costa Rica."
+        }
+      },
+      "cz": {
+        "name": "Czech Republic",
+        "title": "A dream to visit Czech Republic",
+        "short_summary": "Czech Republic fascinates me with its unique offerings.",
+        "tag": {
+          "label": "On my bucket list"
+        },
+        "details": {
+          "reason": "I want to explore the beauty and culture of Czech Republic."
+        }
+      },
+      "fi": {
+        "name": "Finland",
+        "title": "A dream to visit Finland",
+        "short_summary": "Finland fascinates me with its unique offerings.",
+        "tag": {
+          "label": "On my bucket list"
+        },
+        "details": {
+          "reason": "I want to explore the beauty and culture of Finland."
+        }
+      },
+      "gb": {
+        "name": "United Kingdom",
+        "title": "A dream to visit United Kingdom",
+        "short_summary": "United Kingdom fascinates me with its unique offerings.",
+        "tag": {
+          "label": "On my bucket list"
+        },
+        "details": {
+          "reason": "I want to explore the beauty and culture of United Kingdom."
+        }
+      },
+      "hu": {
+        "name": "Hungary",
+        "title": "A dream to visit Hungary",
+        "short_summary": "Hungary fascinates me with its unique offerings.",
+        "tag": {
+          "label": "On my bucket list"
+        },
+        "details": {
+          "reason": "I want to explore the beauty and culture of Hungary."
+        }
+      },
+      "iq": {
+        "name": "Iraq",
+        "title": "A dream to visit Iraq",
+        "short_summary": "Iraq fascinates me with its unique offerings.",
+        "tag": {
+          "label": "On my bucket list"
+        },
+        "details": {
+          "reason": "I want to explore the beauty and culture of Iraq."
+        }
+      },
+      "is": {
+        "name": "Iceland",
+        "title": "A dream to visit Iceland",
+        "short_summary": "Iceland fascinates me with its unique offerings.",
+        "tag": {
+          "label": "On my bucket list"
+        },
+        "details": {
+          "reason": "I want to explore the beauty and culture of Iceland."
+        }
+      },
+      "ke": {
+        "name": "Kenya",
+        "title": "A dream to visit Kenya",
+        "short_summary": "Kenya fascinates me with its unique offerings.",
+        "tag": {
+          "label": "On my bucket list"
+        },
+        "details": {
+          "reason": "I want to explore the beauty and culture of Kenya."
+        }
+      },
+      "ma": {
+        "name": "Morocco",
+        "title": "A dream to visit Morocco",
+        "short_summary": "Morocco fascinates me with its unique offerings.",
+        "tag": {
+          "label": "On my bucket list"
+        },
+        "details": {
+          "reason": "I want to explore the beauty and culture of Morocco."
+        }
+      },
+      "mx": {
+        "name": "Mexico",
+        "title": "A dream to visit Mexico",
+        "short_summary": "Mexico fascinates me with its unique offerings.",
+        "tag": {
+          "label": "On my bucket list"
+        },
+        "details": {
+          "reason": "I want to explore the beauty and culture of Mexico."
+        }
+      },
+      "no": {
+        "name": "Norway",
+        "title": "A dream to visit Norway",
+        "short_summary": "Norway fascinates me with its unique offerings.",
+        "tag": {
+          "label": "On my bucket list"
+        },
+        "details": {
+          "reason": "I want to explore the beauty and culture of Norway."
+        }
+      },
+      "om": {
+        "name": "Oman",
+        "title": "A dream to visit Oman",
+        "short_summary": "Oman fascinates me with its unique offerings.",
+        "tag": {
+          "label": "On my bucket list"
+        },
+        "details": {
+          "reason": "I want to explore the beauty and culture of Oman."
+        }
+      },
+      "ph": {
+        "name": "Philippines",
+        "title": "A dream to visit Philippines",
+        "short_summary": "Philippines fascinates me with its unique offerings.",
+        "tag": {
+          "label": "On my bucket list"
+        },
+        "details": {
+          "reason": "I want to explore the beauty and culture of Philippines."
+        }
+      },
+      "sc": {
+        "name": "Seychelles",
+        "title": "A dream to visit Seychelles",
+        "short_summary": "Seychelles fascinates me with its unique offerings.",
+        "tag": {
+          "label": "On my bucket list"
+        },
+        "details": {
+          "reason": "I want to explore the beauty and culture of Seychelles."
+        }
+      },
+      "sg": {
+        "name": "Singapore",
+        "title": "A dream to visit Singapore",
+        "short_summary": "Singapore fascinates me with its unique offerings.",
+        "tag": {
+          "label": "On my bucket list"
+        },
+        "details": {
+          "reason": "I want to explore the beauty and culture of Singapore."
+        }
+      },
+      "tr": {
+        "name": "Turkey",
+        "title": "A dream to visit Turkey",
+        "short_summary": "Turkey fascinates me with its unique offerings.",
+        "tag": {
+          "label": "On my bucket list"
+        },
+        "details": {
+          "reason": "I want to explore the beauty and culture of Turkey."
+        }
+      },
+      "tz": {
+        "name": "Tanzania",
+        "title": "A dream to visit Tanzania",
+        "short_summary": "Tanzania fascinates me with its unique offerings.",
+        "tag": {
+          "label": "On my bucket list"
+        },
+        "details": {
+          "reason": "I want to explore the beauty and culture of Tanzania."
+        }
+      },
+      "us": {
+        "name": "United States",
+        "title": "A dream to visit United States",
+        "short_summary": "United States fascinates me with its unique offerings.",
+        "tag": {
+          "label": "On my bucket list"
+        },
+        "details": {
+          "reason": "I want to explore the beauty and culture of United States."
+        }
+      },
+      "vn": {
+        "name": "Vietnam",
+        "title": "A dream to visit Vietnam",
+        "short_summary": "Vietnam fascinates me with its unique offerings.",
+        "tag": {
+          "label": "On my bucket list"
+        },
+        "details": {
+          "reason": "I want to explore the beauty and culture of Vietnam."
+        }
+      }
+    }
   },
   "japanCities": {
     "tokyo": {
@@ -35,5 +505,8 @@
       "title": "Where tradition meets nostalgia.",
       "description": "My visit to Kamakura was short but full of charm. I saw the Great Buddha, strolled traditional streets, and admired the ocean view made iconic by Slam Dunk. It’s a perfect mix of historical sites, nostalgic scenery, and the calm, coastal side of Japan’s cultural depth."
     }
+  },
+  "utilities": {
+    "view_details": "View details"
   }
 }
