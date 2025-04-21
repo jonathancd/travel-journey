@@ -1,4 +1,6 @@
-export const dataEuroTrip2023 = [
+import { TabEuroTrip } from "../types/EuroTripProps";
+
+export const dataEuroTrip2023: TabEuroTrip[] = [
   {
     id: 1,
     name: "Spain",

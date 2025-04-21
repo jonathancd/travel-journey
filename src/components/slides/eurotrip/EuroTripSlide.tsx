@@ -3,24 +3,7 @@ import { useEffect, useState } from "react";
 import { SlideLayout } from "../../../layouts/SlideLayout";
 import { PaginationArrow } from "../../pagination/PaginationArrow";
 import { PaginationButton } from "../../pagination/PaginationButton";
-
-interface Item {
-  id: number;
-  title: string;
-  description: string;
-  img: string;
-}
-
-interface TabEurope {
-  id: number;
-  name: string;
-  items: Item[];
-}
-
-interface EuroTripProps {
-  page_title: string;
-  tabs: TabEurope[];
-}
+import { EuroTripProps } from "../../../types/EuroTripProps";
 
 export const EuroTripSlide = ({ page_title, tabs }: EuroTripProps) => {
   const [selectedTabIndex, setSelectedTabIndex] = useState(0);
