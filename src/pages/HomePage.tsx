@@ -23,8 +23,9 @@ export const HomePage = () => {
     "thailand",
     "maldives",
     "indonesia",
-    "eurotrip",
-    "others",
+    "eurotrip2023",
+    "eurotrip2024",
+    "countries_list",
   ];
   const hasNext = currentIndex < anchors.length - 1;
 
