@@ -8,7 +8,7 @@ import { SlideLayout } from "../../../layouts/SlideLayout";
 import { countriesListTabs as tabs } from "../../../data/countriesListData";
 import { CountryCard } from "./partials/CountryCard";
 
-export const OthersSlide = () => {
+export const CountriesListSlide = () => {
   const [selectedIndex, setSelectedIndex] = useState(0);
   const { t } = useTranslation();
 

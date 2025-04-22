@@ -7,7 +7,7 @@ import { HongKongSlide } from "../components/slides/hongkong/HongKongSlide";
 import { IndonesiaSlide } from "../components/slides/indonesia/IndonesiaSlide";
 import { JapanSlide } from "../components/slides/japan/JapanSlide";
 import { MaldivesSlide } from "../components/slides/maldives/MaldivesSlide";
-import { OthersSlide } from "../components/slides/others/OthersSlide";
+import { CountriesListSlide } from "../components/slides/countries_list/CountriesListSlide";
 import { ThailandSlide } from "../components/slides/thailand/ThailandSlide";
 import { ScrollArrow } from "../components/utils/ScrollArrow";
 
@@ -81,7 +81,7 @@ export const HomePage = () => {
                 />
               </div>
               <div className="section">
-                <OthersSlide />
+                <CountriesListSlide />
               </div>
             </>
           );

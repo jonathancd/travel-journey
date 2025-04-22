@@ -21,10 +21,8 @@ export const EuroTripSlide = ({
           <div className="flex-1 flex">
             <div>
               <p>
-                <p>
-                  {currentTab?.name} {selectedItemIndex + 1}/
-                  {currentTab?.items.length}
-                </p>
+                {currentTab?.name} {selectedItemIndex + 1}/
+                {currentTab?.items.length}
               </p>
               <h2 className="text-4xl font-bold">
                 {t(
