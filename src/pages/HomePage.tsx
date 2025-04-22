@@ -70,12 +70,14 @@ export const HomePage = () => {
                 <EuroTripSlide
                   page_title="Euro Trip 2023"
                   tabs={dataEuroTrip2023}
+                  i18n_code="eurotrip_2023"
                 />
               </div>
               <div className="section">
                 <EuroTripSlide
                   page_title="Euro Trip 2024"
                   tabs={dataEuroTrip2024}
+                  i18n_code="eurotrip_2024"
                 />
               </div>
               <div className="section">

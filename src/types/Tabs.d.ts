@@ -6,7 +6,6 @@ interface Item {
 
 export interface TabData {
   id: number;
-  background: string;
   name: string;
   code: string;
   items: Item[];

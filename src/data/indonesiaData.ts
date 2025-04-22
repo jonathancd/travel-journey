@@ -3,7 +3,6 @@ import { TabData } from "../types/Tabs";
 export const IndonesiaData: TabData[] = [
   {
     id: 1,
-    background: "/images/indonesia/bali_img1.jpg",
     name: "Bali",
     code: "bali",
     items: [
@@ -31,7 +30,6 @@ export const IndonesiaData: TabData[] = [
   },
   {
     id: 2,
-    background: "/images/indonesia/bali_img2.jpg",
     name: "Nusa Penida",
     code: "nusa_penida",
     items: [

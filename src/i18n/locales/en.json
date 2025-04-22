@@ -604,6 +604,118 @@
       }
     }
   },
+  "eurotrip_2023": {
+    "spain": {
+      "items": {
+        "item_1": {
+          "title": "Integer posuere, nibh nec dapibus.",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas hendrerit nunc elit. Sed tempor ornare magna fringilla ultricies. Ut condimentum enim sit amet molestie tempus. Donec posuere facilisis lacus vitae maximus. Nulla arcu nisl, porttitor sed imperdiet eu, commodo sit amet nunc. Etiam gravida feugiat quam, quis cursus dui tristique nec. In hac habitasse platea dictumst. Nulla elementum fringilla justo nec pretium. Phasellus eu venenatis urna.Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam efficitur elit massa, quis aliquet dui faucibus ac. Sed gravida tempor diam, quis consequat velit pulvinar ut. Phasellus facilisis magna sed faucibus luctus. Aliquam justo nulla, sagittis vitae enim vitae, lacinia aliquet dolor."
+        },
+        "item_2": {
+          "title": "Aliquam efficitur elit massa.",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas hendrerit nunc elit. Sed tempor ornare magna fringilla ultricies.Ut condimentum enim sit amet molestie tempus. Donec posuere facilisis lacus vitae maximus. Nulla arcu nisl, porttitor sed imperdiet eu, commodo sit amet nunc. Etiam gravida feugiat quam, quis cursus dui tristique nec. In hac habitasse platea dictumst. Nulla elementum fringilla justo nec pretium. Phasellus eu venenatis urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam efficitur elit massa, quis aliquet dui faucibus ac. Sed gravida tempor diam, quis consequat velit pulvinar ut. Phasellus facilisis magna sed faucibus luctus. Aliquam justo nulla, sagittis vitae enim vitae, lacinia aliquet dolor."
+        },
+        "item_3": {
+          "title": "Etiam gravida feugiat quam",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas hendrerit nunc elit. Sed tempor ornare magna fringilla ultricies. Ut condimentum enim sit amet molestie tempus. Donec posuere facilisis lacus vitae maximus. Nulla arcu nisl, porttitor sed imperdiet eu, commodo sit amet nunc. Etiam gravida feugiat quam, quis cursus dui tristique nec. In hac habitasse platea dictumst. Nulla elementum fringilla justo nec pretium. Phasellus eu venenatis urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam efficitur elit massa, quis aliquet dui faucibus ac. Sed gravida tempor diam, quis consequat velit pulvinar ut. Phasellus facilisis magna sed faucibus luctus. Aliquam justo nulla, sagittis vitae enim vitae, lacinia aliquet dolor."
+        }
+      }
+    },
+    "france": {
+      "items": {
+        "item_1": {
+          "title": "Fusce condimentum luctus dui vel maximus",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dui dui, condimentum ultrices libero in, pulvinar lobortis risus. Praesent rutrum velit at fermentum volutpat. Mauris varius, neque mattis commodo blandit, lorem nisl vestibulum magna, ut vestibulum est urna vel leo. Sed sed sem vel leo auctor fringilla. Duis porttitor, lorem sit amet finibus aliquet, libero lectus faucibus ante, in ultrices ipsum diam ac sem. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam blandit blandit tellus ut tempor. Aenean augue orci, gravida et dui facilisis, imperdiet rutrum dui.Sed ullamcorper dolor non nibh malesuada mattis. Cras placerat ante vitae urna condimentum, ut consequat mi tincidunt. Fusce condimentum luctus dui vel maximus. Maecenas aliquet nisi ut justo consectetur consequat. Pellentesque est mi, auctor id dictum in, dignissim vitae elit. Nulla et purus ut lorem aliquam varius. Mauris at sollicitudin leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur ac scelerisque lectus. Praesent suscipit tincidunt nibh, id congue urna vehicula eu. Donec porta dui sit amet luctus rhoncus."
+        },
+        "item_2": {
+          "title": "Aliquam efficitur elit massa.",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas hendrerit nunc elit. Sed tempor ornare magna fringilla ultricies.Ut condimentum enim sit amet molestie tempus. Donec posuere facilisis lacus vitae maximus. Nulla arcu nisl, porttitor sed imperdiet eu, commodo sit amet nunc. Etiam gravida feugiat quam, quis cursus dui tristique nec. In hac habitasse platea dictumst. Nulla elementum fringilla justo nec pretium. Phasellus eu venenatis urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam efficitur elit massa, quis aliquet dui faucibus ac. Sed gravida tempor diam, quis consequat velit pulvinar ut. Phasellus facilisis magna sed faucibus luctus. Aliquam justo nulla, sagittis vitae enim vitae, lacinia aliquet dolor."
+        }
+      }
+    },
+    "italy": {
+      "items": {
+        "item_1": {
+          "title": "Maecenas in purus eu purus finibus",
+          "description": "Donec dapibus, nibh eu lacinia tempus, elit odio vulputate augue, a lobortis purus ex eget tortor. Integer elementum sollicitudin malesuada. Aliquam erat volutpat. Suspendisse id finibus nulla. Mauris eget metus sit amet ligula volutpat aliquet vitae ac neque. Donec commodo maximus tortor vel scelerisque. Pellentesque finibus nulla nisi, finibus hendrerit massa tincidunt nec. Phasellus et arcu sit amet sem molestie vehicula. Maecenas convallis tellus ipsum, facilisis convallis ex mollis vel. Donec molestie ligula nec mi hendrerit, sit amet luctus tortor tincidunt. Maecenas in purus eu purus finibus tincidunt. Nunc tempor nibh non elit tempor iaculis."
+        },
+        "item_2": {
+          "title": "Mauris eget metus sit amet ligula",
+          "description": "Donec dapibus, nibh eu lacinia tempus, elit odio vulputate augue, a lobortis purus ex eget tortor. Integer elementum sollicitudin malesuada. Aliquam erat volutpat. Suspendisse id finibus nulla. Mauris eget metus sit amet ligula volutpat aliquet vitae ac neque. Donec commodo maximus tortor vel scelerisque. Pellentesque finibus nulla nisi, finibus hendrerit massa tincidunt nec. Phasellus et arcu sit amet sem molestie vehicula. Maecenas convallis tellus ipsum, facilisis convallis ex mollis vel. Donec molestie ligula nec mi hendrerit, sit amet luctus tortor tincidunt. Maecenas in purus eu purus finibus tincidunt. Nunc tempor nibh non elit tempor iaculis."
+        },
+        "item_3": {
+          "title": "Facilisis convallis ex mollis vel",
+          "description": "Donec dapibus, nibh eu lacinia tempus, elit odio vulputate augue, a lobortis purus ex eget tortor. Integer elementum sollicitudin malesuada. Aliquam erat volutpat. Suspendisse id finibus nulla. Mauris eget metus sit amet ligula volutpat aliquet vitae ac neque. Donec commodo maximus tortor vel scelerisque. Pellentesque finibus nulla nisi, finibus hendrerit massa tincidunt nec. Phasellus et arcu sit amet sem molestie vehicula. Maecenas convallis tellus ipsum, facilisis convallis ex mollis vel. Donec molestie ligula nec mi hendrerit, sit amet luctus tortor tincidunt. Maecenas in purus eu purus finibus tincidunt. Nunc tempor nibh non elit tempor iaculis."
+        }
+      }
+    }
+  },
+  "eurotrip_2024": {
+    "spain": {
+      "items": {
+        "item_1": {
+          "title": "Integer posuere, nibh nec dapibus.",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas hendrerit nunc elit. Sed tempor ornare magna fringilla ultricies. Ut condimentum enim sit amet molestie tempus. Donec posuere facilisis lacus vitae maximus. Nulla arcu nisl, porttitor sed imperdiet eu, commodo sit amet nunc. Etiam gravida feugiat quam, quis cursus dui tristique nec. In hac habitasse platea dictumst. Nulla elementum fringilla justo nec pretium. Phasellus eu venenatis urna.Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam efficitur elit massa, quis aliquet dui faucibus ac. Sed gravida tempor diam, quis consequat velit pulvinar ut. Phasellus facilisis magna sed faucibus luctus. Aliquam justo nulla, sagittis vitae enim vitae, lacinia aliquet dolor."
+        },
+        "item_2": {
+          "title": "Aliquam efficitur elit massa.",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas hendrerit nunc elit. Sed tempor ornare magna fringilla ultricies.Ut condimentum enim sit amet molestie tempus. Donec posuere facilisis lacus vitae maximus. Nulla arcu nisl, porttitor sed imperdiet eu, commodo sit amet nunc. Etiam gravida feugiat quam, quis cursus dui tristique nec. In hac habitasse platea dictumst. Nulla elementum fringilla justo nec pretium. Phasellus eu venenatis urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam efficitur elit massa, quis aliquet dui faucibus ac. Sed gravida tempor diam, quis consequat velit pulvinar ut. Phasellus facilisis magna sed faucibus luctus. Aliquam justo nulla, sagittis vitae enim vitae, lacinia aliquet dolor."
+        }
+      }
+    },
+    "germany": {
+      "items": {
+        "item_1": {
+          "title": "Fusce condimentum luctus dui vel maximus",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dui dui, condimentum ultrices libero in, pulvinar lobortis risus. Praesent rutrum velit at fermentum volutpat. Mauris varius, neque mattis commodo blandit, lorem nisl vestibulum magna, ut vestibulum est urna vel leo. Sed sed sem vel leo auctor fringilla. Duis porttitor, lorem sit amet finibus aliquet, libero lectus faucibus ante, in ultrices ipsum diam ac sem. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam blandit blandit tellus ut tempor. Aenean augue orci, gravida et dui facilisis, imperdiet rutrum dui.Sed ullamcorper dolor non nibh malesuada mattis. Cras placerat ante vitae urna condimentum, ut consequat mi tincidunt. Fusce condimentum luctus dui vel maximus. Maecenas aliquet nisi ut justo consectetur consequat. Pellentesque est mi, auctor id dictum in, dignissim vitae elit. Nulla et purus ut lorem aliquam varius. Mauris at sollicitudin leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur ac scelerisque lectus. Praesent suscipit tincidunt nibh, id congue urna vehicula eu. Donec porta dui sit amet luctus rhoncus."
+        },
+        "item_2": {
+          "title": "Aliquam efficitur elit massa.",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas hendrerit nunc elit. Sed tempor ornare magna fringilla ultricies.Ut condimentum enim sit amet molestie tempus. Donec posuere facilisis lacus vitae maximus. Nulla arcu nisl, porttitor sed imperdiet eu, commodo sit amet nunc. Etiam gravida feugiat quam, quis cursus dui tristique nec. In hac habitasse platea dictumst. Nulla elementum fringilla justo nec pretium. Phasellus eu venenatis urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam efficitur elit massa, quis aliquet dui faucibus ac. Sed gravida tempor diam, quis consequat velit pulvinar ut. Phasellus facilisis magna sed faucibus luctus. Aliquam justo nulla, sagittis vitae enim vitae, lacinia aliquet dolor."
+        }
+      }
+    },
+    "italy": {
+      "items": {
+        "item_1": {
+          "title": "Maecenas in purus eu purus finibus",
+          "description": "Donec dapibus, nibh eu lacinia tempus, elit odio vulputate augue, a lobortis purus ex eget tortor. Integer elementum sollicitudin malesuada. Aliquam erat volutpat. Suspendisse id finibus nulla. Mauris eget metus sit amet ligula volutpat aliquet vitae ac neque. Donec commodo maximus tortor vel scelerisque. Pellentesque finibus nulla nisi, finibus hendrerit massa tincidunt nec. Phasellus et arcu sit amet sem molestie vehicula. Maecenas convallis tellus ipsum, facilisis convallis ex mollis vel. Donec molestie ligula nec mi hendrerit, sit amet luctus tortor tincidunt. Maecenas in purus eu purus finibus tincidunt. Nunc tempor nibh non elit tempor iaculis."
+        },
+        "item_2": {
+          "title": "Mauris eget metus sit amet ligula",
+          "description": "Donec dapibus, nibh eu lacinia tempus, elit odio vulputate augue, a lobortis purus ex eget tortor. Integer elementum sollicitudin malesuada. Aliquam erat volutpat. Suspendisse id finibus nulla. Mauris eget metus sit amet ligula volutpat aliquet vitae ac neque. Donec commodo maximus tortor vel scelerisque. Pellentesque finibus nulla nisi, finibus hendrerit massa tincidunt nec. Phasellus et arcu sit amet sem molestie vehicula. Maecenas convallis tellus ipsum, facilisis convallis ex mollis vel. Donec molestie ligula nec mi hendrerit, sit amet luctus tortor tincidunt. Maecenas in purus eu purus finibus tincidunt. Nunc tempor nibh non elit tempor iaculis."
+        }
+      }
+    },
+    "croatia": {
+      "items": {
+        "item_1": {
+          "title": "Maecenas in purus eu purus finibus",
+          "description": "Donec dapibus, nibh eu lacinia tempus, elit odio vulputate augue, a lobortis purus ex eget tortor. Integer elementum sollicitudin malesuada. Aliquam erat volutpat. Suspendisse id finibus nulla. Mauris eget metus sit amet ligula volutpat aliquet vitae ac neque. Donec commodo maximus tortor vel scelerisque. Pellentesque finibus nulla nisi, finibus hendrerit massa tincidunt nec. Phasellus et arcu sit amet sem molestie vehicula. Maecenas convallis tellus ipsum, facilisis convallis ex mollis vel. Donec molestie ligula nec mi hendrerit, sit amet luctus tortor tincidunt. Maecenas in purus eu purus finibus tincidunt. Nunc tempor nibh non elit tempor iaculis."
+        },
+        "item_2": {
+          "title": "Mauris eget metus sit amet ligula",
+          "description": "Donec dapibus, nibh eu lacinia tempus, elit odio vulputate augue, a lobortis purus ex eget tortor. Integer elementum sollicitudin malesuada. Aliquam erat volutpat. Suspendisse id finibus nulla. Mauris eget metus sit amet ligula volutpat aliquet vitae ac neque. Donec commodo maximus tortor vel scelerisque. Pellentesque finibus nulla nisi, finibus hendrerit massa tincidunt nec. Phasellus et arcu sit amet sem molestie vehicula. Maecenas convallis tellus ipsum, facilisis convallis ex mollis vel. Donec molestie ligula nec mi hendrerit, sit amet luctus tortor tincidunt. Maecenas in purus eu purus finibus tincidunt. Nunc tempor nibh non elit tempor iaculis."
+        }
+      }
+    },
+    "portugal": {
+      "items": {
+        "item_1": {
+          "title": "Maecenas in purus eu purus finibus",
+          "description": "Donec dapibus, nibh eu lacinia tempus, elit odio vulputate augue, a lobortis purus ex eget tortor. Integer elementum sollicitudin malesuada. Aliquam erat volutpat. Suspendisse id finibus nulla. Mauris eget metus sit amet ligula volutpat aliquet vitae ac neque. Donec commodo maximus tortor vel scelerisque. Pellentesque finibus nulla nisi, finibus hendrerit massa tincidunt nec. Phasellus et arcu sit amet sem molestie vehicula. Maecenas convallis tellus ipsum, facilisis convallis ex mollis vel. Donec molestie ligula nec mi hendrerit, sit amet luctus tortor tincidunt. Maecenas in purus eu purus finibus tincidunt. Nunc tempor nibh non elit tempor iaculis."
+        },
+        "item_2": {
+          "title": "Mauris eget metus sit amet ligula",
+          "description": "Donec dapibus, nibh eu lacinia tempus, elit odio vulputate augue, a lobortis purus ex eget tortor. Integer elementum sollicitudin malesuada. Aliquam erat volutpat. Suspendisse id finibus nulla. Mauris eget metus sit amet ligula volutpat aliquet vitae ac neque. Donec commodo maximus tortor vel scelerisque. Pellentesque finibus nulla nisi, finibus hendrerit massa tincidunt nec. Phasellus et arcu sit amet sem molestie vehicula. Maecenas convallis tellus ipsum, facilisis convallis ex mollis vel. Donec molestie ligula nec mi hendrerit, sit amet luctus tortor tincidunt. Maecenas in purus eu purus finibus tincidunt. Nunc tempor nibh non elit tempor iaculis."
+        },
+        "item_3": {
+          "title": "Mauris eget metus sit amet ligula",
+          "description": "Donec dapibus, nibh eu lacinia tempus, elit odio vulputate augue, a lobortis purus ex eget tortor. Integer elementum sollicitudin malesuada. Aliquam erat volutpat. Suspendisse id finibus nulla. Mauris eget metus sit amet ligula volutpat aliquet vitae ac neque. Donec commodo maximus tortor vel scelerisque. Pellentesque finibus nulla nisi, finibus hendrerit massa tincidunt nec. Phasellus et arcu sit amet sem molestie vehicula. Maecenas convallis tellus ipsum, facilisis convallis ex mollis vel. Donec molestie ligula nec mi hendrerit, sit amet luctus tortor tincidunt. Maecenas in purus eu purus finibus tincidunt. Nunc tempor nibh non elit tempor iaculis."
+        }
+      }
+    }
+  },
   "utilities": {
     "view_details": "View details"
   }

@@ -3,7 +3,6 @@ import { TabData } from "../types/Tabs";
 export const JapanData: TabData[] = [
   {
     id: 1,
-    background: "/images/japan/jp_img01.jpg",
     name: "Tokyo",
     code: "tokyo",
     items: [
@@ -26,7 +25,6 @@ export const JapanData: TabData[] = [
   },
   {
     id: 2,
-    background: "/images/japan/jp_img03.jpg",
     name: "Kyoto",
     code: "kyoto",
     items: [
@@ -49,7 +47,6 @@ export const JapanData: TabData[] = [
   },
   {
     id: 3,
-    background: "/images/japan/jp_img01.jpg",
     name: "Osaka",
     code: "osaka",
     items: [
@@ -72,7 +69,6 @@ export const JapanData: TabData[] = [
   },
   {
     id: 4,
-    background: "/images/japan/jp_img03.jpg",
     name: "Nara",
     code: "nara",
     items: [
@@ -95,7 +91,6 @@ export const JapanData: TabData[] = [
   },
   {
     id: 5,
-    background: "/images/japan/jp_img01.jpg",
     name: "Kamakura",
     code: "kamakura",
     items: [

@@ -1,17 +1,7 @@
-export interface Item {
-  id: number;
-  title: string;
-  description: string;
-  img: string;
-}
-
-export interface TabEuroTrip {
-  id: number;
-  name: string;
-  items: Item[];
-}
+import { TabItem } from "./SlideTabsLayout.d";
 
 export interface EuroTripProps {
   page_title: string;
-  tabs: TabEuroTrip[];
+  tabs: TabItem[];
+  i18n_code: string;
 }
