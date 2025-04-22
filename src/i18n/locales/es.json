@@ -598,26 +598,124 @@
       }
     }
   },
-  "japanCities": {
+  "japan": {
     "tokyo": {
-      "title": "Mi ciudad favorita en el mundo.",
-      "description": "Tokio es mi ciudad favorita en Japón. La he visitado dos veces, y cada vez se siente como descubrir un mundo nuevo dentro del mismo lugar. Es una ciudad de contrastes: futurista y tradicional, caótica y tranquila al mismo tiempo. Cada rincón ofrece algo único y fascinante por explorar."
+      "items": {
+        "item_1": {
+          "title": "Mi ciudad favorita en el mundo.",
+          "description": "Tokio es mi ciudad favorita en Japón. La he visitado dos veces, y cada vez se sintió como descubrir un mundo nuevo dentro del mismo lugar. Es una ciudad de contrastes: futurista pero tradicional, caótica pero tranquila. Cada rincón de Tokio ofrece algo único y fascinante por explorar."
+        },
+        "item_2": {
+          "title": "Una ciudad de historias infinitas.",
+          "description": "Tokio es un lugar donde cada calle tiene una historia. Desde templos serenos escondidos entre callejones hasta el brillo neón de Shibuya, cada momento se siente cinematográfico. He caminado por sus barrios durante horas, siempre encontrando algo inesperado y hermoso."
+        },
+        "item_3": {
+          "title": "Donde la tradición se encuentra con el futuro.",
+          "description": "Tokio es una ciudad que mezcla rituales centenarios con innovación de vanguardia. He vivido mañanas tranquilas en santuarios y noches intensas en Shinjuku. La ciudad siempre me sorprende, ofreciendo un equilibrio entre calma y energía como ningún otro lugar."
+        }
+      }
     },
     "kyoto": {
-      "title": "La ciudad más hermosa que he visto.",
-      "description": "Kyoto es, sin duda, la ciudad más hermosa que he visitado. He estado allí dos veces, ambas durante la temporada de los cerezos en flor, y el paisaje parecía un sueño. Desde templos antiguos y jardines silenciosos hasta callejones de geishas y ríos tranquilos, Kyoto representa el alma atemporal de Japón."
+      "items": {
+        "item_1": {
+          "title": "La ciudad más hermosa que he visto.",
+          "description": "Kioto es, sin duda, la ciudad más hermosa que he visitado. He estado dos veces, ambas durante la temporada de los cerezos en flor, y el paisaje parecía un sueño. Desde templos antiguos y jardines silenciosos hasta callejones de geishas y ríos tranquilos, Kioto lleva el alma atemporal de Japón."
+        },
+        "item_2": {
+          "title": "Un viaje en el tiempo.",
+          "description": "Estar en Kioto es como entrar en un museo viviente. Desde el brillo dorado de Kinkaku-ji hasta los caminos silenciosos de Arashiyama, cada visita es una inmersión en el rico pasado de Japón. Es pacífica, poética y profundamente espiritual."
+        },
+        "item_3": {
+          "title": "Elegancia en cada detalle.",
+          "description": "Kioto es elegancia hecha visible. Desde la precisión de sus jardines hasta la gracia de las geishas en Gion, la ciudad te invita a notar la belleza en lo sutil. Es un lugar que te enseña a ver, no solo a mirar."
+        }
+      }
     },
     "osaka": {
-      "title": "La primera ciudad que conocí en Japón.",
-      "description": "Osaka fue la primera ciudad japonesa en la que estuve, llegando desde Corea del Sur. Recorrí el animado distrito de Namba y de inmediato sentí su carácter distintivo: gente amable, comida increíble y una energía urbana cálida. Osaka fue mi primer verdadero contacto con Japón, y nunca lo olvidaré."
+      "items": {
+        "item_1": {
+          "title": "La primera ciudad que vi en Japón.",
+          "description": "Osaka fue la primera ciudad japonesa que conocí, llegando desde Corea del Sur. Exploré el animado distrito de Namba y sentí de inmediato su carácter distintivo: gente amigable, comida increíble y una vibra urbana cálida. Osaka me dio mi primer verdadero sabor de Japón, y nunca lo olvidaré."
+        },
+        "item_2": {
+          "title": "La ciudad que nunca se detiene.",
+          "description": "Osaka tiene una energía que te atrapa. Su comida, su gente y sus calles están llenas de vida y sabor. Me he reído, comido y perdido más de lo planeado —siempre feliz por hacerlo. Es caótica en el mejor sentido."
+        },
+        "item_3": {
+          "title": "Sabores, luces y risas.",
+          "description": "Osaka se siente como un festival. Desde el chisporroteo de los puestos de takoyaki hasta la jungla de neón de Dotonbori, es una sobrecarga sensorial de la que no te cansas. Es divertida, ruidosa y tremendamente encantadora."
+        }
+      }
     },
     "nara": {
-      "title": "Un encuentro tranquilo con la naturaleza y la tradición.",
-      "description": "Visité Nara durante la temporada de floración de los cerezos y pasé tiempo en su famoso parque de ciervos. Caminar entre ciervos amistosos, templos antiguos y árboles en flor fue una experiencia pacífica y casi irreal. Nara destaca como un escape espiritual, profundamente conectado con la naturaleza y el patrimonio japonés."
+      "items": {
+        "item_1": {
+          "title": "Un encuentro pacífico con la naturaleza y la tradición.",
+          "description": "Visité Nara durante la temporada de los cerezos en flor y pasé tiempo en su famoso parque de ciervos. Caminar entre ciervos amigables, templos antiguos y árboles en flor se sintió pacífico y surrealista. Nara destaca como un refugio espiritual silencioso, profundamente conectado con la naturaleza y la herencia japonesa."
+        },
+        "item_2": {
+          "title": "Sagrado y sereno.",
+          "description": "Hay una sensación sagrada en Nara, desde el enorme Buda del Tōdai-ji hasta los bosques susurrantes de Kasuga-taisha. Me encantó cómo la naturaleza y la espiritualidad coexisten en perfecta armonía —es una magia tranquila."
+        },
+        "item_3": {
+          "title": "El corazón antiguo de Japón.",
+          "description": "Nara fue una vez la capital de Japón, y aún se siente real a su manera. Los viejos templos, los ciervos respetuosos y el ritmo pausado crean un espacio que es tanto reconfortante como impresionante. Es un hermoso lugar para reflexionar."
+        }
+      }
     },
     "kamakura": {
-      "title": "Donde la tradición se encuentra con la nostalgia.",
-      "description": "Mi visita a Kamakura fue corta pero llena de encanto. Vi el Gran Buda, recorrí calles tradicionales y admiré la famosa vista al mar que aparece en Slam Dunk. Es una mezcla perfecta de historia, paisajes nostálgicos y el lado costero y tranquilo de la riqueza cultural japonesa."
+      "items": {
+        "item_1": {
+          "title": "Donde la tradición se encuentra con la nostalgia.",
+          "description": "Mi visita a Kamakura fue breve pero llena de encanto. Vi el Gran Buda, caminé por calles tradicionales y admiré la vista al mar que se hizo famosa por Slam Dunk. Es una mezcla perfecta de sitios históricos, paisajes nostálgicos y el lado costero y tranquilo de la cultura japonesa."
+        },
+        "item_2": {
+          "title": "Calma costera y raíces antiguas.",
+          "description": "Kamakura mezcla la brisa del mar con espacios sagrados. A solo una hora de Tokio, se siente como una escapada espiritual. Caminé por la playa y luego por un sendero que me llevó a templos ocultos entre los árboles. Paz pura."
+        },
+        "item_3": {
+          "title": "El alma costera de Japón.",
+          "description": "No esperaba que Kamakura me conmoviera tanto, pero lo hizo. La mezcla de océano, santuarios y senderismo fue una de mis excursiones favoritas. Es humilde, hermosa y perfecta para una pausa en tu viaje."
+        }
+      }
+    }
+  },
+  "indonesia": {
+    "bali": {
+      "items": {
+        "tegallalang": {
+          "title": "Terrazas de arroz de Ubud",
+          "description": "Las terrazas de arroz de Tegallalang en Ubud son un espectáculo impresionante. Los niveles de verde se extienden como un lienzo tallado en las colinas. Es uno de los lugares más tranquilos que he visitado, caminar por allí se siente como estar dentro de una pintura viva."
+        },
+        "tirta_empul": {
+          "title": "Purificación espiritual en Tirta Empul",
+          "description": "Tirta Empul es más que un templo: es una experiencia espiritual. Ver a las personas entrar en las aguas sagradas para purificarse fue profundamente conmovedor. La energía del lugar es tranquila, respetuosa y llena de historias antiguas."
+        },
+        "goa_gajah": {
+          "title": "El misterio de la Cueva del Elefante",
+          "description": "Goa Gajah, conocida como la Cueva del Elefante, es una mezcla de historia y misterio. Entrar por su entrada cubierta de musgo fue como viajar al pasado. Las tallas, el silencio y la atmósfera me dejaron maravillado."
+        },
+        "penglipuran": {
+          "title": "Un pueblo lleno de tradición: Penglipuran",
+          "description": "Penglipuran es un pueblo balinés tradicional que parece detenido en el tiempo. Sus caminos ordenados, la hospitalidad de sus habitantes y el fuerte sentido cultural lo hacen sentir como un museo viviente. Me fui con un gran respeto por su forma de vida."
+        }
+      }
+    },
+    "nusa_penida": {
+      "items": {
+        "kelingking": {
+          "title": "La icónica playa de Kelingking",
+          "description": "La playa Kelingking parece la espalda de un dinosaurio desde lo alto y se siente como un paraíso abajo. La vista es impresionante, el agua turquesa y el descenso difícil, pero vale cada paso."
+        },
+        "broken_beach": {
+          "title": "La maravilla natural de Broken Beach",
+          "description": "Broken Beach es una obra de arte de la naturaleza. El arco colapsado y el puente natural sobre aguas turquesa la convierten en uno de los paisajes más únicos de la isla. Estar allí se siente surreal."
+        },
+        "angels_billabong": {
+          "title": "Las piscinas esmeralda de Angel’s Billabong",
+          "description": "Angel’s Billabong es una piscina natural de marea entre acantilados rocosos. Sus aguas claras brillan como vidrio esmeralda, y cuando la marea está baja, se transforma en una piscina infinita natural perfecta."
+        }
+      }
     }
   }
 }
