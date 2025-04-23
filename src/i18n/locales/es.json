@@ -830,6 +830,24 @@
       }
     }
   },
+  "others_travels": {
+    "spain": {
+      "title": "El comienzo de mi viaje por Europa.",
+      "description": "España fue mi primer viaje a Europa, justo antes de mudarme a Emiratos. Solo visité Madrid, pero me marcó bastante. Curiosamente, ese viaje estaba planeado para unos meses antes, pero di positivo por COVID justo una semana antes, así que tuve que reprogramarlo."
+    },
+    "greece": {
+      "title": "Santorini: una postal del Mediterráneo.",
+      "description": "Solo estuve en Santorini, y fue una experiencia muy agradable—comiendo gyros, con un sol fuerte y playas de piedras que quemaban. Aprendí rápidamente que unas buenas sandalias de playa son esenciales. Curiosamente, me dio una vibra parecida a la isla de Margarita, no por lo visual, sino por el ambiente relajado y la gente."
+    },
+    "south_korea": {
+      "title": "Un cumpleaños con barbacoa en Seúl.",
+      "description": "Estuvimos solo un día en Corea del Sur, para celebrar el cumpleaños de mi esposa. Por supuesto, probamos la famosa barbacoa coreana y el pollo frito picante. ¡Riquísimo! También visitamos un palacio y en poco tiempo, sentimos una gran riqueza cultural."
+    },
+    "uae": {
+      "title": "Mi hogar durante los últimos 3 años.",
+      "description": "Llevo tres años viviendo en Dubái. He visitado muchas veces el Dubai Frame porque vivo cerca, y es un punto de referencia. Lo mismo con el Burj Khalifa, que se ve desde casi toda la ciudad. A pesar de las calles enormes y los múltiples carriles, el tráfico es terrible. Y el calor... simplemente brutal."
+    }
+  },
   "utilities": {
     "view_details": "Ver detalles"
   }

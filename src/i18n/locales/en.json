@@ -716,6 +716,24 @@
       }
     }
   },
+  "others_travels": {
+    "spain": {
+      "title": "The beginning of my journey through Europe.",
+      "description": "Spain was my first trip to Europe, right before I moved to the UAE. I only visited Madrid, but it left a lasting impression. Funny enough, the trip was originally scheduled a few months earlier, but I tested positive for COVID just a week before and had to reschedule."
+    },
+    "greece": {
+      "title": "Santorini felt like a Mediterranean dream.",
+      "description": "I only visited Santorini, and it was a lovely experience—eating gyros, feeling the strong sun, and walking on hot pebble beaches. I quickly learned the importance of good beach sandals! The vibe reminded me of Isla Margarita back home—not identical, but that warm, relaxed energy was very familiar."
+    },
+    "south_korea": {
+      "title": "A birthday barbecue in Seoul.",
+      "description": "We were in South Korea for just one day to celebrate my wife's birthday. Of course, we had to try the legendary Korean BBQ and spicy fried chicken. It was delicious! We also visited a beautiful palace and got a quick but rich taste of the culture."
+    },
+    "uae": {
+      "title": "Where I’ve built my life for the past 3 years.",
+      "description": "I’ve lived in Dubai for the past three years. I’ve visited the Dubai Frame many times since it’s close to home and an iconic landmark. The Burj Khalifa is ever-present in the skyline, but despite the wide roads and many lanes, traffic is still chaotic. And the heat? Absolutely intense."
+    }
+  },
   "utilities": {
     "view_details": "View details"
   }

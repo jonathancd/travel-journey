@@ -1,5 +1,6 @@
 import ReactFullpage from "@fullpage/react-fullpage";
 import { useState } from "react";
+import { CountriesListSlide } from "../components/slides/countries_list/CountriesListSlide";
 import { EgyptSlide } from "../components/slides/egypt/EgyptSlide";
 import { EuroTripSlide } from "../components/slides/eurotrip/EuroTripSlide";
 import { HomeSlide } from "../components/slides/home/HomeSlide";
@@ -7,7 +8,7 @@ import { HongKongSlide } from "../components/slides/hongkong/HongKongSlide";
 import { IndonesiaSlide } from "../components/slides/indonesia/IndonesiaSlide";
 import { JapanSlide } from "../components/slides/japan/JapanSlide";
 import { MaldivesSlide } from "../components/slides/maldives/MaldivesSlide";
-import { CountriesListSlide } from "../components/slides/countries_list/CountriesListSlide";
+import { OthersTravelsSlide } from "../components/slides/others_travels/OthersTravelsSlide";
 import { ThailandSlide } from "../components/slides/thailand/ThailandSlide";
 import { ScrollArrow } from "../components/utils/ScrollArrow";
 
@@ -25,6 +26,7 @@ export const HomePage = () => {
     "indonesia",
     "eurotrip2023",
     "eurotrip2024",
+    "others_travels",
     "countries_list",
   ];
   const hasNext = currentIndex < anchors.length - 1;
@@ -79,6 +81,9 @@ export const HomePage = () => {
                   tabs={dataEuroTrip2024}
                   i18n_code="eurotrip_2024"
                 />
+              </div>
+              <div className="section">
+                <OthersTravelsSlide />
               </div>
               <div className="section">
                 <CountriesListSlide />
