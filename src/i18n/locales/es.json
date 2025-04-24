@@ -830,6 +830,26 @@
       }
     }
   },
+  "hong_kong": {
+    "items": {
+      "nathan_road": {
+        "title": "El Latido de Kowloon",
+        "description": "Nathan Road es mucho más que una calle: es una experiencia para los sentidos. Los letreros de neón, las interminables filas de tiendas y el flujo constante de personas crean una energía vibrante que define el pulso urbano de Hong Kong. Recuerdo caminar por ahí de noche, abrumado por las luces y la vida, como si cada paso fuera una escena de película. Es caótico, sí, pero de una belleza única."
+      },
+      "the_peak": {
+        "title": "Sobre las Nubes",
+        "description": "Parado en The Peak, no solo ves la ciudad—la contemplas en su totalidad. La vista es un asombro panorámico: desde los rascacielos hasta el puerto activo. Fui justo antes del atardecer y ver cómo la ciudad se iluminaba lentamente desde lo alto fue surreal. Es un recordatorio de la complejidad de Hong Kong: moderna, acelerada, pero también tranquila desde la distancia."
+      },
+      "monster_building": {
+        "title": "Ícono del Concreto Urbano",
+        "description": "El Monster Building es una maravilla arquitectónica y un símbolo cultural. Cuando lo visité, me paré en medio del patio, rodeado por apartamentos apilados en altura. Es casi claustrofóbico, pero hipnotizante. Este lugar cuenta una historia sin palabras: de densidad, resiliencia y una belleza urbana que solo una ciudad como Hong Kong puede ofrecer."
+      },
+      "chi_lin_nunnery": {
+        "title": "Un Oasis de Calma",
+        "description": "Chi Lin Nunnery se siente como un mundo aparte dentro de Hong Kong. Entre la arquitectura de madera y los jardines tranquilos, encontré una paz que no esperaba en una ciudad tan ajetreada. Los estanques de lotos, el incienso en el aire y el sonido suave del agua corriendo hacen que este sitio parezca un templo del tiempo, donde la tradición sigue viva, serena y sagrada."
+      }
+    }
+  },
   "others_travels": {
     "spain": {
       "title": "El comienzo de mi viaje por Europa.",

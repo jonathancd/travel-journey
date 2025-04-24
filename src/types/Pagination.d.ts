@@ -14,5 +14,6 @@ export interface PaginationArrowProps {
 export interface SlidePaginationProps {
   currentIndex: number;
   totalItems: number;
+  paginationOnLeft: boolean;
   onChange: (newIndex: number) => void;
 }

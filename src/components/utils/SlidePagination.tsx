@@ -5,6 +5,7 @@ import { SlidePaginationProps } from "../../types/Pagination";
 export const SlidePagination = ({
   currentIndex,
   totalItems,
+  paginationOnLeft,
   onChange,
 }: SlidePaginationProps) => {
   const goNext = () => {
@@ -16,7 +17,11 @@ export const SlidePagination = ({
   };
 
   return (
-    <div className="absolute bottom-0 left-0 flex items-center">
+    <div
+      className={`absolute bottom-0 flex items-center ${
+        paginationOnLeft ? "left-0 " : "right-0"
+      }`}
+    >
       <div className="flex gap-2 mr-5">
         <PaginationArrow
           onClick={goPrev}

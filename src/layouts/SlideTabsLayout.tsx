@@ -14,6 +14,7 @@ interface SlideTabsLayoutProps<T = any> {
   pageTitle: string;
   tabs: TabItem<T>[];
   showTabs?: boolean;
+  paginationOnLeft?: boolean;
   children: (args: {
     selectedItemIndex: number;
     setSelectedItemIndex: (index: number) => void;
@@ -26,6 +27,7 @@ export const SlideTabsLayout = ({
   pageTitle,
   tabs,
   showTabs = true,
+  paginationOnLeft = true,
   children,
 }: SlideTabsLayoutProps) => {
   const [selectedTabIndex, setSelectedTabIndex] = useState(0);
@@ -67,7 +69,7 @@ export const SlideTabsLayout = ({
           </Tab.List>
         )}
 
-        <div className="relative w-full flex justify-center pt-[3rem] h-[calc(80vh-40px)]">
+        <div className="relative w-full flex pt-[3rem] h-[calc(80vh-40px)] max-w-[calc(100vw-20%)]">
           {children({
             selectedItemIndex,
             setSelectedItemIndex,
@@ -79,6 +81,7 @@ export const SlideTabsLayout = ({
             <SlidePagination
               totalItems={currentTab.items.length}
               currentIndex={selectedItemIndex}
+              paginationOnLeft={paginationOnLeft}
               onChange={setSelectedItemIndex}
             />
           )}

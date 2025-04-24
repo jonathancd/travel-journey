@@ -716,6 +716,26 @@
       }
     }
   },
+  "hong_kong": {
+    "items": {
+      "nathan_road": {
+        "title": "The Heartbeat of Kowloon",
+        "description": "Nathan Road is more than just a street—it's a sensory experience. The glowing neon signs, endless rows of shops, and constant flow of people create a vibrant energy that defines Hong Kong’s urban pulse. I remember walking here at night, overwhelmed by the lights and life, where every step felt like stepping into a movie scene. It’s chaotic, yes, but beautifully so."
+      },
+      "the_peak": {
+        "title": "Above the Clouds",
+        "description": "Standing at The Peak, you don’t just look at the city—you admire its entire scale. The view is a panoramic wonder, from the dense skyline to the bustling harbor. I visited just before sunset, and watching the city slowly light up from above felt surreal. It’s a reminder of Hong Kong’s complexity—modern, fast-paced, but also peaceful from a distance."
+      },
+      "monster_building": {
+        "title": "Concrete Jungle Icon",
+        "description": "The Monster Building is an architectural marvel and a cultural symbol. When I visited, I stood in the middle of the courtyard, surrounded by towering, layered apartments. It’s almost claustrophobic, yet mesmerizing. This is the kind of place that tells a story without words—of density, resilience, and urban beauty that only a city like Hong Kong could offer."
+      },
+      "chi_lin_nunnery": {
+        "title": "Oasis of Calm",
+        "description": "Chi Lin Nunnery feels like a world apart from the rest of Hong Kong. Amid the wooden architecture and tranquil gardens, I found a sense of peace I didn’t expect in such a busy city. The lotus ponds, the incense in the air, and the soft sound of flowing water make this spot feel like a temple of time—where tradition is still alive, serene, and sacred."
+      }
+    }
+  },
   "others_travels": {
     "spain": {
       "title": "The beginning of my journey through Europe.",
