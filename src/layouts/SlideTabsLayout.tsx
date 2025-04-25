@@ -68,8 +68,12 @@ export const SlideTabsLayout = ({
             ))}
           </Tab.List>
         )}
-
-        <div className="relative w-full flex pt-[3rem] h-[calc(80vh-40px)] max-w-[calc(100vw-20%)]">
+        {/* 1rem + 44px */}
+        <div
+          className={`relative w-full flex pt-[1rem] h-[calc(80vh-40px)] max-w-[calc(100vw-20%)] ${
+            !showTabs ? "mt-[44px]" : ""
+          }`}
+        >
           {children({
             selectedItemIndex,
             setSelectedItemIndex,

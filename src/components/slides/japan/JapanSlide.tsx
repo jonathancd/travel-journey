@@ -11,7 +11,7 @@ export const JapanSlide = () => {
     <SlideTabsLayout pageTitle={t("pages.japan_title")} tabs={tabs}>
       {({ currentTab, currentItem }) => (
         <div className="relative h-full w-full">
-          <Tab.Panels className="w-[88vw] mt-6 flex justify-end h-[100%]">
+          <Tab.Panels className="w-[88vw] flex justify-end h-[100%]">
             {tabs.map((tab) => (
               <Tab.Panel
                 key={tab.id}

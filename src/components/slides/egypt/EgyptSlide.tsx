@@ -10,7 +10,7 @@ export const EgyptSlide = () => {
     <SlideTabsLayout pageTitle="Lost in Egypt" tabs={tabs}>
       {({ currentTab, currentItem }) => (
         <div className="flex flex-row h-full w-full">
-          <div className="h-full w-[30%] flex flex-col justify-start items-start">
+          <div className="h-full w-[33%] flex flex-col justify-start items-start pr-5">
             <p>
               {currentTab?.name} {currentItem.id}/{currentTab?.items.length}
             </p>
@@ -21,7 +21,7 @@ export const EgyptSlide = () => {
                 }.title`
               )}
             </h2>
-            <p className="w-[60%] text-sm whitespace-normal font-light mt-[20px]">
+            <p className="text-sm whitespace-normal font-light mt-[20px]">
               <strong>
                 {t(
                   `egypt.${currentTab?.code.toLocaleLowerCase()}.items.${
@@ -31,19 +31,19 @@ export const EgyptSlide = () => {
               </strong>
             </p>
           </div>
-          <Tab.Panels className="w-[40vw] flex justify-start h-[100%]">
+          <Tab.Panels className="w-[34vw] flex justify-start h-[100%]">
             {tabs.map((tab) => (
               <Tab.Panel
                 key={tab.id}
-                className="w-full mr-[10%] bg-cover bg-center bg-no-repeat"
+                className="w-full bg-cover bg-center bg-no-repeat"
                 style={{
                   backgroundImage: `url('${currentItem.img}')`,
                 }}
               />
             ))}
           </Tab.Panels>
-          <div className="h-full w-[30%] flex flex-col justify-end items-start">
-            <p className="w-[60%] text-sm whitespace-normal font-light mt-[20px]">
+          <div className="h-full w-[33%] flex flex-col justify-end items-start pl-5">
+            <p className="text-sm whitespace-normal font-light mt-[20px]">
               <strong>
                 {t(
                   `egypt.${currentTab?.code.toLocaleLowerCase()}.items.${
