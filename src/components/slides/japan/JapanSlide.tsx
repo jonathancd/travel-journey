@@ -17,7 +17,7 @@ export const JapanSlide = () => {
                 key={tab.id}
                 className="w-[60%] mr-[10%] bg-cover bg-center bg-no-repeat"
                 style={{
-                  backgroundImage: `url('${currentItem.img}')`,
+                  backgroundImage: `url('${currentItem?.img}')`,
                 }}
               />
             ))}
@@ -27,12 +27,13 @@ export const JapanSlide = () => {
             <div className="flex-1 flex items-center">
               <div className="w-[50%]">
                 <p>
-                  {currentTab?.name} {currentItem.id}/{currentTab?.items.length}
+                  {currentTab?.name} {currentItem?.id}/
+                  {currentTab?.items.length}
                 </p>
                 <h2 className="text-7xl">
                   {t(
                     `japan.${currentTab?.name.toLocaleLowerCase()}.items.${
-                      currentItem.code
+                      currentItem?.code
                     }.title`
                   )}
                 </h2>
@@ -41,7 +42,7 @@ export const JapanSlide = () => {
                   <strong>
                     {t(
                       `japan.${currentTab?.name.toLocaleLowerCase()}.items.${
-                        currentItem.code
+                        currentItem?.code
                       }.description`
                     )}
                   </strong>

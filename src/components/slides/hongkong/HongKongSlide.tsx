@@ -15,25 +15,25 @@ export const HongKongSlide = () => {
     >
       {({ currentTab, currentItem }) => (
         <div className="flex flex-row h-full w-full">
-          <Tab.Panels className="w-[60vw] flex justify-start h-[100%]">
+          <Tab.Panels className="w-[60vw] flex justify-start h-[100%] pr-5">
             {tabs.map((tab) => (
               <Tab.Panel
                 key={tab.id}
                 className="w-full mr-[10%] bg-cover bg-center bg-no-repeat"
                 style={{
-                  backgroundImage: `url('${currentItem.img}')`,
+                  backgroundImage: `url('${currentItem?.img}')`,
                 }}
               />
             ))}
           </Tab.Panels>
           <div className="h-full w-[40%] flex flex-col justify-start items-start">
             <p>
-              {currentTab?.name} {currentItem.id}/{currentTab?.items.length}
+              {currentTab?.name} {currentItem?.id}/{currentTab?.items.length}
             </p>
             <h2 className="text-7xl">
               {t(
                 `${currentTab?.code.toLocaleLowerCase()}.items.${
-                  currentItem.code
+                  currentItem?.code
                 }.title`
               )}
             </h2>
@@ -41,7 +41,7 @@ export const HongKongSlide = () => {
               <strong>
                 {t(
                   `${currentTab?.code.toLocaleLowerCase()}.items.${
-                    currentItem.code
+                    currentItem?.code
                   }.description`
                 )}
               </strong>

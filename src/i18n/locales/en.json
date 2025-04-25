@@ -796,6 +796,52 @@
       }
     }
   },
+  "thailand": {
+    "bangkok": {
+      "items": {
+        "chinatown": {
+          "title": "The Colors and Flavors of Chinatown",
+          "description": "Bangkok’s Chinatown is an explosion of color, energy, and irresistible food. Walking through its vibrant streets felt like entering a festival—lanterns hanging above, sizzling woks echoing from every corner, and a scent trail of spices leading you to every stall. The food was some of the best we’ve had on our trip. Every bite told a story."
+        },
+        "floating_market": {
+          "title": "Floating Market Adventures",
+          "description": "The floating market was like something out of a movie—boats drifting by, packed with fruit, noodles, souvenirs, and smiles. Bargaining over mango sticky rice while seated on the canal’s edge was unforgettable. It’s a vibrant slice of Thai culture that felt both timeless and thrilling."
+        },
+        "khao_san": {
+          "title": "Khao San’s Wild Pulse",
+          "description": "Khao San Road was a whirlwind of lights, sounds, and characters from around the world. Whether sipping a cold drink or walking past street dancers and food carts, the energy never dipped. It’s a chaotic, eccentric, unforgettable hub for travelers, and we loved every second."
+        },
+        "maeklong_train_market": {
+          "title": "The Train That Doesn’t Stop the Market",
+          "description": "Visiting the Maeklong Railway Market was one of the most surreal moments of our trip. This vibrant market operates right on the train tracks, and several times a day, vendors calmly move their goods and awnings to let the train pass through. Just seconds later, everything is back in place as if nothing happened. It’s an extraordinary blend of chaos and coordination, a perfect symbol of Thai adaptability. Standing just feet away from a moving train while surrounded by colorful fruits, spices, and shouting vendors is something we’ll never forget."
+        },
+        "wat_pho": {
+          "title": "Crossing Cultures by Ferry",
+          "description": "Our temple tour in Bangkok felt like a spiritual bridge. On one side, we admired the grandeur of Wat Arun, then crossed the river by ferry to reach the serene Reclining Buddha at Wat Pho. Each temple was unique, yet connected in calm and reverence. That short boat ride held centuries of tradition between shores."
+        }
+      }
+    },
+    "phuket": {
+      "items": {
+        "big_buddha": {
+          "title": "A Serene View from the Big Buddha",
+          "description": "Our visit to the Big Buddha in Phuket was a peaceful highlight of the trip. Perched high on a hill, the statue overlooks the island with panoramic views of the sea and surrounding greenery. The atmosphere was calm and reverent, with the soft sound of bells and wind chimes in the background. We took time to reflect, enjoy the cool breeze, and watch monks perform rituals. It felt like a spiritual pause in the middle of our adventure-filled trip, and the views alone were worth the climb."
+        },
+        "bond_island_tour": {
+          "title": "James Bond Island and Secret Lagoons",
+          "description": "The Bond Island tour was stunning. Towering limestone cliffs, hidden lagoons, and caves you could only reach by kayak—it felt like a secret world. It was one of the most cinematic landscapes we’ve ever seen, and every turn had us reaching for the camera again."
+        },
+        "patong_beach": {
+          "title": "Sunsets in Patong",
+          "description": "Patong Beach brought the perfect end to our days. Watching the sun set behind the sea after a day of exploring was peaceful and grounding. The beach vibe, the music from beach bars, and the golden light made each evening unforgettable."
+        },
+        "phi_phi_tour": {
+          "title": "Snorkeling and Paradise Shores",
+          "description": "We started our adventure with a snorkeling tour in the crystal-clear waters around the Phi Phi Islands. Swimming above corals and colorful fish was magical. Then we reached Maya Bay—the beach from the DiCaprio movie—and stood in awe. The water, the cliffs, the feeling... it was paradise, no filter needed."
+        }
+      }
+    }
+  },
   "others_travels": {
     "spain": {
       "title": "The beginning of my journey through Europe.",

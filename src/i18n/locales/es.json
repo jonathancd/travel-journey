@@ -908,6 +908,52 @@
       }
     }
   },
+  "thailand": {
+    "bangkok": {
+      "items": {
+        "chinatown": {
+          "title": "Los Colores y Sabores de Chinatown",
+          "description": "Chinatown en Bangkok es una explosión de color, energía y sabores increíbles. Caminar por sus calles vibrantes fue como entrar en una fiesta: faroles colgando, sonidos de woks chisporroteando y un aroma de especias que guiaba a cada puesto. La comida fue de lo mejor del viaje. Cada bocado contaba una historia."
+        },
+        "floating_market": {
+          "title": "Aventuras en el Mercado Flotante",
+          "description": "El mercado flotante parecía sacado de una película: botes llenos de frutas, fideos, recuerdos y sonrisas. Regatear por mango con arroz pegajoso sentado al borde del canal fue inolvidable. Es una experiencia cultural vibrante, atemporal y emocionante."
+        },
+        "khao_san": {
+          "title": "El Pulso Salvaje de Khao San",
+          "description": "Khao San Road fue una locura de luces, sonidos y viajeros de todo el mundo. Entre una cerveza fría y un puesto de comida, la energía no bajaba nunca. Es un lugar caótico, excéntrico, inolvidable... y nos encantó cada segundo."
+        },
+        "maeklong_train_market": {
+          "title": "El Tren que No Detiene el Mercado",
+          "description": "Visitar el Mercado del Tren Maeklong fue una de las experiencias más surrealistas del viaje. Este mercado lleno de vida opera directamente sobre las vías del tren, y varias veces al día, los vendedores recogen sus toldos y mueven sus productos con una calma impresionante para dejar pasar al tren. Solo unos segundos después, todo vuelve a su sitio como si nada hubiera pasado. Es una combinación extraordinaria de caos y coordinación, un reflejo perfecto de la adaptabilidad tailandesa. Estar a pocos metros de un tren en movimiento mientras compras frutas o especias es algo que no se olvida."
+        },
+        "wat_pho": {
+          "title": "Un Cruce Cultural en Ferry",
+          "description": "Nuestro tour de templos fue como un puente espiritual. De un lado admiramos la majestuosidad del Wat Arun, y cruzando el río en ferry llegamos al Buda Reclinado de Wat Pho. Cada templo era único, pero compartían una calma reverente. Ese pequeño cruce en bote cargaba siglos de tradición."
+        }
+      }
+    },
+    "phuket": {
+      "items": {
+        "big_buddha": {
+          "title": "Una Vista Serena desde el Gran Buda",
+          "description": "Nuestra visita al Gran Buda de Phuket fue uno de los momentos más tranquilos del viaje. Situado en lo alto de una colina, la estatua ofrece vistas panorámicas del mar y la vegetación que rodea la isla. El ambiente era sereno y lleno de respeto, con el suave sonido de campanillas y el viento de fondo. Aprovechamos para reflexionar, disfrutar de la brisa fresca y observar a los monjes realizando rituales. Fue como una pausa espiritual en medio de tantas aventuras, y solo por las vistas valió la pena subir."
+        },
+        "bond_island_tour": {
+          "title": "La Isla de James Bond y Lagunas Secretas",
+          "description": "El tour a la Isla de James Bond fue impresionante. Acantilados enormes, lagunas escondidas y cuevas accesibles solo en kayak... se sentía como otro mundo. Uno de los paisajes más cinematográficos que hemos visto. Cada rincón era digno de foto."
+        },
+        "patong_beach": {
+          "title": "Atardeceres en Patong",
+          "description": "La playa de Patong fue el cierre perfecto de nuestros días. Ver el atardecer tras el mar, luego de explorar tanto, fue pacífico e inspirador. El ambiente de playa, la música suave y la luz dorada lo hicieron inolvidable."
+        },
+        "phi_phi_tour": {
+          "title": "Snorkel y Playas de Ensueño",
+          "description": "Comenzamos con un tour de snorkel por las aguas cristalinas de las islas Phi Phi. Nadar entre corales y peces de colores fue mágico. Luego llegamos a Maya Bay, la playa famosa de la película de DiCaprio, y simplemente nos quedamos sin palabras. El agua, los acantilados, la energía... era el paraíso."
+        }
+      }
+    }
+  },
   "others_travels": {
     "spain": {
       "title": "El comienzo de mi viaje por Europa.",
