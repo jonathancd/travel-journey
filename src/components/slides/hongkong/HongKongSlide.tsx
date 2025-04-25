@@ -44,7 +44,6 @@ export const HongKongSlide = () => {
                     currentItem.code
                   }.description`
                 )}
-                description
               </strong>
             </p>
           </div>

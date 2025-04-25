@@ -484,122 +484,42 @@
       }
     }
   },
-  "japan": {
-    "tokyo": {
+  "egypt": {
+    "cairo": {
       "items": {
-        "tokyo_1": {
-          "title": "My favorite city in the world.",
-          "description": "Tokyo is my favorite city in Japan. I’ve visited twice, and each time felt like discovering a new world within the same place. It’s a city of contrasts—futuristic yet traditional, chaotic yet peaceful. Every corner of Tokyo offers something unique and endlessly fascinating to explore."
+        "giza": {
+          "title": "The Majestic Pyramids of Giza",
+          "description_first": "Standing before the Great Pyramids of Giza is like staring into the soul of ancient civilization. These massive structures, built over 4,000 years ago, still baffle modern engineers. The sheer scale and symmetry of the pyramids are a testament to the incredible vision and coordination of the ancient Egyptians. With the desert sun casting golden hues across the limestone blocks, and the ever-watchful Sphinx guarding in silence, this site awakens a profound sense of awe.",
+          "description_second": "Walking around the Pyramids, you are enveloped by history and mystery. From the tales of pharaohs buried in secret chambers to the precise alignment of the structures with celestial bodies, every element evokes curiosity. Riding a camel along the plateau or watching the pyramids at sunset makes the visit truly unforgettable. Giza is not just a monument—it’s a timeless gateway into humanity’s past."
         },
-        "tokyo_2": {
-          "title": "A city of infinite stories.",
-          "description": "Tokyo is a place where every street holds a story. From serene temples hidden in back alleys to the neon glow of Shibuya, each moment feels cinematic. I’ve wandered through its neighborhoods for hours, always finding something unexpected and beautiful."
-        },
-        "tokyo_3": {
-          "title": "Where tradition meets the future.",
-          "description": "Tokyo is a city that blends centuries-old rituals with cutting-edge innovation. I’ve experienced quiet mornings at shrines and wild nights in Shinjuku. The city constantly surprises me, offering a balance between calm and energy like no other."
+        "nile": {
+          "title": "The Timeless Flow of the Nile",
+          "description_first": "The Nile River is the lifeblood of Egypt, a force of nature that has sustained civilizations for millennia. Cruising along its calm waters offers a perspective unlike any other—cities, temples, and villages appear like a living museum unfolding on either side. The riverbanks are dotted with lush vegetation, contrasting beautifully against the desert beyond. Watching life happen along the Nile feels like a glimpse into ancient rhythms still very much alive today.",
+          "description_second": "As you sail under the glow of a golden sunset, the Nile whispers stories of ancient gods and daily life. Fishermen cast their nets, farmers work the fertile soil, and children play on the banks—scenes that could belong to any century. Whether on a felucca or a luxury cruise, the experience is soothing and inspiring, connecting you with the eternal spirit of Egypt."
         }
       }
     },
-    "kyoto": {
+    "luxor": {
       "items": {
-        "kyoto_1": {
-          "title": "The most beautiful city I’ve ever seen.",
-          "description": "Kyoto is, without question, the most beautiful city I’ve visited. I’ve been there twice, both times during cherry blossom season, and the scenery felt like a dream. From ancient temples and quiet gardens to geisha alleys and peaceful rivers, Kyoto carries the timeless soul of Japan."
+        "hatshepsut_temple": {
+          "title": "Temple of Hatshepsut",
+          "description_first": "Carved into the cliffs of Deir el-Bahari, the Temple of Hatshepsut is one of the most striking monuments in Egypt. Its elegant terraces and colonnades seem to rise naturally from the rock face. As the morning sun bathes the temple in golden light, its harmony with the surrounding landscape becomes clear. Built for Egypt’s most powerful female pharaoh, the structure reflects both strength and grace.",
+          "description_second": "The temple tells a story of ambition and divinity. Hieroglyphs and reliefs along the walls narrate the divine birth of Hatshepsut and her expeditions to distant lands. Walking through the temple is like reading chapters of an ancient biography etched in stone, filled with symbolism, resilience, and royal legacy."
         },
-        "kyoto_2": {
-          "title": "A journey through time.",
-          "description": "Kyoto feels like stepping into a living museum. From the golden glow of Kinkaku-ji to the quiet pathways of Arashiyama, every visit is a retreat into Japan’s rich past. It’s peaceful, poetic, and deeply spiritual."
+        "karnak_template": {
+          "title": "Karnak Temple Complex",
+          "description_first": "Karnak is not just a temple—it’s an ancient city of stone dedicated to the gods. This vast complex, developed over centuries, is a marvel of architecture and devotion. Walking through the hypostyle hall with its towering 134 columns is an experience that defies scale. Each pillar is carved with hieroglyphs that come alive under the changing light of day.",
+          "description_second": "At Karnak, the line between the earthly and the divine is blurred. Obelisks, sacred lakes, and the Avenue of Sphinxes all add layers of spiritual depth. The sheer size of the complex demands exploration, and every corner reveals new mysteries. It’s a place where time stands still and the gods still seem to whisper."
         },
-        "kyoto_3": {
-          "title": "Elegance in every detail.",
-          "description": "Kyoto is elegance made visible. From the precision of its gardens to the grace of geishas in Gion, the city invites you to notice the beauty in subtlety. It’s a place that teaches you to see, not just look."
-        }
-      }
-    },
-    "osaka": {
-      "items": {
-        "osaka_1": {
-          "title": "The first city I ever saw in Japan.",
-          "description": "Osaka was the first Japanese city I stepped into, arriving from South Korea. I explored the lively Namba district and instantly felt its distinct character—friendly people, incredible food, and a warm, urban vibe. Osaka gave me my first true taste of Japan, and I’ll never forget it."
+        "luxor_temple": {
+          "title": "Luxor Temple at Twilight",
+          "description_first": "Located in the heart of modern Luxor, the Luxor Temple bridges the gap between ancient and contemporary Egypt. As night falls and the temple is illuminated, its sandstone walls glow with a timeless energy. Built to honor the rejuvenation of kingship, this temple feels deeply ceremonial, as if its rituals never ended.",
+          "description_second": "Unlike other temples, Luxor was always meant to be part of a living city. The juxtaposition of traffic and temples is both surreal and symbolic. With the sacred avenue of Sphinxes connecting it to Karnak, Luxor Temple embodies continuity and connection—a living monument where history meets today."
         },
-        "osaka_2": {
-          "title": "The city that never slows down.",
-          "description": "Osaka has an energy that pulls you in. Its food, its people, and its streets are full of life and flavor. I’ve laughed, eaten, and wandered here more than I planned—always happy I did. It’s chaotic in the best way."
-        },
-        "osaka_3": {
-          "title": "Flavors, lights, and laughter.",
-          "description": "Osaka feels like a festival. From the sizzling sounds of takoyaki stalls to the neon jungle of Dotonbori, it’s a sensory overload that you can’t get enough of. It’s fun, loud, and wildly lovable."
-        }
-      }
-    },
-    "nara": {
-      "items": {
-        "nara_1": {
-          "title": "A peaceful encounter with nature and tradition.",
-          "description": "I visited Nara during cherry blossom season and spent time in the famous deer park. Walking among gentle deer, ancient temples, and blooming trees felt peaceful and surreal. Nara stands out as a quiet spiritual escape, deeply connected to nature and Japanese heritage."
-        },
-        "nara_2": {
-          "title": "Sacred and serene.",
-          "description": "There’s a sacred feeling in Nara, from the massive Buddha of Tōdai-ji to the whispering forests of Kasuga-taisha. I loved how nature and spirituality coexist in perfect harmony—it’s a peaceful kind of magic."
-        },
-        "nara_3": {
-          "title": "Ancient heart of Japan.",
-          "description": "Nara was once Japan’s capital, and it still feels royal in its own way. The old temples, the respectful deer, and the slow pace create a space that’s both grounding and awe-inspiring. It’s a beautiful place to reflect."
-        }
-      }
-    },
-    "kamakura": {
-      "items": {
-        "kamakura_1": {
-          "title": "Where tradition meets nostalgia.",
-          "description": "My visit to Kamakura was short but full of charm. I saw the Great Buddha, strolled traditional streets, and admired the ocean view made iconic by Slam Dunk. It’s a perfect mix of historical sites, nostalgic scenery, and the calm, coastal side of Japan’s cultural depth."
-        },
-        "kamakura_2": {
-          "title": "Coastal calm and ancient roots.",
-          "description": "Kamakura blends sea breeze with sacred spaces. Just an hour from Tokyo, it feels like a spiritual escape. I walked along the beach, then turned into a trail that led me to temples hidden among the trees. Pure peace."
-        },
-        "kamakura_3": {
-          "title": "Seaside soul of Japan.",
-          "description": "I didn’t expect Kamakura to move me, but it did. The blend of ocean, shrines, and hiking made for one of my favorite day trips. It’s humble, beautiful, and perfect for a moment of pause in your journey."
-        }
-      }
-    }
-  },
-  "indonesia": {
-    "bali": {
-      "items": {
-        "tegallalang": {
-          "title": "Lush Rice Terraces of Ubud",
-          "description": "The Tegallalang Rice Terraces in Ubud are a breathtaking sight. The layers of green seem endless, carved meticulously into the hills. It’s one of the most peaceful places I’ve visited, and walking among the fields makes you feel part of a living painting."
-        },
-        "tirta_empul": {
-          "title": "Spiritual cleansing at Tirta Empul",
-          "description": "Tirta Empul is more than a temple—it’s a spiritual experience. Watching people step into the sacred waters to purify their soul was deeply moving. The energy here is quiet, respectful, and full of ancient stories."
-        },
-        "goa_gajah": {
-          "title": "Mystery of the Elephant Cave",
-          "description": "Goa Gajah, also known as the Elephant Cave, blends history and mystery. Entering its mossy entrance felt like stepping into another time. The carvings, the silence, the atmosphere—it all left me in awe."
-        },
-        "penglipuran": {
-          "title": "Village of traditions: Penglipuran",
-          "description": "Penglipuran is a traditional Balinese village that feels frozen in time. The neat pathways, the welcoming locals, and the strong sense of culture make it feel like a living museum. I left with a deep respect for their way of life."
-        }
-      }
-    },
-    "nusa_penida": {
-      "items": {
-        "kelingking": {
-          "title": "The iconic Kelingking Beach",
-          "description": "Kelingking Beach looks like a dinosaur’s back from above and feels like paradise below. The view is jaw-dropping, the water turquoise, and the descent challenging—but worth every step."
-        },
-        "broken_beach": {
-          "title": "Natural wonder of Broken Beach",
-          "description": "Broken Beach is nature’s artwork. The collapsed arch and the natural bridge over turquoise waters make it one of the island’s most unique sights. Standing there feels surreal."
-        },
-        "angels_billabong": {
-          "title": "The emerald pools of Angel’s Billabong",
-          "description": "Angel’s Billabong is a crystal-clear tide pool nestled between rock cliffs. The calm waters shine like emerald glass, and when the tide is low, it becomes a perfect natural infinity pool."
+        "valley_of_kings": {
+          "title": "The Valley of the Kings",
+          "description_first": "Beneath the barren cliffs west of Luxor lies the Valley of the Kings—an ancient necropolis that holds the tombs of Egypt’s greatest rulers. Each tomb is a journey into the afterlife, adorned with vivid wall paintings that depict sacred rituals, deities, and cosmic voyages. The silence in the valley is profound, broken only by the wind and the whispers of history.",
+          "description_second": "The experience of descending into a tomb like that of Tutankhamun is surreal. You feel the weight of millennia pressing against the narrow walls. Despite their age, many of the murals retain their colors, preserving myths and prayers in astonishing detail. The Valley is not just a burial site—it’s a masterpiece of religious art and spiritual longing."
         }
       }
     }
@@ -733,6 +653,126 @@
       "chi_lin_nunnery": {
         "title": "Oasis of Calm",
         "description": "Chi Lin Nunnery feels like a world apart from the rest of Hong Kong. Amid the wooden architecture and tranquil gardens, I found a sense of peace I didn’t expect in such a busy city. The lotus ponds, the incense in the air, and the soft sound of flowing water make this spot feel like a temple of time—where tradition is still alive, serene, and sacred."
+      }
+    }
+  },
+  "indonesia": {
+    "bali": {
+      "items": {
+        "tegallalang": {
+          "title": "Lush Rice Terraces of Ubud",
+          "description": "The Tegallalang Rice Terraces in Ubud are a breathtaking sight. The layers of green seem endless, carved meticulously into the hills. It’s one of the most peaceful places I’ve visited, and walking among the fields makes you feel part of a living painting."
+        },
+        "tirta_empul": {
+          "title": "Spiritual cleansing at Tirta Empul",
+          "description": "Tirta Empul is more than a temple—it’s a spiritual experience. Watching people step into the sacred waters to purify their soul was deeply moving. The energy here is quiet, respectful, and full of ancient stories."
+        },
+        "goa_gajah": {
+          "title": "Mystery of the Elephant Cave",
+          "description": "Goa Gajah, also known as the Elephant Cave, blends history and mystery. Entering its mossy entrance felt like stepping into another time. The carvings, the silence, the atmosphere—it all left me in awe."
+        },
+        "penglipuran": {
+          "title": "Village of traditions: Penglipuran",
+          "description": "Penglipuran is a traditional Balinese village that feels frozen in time. The neat pathways, the welcoming locals, and the strong sense of culture make it feel like a living museum. I left with a deep respect for their way of life."
+        }
+      }
+    },
+    "nusa_penida": {
+      "items": {
+        "kelingking": {
+          "title": "The iconic Kelingking Beach",
+          "description": "Kelingking Beach looks like a dinosaur’s back from above and feels like paradise below. The view is jaw-dropping, the water turquoise, and the descent challenging—but worth every step."
+        },
+        "broken_beach": {
+          "title": "Natural wonder of Broken Beach",
+          "description": "Broken Beach is nature’s artwork. The collapsed arch and the natural bridge over turquoise waters make it one of the island’s most unique sights. Standing there feels surreal."
+        },
+        "angels_billabong": {
+          "title": "The emerald pools of Angel’s Billabong",
+          "description": "Angel’s Billabong is a crystal-clear tide pool nestled between rock cliffs. The calm waters shine like emerald glass, and when the tide is low, it becomes a perfect natural infinity pool."
+        }
+      }
+    }
+  },
+  "japan": {
+    "tokyo": {
+      "items": {
+        "tokyo_1": {
+          "title": "My favorite city in the world.",
+          "description": "Tokyo is my favorite city in Japan. I’ve visited twice, and each time felt like discovering a new world within the same place. It’s a city of contrasts—futuristic yet traditional, chaotic yet peaceful. Every corner of Tokyo offers something unique and endlessly fascinating to explore."
+        },
+        "tokyo_2": {
+          "title": "A city of infinite stories.",
+          "description": "Tokyo is a place where every street holds a story. From serene temples hidden in back alleys to the neon glow of Shibuya, each moment feels cinematic. I’ve wandered through its neighborhoods for hours, always finding something unexpected and beautiful."
+        },
+        "tokyo_3": {
+          "title": "Where tradition meets the future.",
+          "description": "Tokyo is a city that blends centuries-old rituals with cutting-edge innovation. I’ve experienced quiet mornings at shrines and wild nights in Shinjuku. The city constantly surprises me, offering a balance between calm and energy like no other."
+        }
+      }
+    },
+    "kyoto": {
+      "items": {
+        "kyoto_1": {
+          "title": "The most beautiful city I’ve ever seen.",
+          "description": "Kyoto is, without question, the most beautiful city I’ve visited. I’ve been there twice, both times during cherry blossom season, and the scenery felt like a dream. From ancient temples and quiet gardens to geisha alleys and peaceful rivers, Kyoto carries the timeless soul of Japan."
+        },
+        "kyoto_2": {
+          "title": "A journey through time.",
+          "description": "Kyoto feels like stepping into a living museum. From the golden glow of Kinkaku-ji to the quiet pathways of Arashiyama, every visit is a retreat into Japan’s rich past. It’s peaceful, poetic, and deeply spiritual."
+        },
+        "kyoto_3": {
+          "title": "Elegance in every detail.",
+          "description": "Kyoto is elegance made visible. From the precision of its gardens to the grace of geishas in Gion, the city invites you to notice the beauty in subtlety. It’s a place that teaches you to see, not just look."
+        }
+      }
+    },
+    "osaka": {
+      "items": {
+        "osaka_1": {
+          "title": "The first city I ever saw in Japan.",
+          "description": "Osaka was the first Japanese city I stepped into, arriving from South Korea. I explored the lively Namba district and instantly felt its distinct character—friendly people, incredible food, and a warm, urban vibe. Osaka gave me my first true taste of Japan, and I’ll never forget it."
+        },
+        "osaka_2": {
+          "title": "The city that never slows down.",
+          "description": "Osaka has an energy that pulls you in. Its food, its people, and its streets are full of life and flavor. I’ve laughed, eaten, and wandered here more than I planned—always happy I did. It’s chaotic in the best way."
+        },
+        "osaka_3": {
+          "title": "Flavors, lights, and laughter.",
+          "description": "Osaka feels like a festival. From the sizzling sounds of takoyaki stalls to the neon jungle of Dotonbori, it’s a sensory overload that you can’t get enough of. It’s fun, loud, and wildly lovable."
+        }
+      }
+    },
+    "nara": {
+      "items": {
+        "nara_1": {
+          "title": "A peaceful encounter with nature and tradition.",
+          "description": "I visited Nara during cherry blossom season and spent time in the famous deer park. Walking among gentle deer, ancient temples, and blooming trees felt peaceful and surreal. Nara stands out as a quiet spiritual escape, deeply connected to nature and Japanese heritage."
+        },
+        "nara_2": {
+          "title": "Sacred and serene.",
+          "description": "There’s a sacred feeling in Nara, from the massive Buddha of Tōdai-ji to the whispering forests of Kasuga-taisha. I loved how nature and spirituality coexist in perfect harmony—it’s a peaceful kind of magic."
+        },
+        "nara_3": {
+          "title": "Ancient heart of Japan.",
+          "description": "Nara was once Japan’s capital, and it still feels royal in its own way. The old temples, the respectful deer, and the slow pace create a space that’s both grounding and awe-inspiring. It’s a beautiful place to reflect."
+        }
+      }
+    },
+    "kamakura": {
+      "items": {
+        "kamakura_1": {
+          "title": "Where tradition meets nostalgia.",
+          "description": "My visit to Kamakura was short but full of charm. I saw the Great Buddha, strolled traditional streets, and admired the ocean view made iconic by Slam Dunk. It’s a perfect mix of historical sites, nostalgic scenery, and the calm, coastal side of Japan’s cultural depth."
+        },
+        "kamakura_2": {
+          "title": "Coastal calm and ancient roots.",
+          "description": "Kamakura blends sea breeze with sacred spaces. Just an hour from Tokyo, it feels like a spiritual escape. I walked along the beach, then turned into a trail that led me to temples hidden among the trees. Pure peace."
+        },
+        "kamakura_3": {
+          "title": "Seaside soul of Japan.",
+          "description": "I didn’t expect Kamakura to move me, but it did. The blend of ocean, shrines, and hiking made for one of my favorite day trips. It’s humble, beautiful, and perfect for a moment of pause in your journey."
+        }
       }
     }
   },
