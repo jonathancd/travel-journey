@@ -10,20 +10,20 @@ export const IndonesiaSlide = () => {
     <SlideTabsLayout pageTitle="Indonesia" tabs={tabs}>
       {({ currentTab, currentItem, selectedItemIndex }) => (
         <div className="w-full flex justify-end h-[90%]">
-          <div className="flex-1 flex">
+          <div className="w-[40%] flex-1 flex pr-5">
             <div className="w-full">
               <p>
                 {currentTab?.name} {selectedItemIndex + 1}/
                 {currentTab?.items.length}
               </p>
-              <h2 className="text-7xl">
+              <h2 className="text-6xl">
                 {t(
                   `indonesia.${currentTab?.code.toLocaleLowerCase()}.items.${
                     currentItem?.code
                   }.title`
                 )}
               </h2>
-              <p className="w-[60%] text-sm whitespace-normal font-light mt-[20px]">
+              <p className="text-sm whitespace-normal font-light mt-[20px]">
                 <strong>
                   {t(
                     `indonesia.${currentTab?.code.toLocaleLowerCase()}.items.${
@@ -35,7 +35,7 @@ export const IndonesiaSlide = () => {
             </div>
           </div>
           <div
-            className="w-[60%] mr-15 h-full bg-cover bg-center bg-no-repeat"
+            className="w-[60%] h-full bg-cover bg-center bg-no-repeat"
             style={{ backgroundImage: `url('${currentItem?.img}')` }}
           />
         </div>

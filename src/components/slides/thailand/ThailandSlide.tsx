@@ -14,7 +14,7 @@ export const ThailandSlide = () => {
             <p>
               {currentTab?.name} {currentItem?.id}/{currentTab?.items.length}
             </p>
-            <h2 className="text-7xl">
+            <h2 className="text-6xl">
               {t(
                 `thailand.${currentTab?.code.toLocaleLowerCase()}.items.${
                   currentItem?.code

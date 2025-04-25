@@ -19,18 +19,18 @@ export const MaldivesSlide = () => {
             {tabs.map((tab) => (
               <Tab.Panel
                 key={tab.id}
-                className="w-full mr-[10%] bg-cover bg-center bg-no-repeat"
+                className="w-full bg-cover bg-center bg-no-repeat"
                 style={{
                   backgroundImage: `url('${currentItem.img}')`,
                 }}
               />
             ))}
           </Tab.Panels>
-          <div className="h-full w-[60%] flex flex-col justify-start items-start">
+          <div className="h-full w-[60%] flex flex-col justify-start items-start pl-5">
             <p>
               {currentTab?.name} {currentItem.id}/{currentTab?.items.length}
             </p>
-            <h2 className="text-7xl">
+            <h2 className="text-6xl">
               {t(
                 `${currentTab?.code.toLocaleLowerCase()}.items.${
                   currentItem.code

@@ -16,24 +16,24 @@ export const EuroTripSlide = ({
       tabs={tabs}
       paginationOnLeft={false}
     >
-      {({ currentTab, currentItem, selectedItemIndex }) => (
+      {({ currentTab, currentItem }) => (
         <div className="flex flex-row h-full w-full">
           <Tab.Panels className="w-[40vw] flex justify-start h-[100%]">
             {tabs.map((tab) => (
               <Tab.Panel
                 key={tab.id}
-                className="w-full mr-[10%] bg-cover bg-center bg-no-repeat"
+                className="w-full bg-cover bg-center bg-no-repeat"
                 style={{
                   backgroundImage: `url('${currentItem.img}')`,
                 }}
               />
             ))}
           </Tab.Panels>
-          <div className="h-full w-[60%] flex flex-col justify-start items-start">
+          <div className="h-full w-[60%] flex flex-col justify-start items-start pl-5">
             <p>
               {currentTab?.name} {currentItem?.id}/{currentTab?.items.length}
             </p>
-            <h2 className="text-7xl">
+            <h2 className="text-6xl">
               {t(
                 `${i18n_code}.${currentTab?.code.toLocaleLowerCase()}.items.${
                   currentItem?.code
@@ -52,38 +52,6 @@ export const EuroTripSlide = ({
           </div>
         </div>
       )}
-      {/* 
-      {({ currentTab, currentItem, selectedItemIndex }) => (
-        <div className="w-full flex justify-end h-[90%]">
-          <div
-            className="w-[40%] mr-15 h-full bg-cover bg-center bg-no-repeat"
-            style={{ backgroundImage: `url('${currentItem.img}')` }}
-          />
-
-          <div className="flex-1 flex">
-            <div>
-              <p>
-                {currentTab?.name} {selectedItemIndex + 1}/
-                {currentTab?.items.length}
-              </p>
-              <h2 className="text-4xl font-bold">
-                {t(
-                  `${i18n_code}.${currentTab?.code.toLocaleLowerCase()}.items.${
-                    currentItem?.code
-                  }.title`
-                )}
-              </h2>
-              <p className="w-[70%] text-sm font-light mt-4 whitespace-pre-line text-justify">
-                {t(
-                  `${i18n_code}.${currentTab?.code.toLocaleLowerCase()}.items.${
-                    currentItem?.code
-                  }.description`
-                )}
-              </p>
-            </div>
-          </div>
-        </div>
-      )} */}
     </SlideTabsLayout>
   );
 };

@@ -30,7 +30,7 @@ export const JapanSlide = () => {
                   {currentTab?.name} {currentItem?.id}/
                   {currentTab?.items.length}
                 </p>
-                <h2 className="text-7xl">
+                <h2 className="text-6xl">
                   {t(
                     `japan.${currentTab?.name.toLocaleLowerCase()}.items.${
                       currentItem?.code
