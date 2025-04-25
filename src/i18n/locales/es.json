@@ -888,6 +888,26 @@
       }
     }
   },
+  "maldives": {
+    "items": {
+      "item1": {
+        "title": "Una luna de miel bajo las estrellas del Ramadán",
+        "description": "Pasar nuestra luna de miel en Maldivas durante el Ramadán le dio a nuestros días un ritmo sereno y especial. La tranquilidad de las islas, junto con el ambiente espiritual del momento, hizo que la experiencia fuera aún más significativa. Con atardeceres silenciosos y mañanas introspectivas, nos sentimos más unidos entre nosotros y con la naturaleza. Fue el inicio perfecto para nuestra vida juntos."
+      },
+      "item2": {
+        "title": "Buceando en el turquesa desconocido",
+        "description": "Las aguas de Maldivas son de las más cristalinas del mundo, y bucear allí fue como entrar en un sueño. Rodeados de arrecifes coloridos y vida marina, descubrimos un mundo vibrante y lleno de movimiento. Fue una experiencia emocionante y serena a la vez, que nos hizo sentir pequeños, agradecidos y completamente vivos."
+      },
+      "item3": {
+        "title": "Solo con los tiburones",
+        "description": "Nadamos con tiburones de arrecife y todo iba bien hasta que uno se acercó demasiado. Mi esposa no lo pensó dos veces y regresó al bote, dejándome solo en el agua. Fue divertido y un poco aterrador, pero ahora es una de nuestras anécdotas favoritas. Un momento que resume la aventura salvaje y divertida de nuestra luna de miel en Maldivas."
+      },
+      "item4": {
+        "title": "Volando sobre el paraíso",
+        "description": "Terminamos uno de nuestros días con un paseo en parapente sobre las aguas turquesa. Flotar a esa altura fue como sobrevolar una pintura. El silencio, interrumpido solo por el viento, nos ofreció una nueva perspectiva de lo hermoso que es Maldivas. Fue un momento mágico de libertad y belleza pura."
+      }
+    }
+  },
   "others_travels": {
     "spain": {
       "title": "El comienzo de mi viaje por Europa.",

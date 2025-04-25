@@ -776,6 +776,26 @@
       }
     }
   },
+  "maldives": {
+    "items": {
+      "item1": {
+        "title": "A honeymoon under Ramadan stars",
+        "description": "Spending our honeymoon in the Maldives during Ramadan added a unique and peaceful rhythm to our days. The serenity of the islands, combined with the cultural calm of the season, made the experience even more meaningful and intimate. With quiet sunsets and reflective mornings, we found ourselves more connected to each other and to the beautiful environment surrounding us. It was the perfect start to our married life."
+      },
+      "item2": {
+        "title": "Diving into the turquoise unknown",
+        "description": "The Maldivian waters are among the clearest in the world, and diving beneath the surface felt like entering a dream. Surrounded by colorful corals and vibrant marine life, we explored a new world together. It was both exhilarating and peaceful—one of those rare experiences that makes you feel small and grateful all at once."
+      },
+      "item3": {
+        "title": "Left alone with the sharks",
+        "description": "We went swimming with reef sharks, which started off exciting—until my wife saw one too close and swam back to the boat, leaving me floating alone!. It was funny and slightly terrifying, but now it’s one of our favorite stories to tell. A memory that truly defines our Maldivian adventure."
+      },
+      "item4": {
+        "title": "Flying above paradise",
+        "description": "We finished one of our afternoons with a parasailing ride over the turquoise waters. Floating high above the islands, we felt as if we were gliding over a painting. The silence up there, broken only by the wind, gave us a whole new perspective. It was a magical moment of pure freedom and beauty."
+      }
+    }
+  },
   "others_travels": {
     "spain": {
       "title": "The beginning of my journey through Europe.",
