@@ -18,11 +18,11 @@ export const OthersTravelsSlide = () => {
                 >
                   <div className="flex h-full">
                     <div className="w-[65%] p-[25px]">
-                      <h2 className="text-3xl text-black mb-2.5">
+                      <h2 className="text-2xl text-black mb-2.5">
                         {t(`others_travels.${travel.i18n_key}.title`)}
                       </h2>
                       <p className="text-[#6d6d6d] mb-2.5">{travel.date}</p>
-                      <p>
+                      <p className="text-sm">
                         {t(`others_travels.${travel.i18n_key}.description`)}
                       </p>
                     </div>

@@ -1,5 +1,7 @@
 import ReactFullpage from "@fullpage/react-fullpage";
-import { useState } from "react";
+import tippy from "tippy.js";
+
+import { useEffect, useState } from "react";
 import { CountriesListSlide } from "../components/slides/countries_list/CountriesListSlide";
 import { EgyptSlide } from "../components/slides/egypt/EgyptSlide";
 import { EuroTripSlide } from "../components/slides/eurotrip/EuroTripSlide";
@@ -11,25 +13,54 @@ import { MaldivesSlide } from "../components/slides/maldives/MaldivesSlide";
 import { OthersTravelsSlide } from "../components/slides/others_travels/OthersTravelsSlide";
 import { ThailandSlide } from "../components/slides/thailand/ThailandSlide";
 import { ScrollArrow } from "../components/utils/ScrollArrow";
-
 import { dataEuroTrip2023, dataEuroTrip2024 } from "../data/euroTripsData";
 
 export const HomePage = () => {
+  useEffect(() => {
+    const tooltips = [
+      "Home",
+      "Japan",
+      "Hong Kong",
+      "Egypt",
+      "Thailand",
+      "Maldives",
+      "Indonesia",
+      "EuroTrip 2023",
+      "EuroTrip 2024",
+      "Others Travels",
+      "Countries List",
+    ];
+
+    const navLinks = document.querySelectorAll("#fp-nav ul li a");
+
+    navLinks.forEach((link, index) => {
+      tippy(link, {
+        content: tooltips[index] || "",
+        placement: "right",
+        animation: "shift-away",
+        delay: [100, 50],
+        theme: "light",
+      });
+    });
+  }, []);
+
   const [currentIndex, setCurrentIndex] = useState(0);
-  const anchors = [
-    "home",
-    "japan",
-    "hong-kong",
-    "egypt",
-    "thailand",
-    "maldives",
-    "indonesia",
-    "eurotrip2023",
-    "eurotrip2024",
-    "others_travels",
-    "countries_list",
+
+  const sections = [
+    { anchor: "home", tooltip: "Home" },
+    { anchor: "japan", tooltip: "Japan" },
+    { anchor: "hong-kong", tooltip: "Hong Kong" },
+    { anchor: "egypt", tooltip: "Egypt" },
+    { anchor: "thailand", tooltip: "Thailand" },
+    { anchor: "maldives", tooltip: "Maldives" },
+    { anchor: "indonesia", tooltip: "Indonesia" },
+    { anchor: "eurotrip2023", tooltip: "EuroTrip 2023" },
+    { anchor: "eurotrip2024", tooltip: "EuroTrip 2024" },
+    { anchor: "others_travels", tooltip: "Others Travels" },
+    { anchor: "countries_list", tooltip: "Countries List" },
   ];
-  const hasNext = currentIndex < anchors.length - 1;
+
+  const hasNext = currentIndex < sections.length - 1;
 
   return (
     <>
@@ -39,7 +70,7 @@ export const HomePage = () => {
         navigationPosition="left"
         scrollingSpeed={700}
         credits={{ enabled: false }}
-        anchors={anchors}
+        anchors={sections.map((item) => item.anchor)}
         lockAnchors={false}
         afterLoad={(origin, destination) => {
           setCurrentIndex(destination.index);
