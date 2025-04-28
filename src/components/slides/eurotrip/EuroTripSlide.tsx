@@ -24,7 +24,7 @@ export const EuroTripSlide = ({
                 key={tab.id}
                 className="w-full bg-cover bg-center bg-no-repeat"
                 style={{
-                  backgroundImage: `url('${currentItem.img}')`,
+                  backgroundImage: `url('${currentItem?.img}')`,
                 }}
               />
             ))}

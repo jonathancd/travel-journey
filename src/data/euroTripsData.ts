@@ -8,18 +8,23 @@ export const dataEuroTrip2023: TabData[] = [
     items: [
       {
         id: 1,
-        code: "item_1",
-        img: "https://picsum.photos/600/400",
+        code: "reunion",
+        img: "/images/spain/2023/madrid1.jpg",
       },
       {
         id: 2,
-        code: "item_2",
-        img: "https://picsum.photos/400/600",
+        code: "gran_via",
+        img: "/images/spain/2023/madrid2.jpg",
       },
       {
         id: 3,
-        code: "item_3",
-        img: "https://picsum.photos/400/600",
+        code: "puerta_alcala",
+        img: "/images/spain/2023/madrid3.jpg",
+      },
+      {
+        id: 4,
+        code: "retiro",
+        img: "/images/spain/2023/madrid4.jpg",
       },
     ],
   },
@@ -30,13 +35,23 @@ export const dataEuroTrip2023: TabData[] = [
     items: [
       {
         id: 1,
-        code: "item_1",
-        img: "https://picsum.photos/400/600",
+        code: "mom_dream",
+        img: "/images/france/paris1.jpg",
       },
       {
         id: 2,
-        code: "item_2",
-        img: "https://picsum.photos/400/600",
+        code: "proposal",
+        img: "/images/france/paris2.jpg",
+      },
+      {
+        id: 3,
+        code: "louvre",
+        img: "/images/france/paris3.jpg",
+      },
+      {
+        id: 4,
+        code: "strasbourg",
+        img: "/images/france/strasbourg.jpg",
       },
     ],
   },
@@ -47,18 +62,23 @@ export const dataEuroTrip2023: TabData[] = [
     items: [
       {
         id: 1,
-        code: "item_1",
-        img: "https://picsum.photos/400/600",
+        code: "milan",
+        img: "/images/italy/2023/milan.jpg",
       },
       {
         id: 2,
-        code: "item_2",
-        img: "https://picsum.photos/400/600",
+        code: "florence",
+        img: "/images/italy/2023/florence.jpg",
       },
       {
         id: 3,
-        code: "item_3",
-        img: "https://picsum.photos/400/600",
+        code: "rome",
+        img: "/images/italy/2023/rome.jpg",
+      },
+      {
+        id: 3,
+        code: "vatican_city",
+        img: "/images/italy/2023/vatican_city.jpg",
       },
     ],
   },
@@ -72,13 +92,18 @@ export const dataEuroTrip2024: TabData[] = [
     items: [
       {
         id: 1,
-        code: "item_1",
-        img: "https://picsum.photos/400/600",
+        code: "trastevere",
+        img: "/images/italy/2024/italy1.jpg",
       },
       {
         id: 2,
-        code: "item_2",
-        img: "https://picsum.photos/400/600",
+        code: "colosseo",
+        img: "/images/italy/2024/italy2.jpg",
+      },
+      {
+        id: 3,
+        code: "fontana_trevi",
+        img: "/images/italy/2024/italy3.jpg",
       },
     ],
   },
@@ -89,18 +114,23 @@ export const dataEuroTrip2024: TabData[] = [
     items: [
       {
         id: 1,
-        code: "item_1",
-        img: "https://picsum.photos/400/600",
+        code: "arrival",
+        img: "/images/croatia/zagreb1.jpg",
       },
       {
         id: 2,
-        code: "item_2",
-        img: "https://picsum.photos/400/600",
+        code: "main_street",
+        img: "/images/croatia/zagreb2.jpg",
       },
       {
         id: 3,
-        code: "item_3",
-        img: "https://picsum.photos/400/600",
+        code: "st_mark_church",
+        img: "/images/croatia/zagreb3.jpg",
+      },
+      {
+        id: 4,
+        code: "christmas_eve_tradition",
+        img: "/images/croatia/zagreb4.jpg",
       },
     ],
   },
@@ -111,13 +141,18 @@ export const dataEuroTrip2024: TabData[] = [
     items: [
       {
         id: 1,
-        code: "item_1",
-        img: "https://picsum.photos/600/400",
+        code: "dom_romer",
+        img: "/images/germany/germany1.jpg",
       },
       {
         id: 2,
-        code: "item_2",
-        img: "https://picsum.photos/400/600",
+        code: "river_bridge",
+        img: "/images/germany/germany2.jpg",
+      },
+      {
+        id: 2,
+        code: "schnitzel_meal",
+        img: "/images/germany/germany3.jpg",
       },
     ],
   },
@@ -128,18 +163,38 @@ export const dataEuroTrip2024: TabData[] = [
     items: [
       {
         id: 1,
-        code: "item_1",
-        img: "https://picsum.photos/600/400",
+        code: "porto_crystal_palace_gardens",
+        img: "/images/portugal/porto1.jpg",
       },
       {
         id: 2,
-        code: "item_2",
-        img: "https://picsum.photos/400/600",
+        code: "porto_capela_das_almas",
+        img: "/images/portugal/porto2.jpg",
       },
       {
         id: 3,
-        code: "item_3",
-        img: "https://picsum.photos/400/600",
+        code: "porto_luis_bridge",
+        img: "/images/portugal/porto3.jpg",
+      },
+      {
+        id: 4,
+        code: "porto_venezuelan_bakery",
+        img: "/images/portugal/porto4.jpg",
+      },
+      {
+        id: 5,
+        code: "lisbon_tram_hills",
+        img: "/images/portugal/lisbon1.jpg",
+      },
+      {
+        id: 6,
+        code: "lisbon_viewpoint",
+        img: "/images/portugal/lisbon2.jpg",
+      },
+      {
+        id: 7,
+        code: "lisbon_classic_cars",
+        img: "/images/portugal/lisbon3.jpg",
       },
     ],
   },
@@ -150,13 +205,38 @@ export const dataEuroTrip2024: TabData[] = [
     items: [
       {
         id: 1,
-        code: "item_1",
-        img: "https://picsum.photos/600/400",
+        code: "new_year_madrid",
+        img: "/images/spain/2024/madrid1.jpg",
       },
       {
         id: 2,
-        code: "item_2",
-        img: "https://picsum.photos/400/600",
+        code: "arrival_barcelona",
+        img: "/images/spain/2024/barcelona2.jpg",
+      },
+      {
+        id: 3,
+        code: "sagrada_familia",
+        img: "/images/spain/2024/barcelona3.jpg",
+      },
+      {
+        id: 4,
+        code: "gran_via_gaudi",
+        img: "/images/spain/2024/barcelona4.jpg",
+      },
+      {
+        id: 5,
+        code: "barcelona_beach",
+        img: "/images/spain/2024/barcelona5.jpg",
+      },
+      {
+        id: 6,
+        code: "gothic_quarter",
+        img: "/images/spain/2024/barcelona6.jpg",
+      },
+      {
+        id: 7,
+        code: "graffiti_barcelona",
+        img: "/images/spain/2024/barcelona7.jpg",
       },
     ],
   },

@@ -37,7 +37,7 @@ export const ThailandSlide = () => {
                 key={tab.id}
                 className="w-full mr-[10%] bg-cover bg-center bg-no-repeat"
                 style={{
-                  backgroundImage: `url('${currentItem.img}')`,
+                  backgroundImage: `url('${currentItem?.img}')`,
                 }}
               />
             ))}

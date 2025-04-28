@@ -639,45 +639,61 @@
   "eurotrip_2023": {
     "spain": {
       "items": {
-        "item_1": {
-          "title": "Integer posuere, nibh nec dapibus.",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas hendrerit nunc elit. Sed tempor ornare magna fringilla ultricies. Ut condimentum enim sit amet molestie tempus. Donec posuere facilisis lacus vitae maximus. Nulla arcu nisl, porttitor sed imperdiet eu, commodo sit amet nunc. Etiam gravida feugiat quam, quis cursus dui tristique nec. In hac habitasse platea dictumst. Nulla elementum fringilla justo nec pretium. Phasellus eu venenatis urna.Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam efficitur elit massa, quis aliquet dui faucibus ac. Sed gravida tempor diam, quis consequat velit pulvinar ut. Phasellus facilisis magna sed faucibus luctus. Aliquam justo nulla, sagittis vitae enim vitae, lacinia aliquet dolor."
+        "reunion": {
+          "title": "El Reencuentro en Madrid",
+          "description": "Nuestro Eurotrip comenzó en Madrid, una ciudad llena de emoción, ya que era el primer destino del viaje familiar. Fue un reencuentro especial: mi mamá, mi papá, una de mis hermanas y mi sobrino. Llegar a Europa juntos era un sueño cumplido. Había mucha ilusión, sonrisas y abrazos en cada esquina. Madrid nos recibió con su energía vibrante y nos hizo sentir que la aventura apenas empezaba."
         },
-        "item_2": {
-          "title": "Aliquam efficitur elit massa.",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas hendrerit nunc elit. Sed tempor ornare magna fringilla ultricies.Ut condimentum enim sit amet molestie tempus. Donec posuere facilisis lacus vitae maximus. Nulla arcu nisl, porttitor sed imperdiet eu, commodo sit amet nunc. Etiam gravida feugiat quam, quis cursus dui tristique nec. In hac habitasse platea dictumst. Nulla elementum fringilla justo nec pretium. Phasellus eu venenatis urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam efficitur elit massa, quis aliquet dui faucibus ac. Sed gravida tempor diam, quis consequat velit pulvinar ut. Phasellus facilisis magna sed faucibus luctus. Aliquam justo nulla, sagittis vitae enim vitae, lacinia aliquet dolor."
+        "gran_via": {
+          "title": "Gran Vía, el corazón vibrante de Madrid",
+          "description": "Nos alojamos en plena Gran Vía, lo que nos permitió caminar y disfrutar de toda su vida urbana. Entre teatros, tiendas, cafés y las luces que iluminaban cada paso, entendimos por qué la llaman el 'Broadway madrileño'. Era diciembre, el ambiente navideño hacía todo aún más especial, y caminar por esas calles fue como estar dentro de una película."
         },
-        "item_3": {
-          "title": "Etiam gravida feugiat quam",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas hendrerit nunc elit. Sed tempor ornare magna fringilla ultricies. Ut condimentum enim sit amet molestie tempus. Donec posuere facilisis lacus vitae maximus. Nulla arcu nisl, porttitor sed imperdiet eu, commodo sit amet nunc. Etiam gravida feugiat quam, quis cursus dui tristique nec. In hac habitasse platea dictumst. Nulla elementum fringilla justo nec pretium. Phasellus eu venenatis urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam efficitur elit massa, quis aliquet dui faucibus ac. Sed gravida tempor diam, quis consequat velit pulvinar ut. Phasellus facilisis magna sed faucibus luctus. Aliquam justo nulla, sagittis vitae enim vitae, lacinia aliquet dolor."
+        "puerta_alcala": {
+          "title": "La majestuosa Puerta de Alcalá",
+          "description": "Visitamos la emblemática Puerta de Alcalá, uno de los grandes símbolos de Madrid. Sentir el contraste entre lo histórico y lo moderno nos hizo admirar aún más la ciudad. Verla decorada para las fiestas de fin de año, con las luces reflejándose en sus piedras antiguas, fue un momento que nos llenó de orgullo y asombro."
+        },
+        "retiro": {
+          "title": "Un paseo por El Retiro en otoño",
+          "description": "El Parque del Retiro nos ofreció un paisaje de cuento: miles de hojas doradas cubrían los caminos, el aire estaba fresco y el ambiente invitaba a la calma. Nos perdimos entre sus senderos, nos detuvimos junto al estanque a admirar los botes, y respiramos la tranquilidad en pleno centro de la ciudad. Un recuerdo perfecto de un diciembre inolvidable."
         }
       }
     },
     "france": {
       "items": {
-        "item_1": {
-          "title": "Fusce condimentum luctus dui vel maximus",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dui dui, condimentum ultrices libero in, pulvinar lobortis risus. Praesent rutrum velit at fermentum volutpat. Mauris varius, neque mattis commodo blandit, lorem nisl vestibulum magna, ut vestibulum est urna vel leo. Sed sed sem vel leo auctor fringilla. Duis porttitor, lorem sit amet finibus aliquet, libero lectus faucibus ante, in ultrices ipsum diam ac sem. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam blandit blandit tellus ut tempor. Aenean augue orci, gravida et dui facilisis, imperdiet rutrum dui.Sed ullamcorper dolor non nibh malesuada mattis. Cras placerat ante vitae urna condimentum, ut consequat mi tincidunt. Fusce condimentum luctus dui vel maximus. Maecenas aliquet nisi ut justo consectetur consequat. Pellentesque est mi, auctor id dictum in, dignissim vitae elit. Nulla et purus ut lorem aliquam varius. Mauris at sollicitudin leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur ac scelerisque lectus. Praesent suscipit tincidunt nibh, id congue urna vehicula eu. Donec porta dui sit amet luctus rhoncus."
+        "mom_dream": {
+          "title": "El sueño de mi mamá: París",
+          "description": "Desde hace muchos años, París había sido el destino soñado de mi mamá. Queríamos cumplirle ese deseo, así que viajamos en avión desde Madrid. Al llegar, aunque la ciudad no fue del todo como ella la imaginaba, la emoción de verla cumplir un sueño fue inigualable. París nos recibió con su elegancia y un aire frío de invierno que le daba aún más encanto."
         },
-        "item_2": {
-          "title": "Aliquam efficitur elit massa.",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas hendrerit nunc elit. Sed tempor ornare magna fringilla ultricies.Ut condimentum enim sit amet molestie tempus. Donec posuere facilisis lacus vitae maximus. Nulla arcu nisl, porttitor sed imperdiet eu, commodo sit amet nunc. Etiam gravida feugiat quam, quis cursus dui tristique nec. In hac habitasse platea dictumst. Nulla elementum fringilla justo nec pretium. Phasellus eu venenatis urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam efficitur elit massa, quis aliquet dui faucibus ac. Sed gravida tempor diam, quis consequat velit pulvinar ut. Phasellus facilisis magna sed faucibus luctus. Aliquam justo nulla, sagittis vitae enim vitae, lacinia aliquet dolor."
+        "proposal": {
+          "title": "Una propuesta inolvidable frente a la Torre Eiffel",
+          "description": "Decidí pedirle matrimonio a mi novia en París. Caminamos por la calle Universidad, como símbolo de cómo nos conocimos en nuestra universidad, y llegamos hasta la majestuosa Torre Eiffel. Ahí, me arrodillé, le conté el significado de la caminata, y le pedí que fuera mi esposa. Fue un momento perfecto, lleno de emoción y simbolismo, bajo el brillo de la torre iluminada."
+        },
+        "louvre": {
+          "title": "El inmenso Louvre: un viaje en el tiempo",
+          "description": "Visitamos el Museo del Louvre, una experiencia impresionante. Sus obras de arte, su historia y su magnitud son simplemente abrumadoras. Podrías pasar días recorriéndolo y siempre encontrar algo nuevo que admirar. Un solo día no fue suficiente, pero fue suficiente para dejar una marca imborrable en nuestra memoria."
+        },
+        "strasbourg": {
+          "title": "Estrasburgo: Un viaje navideño lleno de anécdotas",
+          "description": "Desde París viajamos a Estrasburgo, buscando la magia navideña. La ciudad estaba llena de luces, mercados y ese espíritu cálido que solo se siente en diciembre. Sin embargo, mi despedida fue apresurada: corrí contra el tiempo para alcanzar el tren, crucé la feria navideña, fui detenido por seguridad, y monté en el tranvía sin boleto. La adrenalina, la confusión y la emoción de esa noche quedaron grabadas para siempre como una de las aventuras más locas del viaje."
         }
       }
     },
     "italy": {
       "items": {
-        "item_1": {
-          "title": "Maecenas in purus eu purus finibus",
-          "description": "Donec dapibus, nibh eu lacinia tempus, elit odio vulputate augue, a lobortis purus ex eget tortor. Integer elementum sollicitudin malesuada. Aliquam erat volutpat. Suspendisse id finibus nulla. Mauris eget metus sit amet ligula volutpat aliquet vitae ac neque. Donec commodo maximus tortor vel scelerisque. Pellentesque finibus nulla nisi, finibus hendrerit massa tincidunt nec. Phasellus et arcu sit amet sem molestie vehicula. Maecenas convallis tellus ipsum, facilisis convallis ex mollis vel. Donec molestie ligula nec mi hendrerit, sit amet luctus tortor tincidunt. Maecenas in purus eu purus finibus tincidunt. Nunc tempor nibh non elit tempor iaculis."
+        "milan": {
+          "title": "Un sueño en Milán: fútbol y tradición",
+          "description": "Llegar a Milán fue el inicio de una pequeña aventura en solitario. Visité el impresionante Duomo y la elegante Galleria Vittorio Emanuele II, donde el frío invernal se mezclaba con la emoción de estar en un lugar tan icónico. Pero el momento más inolvidable fue en San Siro, viviendo un partido del AC Milan. Escuchar todo el estadio cantar 'Sarà perché ti amo' mientras subía las escaleras fue uno de esos momentos mágicos que marcan una vida. El sueño de ver un partido en San Siro, en diciembre, se hizo realidad de una manera perfecta."
         },
-        "item_2": {
-          "title": "Mauris eget metus sit amet ligula",
-          "description": "Donec dapibus, nibh eu lacinia tempus, elit odio vulputate augue, a lobortis purus ex eget tortor. Integer elementum sollicitudin malesuada. Aliquam erat volutpat. Suspendisse id finibus nulla. Mauris eget metus sit amet ligula volutpat aliquet vitae ac neque. Donec commodo maximus tortor vel scelerisque. Pellentesque finibus nulla nisi, finibus hendrerit massa tincidunt nec. Phasellus et arcu sit amet sem molestie vehicula. Maecenas convallis tellus ipsum, facilisis convallis ex mollis vel. Donec molestie ligula nec mi hendrerit, sit amet luctus tortor tincidunt. Maecenas in purus eu purus finibus tincidunt. Nunc tempor nibh non elit tempor iaculis."
+        "florence": {
+          "title": "Florencia: una obra de arte viva",
+          "description": "Florencia superó todas mis expectativas. Desde la imponente Catedral de Santa María del Fiore hasta los callejones que llevan al Ponte Vecchio, cada rincón destila historia y belleza. Me enamoré de sus dulces típicos y de un panini que probé cerca de la catedral, el mejor que he comido. La ciudad entera respira arte, y aunque solo estuvimos un día y medio, fue suficiente para dejar una huella imborrable en mi memoria. Definitivamente, Florencia se ganó un lugar entre mis ciudades favoritas de Europa."
         },
-        "item_3": {
-          "title": "Facilisis convallis ex mollis vel",
-          "description": "Donec dapibus, nibh eu lacinia tempus, elit odio vulputate augue, a lobortis purus ex eget tortor. Integer elementum sollicitudin malesuada. Aliquam erat volutpat. Suspendisse id finibus nulla. Mauris eget metus sit amet ligula volutpat aliquet vitae ac neque. Donec commodo maximus tortor vel scelerisque. Pellentesque finibus nulla nisi, finibus hendrerit massa tincidunt nec. Phasellus et arcu sit amet sem molestie vehicula. Maecenas convallis tellus ipsum, facilisis convallis ex mollis vel. Donec molestie ligula nec mi hendrerit, sit amet luctus tortor tincidunt. Maecenas in purus eu purus finibus tincidunt. Nunc tempor nibh non elit tempor iaculis."
+        "rome": {
+          "title": "Roma: la grandeza eterna",
+          "description": "Roma me deslumbró como ninguna otra ciudad. Cada esquina guarda siglos de historia, y recorrer sus calles es como caminar en un museo al aire libre. El Coliseo me dejó sin aliento, el Foro Romano me hizo imaginar la vida antigua, y la Fontana di Trevi nos regaló uno de los momentos más mágicos del viaje. La comida, la gente, la atmósfera... todo en Roma tiene un sabor único. Hasta el simple hecho de encontrar venezolanas en una heladería cercana al Vaticano sumó a la magia del viaje. Roma se convirtió en mi ciudad europea favorita, sin duda alguna."
+        },
+        "vatican": {
+          "title": "El Vaticano: arte y espiritualidad",
+          "description": "Visitar el Vaticano fue una experiencia profunda e impresionante. Desde los majestuosos Museos Vaticanos hasta la monumental Plaza de San Pedro, todo transmite una energía especial. Ver de cerca la Capilla Sixtina, con sus frescos tan icónicos, es algo que simplemente no se olvida. Fue el cierre perfecto para un viaje lleno de historia, cultura y emociones intensas, en el corazón mismo de la cristiandad."
         }
       }
     }
@@ -685,65 +701,117 @@
   "eurotrip_2024": {
     "spain": {
       "items": {
-        "item_1": {
-          "title": "Integer posuere, nibh nec dapibus.",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas hendrerit nunc elit. Sed tempor ornare magna fringilla ultricies. Ut condimentum enim sit amet molestie tempus. Donec posuere facilisis lacus vitae maximus. Nulla arcu nisl, porttitor sed imperdiet eu, commodo sit amet nunc. Etiam gravida feugiat quam, quis cursus dui tristique nec. In hac habitasse platea dictumst. Nulla elementum fringilla justo nec pretium. Phasellus eu venenatis urna.Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam efficitur elit massa, quis aliquet dui faucibus ac. Sed gravida tempor diam, quis consequat velit pulvinar ut. Phasellus facilisis magna sed faucibus luctus. Aliquam justo nulla, sagittis vitae enim vitae, lacinia aliquet dolor."
+        "new_year_madrid": {
+          "title": "Un nuevo año en la ciudad favorita de mi esposa",
+          "description": "Madrid se ha convertido en una tradición para nosotros. Después de visitarla en 2022 y 2023, mi esposa no dejó lugar a dudas: en 2024 también debíamos regresar. Y así fue como, entre luces, celebraciones y alegría, recibimos el Año Nuevo en pleno corazón de la capital española. Nos alojamos cerca de la Gran Vía, la arteria vibrante de la ciudad, donde pasear es siempre un placer. Aprovechamos también para disfrutar de un pequeño lujo: saborear una deliciosa cachapa y unas empanadas venezolanas en uno de los muchos locales de comida latina que florecen en Madrid. Poder combinar nuestras raíces con la energía de esta ciudad hizo que la experiencia fuera aún más especial."
         },
-        "item_2": {
-          "title": "Aliquam efficitur elit massa.",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas hendrerit nunc elit. Sed tempor ornare magna fringilla ultricies.Ut condimentum enim sit amet molestie tempus. Donec posuere facilisis lacus vitae maximus. Nulla arcu nisl, porttitor sed imperdiet eu, commodo sit amet nunc. Etiam gravida feugiat quam, quis cursus dui tristique nec. In hac habitasse platea dictumst. Nulla elementum fringilla justo nec pretium. Phasellus eu venenatis urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam efficitur elit massa, quis aliquet dui faucibus ac. Sed gravida tempor diam, quis consequat velit pulvinar ut. Phasellus facilisis magna sed faucibus luctus. Aliquam justo nulla, sagittis vitae enim vitae, lacinia aliquet dolor."
+        "arrival_barcelona": {
+          "title": "Barcelona: entre la sorpresa y el encanto",
+          "description": "Llegar a Barcelona fue una grata sorpresa. Aunque al principio tenía ciertas reservas —por las historias que uno escucha sobre robos—, mi experiencia fue completamente positiva. Nos alojamos en plena Gran Vía de Barcelona, con una vista preciosa y un ambiente acogedor. Desde el primer momento sentí que la ciudad me abrazaba: calles amplias, arquitectura viva, y una energía artística que brotaba en cada rincón. Barcelona me cautivó más de lo que esperaba."
+        },
+        "sagrada_familia": {
+          "title": "La majestuosidad de la Sagrada Familia",
+          "description": "Visitar la Sagrada Familia fue uno de los momentos más impresionantes del viaje. La magnitud del proyecto, su complejidad y su belleza son difíciles de describir. Estar frente a esa obra maestra de Gaudí, con sus torres apuntando al cielo y sus detalles casi infinitos, fue simplemente sobrecogedor. Más que una iglesia, la Sagrada Familia se siente como un poema escrito en piedra."
+        },
+        "gran_via_gaudi": {
+          "title": "Arte en cada esquina: Casa Milà y Casa Batlló",
+          "description": "Pasear por la Gran Vía de Barcelona también significó encontrarnos con dos joyas arquitectónicas: la Casa Milà (La Pedrera) y la Casa Batlló. Cada edificio parece surgido de un sueño, con formas ondulantes, colores vibrantes y detalles imposibles. Admirarlos desde la calle, mientras la vida cotidiana fluye a su alrededor, te hace sentir como parte de una obra de arte viva."
+        },
+        "barcelona_beach": {
+          "title": "Sol y mar en la Barceloneta",
+          "description": "Entre tantas caminatas y descubrimientos, llegar a la playa fue un respiro refrescante. La Rambla nos condujo hasta la Barceloneta, donde el sonido de las olas y la brisa marina nos dieron la bienvenida. Paseamos por la arena, disfrutamos del paisaje, y respiramos el aire salado que tanto echábamos de menos."
+        },
+        "gothic_quarter": {
+          "title": "Un momento especial en el Barrio Gótico",
+          "description": "Pasear por el Barrio Gótico de Barcelona fue como retroceder en el tiempo. Calles estrechas de piedra, edificios antiguos llenos de historia, y pequeños detalles que atrapaban la mirada en cada esquina. Mientras caminábamos, una chica de Corea del Sur nos detuvo amablemente para ofrecernos tomarnos una foto. Nos dijo que nos veíamos muy románticos y quiso capturar ese momento para nosotros. Fue un gesto inesperado y muy bonito que hizo que la visita fuera aún más especial. El Barrio Gótico tiene esa magia: no solo te muestra su belleza antigua, sino que también crea momentos que se quedan en la memoria para siempre."
+        },
+        "graffiti_barcelona": {
+          "title": "Barcelona ilustrada: arte urbano en cada rincón",
+          "description": "Uno de los detalles que más me encantaron de Barcelona fue la cantidad de arte urbano que decora la ciudad. Las persianas metálicas de los comercios —las clásicas 'santa marías'— están cubiertas con grafitis llenos de color, creatividad y mensajes. Decidí recopilar varias fotos de estas obras callejeras, creando un collage que captura el alma artística de la ciudad. En Barcelona, cada callejón puede ser una galería de arte al aire libre."
         }
       }
     },
     "germany": {
       "items": {
-        "item_1": {
-          "title": "Fusce condimentum luctus dui vel maximus",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dui dui, condimentum ultrices libero in, pulvinar lobortis risus. Praesent rutrum velit at fermentum volutpat. Mauris varius, neque mattis commodo blandit, lorem nisl vestibulum magna, ut vestibulum est urna vel leo. Sed sed sem vel leo auctor fringilla. Duis porttitor, lorem sit amet finibus aliquet, libero lectus faucibus ante, in ultrices ipsum diam ac sem. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam blandit blandit tellus ut tempor. Aenean augue orci, gravida et dui facilisis, imperdiet rutrum dui.Sed ullamcorper dolor non nibh malesuada mattis. Cras placerat ante vitae urna condimentum, ut consequat mi tincidunt. Fusce condimentum luctus dui vel maximus. Maecenas aliquet nisi ut justo consectetur consequat. Pellentesque est mi, auctor id dictum in, dignissim vitae elit. Nulla et purus ut lorem aliquam varius. Mauris at sollicitudin leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur ac scelerisque lectus. Praesent suscipit tincidunt nibh, id congue urna vehicula eu. Donec porta dui sit amet luctus rhoncus."
+        "dom_romer": {
+          "title": "Un Frankfurt silencioso y el encanto de Dom-Römer",
+          "description": "Llegamos a Frankfurt muy temprano, justo el día de Navidad. El aeropuerto aún despertaba y las calles lucían casi desiertas, como si la ciudad entera estuviera tomándose un respiro. Caminamos por avenidas silenciosas, sintiendo el frío matutino en el rostro, hasta que llegamos al encantador barrio de Dom-Römer. La zona, con sus casas tradicionales reconstruidas al estilo medieval, parecía sacada de un cuento de hadas. Colores suaves, techos empinados y callejuelas empedradas nos transportaron a otra época. Aunque era todo tan tranquilo y solitario, había algo reconfortante en recorrer aquellas calles, como si la ciudad nos estuviera regalando un momento de intimidad para admirarla."
         },
-        "item_2": {
-          "title": "Aliquam efficitur elit massa.",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas hendrerit nunc elit. Sed tempor ornare magna fringilla ultricies.Ut condimentum enim sit amet molestie tempus. Donec posuere facilisis lacus vitae maximus. Nulla arcu nisl, porttitor sed imperdiet eu, commodo sit amet nunc. Etiam gravida feugiat quam, quis cursus dui tristique nec. In hac habitasse platea dictumst. Nulla elementum fringilla justo nec pretium. Phasellus eu venenatis urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam efficitur elit massa, quis aliquet dui faucibus ac. Sed gravida tempor diam, quis consequat velit pulvinar ut. Phasellus facilisis magna sed faucibus luctus. Aliquam justo nulla, sagittis vitae enim vitae, lacinia aliquet dolor."
+        "river_bridge": {
+          "title": "Cruzando el río Main en Navidad",
+          "description": "Después de explorar Dom-Römer, seguimos caminando hasta encontrar un puente antiguo que cruza el río Main. Desde allí, la vista de Frankfurt era simplemente mágica: los reflejos de los pocos rayos de sol en el agua, los edificios históricos mezclados con rascacielos modernos, y la quietud del día festivo creaban una escena serena y poderosa. Cada paso sobre el puente nos hacía sentir parte de una postal navideña. No había multitudes, no había ruido, sólo la inmensidad tranquila de una ciudad tomando aliento en el corazón de Europa."
+        },
+        "schnitzel_meal": {
+          "title": "Un festín inesperado: Schnitzel navideño",
+          "description": "Después de horas caminando bajo el frío, finalmente encontramos un pequeño restaurante abierto cerca del río. Allí probamos uno de los platos más memorables del viaje: un schnitzel crujiente acompañado de papas doradas y una cremosa salsa de champiñones. La calidez del lugar, el sabor reconfortante de la comida, y el simple placer de compartir esa comida especial en medio de un día tan peculiar hicieron de aquel almuerzo algo inolvidable. Fue un recordatorio perfecto de que los mejores momentos a veces nacen de lo más sencillo: buena comida, buena compañía y una ciudad que, en su silencio, nos abrazaba."
         }
       }
     },
     "italy": {
       "items": {
-        "item_1": {
-          "title": "Maecenas in purus eu purus finibus",
-          "description": "Donec dapibus, nibh eu lacinia tempus, elit odio vulputate augue, a lobortis purus ex eget tortor. Integer elementum sollicitudin malesuada. Aliquam erat volutpat. Suspendisse id finibus nulla. Mauris eget metus sit amet ligula volutpat aliquet vitae ac neque. Donec commodo maximus tortor vel scelerisque. Pellentesque finibus nulla nisi, finibus hendrerit massa tincidunt nec. Phasellus et arcu sit amet sem molestie vehicula. Maecenas convallis tellus ipsum, facilisis convallis ex mollis vel. Donec molestie ligula nec mi hendrerit, sit amet luctus tortor tincidunt. Maecenas in purus eu purus finibus tincidunt. Nunc tempor nibh non elit tempor iaculis."
+        "trastevere": {
+          "title": "Llegada a Roma y explorando Trastevere",
+          "description": "Después de un vuelo nocturno desde Abu Dhabi, aterrizamos en Roma y comenzamos nuestra aventura directamente en el vibrante barrio de Trastevere. Sus calles estrechas, llenas de vida, nos dieron la bienvenida con ese aroma a historia y a tradición romana. Aunque era nuestra segunda vez en la ciudad, todo se sentía tan fresco como la primera vez. Disfrutamos de una deliciosa pizza en Tonnarello Scala, acompañada de antipasti italianos tradicionales, en medio de un ambiente animado de terrazas, músicos callejeros y sonrisas cálidas. Trastevere nos regaló esa mezcla única de autenticidad y magia que sólo Roma puede ofrecer."
         },
-        "item_2": {
-          "title": "Mauris eget metus sit amet ligula",
-          "description": "Donec dapibus, nibh eu lacinia tempus, elit odio vulputate augue, a lobortis purus ex eget tortor. Integer elementum sollicitudin malesuada. Aliquam erat volutpat. Suspendisse id finibus nulla. Mauris eget metus sit amet ligula volutpat aliquet vitae ac neque. Donec commodo maximus tortor vel scelerisque. Pellentesque finibus nulla nisi, finibus hendrerit massa tincidunt nec. Phasellus et arcu sit amet sem molestie vehicula. Maecenas convallis tellus ipsum, facilisis convallis ex mollis vel. Donec molestie ligula nec mi hendrerit, sit amet luctus tortor tincidunt. Maecenas in purus eu purus finibus tincidunt. Nunc tempor nibh non elit tempor iaculis."
+        "colosseo": {
+          "title": "Del Puente Palatino al Coliseo bajo la lluvia",
+          "description": "Continuamos caminando cruzando el Puente Palatino, con vistas impresionantes del río Tíber y los edificios antiguos de Roma. Mientras nos acercábamos al imponente Coliseo, comenzó una llovizna suave que le dio a la ciudad un brillo dorado y melancólico. Aunque algunas áreas para tomar fotos estaban bloqueadas, buscamos ángulos creativos y logramos capturar momentos mágicos. Estar frente al Coliseo bajo la lluvia, casi solos, fue una experiencia que mezcló historia, romanticismo y aventura de una forma inolvidable."
+        },
+        "fontana_trevi": {
+          "title": "Fontana di Trevi y las escaleras de Plaza España",
+          "description": "Desde el Coliseo, caminamos hasta llegar a la mítica Fontana di Trevi. Rodeada de turistas soñadores, lanzamos una moneda deseando regresar algún día. Luego nos dirigimos a las majestuosas escaleras de Plaza España, donde la vista de la ciudad iluminada al atardecer nos dejó sin palabras. Sentados en uno de los escalones, disfrutamos de uno de esos momentos de paz que sólo ocurren en ciudades con alma. Terminamos el día con un nostálgico paseo en autobús de regreso a nuestro hotel, felices y agradecidos por cada instante vivido."
         }
       }
     },
     "croatia": {
       "items": {
-        "item_1": {
-          "title": "Maecenas in purus eu purus finibus",
-          "description": "Donec dapibus, nibh eu lacinia tempus, elit odio vulputate augue, a lobortis purus ex eget tortor. Integer elementum sollicitudin malesuada. Aliquam erat volutpat. Suspendisse id finibus nulla. Mauris eget metus sit amet ligula volutpat aliquet vitae ac neque. Donec commodo maximus tortor vel scelerisque. Pellentesque finibus nulla nisi, finibus hendrerit massa tincidunt nec. Phasellus et arcu sit amet sem molestie vehicula. Maecenas convallis tellus ipsum, facilisis convallis ex mollis vel. Donec molestie ligula nec mi hendrerit, sit amet luctus tortor tincidunt. Maecenas in purus eu purus finibus tincidunt. Nunc tempor nibh non elit tempor iaculis."
+        "arrival": {
+          "title": "Llegada congelada y primeras impresiones de Zagreb",
+          "description": "Llegamos a Zagreb la mañana del 23 de diciembre, recibidos por un frío tan intenso que parecía que el aire mismo cortaba la piel. Perdimos el primer autobús y esperamos temblando hasta que llegó el siguiente. El aeropuerto parecía sacado de otra época: pequeño, silencioso, casi mágico. Al subir al tranvía hacia el centro, vimos cómo la ciudad despertaba lentamente, con sus callejuelas adornadas de luces navideñas y su gente abrigada caminando apresurada. La primera impresión fue una mezcla de desconcierto y fascinación: Zagreb nos prometía sorpresas."
         },
-        "item_2": {
-          "title": "Mauris eget metus sit amet ligula",
-          "description": "Donec dapibus, nibh eu lacinia tempus, elit odio vulputate augue, a lobortis purus ex eget tortor. Integer elementum sollicitudin malesuada. Aliquam erat volutpat. Suspendisse id finibus nulla. Mauris eget metus sit amet ligula volutpat aliquet vitae ac neque. Donec commodo maximus tortor vel scelerisque. Pellentesque finibus nulla nisi, finibus hendrerit massa tincidunt nec. Phasellus et arcu sit amet sem molestie vehicula. Maecenas convallis tellus ipsum, facilisis convallis ex mollis vel. Donec molestie ligula nec mi hendrerit, sit amet luctus tortor tincidunt. Maecenas in purus eu purus finibus tincidunt. Nunc tempor nibh non elit tempor iaculis."
+        "main_street": {
+          "title": "Descubriendo la calle principal y su atmósfera acogedora",
+          "description": "En Zagreb, todo gira en torno a una encantadora calle principal atravesada por tranvías y flanqueada por tiendas y cafeterías acogedoras. Nuestro primer hot dog croata fue toda una revelación: sencillo pero lleno de sabor. Pasear por las calles, ver escaparates iluminados y respirar el aire festivo de la Navidad nos hizo sentir como en una película invernal. Cada esquina parecía invitarte a detenerte, mirar y sonreír."
+        },
+        "st_mark_church": {
+          "title": "La Iglesia de San Marcos y encuentros inesperados",
+          "description": "Subimos por las callejuelas empinadas hasta llegar a la Iglesia de San Marcos, con su característico tejado de mosaicos de colores. Mientras admirábamos la belleza tranquila del lugar, una señora se nos acercó pidiendo ayuda en un confuso cruce de idiomas. Entre gestos y sonrisas, aprendimos que viajar no siempre es sobre monumentos, sino sobre conexiones humanas. Más tarde, exploramos túneles subterráneos usados durante la guerra, un recordatorio silencioso de la resiliencia de la ciudad."
+        },
+        "christmas_eve_tradition": {
+          "title": "Una mágica Nochebuena en Zagreb",
+          "description": "La víspera de Navidad nos regaló una escena imposible de olvidar: toda la ciudad parecía reunirse en una procesión silenciosa, llevando velas encendidas que iluminaban la noche como un río de luz. Caminamos entre miles de personas que compartían un mismo espíritu de paz y comunidad. Fue un momento tan emotivo y hermoso que Zagreb se ganó para siempre un lugar en nuestros corazones."
         }
       }
     },
     "portugal": {
       "items": {
-        "item_1": {
-          "title": "Maecenas in purus eu purus finibus",
-          "description": "Donec dapibus, nibh eu lacinia tempus, elit odio vulputate augue, a lobortis purus ex eget tortor. Integer elementum sollicitudin malesuada. Aliquam erat volutpat. Suspendisse id finibus nulla. Mauris eget metus sit amet ligula volutpat aliquet vitae ac neque. Donec commodo maximus tortor vel scelerisque. Pellentesque finibus nulla nisi, finibus hendrerit massa tincidunt nec. Phasellus et arcu sit amet sem molestie vehicula. Maecenas convallis tellus ipsum, facilisis convallis ex mollis vel. Donec molestie ligula nec mi hendrerit, sit amet luctus tortor tincidunt. Maecenas in purus eu purus finibus tincidunt. Nunc tempor nibh non elit tempor iaculis."
+        "porto_crystal_palace_gardens": {
+          "title": "The Hidden Gem of Porto: Crystal Palace Gardens",
+          "description": "After days of intense travel, finding a place like Crystal Palace Gardens in Porto felt like a deep breath of fresh air. It wasn’t an easy climb—steep streets tested our legs—but once there, it was completely worth it. The park was open, peaceful, and offered breathtaking views of the city and the Douro River. What touched me most was the relaxed atmosphere: people lying on the grass, sunbathing without shirts as if it were summer, and birds freely wandering around. Although it was December 26th, the mild weather felt almost like spring. Porto gifted us a peaceful, unforgettable moment here."
         },
-        "item_2": {
-          "title": "Mauris eget metus sit amet ligula",
-          "description": "Donec dapibus, nibh eu lacinia tempus, elit odio vulputate augue, a lobortis purus ex eget tortor. Integer elementum sollicitudin malesuada. Aliquam erat volutpat. Suspendisse id finibus nulla. Mauris eget metus sit amet ligula volutpat aliquet vitae ac neque. Donec commodo maximus tortor vel scelerisque. Pellentesque finibus nulla nisi, finibus hendrerit massa tincidunt nec. Phasellus et arcu sit amet sem molestie vehicula. Maecenas convallis tellus ipsum, facilisis convallis ex mollis vel. Donec molestie ligula nec mi hendrerit, sit amet luctus tortor tincidunt. Maecenas in purus eu purus finibus tincidunt. Nunc tempor nibh non elit tempor iaculis."
+        "porto_capela_das_almas": {
+          "title": "Between Blue Tiles: Capela das Almas",
+          "description": "One of the most photographed spots in Porto—and for good reason. Capela das Almas is covered in beautiful blue-and-white tiles that tell old stories through art. Getting the perfect picture wasn't easy, though: the sidewalk was narrow, cars passed constantly, and tourists crowded around. It felt like a strategic mission, waiting patiently for just the right moment. But when you finally capture your shot, you realize it was worth it: the chapel perfectly captures Porto's artistic and chaotic spirit in one frame."
         },
-        "item_3": {
-          "title": "Mauris eget metus sit amet ligula",
-          "description": "Donec dapibus, nibh eu lacinia tempus, elit odio vulputate augue, a lobortis purus ex eget tortor. Integer elementum sollicitudin malesuada. Aliquam erat volutpat. Suspendisse id finibus nulla. Mauris eget metus sit amet ligula volutpat aliquet vitae ac neque. Donec commodo maximus tortor vel scelerisque. Pellentesque finibus nulla nisi, finibus hendrerit massa tincidunt nec. Phasellus et arcu sit amet sem molestie vehicula. Maecenas convallis tellus ipsum, facilisis convallis ex mollis vel. Donec molestie ligula nec mi hendrerit, sit amet luctus tortor tincidunt. Maecenas in purus eu purus finibus tincidunt. Nunc tempor nibh non elit tempor iaculis."
+        "porto_luis_bridge": {
+          "title": "Luís I Bridge: Endless Steps to Unforgettable Views",
+          "description": "Walking toward the iconic Luís I Bridge in Porto is an adventure on its own. The city's steep hills make reaching the bridge a real effort, but every step is rewarded. From the top, the view is breathtaking: the Douro River slicing the city in two, colorful houses climbing the hills, and the tram rumbling by as you walk alongside amazed travelers. Porto reveals all its raw beauty here—a city of vibrant chaos, heartfelt charm, and unforgettable sights."
+        },
+        "porto_venezuelan_bakery": {
+          "title": "A Piece of Venezuela in Porto: Confeitaria do Bolhão",
+          "description": "After all the walking and exploring, we stumbled upon one of the most emotional moments of our trip: a Venezuelan bakery hidden in Porto. Confeitaria do Bolhão offered us empanadas, cachitos, pan de jamón, mini lunches, bombas (also called bolas de Berlín), and even chicha, Malta, and Frescolita. Every bite felt like a warm hug from home, bringing back memories of childhood and family celebrations. The owner, born in Venezuela but raised in Portugal, infused each recipe with love and nostalgia. It was the perfect, unexpected ending to our Porto adventure—filled with gratitude, memories, and the delicious taste of home."
+        },
+        "lisbon_tram_hills": {
+          "title": "Entre tranvías y colinas infinitas",
+          "description": "Lisboa es una ciudad que se vive subiendo y bajando colinas. Desde el primer momento que salimos a caminar, sentimos cómo el esfuerzo valía la pena: los tranvías históricos serpenteando entre callejuelas, los colores cálidos de las fachadas, el amarillo vibrante de los vagones mezclándose con las plantas trepadoras. No fue fácil —las subidas eran empinadas, los pies dolían y tomar una buena foto con el tranvía de fondo resultó casi imposible (más aún cuando uno no es fotogénico como yo). Sin embargo, cada paso tenía su recompensa: pequeñas plazas escondidas, vistas hacia la ciudad, vida local a cada esquina. Algo que recuerdo con especial cariño era volver al hotel, cansados pero felices, y encontrar en el lobby siempre una bandeja con pasteles de nata esperándonos. No había mejor manera de terminar esas largas caminatas que saboreando ese dulce perfecto de Lisboa."
+        },
+        "lisbon_viewpoint": {
+          "title": "Lisboa desde lo alto: techos de terracota y vistas al mar",
+          "description": "Una de las experiencias más memorables fue llegar a uno de los miradores más famosos de Lisboa. Después de subir interminables callejuelas, alcanzamos un punto donde podíamos ver la ciudad desplegarse como una pintura: tejados de terracota que parecían olas naranjas, y al fondo, el río Tajo mezclándose con el horizonte. Aunque no fue sencillo encontrar un buen ángulo para las fotos —entre la multitud y mi poca habilidad para posar— la sensación de estar allí, respirando el aire fresco y contemplando esa postal perfecta, hizo que todo valiera la pena. Lisboa desde arriba tiene una magia silenciosa que te envuelve."
+        },
+        "lisbon_classic_cars": {
+          "title": "Carritos clásicos: un paseo al pasado",
+          "description": "Entre los tranvías y las calles empedradas, algo que me encantó de Lisboa fueron los pequeños carritos clásicos que recorrían la ciudad. No eran coches americanos antiguos, sino carruajes motorizados que parecían sacados de principios del siglo XX. Brillaban bajo el sol, cada uno con su propio color y diseño retro, invitando a explorar Lisboa de una manera diferente. Verlos cruzar junto a los tranvías, entre plazas históricas y mercados, agregaba un aire nostálgico y romántico al viaje. Era como si la ciudad misma se empeñara en recordarte que cada rincón, cada paseo, estaba lleno de historia viva."
         }
       }
     }

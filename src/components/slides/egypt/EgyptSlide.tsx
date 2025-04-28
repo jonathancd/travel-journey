@@ -17,7 +17,7 @@ export const EgyptSlide = () => {
             <h2 className="text-6xl">
               {t(
                 `egypt.${currentTab?.code.toLocaleLowerCase()}.items.${
-                  currentItem.code
+                  currentItem?.code
                 }.title`
               )}
             </h2>
@@ -25,7 +25,7 @@ export const EgyptSlide = () => {
               <strong>
                 {t(
                   `egypt.${currentTab?.code.toLocaleLowerCase()}.items.${
-                    currentItem.code
+                    currentItem?.code
                   }.description_first`
                 )}
               </strong>
@@ -37,7 +37,7 @@ export const EgyptSlide = () => {
                 key={tab.id}
                 className="w-full bg-cover bg-center bg-no-repeat"
                 style={{
-                  backgroundImage: `url('${currentItem.img}')`,
+                  backgroundImage: `url('${currentItem?.img}')`,
                 }}
               />
             ))}

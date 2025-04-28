@@ -21,7 +21,7 @@ export const MaldivesSlide = () => {
                 key={tab.id}
                 className="w-full bg-cover bg-center bg-no-repeat"
                 style={{
-                  backgroundImage: `url('${currentItem.img}')`,
+                  backgroundImage: `url('${currentItem?.img}')`,
                 }}
               />
             ))}
@@ -33,7 +33,7 @@ export const MaldivesSlide = () => {
             <h2 className="text-6xl">
               {t(
                 `${currentTab?.code.toLocaleLowerCase()}.items.${
-                  currentItem.code
+                  currentItem?.code
                 }.title`
               )}
             </h2>
@@ -41,7 +41,7 @@ export const MaldivesSlide = () => {
               <strong>
                 {t(
                   `${currentTab?.code.toLocaleLowerCase()}.items.${
-                    currentItem.code
+                    currentItem?.code
                   }.description`
                 )}
               </strong>
