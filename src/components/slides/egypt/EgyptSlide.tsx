@@ -12,7 +12,7 @@ export const EgyptSlide = () => {
         <div className="flex flex-row h-full w-full">
           <div className="h-full w-[33%] flex flex-col justify-start items-start pr-5">
             <p>
-              {currentTab?.name} {currentItem.id}/{currentTab?.items.length}
+              {currentTab?.name} {currentItem?.id}/{currentTab?.items.length}
             </p>
             <h2 className="text-6xl">
               {t(
@@ -47,7 +47,7 @@ export const EgyptSlide = () => {
               <strong>
                 {t(
                   `egypt.${currentTab?.code.toLocaleLowerCase()}.items.${
-                    currentItem.code
+                    currentItem?.code
                   }.description_second`
                 )}
               </strong>

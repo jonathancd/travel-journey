@@ -34,8 +34,9 @@ export const MainLayout = () => {
         <Outlet />
       </div>
       <footer className="fixed bottom-6 w-full px-16">
-        <div>
+        <div className="flex gap-4">
           <Link to="/">Instagram</Link>
+          <Link to="/">LinkedIn</Link>
         </div>
       </footer>
     </div>

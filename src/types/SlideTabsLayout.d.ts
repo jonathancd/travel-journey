@@ -1,9 +1,4 @@
-// export interface TabItem<T = any> {
-//   id: string | number;
-//   name: string;
-//   code: string;
-//   items: T[];
-// }
+import React from "react";
 
 interface Item {
   id: number;
@@ -22,6 +17,7 @@ export interface SlideTabsLayoutProps {
   pageTitle: string;
   tabs: TabItem[];
   showTabs?: boolean;
+  paginationOnLeft?: boolean;
   children: (args: {
     selectedItemIndex: number;
     setSelectedItemIndex: (index: number) => void;

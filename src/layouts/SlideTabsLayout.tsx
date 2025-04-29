@@ -1,27 +1,8 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { SlideLayout } from "./SlideLayout";
 import { SlidePagination } from "../components/utils/SlidePagination";
 import { Tab } from "@headlessui/react";
-
-interface TabItem<T = any> {
-  id: string | number;
-  name: string;
-  code: string;
-  items: T[];
-}
-
-interface SlideTabsLayoutProps<T = any> {
-  pageTitle: string;
-  tabs: TabItem<T>[];
-  showTabs?: boolean;
-  paginationOnLeft?: boolean;
-  children: (args: {
-    selectedItemIndex: number;
-    setSelectedItemIndex: (index: number) => void;
-    currentItem: any;
-    currentTab: TabItem | null;
-  }) => React.ReactNode;
-}
+import { SlideTabsLayoutProps } from "../types/SlideTabsLayout";
 
 export const SlideTabsLayout = ({
   pageTitle,
@@ -35,7 +16,10 @@ export const SlideTabsLayout = ({
 
   const currentTab =
     selectedTabIndex !== undefined ? tabs[selectedTabIndex] : null;
-  const currentItem = currentTab?.items?.[selectedItemIndex];
+  const currentItem =
+    selectedItemIndex !== undefined && currentTab?.items
+      ? currentTab.items[selectedItemIndex] ?? null
+      : null;
 
   useEffect(() => {
     setSelectedItemIndex(0);
@@ -68,7 +52,6 @@ export const SlideTabsLayout = ({
             ))}
           </Tab.List>
         )}
-        {/* 1rem + 44px */}
         <div
           className={`relative w-full flex pt-[1rem] h-[calc(80vh-40px)] max-w-[calc(100vw-20%)] ${
             !showTabs ? "mt-[44px]" : ""
