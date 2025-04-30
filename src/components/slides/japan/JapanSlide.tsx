@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { SlideTabsLayout } from "../../../layouts/SlideTabsLayout";
 import { TabImg } from "../../utils/TabImg";
+import { TabContent } from "../../utils/TabContent";
 import { JapanData as tabs } from "../../../data/japanData";
 
 export const JapanSlide = () => {
@@ -11,27 +12,11 @@ export const JapanSlide = () => {
       {({ currentTab, currentItem }) => (
         <div className="w-full h-full flex justify-end">
           <div className="w-[70%] 3xl:w-[60%] flex-1 flex pr-5">
-            <div className="w-full">
-              <p>
-                {currentTab?.name} {currentItem?.id}/{currentTab?.items.length}
-              </p>
-              <h2 className="text-6xl">
-                {t(
-                  `japan.${currentTab?.code.toLocaleLowerCase()}.items.${
-                    currentItem?.code
-                  }.title`
-                )}
-              </h2>
-              <p className="text-sm whitespace-normal font-light mt-[20px]">
-                <strong>
-                  {t(
-                    `japan.${currentTab?.code.toLocaleLowerCase()}.items.${
-                      currentItem?.code
-                    }.description`
-                  )}
-                </strong>
-              </p>
-            </div>
+            <TabContent
+              i18nPrefix="japan"
+              tab={currentTab}
+              item={currentItem}
+            />
           </div>
           <div className="w-[30%] 3xl:w-[40%] h-full">
             <TabImg item={currentItem} />

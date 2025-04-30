@@ -12,3 +12,9 @@ export interface TabData {
   code: string;
   items: Item[];
 }
+
+export interface TabContentProps {
+  i18nPrefix?: string | null | undefined;
+  tab?: TabData | null;
+  item?: Item | null;
+}

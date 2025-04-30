@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { SlideTabsLayout } from "../../../layouts/SlideTabsLayout";
 import { TabImg } from "../../utils/TabImg";
+import { TabContent } from "../../utils/TabContent";
 import { MaldivesData as tabs } from "../../../data/maldivesData";
 
 export const MaldivesSlide = () => {
@@ -8,7 +9,7 @@ export const MaldivesSlide = () => {
 
   return (
     <SlideTabsLayout
-      pageTitle="Perfect Honeymoon"
+      pageTitle={t(`pages.maldives_title`)}
       tabs={tabs}
       showTabs={false}
       paginationOnLeft={false}
@@ -19,27 +20,7 @@ export const MaldivesSlide = () => {
             <TabImg item={currentItem} />
           </div>
           <div className="w-[70%] 3xl:w-[60%] flex-1 flex pl-5">
-            <div>
-              <p>
-                {currentTab?.name} {currentItem?.id}/{currentTab?.items.length}
-              </p>
-              <h2 className="text-6xl">
-                {t(
-                  `${currentTab?.code.toLocaleLowerCase()}.items.${
-                    currentItem?.code
-                  }.title`
-                )}
-              </h2>
-              <p className="text-sm whitespace-normal font-light mt-[20px]">
-                <strong>
-                  {t(
-                    `${currentTab?.code.toLocaleLowerCase()}.items.${
-                      currentItem?.code
-                    }.description`
-                  )}
-                </strong>
-              </p>
-            </div>
+            <TabContent tab={currentTab} item={currentItem} />
           </div>
         </div>
       )}
