@@ -1,16 +1,16 @@
 import { useTranslation } from "react-i18next";
-import { IndonesiaData } from "../../../data/indonesiaData";
 import { SlideTabsLayout } from "../../../layouts/SlideTabsLayout";
+import { TabImg } from "../../utils/TabImg";
+import { IndonesiaData as tabs } from "../../../data/indonesiaData";
 
 export const IndonesiaSlide = () => {
   const { t } = useTranslation();
-  const tabs = IndonesiaData;
 
   return (
     <SlideTabsLayout pageTitle="Indonesia" tabs={tabs}>
       {({ currentTab, currentItem, selectedItemIndex }) => (
-        <div className="w-full flex justify-end h-[90%]">
-          <div className="w-[40%] flex-1 flex pr-5">
+        <div className="w-full h-full flex justify-end">
+          <div className="w-[70%] 3xl:w-[60%] flex-1 flex pr-5">
             <div className="w-full">
               <p>
                 {currentTab?.name} {selectedItemIndex + 1}/
@@ -34,10 +34,9 @@ export const IndonesiaSlide = () => {
               </p>
             </div>
           </div>
-          <div
-            className="w-[60%] h-full bg-cover bg-center bg-no-repeat"
-            style={{ backgroundImage: `url('${currentItem?.img}')` }}
-          />
+          <div className="w-[30%] 3xl:w-[40%] h-full">
+            <TabImg item={currentItem} />
+          </div>
         </div>
       )}
     </SlideTabsLayout>

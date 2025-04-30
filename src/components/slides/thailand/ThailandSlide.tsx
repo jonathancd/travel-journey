@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
-import { Tab } from "@headlessui/react";
 import { SlideTabsLayout } from "../../../layouts/SlideTabsLayout";
+import { TabImg } from "../../utils/TabImg";
 import { ThailandData as tabs } from "../../../data/thailandData";
 
 export const ThailandSlide = () => {
@@ -9,8 +9,8 @@ export const ThailandSlide = () => {
   return (
     <SlideTabsLayout pageTitle="Thailand" tabs={tabs}>
       {({ currentTab, currentItem }) => (
-        <div className="flex flex-row h-full w-full">
-          <div className="h-full w-[40%] flex flex-col justify-start items-start pr-5">
+        <div className="w-full h-full flex flex-row">
+          <div className="h-full w-[60%] flex flex-col justify-start items-start pr-5">
             <p>
               {currentTab?.name} {currentItem?.id}/{currentTab?.items.length}
             </p>
@@ -31,17 +31,9 @@ export const ThailandSlide = () => {
               </strong>
             </p>
           </div>
-          <Tab.Panels className="w-[60%] flex justify-start h-[100%]">
-            {tabs.map((tab) => (
-              <Tab.Panel
-                key={tab.id}
-                className="w-full mr-[10%] bg-cover bg-center bg-no-repeat"
-                style={{
-                  backgroundImage: `url('${currentItem?.img}')`,
-                }}
-              />
-            ))}
-          </Tab.Panels>
+          <div className="w-[40%] h-full">
+            <TabImg item={currentItem} />
+          </div>
         </div>
       )}
     </SlideTabsLayout>

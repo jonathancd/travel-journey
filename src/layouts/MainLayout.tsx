@@ -14,27 +14,29 @@ export const MainLayout = () => {
   const languages = ["en", "es"];
 
   return (
-    <div className="h-screen overflow-hidden relative">
-      <nav className="fixed top-0 left-0 w-full z-50 bg-white/70 backdrop-blur shadow flex items-center justify-between py-4 px-16">
-        <Link to="/" className="text-xl font-bold text-gray-800">
-          Travel Journey
-        </Link>
-        <div className="space-x-2">
-          {languages.map((lang) => (
-            <LangButton
-              key={lang}
-              lang={lang}
-              currentLang={currentLang}
-              onClick={changeLanguage}
-            />
-          ))}
+    <div className="w-full h-screen overflow-hidden relative">
+      <nav className="fixed top-0 left-0 w-full z-50 bg-white/70 backdrop-blur shadow py-4">
+        <div className="max-w-screen-2xl mx-auto flex items-center justify-between px-4">
+          <Link to="/" className="text-xl font-bold text-gray-800">
+            Travel Journey
+          </Link>
+          <div className="space-x-2">
+            {languages.map((lang) => (
+              <LangButton
+                key={lang}
+                lang={lang}
+                currentLang={currentLang}
+                onClick={changeLanguage}
+              />
+            ))}
+          </div>
         </div>
       </nav>
-      <div>
+      <div className="w-full">
         <Outlet />
       </div>
-      <footer className="fixed bottom-6 w-full px-16">
-        <div className="flex gap-4">
+      <footer className="fixed bottom-6 w-full">
+        <div className="max-w-screen-2xl mx-auto flex gap-4 px-4">
           <Link to="/">Instagram</Link>
           <Link to="/">LinkedIn</Link>
         </div>

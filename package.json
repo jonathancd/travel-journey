@@ -13,6 +13,7 @@
     "@fullpage/react-fullpage": "^0.1.48",
     "@headlessui/react": "^2.2.1",
     "@tailwindcss/vite": "^4.1.4",
+    "framer-motion": "^12.9.2",
     "fullpage.js": "^4.0.35",
     "i18next": "^25.0.0",
     "i18next-browser-languagedetector": "^8.0.4",

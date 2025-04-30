@@ -7,8 +7,8 @@ export const OthersTravelsSlide = () => {
 
   return (
     <SlideLayout title="Others Travels">
-      <div className="relative mt-20 ml-[10%] h-[80vh] w-full">
-        <div className="relative w-full flex pt-[1rem] h-[calc(80vh-40px)] max-w-[calc(100vw-20%)] mt-[44px]">
+      <div className="relative w-full max-h-[80vh] min-h-[400px] flex flex-col h-[calc(80vh-40px)]">
+        <div className="relative w-full flex-1 pt-4 overflow-y-auto h-full">
           <div className="flex flex-row h-full w-full">
             <div className="flex flex-wrap h-full w-full mb-15">
               {otherTravelsData.map((travel) => (

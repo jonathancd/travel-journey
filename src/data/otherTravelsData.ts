@@ -14,7 +14,7 @@ export const otherTravelsData: OtherTravel[] = [
   {
     i18n_key: "south_korea",
     date: "April, 2024",
-    imgBackground: "/seoul1.jpg",
+    imgBackground: "/images/korea/korea1.jpg",
   },
   {
     i18n_key: "uae",

@@ -32,10 +32,10 @@ export const SlideTabsLayout = ({
           selectedIndex: selectedTabIndex,
           onChange: setSelectedTabIndex,
         })}
-        className="relative mt-20 ml-[10%] h-[80vh] w-full"
+        className="relative w-full max-h-[80vh] min-h-[400px] flex flex-col h-[calc(80vh-40px)]"
       >
         {showTabs && (
-          <Tab.List className="w-[88vw] flex justify-center ml-6">
+          <Tab.List className="flex justify-center ml-6">
             {tabs.map((tab, i) => (
               <div key={tab.id} className="py-2">
                 <Tab
@@ -53,8 +53,8 @@ export const SlideTabsLayout = ({
           </Tab.List>
         )}
         <div
-          className={`relative w-full flex pt-[1rem] h-[calc(80vh-40px)] max-w-[calc(100vw-20%)] ${
-            !showTabs ? "mt-[44px]" : ""
+          className={`relative w-full flex-1 pt-4 overflow-y-auto h-full ${
+            !showTabs ? "mt-[40px]" : ""
           }`}
         >
           {children({

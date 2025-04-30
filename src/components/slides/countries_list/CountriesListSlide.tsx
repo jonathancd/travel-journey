@@ -15,7 +15,7 @@ export const CountriesListSlide = () => {
   return (
     <SlideLayout title={t("pages.country_list")}>
       <Tab.Group
-        className="relative mt-20 ml-[10%] h-[70vh] w-full"
+        className="relative w-full max-h-[80vh] min-h-[400px] flex flex-col h-[calc(80vh-40px)] overflow-y-scroll"
         selectedIndex={selectedIndex}
         onChange={setSelectedIndex}
       >

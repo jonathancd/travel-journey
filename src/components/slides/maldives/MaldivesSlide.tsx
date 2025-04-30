@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
-import { Tab } from "@headlessui/react";
 import { SlideTabsLayout } from "../../../layouts/SlideTabsLayout";
+import { TabImg } from "../../utils/TabImg";
 import { MaldivesData as tabs } from "../../../data/maldivesData";
 
 export const MaldivesSlide = () => {
@@ -14,38 +14,32 @@ export const MaldivesSlide = () => {
       paginationOnLeft={false}
     >
       {({ currentTab, currentItem }) => (
-        <div className="flex flex-row h-full w-full">
-          <Tab.Panels className="w-[40vw] flex justify-start h-[100%]">
-            {tabs.map((tab) => (
-              <Tab.Panel
-                key={tab.id}
-                className="w-full bg-cover bg-center bg-no-repeat"
-                style={{
-                  backgroundImage: `url('${currentItem?.img}')`,
-                }}
-              />
-            ))}
-          </Tab.Panels>
-          <div className="h-full w-[60%] flex flex-col justify-start items-start pl-5">
-            <p>
-              {currentTab?.name} {currentItem.id}/{currentTab?.items.length}
-            </p>
-            <h2 className="text-6xl">
-              {t(
-                `${currentTab?.code.toLocaleLowerCase()}.items.${
-                  currentItem?.code
-                }.title`
-              )}
-            </h2>
-            <p className="text-sm whitespace-normal font-light mt-[20px]">
-              <strong>
+        <div className="w-full h-full flex flex-row">
+          <div className="w-[30%] 3xl:w-[40%] h-full">
+            <TabImg item={currentItem} />
+          </div>
+          <div className="w-[70%] 3xl:w-[60%] flex-1 flex pl-5">
+            <div>
+              <p>
+                {currentTab?.name} {currentItem?.id}/{currentTab?.items.length}
+              </p>
+              <h2 className="text-6xl">
                 {t(
                   `${currentTab?.code.toLocaleLowerCase()}.items.${
                     currentItem?.code
-                  }.description`
+                  }.title`
                 )}
-              </strong>
-            </p>
+              </h2>
+              <p className="text-sm whitespace-normal font-light mt-[20px]">
+                <strong>
+                  {t(
+                    `${currentTab?.code.toLocaleLowerCase()}.items.${
+                      currentItem?.code
+                    }.description`
+                  )}
+                </strong>
+              </p>
+            </div>
           </div>
         </div>
       )}

@@ -1,54 +1,40 @@
-import { Tab } from "@headlessui/react";
 import { useTranslation } from "react-i18next";
-import { JapanData } from "../../../data/japanData";
 import { SlideTabsLayout } from "../../../layouts/SlideTabsLayout";
+import { TabImg } from "../../utils/TabImg";
+import { JapanData as tabs } from "../../../data/japanData";
 
 export const JapanSlide = () => {
   const { t } = useTranslation();
-  const tabs = JapanData;
 
   return (
     <SlideTabsLayout pageTitle={t("pages.japan_title")} tabs={tabs}>
       {({ currentTab, currentItem }) => (
-        <div className="relative h-full w-full">
-          <Tab.Panels className="w-[88vw] flex justify-end h-[100%]">
-            {tabs.map((tab) => (
-              <Tab.Panel
-                key={tab.id}
-                className="w-[60%] mr-[10%] bg-cover bg-center bg-no-repeat"
-                style={{
-                  backgroundImage: `url('${currentItem?.img}')`,
-                }}
-              />
-            ))}
-          </Tab.Panels>
-          {/*  */}
-          <div className="absolute top-0 left-0 h-full flex flex-col justify-center">
-            <div className="flex-1 flex items-center">
-              <div className="w-[50%]">
-                <p>
-                  {currentTab?.name} {currentItem?.id}/
-                  {currentTab?.items.length}
-                </p>
-                <h2 className="text-6xl">
+        <div className="w-full h-full flex justify-end">
+          <div className="w-[70%] 3xl:w-[60%] flex-1 flex pr-5">
+            <div className="w-full">
+              <p>
+                {currentTab?.name} {currentItem?.id}/{currentTab?.items.length}
+              </p>
+              <h2 className="text-6xl">
+                {t(
+                  `japan.${currentTab?.code.toLocaleLowerCase()}.items.${
+                    currentItem?.code
+                  }.title`
+                )}
+              </h2>
+              <p className="text-sm whitespace-normal font-light mt-[20px]">
+                <strong>
                   {t(
-                    `japan.${currentTab?.name.toLocaleLowerCase()}.items.${
+                    `japan.${currentTab?.code.toLocaleLowerCase()}.items.${
                       currentItem?.code
-                    }.title`
+                    }.description`
                   )}
-                </h2>
-                <p className="w-[60%] text-sm whitespace-normal font-light mt-[20px]">
-                  {" "}
-                  <strong>
-                    {t(
-                      `japan.${currentTab?.name.toLocaleLowerCase()}.items.${
-                        currentItem?.code
-                      }.description`
-                    )}
-                  </strong>
-                </p>
-              </div>
+                </strong>
+              </p>
             </div>
+          </div>
+          <div className="w-[30%] 3xl:w-[40%] h-full">
+            <TabImg item={currentItem} />
           </div>
         </div>
       )}

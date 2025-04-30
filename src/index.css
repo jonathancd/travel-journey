@@ -20,12 +20,19 @@
 */
 }
 
+:root {
+  --content-max-width: 1536px; /* o usa @apply en un componente si usas CSS-in-JS */
+}
+
 html,
 body {
   height: 100%;
   overflow: hidden;
-  /* font-family: "Roboto", sans-serif; */
   font-family: "Josefin Sans", sans-serif;
+}
+
+.page-title {
+  left: 1rem;
 }
 
 #fullpage-wrapper,
@@ -41,8 +48,18 @@ body {
 }
 
 #fp-nav.fp-left {
-  left: 4rem;
+  left: 1rem;
 }
+@media (min-width: 1700px) {
+  #fp-nav.fp-left,
+  .page-title {
+    left: calc((100vw - var(--content-max-width)) / 2 - 48px);
+  }
+  .page-title {
+    left: -48px;
+  }
+}
+
 #fp-nav ul {
   display: flex;
   flex-direction: column;
