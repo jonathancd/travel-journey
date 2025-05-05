@@ -18,11 +18,13 @@ export const CountryOverlay = ({ type, country }: CountryCardProps) => {
         <h3 className="text-sm font-bold">
           {t(`countries.${type}.${code}.name`)}
         </h3>
-        <p className="text-xs mt-1">
-          {t(`countries.${type}.${code}.short_summary`)}
-        </p>
+        {type === "visited" && (
+          <p className="text-xs mt-1">
+            {t(`countries.${type}.${code}.short_summary`)}
+          </p>
+        )}
       </div>
-      <div className="text-center mt-3">
+      {/* <div className="text-center mt-3">
         <button
           className="text-xs underline underline-offset-2 hover:text-yellow-300 cursor-pointer"
           onClick={() => {
@@ -31,7 +33,7 @@ export const CountryOverlay = ({ type, country }: CountryCardProps) => {
         >
           {t("utilities.view_details")}
         </button>
-      </div>
+      </div> */}
     </div>
   );
 };

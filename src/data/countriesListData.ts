@@ -47,9 +47,7 @@ export const countriesListTabs: TabItem[] = [
           timesVisited: ["Dec 2023"],
           livedThere: false,
           tag: {
-            show: true,
-            isCustomized: true,
-            icons: ["🥇", "🏆"],
+            show: false,
           },
         },
       },
@@ -135,7 +133,7 @@ export const countriesListTabs: TabItem[] = [
           tag: {
             show: true,
             isCustomized: true,
-            icons: ["🥇", "🏆"],
+            icons: ["🏆"],
           },
         },
       },
@@ -195,7 +193,7 @@ export const countriesListTabs: TabItem[] = [
           tag: {
             show: true,
             isCustomized: true,
-            icons: ["🥇", "🏆"],
+            icons: ["💖"],
           },
         },
       },
@@ -219,7 +217,7 @@ export const countriesListTabs: TabItem[] = [
           tag: {
             show: true,
             isCustomized: true,
-            icons: ["🥇", "🏆"],
+            icons: ["💖"],
           },
         },
       },

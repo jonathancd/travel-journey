@@ -1,6 +1,6 @@
 # ✈️ Travel Journey
 
-A personal landing page to showcase selected travel highlights — built with **React**, **TailwindCSS**, and powered by **Vite**. Inspired by the clean and modern aesthetic of [A'Studio](https://astudio.webflow.io), this project focuses on simplicity, storytelling, and visual immersion.
+A personal landing page to showcase selected travel highlights — built with **React**, **TailwindCSS**, and powered by **Vite**. This project focuses on simplicity, storytelling, and visual immersion.
 
 ## 🚀 Features
 

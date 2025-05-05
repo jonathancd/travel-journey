@@ -21,14 +21,14 @@ export const HomePage = () => {
     () => [
       { anchor: "home", tooltip: "Home" },
       { anchor: "japan", tooltip: "Japan" },
-      { anchor: "hong-kong", tooltip: "Hong Kong" },
-      { anchor: "egypt", tooltip: "Egypt" },
-      { anchor: "thailand", tooltip: "Thailand" },
-      { anchor: "maldives", tooltip: "Maldives" },
       { anchor: "indonesia", tooltip: "Indonesia" },
-      { anchor: "eurotrip2023", tooltip: "EuroTrip 2023" },
+      { anchor: "hong-kong", tooltip: "Hong Kong" },
       { anchor: "eurotrip2024", tooltip: "EuroTrip 2024" },
-      { anchor: "others_travels", tooltip: "Others Travels" },
+      { anchor: "eurotrip2023", tooltip: "EuroTrip 2023" },
+      { anchor: "maldives", tooltip: "Maldives" },
+      { anchor: "thailand", tooltip: "Thailand" },
+      { anchor: "egypt", tooltip: "Egypt" },
+      // { anchor: "others_travels", tooltip: "Others Travels" },
       { anchor: "countries_list", tooltip: "Countries List" },
     ],
     []
@@ -79,26 +79,10 @@ export const HomePage = () => {
                 <JapanSlide />
               </div>
               <div className="section">
-                <HongKongSlide />
-              </div>
-              <div className="section">
-                <EgyptSlide />
-              </div>
-              <div className="section">
-                <ThailandSlide />
-              </div>
-              <div className="section">
-                <MaldivesSlide />
-              </div>
-              <div className="section">
                 <IndonesiaSlide />
               </div>
               <div className="section">
-                <EuroTripSlide
-                  page_title="Euro Trip 2023"
-                  tabs={dataEuroTrip2023}
-                  i18n_code="eurotrip_2023"
-                />
+                <HongKongSlide />
               </div>
               <div className="section">
                 <EuroTripSlide
@@ -108,8 +92,24 @@ export const HomePage = () => {
                 />
               </div>
               <div className="section">
-                <OthersTravelsSlide />
+                <EuroTripSlide
+                  page_title="Euro Trip 2023"
+                  tabs={dataEuroTrip2023}
+                  i18n_code="eurotrip_2023"
+                />
               </div>
+              <div className="section">
+                <MaldivesSlide />
+              </div>
+              <div className="section">
+                <ThailandSlide />
+              </div>
+              <div className="section">
+                <EgyptSlide />
+              </div>
+              {/* <div className="section">
+                <OthersTravelsSlide />
+              </div> */}
               <div className="section">
                 <CountriesListSlide />
               </div>

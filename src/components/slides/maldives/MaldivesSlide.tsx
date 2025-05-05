@@ -16,10 +16,22 @@ export const MaldivesSlide = () => {
     >
       {({ currentTab, currentItem }) => (
         <div className="w-full h-full flex flex-row">
-          <div className="w-[30%] 3xl:w-[40%] h-full">
+          <div
+            className={`${
+              currentItem?.direction === "horizontal"
+                ? "w-[60%] 3xl:w-[70%]"
+                : "w-[30%] 3xl:w-[40%] "
+            } h-full`}
+          >
             <TabImg item={currentItem} />
           </div>
-          <div className="w-[70%] 3xl:w-[60%] flex-1 flex pl-5">
+          <div
+            className={`${
+              currentItem?.direction === "horizontal"
+                ? "w-[40%] 3xl:w-[30%]"
+                : "w-[70%] 3xl:w-[60%]"
+            } flex-1 flex pl-5`}
+          >
             <TabContent tab={currentTab} item={currentItem} />
           </div>
         </div>

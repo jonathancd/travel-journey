@@ -37,8 +37,15 @@ export const MainLayout = () => {
       </div>
       <footer className="fixed bottom-6 w-full">
         <div className="max-w-screen-2xl mx-auto flex gap-4 px-4">
-          <Link to="/">Instagram</Link>
-          <Link to="/">LinkedIn</Link>
+          <Link to="https://www.instagram.com/jonathancuotto/" target="_blank">
+            Instagram
+          </Link>
+          <Link
+            to="https://www.linkedin.com/in/jonathan-cuotto/"
+            target="_blank"
+          >
+            LinkedIn
+          </Link>
         </div>
       </footer>
     </div>

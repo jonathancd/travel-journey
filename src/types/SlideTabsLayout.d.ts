@@ -4,6 +4,7 @@ interface Item {
   id: number;
   code: string;
   img: string;
+  direction?: string;
   objectPosition?: string;
   alt?: string;
 }

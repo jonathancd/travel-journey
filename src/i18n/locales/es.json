@@ -3,14 +3,16 @@
     "title": "Viaje Inolvidable"
   },
   "hero": {
-    "description": "Soy un desarrollador venezolano que salió de su país hace tres años y empezó a recorrer los destinos de su lista de sueños. Esta página es una forma sencilla de capturar esos viajes, no solo para mostrarlos, sino para recordarme que cada lugar que conocí sigue vivo en mí. Mis recuerdos se quedan, y así los comparto."
+    "description": "Soy un desarrollador de software de Venezuela al que le encanta viajar y tomar fotos. Así que decidí crear algo que mezclara todo eso: un proyecto personal donde puedo mostrar los lugares que he visitado, usar mis habilidades de frontend y compartir un poco de mi recorrido en el camino. \n\nLa mayoría de las fotos que verás aquí fueron tomadas por mí —o al menos, muestran lo que vi. En mis primeros viajes no estaba muy pendiente de la fotografía, pero después de comprar mi primera cámara, comencé poco a poco a fijarme más en cómo capturaba cada lugar. Aún estoy aprendiendo y lo disfruto como un hobby, pero a medida que avances por cada slide, quizás notes cómo han cambiado tanto los destinos como la forma en que los veo."
   },
   "pages": {
     "home_title": "Acerca de mí",
+    "country_list": "Listado de países",
+    "egypt_title": "Lost in Egypt",
+    "hong_kong_title": "Volvería si pudiera",
     "japan_title": "Mi país favorito",
     "maldives_title": "Luna de miel perfecta",
-    "thailand_title": "Loca Tailandia",
-    "country_list": "Listado de países"
+    "thailand_title": "Loca Tailandia"
   },
   "countries_tabs": {
     "pending": "Quizás Algun día",
@@ -20,205 +22,58 @@
     "must_visit": "✨Obligatorio!",
     "top_place": "⭐Top!",
     "visited": {
-      "hr": {
-        "name": "Croacia",
-        "title": "Recuerdos de Croacia",
-        "summary": "Croacia me dejó una impresión profunda con su cultura y belleza.",
-        "overlay": {
-          "label": "Visitado varias veces",
+      "ae": {
+        "name": "Emiratos Árabes Unidos",
+        "title": "Recuerdos de Emiratos Árabes Unidos",
+        "short_summary": "Mi hogar durante los últimos tres años. Me ayudó a ver el mundo desde otra perspectiva.",
+        "tag": {
+          "label": "Segunda casa",
           "favorite": false
         },
         "details": {
-          "livedThere": false,
+          "livedThere": true,
           "wouldReturn": true,
           "rating": 9,
           "yearsVisited": ["2022", "2023"],
-          "notes": "Una experiencia increíble, me encantaría volver."
+          "notes": ""
         }
       },
       "cu": {
         "name": "Cuba",
         "title": "Recuerdos de Cuba",
-        "summary": "Cuba me dejó una impresión profunda con su cultura y belleza.",
-        "overlay": {
-          "label": "Visitado varias veces",
-          "favorite": false
+        "short_summary": "Lo visité de pequeño por un campeonato de béisbol.",
+        "tag": {
+          "label": ""
         },
         "details": {
           "livedThere": false,
           "wouldReturn": true,
           "rating": 9,
           "yearsVisited": ["2022", "2023"],
-          "notes": "Una experiencia increíble, me encantaría volver."
-        }
-      },
-      "eg": {
-        "name": "Egipto",
-        "title": "Recuerdos de Egipto",
-        "summary": "Egipto me dejó una impresión profunda con su cultura y belleza.",
-        "overlay": {
-          "label": "Visitado varias veces",
-          "favorite": false
-        },
-        "details": {
-          "livedThere": false,
-          "wouldReturn": true,
-          "rating": 9,
-          "yearsVisited": ["2022", "2023"],
-          "notes": "Una experiencia increíble, me encantaría volver."
-        }
-      },
-      "fr": {
-        "name": "Francia",
-        "title": "Recuerdos de Francia",
-        "summary": "Francia me dejó una impresión profunda con su cultura y belleza.",
-        "overlay": {
-          "label": "Visitado varias veces",
-          "favorite": false
-        },
-        "details": {
-          "livedThere": false,
-          "wouldReturn": true,
-          "rating": 9,
-          "yearsVisited": ["2022", "2023"],
-          "notes": "Una experiencia increíble, me encantaría volver."
+          "notes": ""
         }
       },
       "de": {
         "name": "Alemania",
         "title": "Recuerdos de Alemania",
-        "summary": "Alemania me dejó una impresión profunda con su cultura y belleza.",
-        "overlay": {
-          "label": "Visitado varias veces",
-          "favorite": false
+        "short_summary": "Tipo “una vez y listo”. No creo que regrese.",
+        "tag": {
+          "label": ""
         },
         "details": {
           "livedThere": false,
           "wouldReturn": true,
           "rating": 9,
           "yearsVisited": ["2022", "2023"],
-          "notes": "Una experiencia increíble, me encantaría volver."
+          "notes": ""
         }
       },
-      "gr": {
-        "name": "Grecia",
-        "title": "Recuerdos de Grecia",
-        "summary": "Grecia me dejó una impresión profunda con su cultura y belleza.",
-        "overlay": {
-          "label": "Visitado varias veces",
-          "favorite": false
-        },
-        "details": {
-          "livedThere": false,
-          "wouldReturn": true,
-          "rating": 9,
-          "yearsVisited": ["2022", "2023"],
-          "notes": "Una experiencia increíble, me encantaría volver."
-        }
-      },
-      "hk": {
-        "name": "Hong Kong",
-        "title": "Recuerdos de Hong Kong",
-        "summary": "Hong Kong me dejó una impresión profunda con su cultura y belleza.",
-        "overlay": {
-          "label": "Visitado varias veces",
-          "favorite": false
-        },
-        "details": {
-          "livedThere": false,
-          "wouldReturn": true,
-          "rating": 9,
-          "yearsVisited": ["2022", "2023"],
-          "notes": "Una experiencia increíble, me encantaría volver."
-        }
-      },
-      "id": {
-        "name": "Indonesia",
-        "title": "Recuerdos de Indonesia",
-        "summary": "Indonesia me dejó una impresión profunda con su cultura y belleza.",
-        "overlay": {
-          "label": "Visitado varias veces",
-          "favorite": false
-        },
-        "details": {
-          "livedThere": false,
-          "wouldReturn": true,
-          "rating": 9,
-          "yearsVisited": ["2022", "2023"],
-          "notes": "Una experiencia increíble, me encantaría volver."
-        }
-      },
-      "it": {
-        "name": "Italia",
-        "title": "Recuerdos de Italia",
-        "summary": "Italia me dejó una impresión profunda con su cultura y belleza.",
-        "overlay": {
-          "label": "Visitado varias veces",
-          "favorite": false
-        },
-        "details": {
-          "livedThere": false,
-          "wouldReturn": true,
-          "rating": 9,
-          "yearsVisited": ["2022", "2023"],
-          "notes": "Una experiencia increíble, me encantaría volver."
-        }
-      },
-      "jp": {
-        "name": "Japón",
-        "title": "Recuerdos de Japón",
-        "summary": "Japón me dejó una impresión profunda con su cultura y belleza.",
-        "overlay": {
-          "label": "Visitado varias veces",
-          "favorite": true
-        },
-        "details": {
-          "livedThere": false,
-          "wouldReturn": true,
-          "rating": 9,
-          "yearsVisited": ["2022", "2023"],
-          "notes": "Una experiencia increíble, me encantaría volver."
-        }
-      },
-      "mv": {
-        "name": "Maldivas",
-        "title": "Recuerdos de Maldivas",
-        "summary": "Maldivas me dejó una impresión profunda con su cultura y belleza.",
-        "overlay": {
-          "label": "Visitado varias veces",
-          "favorite": false
-        },
-        "details": {
-          "livedThere": false,
-          "wouldReturn": true,
-          "rating": 9,
-          "yearsVisited": ["2022", "2023"],
-          "notes": "Una experiencia increíble, me encantaría volver."
-        }
-      },
-      "pt": {
-        "name": "Portugal",
-        "title": "Recuerdos de Portugal",
-        "summary": "Portugal me dejó una impresión profunda con su cultura y belleza.",
-        "overlay": {
-          "label": "Visitado varias veces",
-          "favorite": false
-        },
-        "details": {
-          "livedThere": false,
-          "wouldReturn": true,
-          "rating": 9,
-          "yearsVisited": ["2022", "2023"],
-          "notes": "Una experiencia increíble, me encantaría volver."
-        }
-      },
-      "kr": {
-        "name": "Corea del Sur",
-        "title": "Recuerdos de Corea del Sur",
-        "summary": "Corea del Sur me dejó una impresión profunda con su cultura y belleza.",
-        "overlay": {
-          "label": "Visitado varias veces",
-          "favorite": false
+      "eg": {
+        "name": "Egipto",
+        "title": "Recuerdos de Egipto",
+        "short_summary": "Un sueño cumplido tras mucha espera. Impresionante, aunque caótico.",
+        "tag": {
+          "label": "No diga que no te lo advertí"
         },
         "details": {
           "livedThere": false,
@@ -231,10 +86,9 @@
       "es": {
         "name": "España",
         "title": "Recuerdos de España",
-        "summary": "España me dejó una impresión profunda con su cultura y belleza.",
-        "overlay": {
-          "label": "Visitado varias veces",
-          "favorite": true
+        "short_summary": "La he visitado tres veces. Es mi destino favorito. Madrid se ha vuelto un lugar especial.",
+        "tag": {
+          "label": ""
         },
         "details": {
           "livedThere": false,
@@ -242,63 +96,194 @@
           "rating": 9,
           "yearsVisited": ["2022", "2023"],
           "notes": "Una experiencia increíble, me encantaría volver."
+        }
+      },
+      "fr": {
+        "name": "Francia",
+        "title": "Recuerdos de Francia",
+        "short_summary": "El sueño cumplido de mi madre. No fue mi destino favorito, pero me alegra haber ido.",
+        "tag": {
+          "label": ""
+        },
+        "details": {
+          "livedThere": false,
+          "wouldReturn": true,
+          "rating": 9,
+          "yearsVisited": ["2022", "2023"],
+          "notes": ""
+        }
+      },
+      "gr": {
+        "name": "Grecia",
+        "title": "Recuerdos de Grecia",
+        "short_summary": "Visité Santorini, el sueño de mi esposa. Buenas vibras, pero el agua estaba más fría de lo esperado.",
+        "tag": {
+          "label": ""
+        },
+        "details": {
+          "livedThere": false,
+          "wouldReturn": true,
+          "rating": 9,
+          "yearsVisited": ["2022", "2023"],
+          "notes": ""
+        }
+      },
+      "hk": {
+        "name": "Hong Kong",
+        "title": "Recuerdos de Hong Kong",
+        "short_summary": "Superó mis expectativas. Me dejó con ganas de mudarme allí algún día.",
+        "tag": {
+          "label": "Provoca mudarse"
+        },
+        "details": {
+          "livedThere": false,
+          "wouldReturn": true,
+          "rating": 9,
+          "yearsVisited": ["2022", "2023"],
+          "notes": ""
+        }
+      },
+      "hr": {
+        "name": "Croacia",
+        "title": "Recuerdos de Croacia",
+        "short_summary": "Un destino sorpresa. No esperábamos mucho, pero lo disfrutamos muchísimo.",
+        "tag": {
+          "label": ""
+        },
+        "details": {
+          "livedThere": false,
+          "wouldReturn": true,
+          "rating": 9,
+          "yearsVisited": ["2022", "2023"],
+          "notes": ""
+        }
+      },
+      "id": {
+        "name": "Indonesia",
+        "title": "Recuerdos de Indonesia",
+        "short_summary": "Cultura nueva, muchas cosas por hacer. Quedaron pendientes que espero completar algún día.",
+        "tag": {
+          "label": "Recomendado"
+        },
+        "details": {
+          "livedThere": false,
+          "wouldReturn": true,
+          "rating": 9,
+          "yearsVisited": ["2022", "2023"],
+          "notes": ""
+        }
+      },
+      "it": {
+        "name": "Italia",
+        "title": "Recuerdos de Italia",
+        "short_summary": "Visitada dos veces. Roma nunca aburre. Milán: el lugar donde cumplí el sueño de todo tifoso rossonero.",
+        "tag": {
+          "label": "Mejor país europeo"
+        },
+        "details": {
+          "livedThere": false,
+          "wouldReturn": true,
+          "rating": 9,
+          "yearsVisited": ["2022", "2023"],
+          "notes": ""
+        }
+      },
+      "jp": {
+        "name": "Japón",
+        "title": "Recuerdos de Japón",
+        "short_summary": "No hay mejor destino, Top. Lo he visitado dos veces y siempre quiero volver.",
+        "tag": {
+          "label": "Mejor país de todos"
+        },
+        "details": {
+          "livedThere": false,
+          "wouldReturn": true,
+          "rating": 9,
+          "yearsVisited": ["2022", "2023"],
+          "notes": ""
+        }
+      },
+      "kr": {
+        "name": "Corea del Sur",
+        "title": "Recuerdos de Corea del Sur",
+        "short_summary": "Destino de un solo día para celebrar el cumpleaños de mi esposa.",
+        "tag": {
+          "label": ""
+        },
+        "details": {
+          "livedThere": false,
+          "wouldReturn": true,
+          "rating": 9,
+          "yearsVisited": ["2022", "2023"],
+          "notes": ""
+        }
+      },
+      "mv": {
+        "name": "Maldivas",
+        "title": "Recuerdos de Maldivas",
+        "short_summary": "Increíble. Uno de nuestros mejores viajes, lleno de aventura.",
+        "tag": {
+          "label": "Destino aventurero"
+        },
+        "details": {
+          "livedThere": false,
+          "wouldReturn": true,
+          "rating": 9,
+          "yearsVisited": ["2022", "2023"],
+          "notes": ""
+        }
+      },
+      "pt": {
+        "name": "Portugal",
+        "title": "Recuerdos de Portugal",
+        "short_summary": " Súper chévere. Panadería increíble, vistas brutales. Definitivamente quiero volver.",
+        "tag": {
+          "label": ""
+        },
+        "details": {
+          "livedThere": false,
+          "wouldReturn": true,
+          "rating": 9,
+          "yearsVisited": ["2022", "2023"],
+          "notes": ""
         }
       },
       "th": {
         "name": "Tailandia",
         "title": "Recuerdos de Tailandia",
-        "summary": "Tailandia me dejó una impresión profunda con su cultura y belleza.",
-        "overlay": {
-          "label": "Visitado varias veces",
-          "favorite": false
+        "short_summary": "Otro país de mi bucket list. No fue el mejor viaje, pero espero reivindicarlo algún día.",
+        "tag": {
+          "label": ""
         },
         "details": {
           "livedThere": false,
           "wouldReturn": true,
           "rating": 9,
           "yearsVisited": ["2022", "2023"],
-          "notes": "Una experiencia increíble, me encantaría volver."
-        }
-      },
-      "ae": {
-        "name": "Emiratos Árabes Unidos",
-        "title": "Recuerdos de Emiratos Árabes Unidos",
-        "summary": "Emiratos Árabes Unidos me dejó una impresión profunda con su cultura y belleza.",
-        "overlay": {
-          "label": "Visitado varias veces",
-          "favorite": false
-        },
-        "details": {
-          "livedThere": true,
-          "wouldReturn": true,
-          "rating": 9,
-          "yearsVisited": ["2022", "2023"],
-          "notes": "Una experiencia increíble, me encantaría volver."
+          "notes": ""
         }
       },
       "va": {
         "name": "Ciudad del Vaticano",
         "title": "Recuerdos de Ciudad del Vaticano",
-        "summary": "Ciudad del Vaticano me dejó una impresión profunda con su cultura y belleza.",
-        "overlay": {
-          "label": "Visitado varias veces",
-          "favorite": false
+        "short_summary": "Muy interesante. Mucho arte dentro de una religión que no practico, pero agradecido de haberlo visto.",
+        "tag": {
+          "label": ""
         },
         "details": {
           "livedThere": false,
           "wouldReturn": true,
           "rating": 9,
           "yearsVisited": ["2022", "2023"],
-          "notes": "Una experiencia increíble, me encantaría volver."
+          "notes": ""
         }
       },
       "ve": {
         "name": "Venezuela",
         "title": "Recuerdos de Venezuela",
-        "summary": "Venezuela me dejó una impresión profunda con su cultura y belleza.",
-        "overlay": {
-          "label": "Visitado varias veces",
-          "favorite": false
+        "short_summary": "Mi país. Donde nací, crecí y me formé como persona.",
+        "tag": {
+          "label": "Casita"
         },
         "details": {
           "livedThere": true,
@@ -314,7 +299,7 @@
         "name": "México",
         "title": "Un sueño visitar México",
         "summary": "México me fascina por su oferta única.",
-        "overlay": {
+        "tag": {
           "label": "En mi lista de deseos"
         },
         "details": {
@@ -326,7 +311,7 @@
         "name": "Estados Unidos",
         "title": "Un sueño visitar Estados Unidos",
         "summary": "Estados Unidos me fascina por su oferta única.",
-        "overlay": {
+        "tag": {
           "label": "En mi lista de deseos"
         },
         "details": {
@@ -338,7 +323,7 @@
         "name": "Costa Rica",
         "title": "Un sueño visitar Costa Rica",
         "summary": "Costa Rica me fascina por su oferta única.",
-        "overlay": {
+        "tag": {
           "label": "En mi lista de deseos"
         },
         "details": {
@@ -350,7 +335,7 @@
         "name": "Brasil",
         "title": "Un sueño visitar Brasil",
         "summary": "Brasil me fascina por su oferta única.",
-        "overlay": {
+        "tag": {
           "label": "En mi lista de deseos"
         },
         "details": {
@@ -362,7 +347,7 @@
         "name": "Reino Unido",
         "title": "Un sueño visitar Reino Unido",
         "summary": "Reino Unido me fascina por su oferta única.",
-        "overlay": {
+        "tag": {
           "label": "En mi lista de deseos"
         },
         "details": {
@@ -374,7 +359,7 @@
         "name": "Islandia",
         "title": "Un sueño visitar Islandia",
         "summary": "Islandia me fascina por su oferta única.",
-        "overlay": {
+        "tag": {
           "label": "En mi lista de deseos"
         },
         "details": {
@@ -386,7 +371,7 @@
         "name": "Noruega",
         "title": "Un sueño visitar Noruega",
         "summary": "Noruega me fascina por su oferta única.",
-        "overlay": {
+        "tag": {
           "label": "En mi lista de deseos"
         },
         "details": {
@@ -398,7 +383,7 @@
         "name": "Finlandia",
         "title": "Un sueño visitar Finlandia",
         "summary": "Finlandia me fascina por su oferta única.",
-        "overlay": {
+        "tag": {
           "label": "En mi lista de deseos"
         },
         "details": {
@@ -410,7 +395,7 @@
         "name": "Suiza",
         "title": "Un sueño visitar Suiza",
         "summary": "Suiza me fascina por su oferta única.",
-        "overlay": {
+        "tag": {
           "label": "En mi lista de deseos"
         },
         "details": {
@@ -422,7 +407,7 @@
         "name": "Bosnia y Herzegovina",
         "title": "Un sueño visitar Bosnia y Herzegovina",
         "summary": "Bosnia y Herzegovina me fascina por su oferta única.",
-        "overlay": {
+        "tag": {
           "label": "En mi lista de deseos"
         },
         "details": {
@@ -434,7 +419,7 @@
         "name": "República Checa",
         "title": "Un sueño visitar República Checa",
         "summary": "República Checa me fascina por su oferta única.",
-        "overlay": {
+        "tag": {
           "label": "En mi lista de deseos"
         },
         "details": {
@@ -446,7 +431,7 @@
         "name": "Hungría",
         "title": "Un sueño visitar Hungría",
         "summary": "Hungría me fascina por su oferta única.",
-        "overlay": {
+        "tag": {
           "label": "En mi lista de deseos"
         },
         "details": {
@@ -458,7 +443,7 @@
         "name": "Azerbaiyán",
         "title": "Un sueño visitar Azerbaiyán",
         "summary": "Azerbaiyán me fascina por su oferta única.",
-        "overlay": {
+        "tag": {
           "label": "En mi lista de deseos"
         },
         "details": {
@@ -470,7 +455,7 @@
         "name": "Turquía",
         "title": "Un sueño visitar Turquía",
         "summary": "Turquía me fascina por su oferta única.",
-        "overlay": {
+        "tag": {
           "label": "En mi lista de deseos"
         },
         "details": {
@@ -482,7 +467,7 @@
         "name": "Irak",
         "title": "Un sueño visitar Irak",
         "summary": "Irak me fascina por su oferta única.",
-        "overlay": {
+        "tag": {
           "label": "En mi lista de deseos"
         },
         "details": {
@@ -494,7 +479,7 @@
         "name": "Omán",
         "title": "Un sueño visitar Omán",
         "summary": "Omán me fascina por su oferta única.",
-        "overlay": {
+        "tag": {
           "label": "En mi lista de deseos"
         },
         "details": {
@@ -506,7 +491,7 @@
         "name": "Marruecos",
         "title": "Un sueño visitar Marruecos",
         "summary": "Marruecos me fascina por su oferta única.",
-        "overlay": {
+        "tag": {
           "label": "En mi lista de deseos"
         },
         "details": {
@@ -518,7 +503,7 @@
         "name": "Kenia",
         "title": "Un sueño visitar Kenia",
         "summary": "Kenia me fascina por su oferta única.",
-        "overlay": {
+        "tag": {
           "label": "En mi lista de deseos"
         },
         "details": {
@@ -530,7 +515,7 @@
         "name": "Tanzania",
         "title": "Un sueño visitar Tanzania",
         "summary": "Tanzania me fascina por su oferta única.",
-        "overlay": {
+        "tag": {
           "label": "En mi lista de deseos"
         },
         "details": {
@@ -542,7 +527,7 @@
         "name": "Seychelles",
         "title": "Un sueño visitar Seychelles",
         "summary": "Seychelles me fascina por su oferta única.",
-        "overlay": {
+        "tag": {
           "label": "En mi lista de deseos"
         },
         "details": {
@@ -554,7 +539,7 @@
         "name": "China",
         "title": "Un sueño visitar China",
         "summary": "China me fascina por su oferta única.",
-        "overlay": {
+        "tag": {
           "label": "En mi lista de deseos"
         },
         "details": {
@@ -566,7 +551,7 @@
         "name": "Singapur",
         "title": "Un sueño visitar Singapur",
         "summary": "Singapur me fascina por su oferta única.",
-        "overlay": {
+        "tag": {
           "label": "En mi lista de deseos"
         },
         "details": {
@@ -578,7 +563,7 @@
         "name": "Filipinas",
         "title": "Un sueño visitar Filipinas",
         "summary": "Filipinas me fascina por su oferta única.",
-        "overlay": {
+        "tag": {
           "label": "En mi lista de deseos"
         },
         "details": {
@@ -590,7 +575,7 @@
         "name": "Vietnam",
         "title": "Un sueño visitar Vietnam",
         "summary": "Vietnam me fascina por su oferta única.",
-        "overlay": {
+        "tag": {
           "label": "En mi lista de deseos"
         },
         "details": {
@@ -601,277 +586,311 @@
     }
   },
   "egypt": {
-    "cairo": {
-      "items": {
-        "giza": {
-          "title": "Pirámides de Giza",
-          "description_first": "Ubicadas a las afueras de El Cairo, las pirámides de Giza son uno de los monumentos más emblemáticos de la humanidad. Estar frente a la Gran Pirámide, una de las Siete Maravillas del Mundo Antiguo, es una experiencia sobrecogedora que te conecta con miles de años de historia y cultura egipcia.",
-          "description_second": "La necrópolis de Giza no solo incluye las tres pirámides principales, sino también la mística Esfinge, que vigila el desierto desde hace milenios. El atardecer en Giza ofrece una postal inolvidable, donde el oro del sol se mezcla con las piedras ancestrales creando un paisaje de ensueño."
-        },
-        "nile": {
-          "title": "Navegando el legendario Nilo",
-          "description_first": "El Nilo, arteria vital de Egipto desde tiempos faraónicos, es más que un río: es un viaje en sí mismo. Un crucero por el Nilo te permite ver templos, aldeas y paisajes que han sido testigos de la historia antigua y moderna del país.",
-          "description_second": "Desde las cubiertas de un barco tradicional, se puede observar cómo la vida rural egipcia se desarrolla junto al agua, entre campos verdes y palmeras. Es un contraste hermoso con el desierto, y una experiencia tranquila que permite apreciar la majestuosidad del país desde una nueva perspectiva."
-        }
-      }
-    },
-    "luxor": {
-      "hatshepsut_temple": {
-        "title": "Templo de Hatshepsut",
-        "description_first": "Este templo, esculpido en las laderas de Deir el-Bahari, honra a una de las pocas mujeres faraonas de Egipto: Hatshepsut. Su diseño simétrico y sus terrazas majestuosas destacan entre las maravillas arquitectónicas del Antiguo Egipto.",
-        "description_second": "Caminar por sus columnas y bajorrelieves te transporta a una época de poder femenino y prosperidad. La armonía con el paisaje rocoso lo convierte en uno de los templos más fotogénicos e imponentes del país."
+    "items": {
+      "giza_pyramids": {
+        "title": "La primera gran aventura: las Pirámides de Giza",
+        "description_first": "Nuestro viaje a Egipto fue la primera gran aventura turística desde que nos mudamos a Dubái. Todo comenzó cuando en septiembre de 2022 la empresa nos pidió que usáramos nuestros días de vacaciones. Aunque pensábamos viajar el año siguiente, decidimos que era el momento perfecto para cumplir uno de nuestros sueños: visitar las pirámides. Egipto, junto con Japón, siempre fue uno de mis destinos más deseados desde niño, por todo el misterio y la historia que lo rodea.",
+        "description_second": "El viaje fue toda una travesía. Volamos de madrugada desde Dubái a Alejandría, tomamos un bus hasta Giza, agotados y sin dormir, mientras afuera del aeropuerto los taxistas se peleaban por llevarnos al terminal. Desde el autobús vimos por primera vez la punta de las pirámides entre los edificios, y fue como volver a ser niños. Ya en el hotel, tras varios problemas, logré subir a la azotea y verlas frente a mí. Más tarde, hicimos un tour en camello, entramos a una pirámide, y cerré el día con un post dedicado a mi mamá: 'Lo logré'. Ella siempre soñó con que algún día yo visitaría Egipto. Y lo hice."
       },
-      "karnak_template": {
-        "title": "Templo de Karnak",
-        "description_first": "Karnak no es solo un templo, sino un complejo gigantesco de estructuras sagradas que representan siglos de devoción religiosa. La sala hipóstila, con sus más de 130 columnas gigantes, deja sin aliento a cualquiera que la visite.",
-        "description_second": "Recorrer Karnak es como caminar entre los sueños de los faraones, con jeroglíficos que aún susurran historias al oído. Es un sitio vivo, donde cada piedra parece contar un capítulo de una civilización inmortal."
+      "luxor_karnak_temple": {
+        "title": "Del caos a la calma: columnas eternas en Karnak",
+        "description_first": "Después de un día lleno de emociones en Giza, al día siguiente fuimos al Museo Egipcio por la mañana —donde ver las momias fue impresionante— y de ahí, directo a Luxor. Llegamos en la tarde y no fue fácil pedir transporte: la app Careem fallaba, los choferes cancelaban, y terminamos solos fuera del aeropuerto. Un taxista se acercó de forma arrogante, burlándose cuando dijimos que estábamos intentando pedir por la app. Pero poco después apareció Eddy, un taxista con mucho tacto, que hasta hablaba un poco de español. Nos ofreció llevarnos y nos dio confianza desde el primer momento.",
+        "description_second": "Eddy nos propuso aprovechar el tiempo y pasar directo al templo de Karnak antes de ir al hotel. Aceptamos, y fue una excelente decisión. Siempre soñé con caminar entre esas columnas gigantes que uno ve en Instagram… y ahí estaba. A diferencia del ajetreo en las pirámides, aquí todo fue tranquilo, casi sin turistas. Las columnas y muros tallados me impresionaron incluso más que las pirámides: hay algo casi sagrado en su escala y detalle. Gracias a Eddy, no solo ganamos tiempo, sino que comenzamos a conocer Luxor con el pie derecho."
       },
-      "luxor_temple": {
-        "title": "Templo de Luxor",
-        "description_first": "Situado en el corazón de la ciudad moderna, el Templo de Luxor es una joya que brilla tanto de día como de noche. Sus colosos y obeliscos reciben a los visitantes con una fuerza simbólica poderosa.",
-        "description_second": "De noche, iluminado por tenues luces doradas, el templo adquiere una atmósfera mística. Caminar por sus pasajes mientras el aire del desierto sopla suavemente es una experiencia mágica que conecta pasado y presente."
+      "luxor_karnak_wall_figures": {
+        "title": "Historias talladas en piedra",
+        "description_first": "Las pirámides son impresionantes, no hay duda, pero es en los templos y tumbas donde el Antiguo Egipto realmente cobra vida. En Karnak, entre muros y columnas, aparecen figuras humanas, detalles tallados que parecen contar historias en silencio. En esta imagen se ve un muro con la figura de un hombre y una mujer, y es justo ese tipo de detalle que no encuentras en las pirámides.",
+        "description_second": "Son estas escenas las que te hacen querer entender más, detenerte y descifrar los jeroglíficos. El arte y la precisión de los egipcios te atrapan. Ver los relieves, las proporciones, los símbolos… te deja con la sensación de que cada piedra tiene algo que decir. Por algo los egiptólogos han dedicado sus vidas a estudiar estos trazos: son la clave para entender cómo vivían, qué creían, y qué dejaron atrás. Karnak no solo impresiona por su tamaño, sino por la historia que emana de cada muro."
       },
-      "valley_of_kings": {
-        "title": "Valle de los Reyes",
-        "description_first": "Bajo las colinas de Tebas se esconde un cementerio real que guarda los secretos de los faraones. El Valle de los Reyes es célebre por sus tumbas adornadas con arte milenario, incluyendo la de Tutankamón.",
-        "description_second": "Cada tumba cuenta una historia en colores vibrantes, a pesar de los siglos. Descender a estos recintos es como cruzar un umbral al más allá egipcio, donde la espiritualidad y el arte se fusionan en su máxima expresión."
+      "valley_tomb_wall_art": {
+        "title": "El Valle de los Reyes: cada tumba, una historia",
+        "description_first": "El Valle de los Reyes es otra cosa. Aquí no hay monumentos visibles desde lejos como en Giza —aquí todo está bajo tierra. Entrar en una tumba es entrar en un mundo distinto. En una de ellas, los muros estaban cubiertos por figuras y jeroglíficos que parecían recién pintados. Cada tumba tiene sus propios colores, su propio estilo, su propia narrativa.",
+        "description_second": "Lo más impresionante no es solo lo que ves, sino imaginar el esfuerzo y la precisión que se necesitaron para tallar esas historias en roca. El arte de los templos es increíble, pero en las tumbas del Valle, hay una intimidad diferente. Un silencio que te obliga a mirar con atención y pensar: esto lo hicieron hace miles de años, sin luz eléctrica, sin máquinas. Y aún así, es bellísimo."
+      },
+      "valley_seti_column": {
+        "title": "Seti I: el big boss de las tumbas",
+        "description_first": "Entre todas las tumbas que visitamos, ninguna me impactó tanto como KV17, la tumba de Seti I. Los mismos egipcios que trabajan allí la llaman 'la del big boss', y con razón. Es una tumba enorme, compleja, profunda y con columnas decoradas de forma espectacular. En una de ellas, tomé esta foto: detalles que parecen imposibles de haber hecho en su época.",
+        "description_second": "Compramos entradas especiales para Seti I y Tutankamón. La de Tutankamón es modesta y pequeña —aunque emocionante por su historia—, pero Seti I… eso es otro nivel. Colores vivos, estructuras impresionantes, y una sensación de estar ante algo verdaderamente único. Si algún día visitas Egipto, esta tumba debe estar en tu lista."
+      },
+      "valley_of_the_kings": {
+        "title": "Montañas huecas y sabiduría ancestral",
+        "description_first": "La última imagen que quiero dejar de Egipto es esta montaña del Valle de los Reyes. No es solo una foto bonita —es una pista de todo lo que está debajo. Estas rocas, de arenisca agrietada, no parecen estables… pero los egipcios sabían exactamente dónde excavar. Estudiaban la piedra, identificaban los puntos seguros, y así construyeron sus tumbas.",
+        "description_second": "Piénsalo: personas que vivieron hace más de 3.000 años eligieron este lugar, sin herramientas modernas, y crearon cámaras subterráneas que aún hoy nos dejan sin palabras. Y eso sin hablar de lo que costó redescubrirlas, limpiarlas, excavar lo que el barro y el tiempo habían enterrado. El Valle de los Reyes no es solo un destino turístico —es un testimonio eterno del conocimiento, la paciencia y la grandeza humana."
       }
     }
   },
   "eurotrip_2023": {
     "spain": {
       "items": {
-        "reunion": {
-          "title": "El Reencuentro en Madrid",
-          "description": "Nuestro Eurotrip comenzó en Madrid, una ciudad llena de emoción, ya que era el primer destino del viaje familiar. Fue un reencuentro especial: mi mamá, mi papá, una de mis hermanas y mi sobrino. Llegar a Europa juntos era un sueño cumplido. Había mucha ilusión, sonrisas y abrazos en cada esquina. Madrid nos recibió con su energía vibrante y nos hizo sentir que la aventura apenas empezaba."
+        "madrid_reunion_intro": {
+          "title": "Un reencuentro soñado en Madrid",
+          "description": "Este viaje fue mucho más que turismo: fue el reencuentro con mi familia después de casi dos años sin vernos. El plan original era que vinieran mi mamá, mi papá y mi sobrino a encontrarse conmigo en Europa, y desde allí viajar juntos a Dubái. Pero como todo viaje familiar, hubo imprevistos: descubrimos que mi sobrino no podía entrar a Emiratos sin uno de sus padres. Así que, en una carrera contrarreloj, logramos conseguirle pasaporte a mi hermana en tiempo récord, reorganizamos vuelos… y lo logramos. Todos juntos otra vez.\n\nNos encontramos en Madrid, una ciudad que ya conocía y sabía que a ellos les encantaría. Era diciembre, y no había mejor forma de comenzar las vacaciones que paseando por el Parque del Retiro. Entre abrazos, risas y alivio, fue como si estuviésemos en un verdadero retiro: sin preocupaciones, solo disfrutando el momento y el estar juntos de nuevo."
         },
-        "gran_via": {
-          "title": "Gran Vía, el corazón vibrante de Madrid",
-          "description": "Nos alojamos en plena Gran Vía, lo que nos permitió caminar y disfrutar de toda su vida urbana. Entre teatros, tiendas, cafés y las luces que iluminaban cada paso, entendimos por qué la llaman el 'Broadway madrileño'. Era diciembre, el ambiente navideño hacía todo aún más especial, y caminar por esas calles fue como estar dentro de una película."
+        "madrid_crystal_palace": {
+          "title": "Palacio de Cristal: un rincón único dentro del Retiro",
+          "description": "Dentro del Parque del Retiro hay muchos espacios especiales, pero pocos con la personalidad y el encanto del Palacio de Cristal. Esta estructura de vidrio y metal parece sacada de un cuento, y es uno de esos lugares icónicos de Madrid, como el edificio Metrópolis o el Scheppers, que siempre se quedan en tu memoria.\n\nEse día, mi sobrino no paró de correr por todo el parque, feliz y libre. Y mientras él jugaba, nosotros simplemente disfrutábamos de estar ahí, con ese edificio transparente de fondo, viendo cómo la luz del invierno lo atravesaba. Fue uno de esos momentos donde la arquitectura, la naturaleza y la familia se combinan perfectamente."
         },
-        "puerta_alcala": {
-          "title": "La majestuosa Puerta de Alcalá",
-          "description": "Visitamos la emblemática Puerta de Alcalá, uno de los grandes símbolos de Madrid. Sentir el contraste entre lo histórico y lo moderno nos hizo admirar aún más la ciudad. Verla decorada para las fiestas de fin de año, con las luces reflejándose en sus piedras antiguas, fue un momento que nos llenó de orgullo y asombro."
-        },
-        "retiro": {
-          "title": "Un paseo por El Retiro en otoño",
-          "description": "El Parque del Retiro nos ofreció un paisaje de cuento: miles de hojas doradas cubrían los caminos, el aire estaba fresco y el ambiente invitaba a la calma. Nos perdimos entre sus senderos, nos detuvimos junto al estanque a admirar los botes, y respiramos la tranquilidad en pleno centro de la ciudad. Un recuerdo perfecto de un diciembre inolvidable."
+        "madrid_winter_walk": {
+          "title": "Flores caídas, frío madrileño y un inicio perfecto",
+          "description": "Nuestra visita a Madrid fue en pleno diciembre, y aunque el invierno podía ser frío, el ambiente tenía algo especial. Recuerdo un camino lleno de flores caídas, como si el parque nos regalara una bienvenida silenciosa. Estaba un poco preocupado por mi papá, que es muy friolento, pero para mi sorpresa, lo disfrutó muchísimo.\n\nNos quedamos cerca de la Gran Vía, lo que hizo fácil explorar la ciudad a pie: plazas, tiendas, arquitectura… todo a unos pasos. Pero más allá de lo que vimos, Madrid fue el lugar donde todo comenzó. Una ciudad que recibió a mi familia con los brazos abiertos y que, sin duda, nos regaló uno de los mejores comienzos posibles para nuestro viaje por Europa."
         }
       }
     },
     "france": {
       "items": {
-        "mom_dream": {
-          "title": "El sueño de mi mamá: París",
-          "description": "Desde hace muchos años, París había sido el destino soñado de mi mamá. Queríamos cumplirle ese deseo, así que viajamos en avión desde Madrid. Al llegar, aunque la ciudad no fue del todo como ella la imaginaba, la emoción de verla cumplir un sueño fue inigualable. París nos recibió con su elegancia y un aire frío de invierno que le daba aún más encanto."
+        "eiffel_proposal": {
+          "title": "Un sueño cumplido… y una sorpresa bajo la Torre Eiffel",
+          "description": "Francia no era el país que yo tenía en mente visitar —si te soy sincero, esperaba que mi mamá dijera Egipto, Japón, algo así—, pero cuando le pregunté cuál era su país soñado, respondió sin dudar: Francia. Así que este viaje fue por ella. Queríamos darle ese regalo.\n\nVolamos desde Madrid a París, cargando muchas maletas (nota mental: nunca hagas un eurotrip con tanto equipaje), tomamos tranvías desde el aeropuerto hasta llegar a nuestro alojamiento, y desde ese primer día, París nos envolvió con su belleza.\n\nPero esta ciudad también guardaba otro momento especial: una propuesta de matrimonio. Nadie lo sabía, pero ya tenía el plan armado. Caminamos por la Rue de l'Université, con la Torre Eiffel de fondo, y le contaba a Geraldyne cómo nos conocimos en la universidad… y ahora estábamos ahí, en esa calle, en París. Me arrodillé, hice la pregunta, y ella dijo que sí. ¿Qué más se puede pedir?"
         },
-        "proposal": {
-          "title": "Una propuesta inolvidable frente a la Torre Eiffel",
-          "description": "Decidí pedirle matrimonio a mi novia en París. Caminamos por la calle Universidad, como símbolo de cómo nos conocimos en nuestra universidad, y llegamos hasta la majestuosa Torre Eiffel. Ahí, me arrodillé, le conté el significado de la caminata, y le pedí que fuera mi esposa. Fue un momento perfecto, lleno de emoción y simbolismo, bajo el brillo de la torre iluminada."
+        "louvre_code": {
+          "title": "El Louvre y la búsqueda del Código de Hammurabi",
+          "description": "Tenía muchas ganas de visitar el Louvre. Más allá de la arquitectura del lugar, la pirámide de cristal, y la enorme cantidad de arte que contiene, yo tenía un objetivo muy claro: quería ver el Código de Hammurabi.\n\nEl museo es gigantesco. Si quieres recorrerlo bien, necesitas un día entero —o más. Caminamos por salas llenas de arte y reliquias de todo el mundo, pero yo seguía buscando esa piedra antigua que guarda una de las primeras leyes escritas de la humanidad. Y sí, después de bastante caminar, la encontré.\n\nVer esa pieza frente a mí fue un momento poderoso. Como amante de la historia, estar frente a algo que viene de la antigua Mesopotamia me hizo querer aprender más de esa época. El Louvre es un lugar increíble, incluso si no eres fan de la historia o el arte: hay algo para todos."
         },
-        "louvre": {
-          "title": "El inmenso Louvre: un viaje en el tiempo",
-          "description": "Visitamos el Museo del Louvre, una experiencia impresionante. Sus obras de arte, su historia y su magnitud son simplemente abrumadoras. Podrías pasar días recorriéndolo y siempre encontrar algo nuevo que admirar. Un solo día no fue suficiente, pero fue suficiente para dejar una marca imborrable en nuestra memoria."
-        },
-        "strasbourg": {
-          "title": "Estrasburgo: Un viaje navideño lleno de anécdotas",
-          "description": "Desde París viajamos a Estrasburgo, buscando la magia navideña. La ciudad estaba llena de luces, mercados y ese espíritu cálido que solo se siente en diciembre. Sin embargo, mi despedida fue apresurada: corrí contra el tiempo para alcanzar el tren, crucé la feria navideña, fui detenido por seguridad, y monté en el tranvía sin boleto. La adrenalina, la confusión y la emoción de esa noche quedaron grabadas para siempre como una de las aventuras más locas del viaje."
+        "mona_lisa": {
+          "title": "La Mona Lisa: un ícono que cobra vida",
+          "description": "Después de la Torre Eiffel y el Louvre, hay una figura que todo el mundo asocia con Francia: la Mona Lisa. Es esa obra que ves mil veces en internet, en libros, en posters… pero estar frente a ella en persona es otra cosa.\n\nLa experiencia es curiosa: una multitud de personas se agrupa para verla, todos con sus cámaras, teléfonos y miradas curiosas. Su fama atrae a las masas, y aunque es más pequeña de lo que muchos esperan, tiene una energía especial.\n\nVerla en vivo fue como tachar algo importante de la lista. No por moda, sino porque hay algo simbólico en pasar de verla por pantallas a tenerla ahí, frente a ti. Es una de esas cosas que hay que vivir al menos una vez."
         }
       }
     },
     "italy": {
       "items": {
-        "milan": {
-          "title": "Un sueño en Milán: fútbol y tradición",
-          "description": "Llegar a Milán fue el inicio de una pequeña aventura en solitario. Visité el impresionante Duomo y la elegante Galleria Vittorio Emanuele II, donde el frío invernal se mezclaba con la emoción de estar en un lugar tan icónico. Pero el momento más inolvidable fue en San Siro, viviendo un partido del AC Milan. Escuchar todo el estadio cantar 'Sarà perché ti amo' mientras subía las escaleras fue uno de esos momentos mágicos que marcan una vida. El sueño de ver un partido en San Siro, en diciembre, se hizo realidad de una manera perfecta."
+        "milan_san_siro_match": {
+          "title": "San Siro y un sueño cumplido con el AC Milan",
+          "description": "Italia comenzó para mí con una experiencia muy personal: ver un partido del AC Milan en San Siro. Soy fan del Milan desde 2005, y siempre soñé con estar en el estadio. El partido fue contra Monza, en diciembre de 2023, y ganamos 3-0 con goles de Reijnders, Jan Carlo Simic y Okafor.\n\nOriginalmente, el plan después de París era ir en bus hacia Zúrich para tomar el tren Bernina hasta Milán con mi familia, pero cuando vi que coincidía con un partido, tomé una decisión: me adelantaría solo. Desde Estrasburgo, tuve que correr al tren rumbo a París y luego volar a Milán. Fue mi primer viaje completamente solo, y la adrenalina fue total: no conseguía taxi, no podía caminar rápido entre la multitud, y hasta me subí al tranvía sin pagar por la desesperación.\n\nPero todo valió la pena. Llegué, recorrí un poco Milán por la mañana, desayuné, y luego me fui al estadio. Cuando subía las escaleras, comenzó a sonar “Che confusione”, y salí corriendo hasta ver el estadio completo frente a mí. Fue un momento mágico. Cantar con la curva, ver al equipo ganar… una de las mejores experiencias de mi vida."
         },
-        "florence": {
-          "title": "Florencia: una obra de arte viva",
-          "description": "Florencia superó todas mis expectativas. Desde la imponente Catedral de Santa María del Fiore hasta los callejones que llevan al Ponte Vecchio, cada rincón destila historia y belleza. Me enamoré de sus dulces típicos y de un panini que probé cerca de la catedral, el mejor que he comido. La ciudad entera respira arte, y aunque solo estuvimos un día y medio, fue suficiente para dejar una huella imborrable en mi memoria. Definitivamente, Florencia se ganó un lugar entre mis ciudades favoritas de Europa."
+        "florence_cathedral": {
+          "title": "Florencia: arte, historia… y el mejor panini del mundo",
+          "description": "La Catedral de Santa María del Fiore es, sin duda, uno de los edificios más hermosos que he visto en Europa. Majestuosa, imponente y con un nivel de detalle que te deja sin palabras. Florencia, en general, me sorprendió muchísimo: una ciudad que respira arte, cultura, arquitectura renacentista y monumentos por todos lados.\n\nEstaba emocionado por venir, y no me decepcionó. Mi mamá también estaba muy ilusionada, especialmente por conocer el Ponte Vecchio, y mi sobrino la pasó genial recorriendo las calles. Sentí que todos disfrutamos muchísimo la ciudad, más de lo que esperaba.\n\nY hablando de disfrutar… aquí me comí el mejor panini que he probado en mi vida. Simplemente delicioso. Florencia me regaló historia, belleza, y sabor. Una joya de ciudad."
         },
-        "rome": {
-          "title": "Roma: la grandeza eterna",
-          "description": "Roma me deslumbró como ninguna otra ciudad. Cada esquina guarda siglos de historia, y recorrer sus calles es como caminar en un museo al aire libre. El Coliseo me dejó sin aliento, el Foro Romano me hizo imaginar la vida antigua, y la Fontana di Trevi nos regaló uno de los momentos más mágicos del viaje. La comida, la gente, la atmósfera... todo en Roma tiene un sabor único. Hasta el simple hecho de encontrar venezolanas en una heladería cercana al Vaticano sumó a la magia del viaje. Roma se convirtió en mi ciudad europea favorita, sin duda alguna."
+        "rome_colosseum": {
+          "title": "El Coliseo: historia viva entre piedras",
+          "description": "Tenía muchísimas ganas de visitar el Coliseo. Es la casa de los gladiadores, historia pura, y en mi familia somos fanáticos de la historia. Tuvimos la oportunidad de entrar, caminar por sus pasillos, tocar sus paredes… y vivir toda la experiencia.\n\nMe sentí feliz de estar ahí, pensando en cuántas personas han pasado por ese lugar a lo largo de los siglos. El tiempo no perdona, pero el Coliseo sigue en pie, como un gladiador que ha vencido su batalla. (Ok, tal vez me puse un poco romántico). Lo único malo son los escalones —grandes, incómodos— pero ¿sabes qué? Hasta eso forma parte del viaje. Es el tipo de dolorcito que se acepta con gusto después de estar en un lugar tan legendario."
         },
-        "vatican": {
-          "title": "El Vaticano: arte y espiritualidad",
-          "description": "Visitar el Vaticano fue una experiencia profunda e impresionante. Desde los majestuosos Museos Vaticanos hasta la monumental Plaza de San Pedro, todo transmite una energía especial. Ver de cerca la Capilla Sixtina, con sus frescos tan icónicos, es algo que simplemente no se olvida. Fue el cierre perfecto para un viaje lleno de historia, cultura y emociones intensas, en el corazón mismo de la cristiandad."
+        "rome_roman_forum": {
+          "title": "Foro Romano: ruinas que hablan de grandeza",
+          "description": "El Foro Romano es como caminar por un libro de historia abierto. Aunque hoy en día queda solo una parte de lo que fue, ver esas columnas y estructuras aún de pie demuestra lo increíbles que eran los romanos como constructores.\n\nLa ingeniería detrás de todo eso es fascinante. El conocimiento es poder, y los romanos supieron aprovecharlo bien. Recientemente se hizo popular ese meme de: “¿Con qué frecuencia piensas en el Imperio Romano?” Y, sinceramente… bastante seguido. Es el epítome de una civilización. Como dicen: todos los caminos conducen a Roma. Y yo tuve la suerte de caminar uno de ellos hasta aquí."
+        },
+        "rome_trevi_fountain": {
+          "title": "Fontana di Trevi: el final… y el regreso",
+          "description": "Nos hospedamos muy cerca de la Fontana di Trevi, así que fuimos varias veces. Tomamos helados, paseamos por sus alrededores, y recorrimos a pie muchas zonas cercanas como Plaza España y el Panteón. Roma es una ciudad para caminar, y al final del día, siempre volvíamos a la Fontana como punto de cierre.\n\nY no solo fue el cierre del día… también fue el cierre del viaje. Dicen que si lanzas una moneda a la Fontana, volverás a Roma. Yo lancé la mía con esa esperanza… y un año después, volví. No sé si fue magia o coincidencia, pero quiero creer que fue la fuente que me llamó de vuelta."
         }
       }
     }
   },
   "eurotrip_2024": {
-    "spain": {
-      "items": {
-        "new_year_madrid": {
-          "title": "Un nuevo año en la ciudad favorita de mi esposa",
-          "description": "Madrid se ha convertido en una tradición para nosotros. Después de visitarla en 2022 y 2023, mi esposa no dejó lugar a dudas: en 2024 también debíamos regresar. Y así fue como, entre luces, celebraciones y alegría, recibimos el Año Nuevo en pleno corazón de la capital española. Nos alojamos cerca de la Gran Vía, la arteria vibrante de la ciudad, donde pasear es siempre un placer. Aprovechamos también para disfrutar de un pequeño lujo: saborear una deliciosa cachapa y unas empanadas venezolanas en uno de los muchos locales de comida latina que florecen en Madrid. Poder combinar nuestras raíces con la energía de esta ciudad hizo que la experiencia fuera aún más especial."
-        },
-        "arrival_barcelona": {
-          "title": "Barcelona: entre la sorpresa y el encanto",
-          "description": "Llegar a Barcelona fue una grata sorpresa. Aunque al principio tenía ciertas reservas —por las historias que uno escucha sobre robos—, mi experiencia fue completamente positiva. Nos alojamos en plena Gran Vía de Barcelona, con una vista preciosa y un ambiente acogedor. Desde el primer momento sentí que la ciudad me abrazaba: calles amplias, arquitectura viva, y una energía artística que brotaba en cada rincón. Barcelona me cautivó más de lo que esperaba."
-        },
-        "sagrada_familia": {
-          "title": "La majestuosidad de la Sagrada Familia",
-          "description": "Visitar la Sagrada Familia fue uno de los momentos más impresionantes del viaje. La magnitud del proyecto, su complejidad y su belleza son difíciles de describir. Estar frente a esa obra maestra de Gaudí, con sus torres apuntando al cielo y sus detalles casi infinitos, fue simplemente sobrecogedor. Más que una iglesia, la Sagrada Familia se siente como un poema escrito en piedra."
-        },
-        "gran_via_gaudi": {
-          "title": "Arte en cada esquina: Casa Milà y Casa Batlló",
-          "description": "Pasear por la Gran Vía de Barcelona también significó encontrarnos con dos joyas arquitectónicas: la Casa Milà (La Pedrera) y la Casa Batlló. Cada edificio parece surgido de un sueño, con formas ondulantes, colores vibrantes y detalles imposibles. Admirarlos desde la calle, mientras la vida cotidiana fluye a su alrededor, te hace sentir como parte de una obra de arte viva."
-        },
-        "barcelona_beach": {
-          "title": "Sol y mar en la Barceloneta",
-          "description": "Entre tantas caminatas y descubrimientos, llegar a la playa fue un respiro refrescante. La Rambla nos condujo hasta la Barceloneta, donde el sonido de las olas y la brisa marina nos dieron la bienvenida. Paseamos por la arena, disfrutamos del paisaje, y respiramos el aire salado que tanto echábamos de menos."
-        },
-        "gothic_quarter": {
-          "title": "Un momento especial en el Barrio Gótico",
-          "description": "Pasear por el Barrio Gótico de Barcelona fue como retroceder en el tiempo. Calles estrechas de piedra, edificios antiguos llenos de historia, y pequeños detalles que atrapaban la mirada en cada esquina. Mientras caminábamos, una chica de Corea del Sur nos detuvo amablemente para ofrecernos tomarnos una foto. Nos dijo que nos veíamos muy románticos y quiso capturar ese momento para nosotros. Fue un gesto inesperado y muy bonito que hizo que la visita fuera aún más especial. El Barrio Gótico tiene esa magia: no solo te muestra su belleza antigua, sino que también crea momentos que se quedan en la memoria para siempre."
-        },
-        "graffiti_barcelona": {
-          "title": "Barcelona ilustrada: arte urbano en cada rincón",
-          "description": "Uno de los detalles que más me encantaron de Barcelona fue la cantidad de arte urbano que decora la ciudad. Las persianas metálicas de los comercios —las clásicas 'santa marías'— están cubiertas con grafitis llenos de color, creatividad y mensajes. Decidí recopilar varias fotos de estas obras callejeras, creando un collage que captura el alma artística de la ciudad. En Barcelona, cada callejón puede ser una galería de arte al aire libre."
-        }
-      }
-    },
-    "germany": {
-      "items": {
-        "dom_romer": {
-          "title": "Un Frankfurt silencioso y el encanto de Dom-Römer",
-          "description": "Llegamos a Frankfurt muy temprano, justo el día de Navidad. El aeropuerto aún despertaba y las calles lucían casi desiertas, como si la ciudad entera estuviera tomándose un respiro. Caminamos por avenidas silenciosas, sintiendo el frío matutino en el rostro, hasta que llegamos al encantador barrio de Dom-Römer. La zona, con sus casas tradicionales reconstruidas al estilo medieval, parecía sacada de un cuento de hadas. Colores suaves, techos empinados y callejuelas empedradas nos transportaron a otra época. Aunque era todo tan tranquilo y solitario, había algo reconfortante en recorrer aquellas calles, como si la ciudad nos estuviera regalando un momento de intimidad para admirarla."
-        },
-        "river_bridge": {
-          "title": "Cruzando el río Main en Navidad",
-          "description": "Después de explorar Dom-Römer, seguimos caminando hasta encontrar un puente antiguo que cruza el río Main. Desde allí, la vista de Frankfurt era simplemente mágica: los reflejos de los pocos rayos de sol en el agua, los edificios históricos mezclados con rascacielos modernos, y la quietud del día festivo creaban una escena serena y poderosa. Cada paso sobre el puente nos hacía sentir parte de una postal navideña. No había multitudes, no había ruido, sólo la inmensidad tranquila de una ciudad tomando aliento en el corazón de Europa."
-        },
-        "schnitzel_meal": {
-          "title": "Un festín inesperado: Schnitzel navideño",
-          "description": "Después de horas caminando bajo el frío, finalmente encontramos un pequeño restaurante abierto cerca del río. Allí probamos uno de los platos más memorables del viaje: un schnitzel crujiente acompañado de papas doradas y una cremosa salsa de champiñones. La calidez del lugar, el sabor reconfortante de la comida, y el simple placer de compartir esa comida especial en medio de un día tan peculiar hicieron de aquel almuerzo algo inolvidable. Fue un recordatorio perfecto de que los mejores momentos a veces nacen de lo más sencillo: buena comida, buena compañía y una ciudad que, en su silencio, nos abrazaba."
-        }
-      }
-    },
     "italy": {
       "items": {
-        "trastevere": {
-          "title": "Llegada a Roma y explorando Trastevere",
-          "description": "Después de un vuelo nocturno desde Abu Dhabi, aterrizamos en Roma y comenzamos nuestra aventura directamente en el vibrante barrio de Trastevere. Sus calles estrechas, llenas de vida, nos dieron la bienvenida con ese aroma a historia y a tradición romana. Aunque era nuestra segunda vez en la ciudad, todo se sentía tan fresco como la primera vez. Disfrutamos de una deliciosa pizza en Tonnarello Scala, acompañada de antipasti italianos tradicionales, en medio de un ambiente animado de terrazas, músicos callejeros y sonrisas cálidas. Trastevere nos regaló esa mezcla única de autenticidad y magia que sólo Roma puede ofrecer."
+        "rome_colosseum": {
+          "title": "Una parada (casi) romántica",
+          "description": "Roma fue solo una parada estratégica. Era la segunda vez que la visitábamos, y como el vuelo desde Abu Dhabi salía barato, aprovechamos para quedarnos una noche y revivir algo de su magia. ¿Y qué mejor manera de hacerlo que volviendo al Coliseo? No entramos esta vez —ya lo habíamos hecho en el viaje anterior—, pero solo verlo desde afuera sigue siendo increíble. Tiene algo que te conecta con la historia, con los gladiadores, con lo que fue.\n\nLa idea era cerrar el día con una cena romántica frente al Coliseo. Mi esposa había hecho una reserva en un restaurante que —supuestamente— tenía esa vista. Pero cuando nos llamaron para confirmar si íbamos, abrimos Google Maps… y algo no cuadraba. ¿Cómo que 40 minutos en bus para un restaurante con vista al Coliseo si el Coliseo está justo aquí?\n\nDespués de revisar en internet sobre el restaurante, nos dimos cuenta que la famosa “vista al Coliseo” era simplemente una foto del Coliseo en la pared. Un póster. Sí, el restaurante tenía una imagen del Coliseo, no el Coliseo real al frente. Pues nada, tocó llamar de vuelta y cancelar. No fue la noche planeada, pero fue igual de memorable."
         },
-        "colosseo": {
-          "title": "Del Puente Palatino al Coliseo bajo la lluvia",
-          "description": "Continuamos caminando cruzando el Puente Palatino, con vistas impresionantes del río Tíber y los edificios antiguos de Roma. Mientras nos acercábamos al imponente Coliseo, comenzó una llovizna suave que le dio a la ciudad un brillo dorado y melancólico. Aunque algunas áreas para tomar fotos estaban bloqueadas, buscamos ángulos creativos y logramos capturar momentos mágicos. Estar frente al Coliseo bajo la lluvia, casi solos, fue una experiencia que mezcló historia, romanticismo y aventura de una forma inolvidable."
+        "rome_bridge": {
+          "title": "Una Pausa en el Camino",
+          "description": "Roma es una ciudad hecha para caminar. Mientras nos dirigíamos al Coliseo, pasamos por uno de sus tantos puentes —creo que era el Puente Sisto— y tuve que pararme a tomar una foto. Ver el río, sentir la brisa, tomarse un respiro. En Roma, hasta una pausa frente al agua se convierte en parte del recorrido. Es uno de esos momentos que no planeas, pero disfrutas igual."
         },
-        "fontana_trevi": {
-          "title": "Fontana di Trevi y las escaleras de Plaza España",
-          "description": "Desde el Coliseo, caminamos hasta llegar a la mítica Fontana di Trevi. Rodeada de turistas soñadores, lanzamos una moneda deseando regresar algún día. Luego nos dirigimos a las majestuosas escaleras de Plaza España, donde la vista de la ciudad iluminada al atardecer nos dejó sin palabras. Sentados en uno de los escalones, disfrutamos de uno de esos momentos de paz que sólo ocurren en ciudades con alma. Terminamos el día con un nostálgico paseo en autobús de regreso a nuestro hotel, felices y agradecidos por cada instante vivido."
+        "rome_pantheon": {
+          "title": "El Panteón Siempre Aparece",
+          "description": "Algo curioso de Roma es que puedes caminar sin rumbo, y de repente, sin esperarlo, estás frente al Panteón. Esa forma tan característica y su estado de conservación lo hacen perfecto para una foto. Más allá de cualquier restauración, nunca decepciona. Si tienes tiempo, también puedes entrar, pero con solo verlo desde afuera ya sientes la historia que carga encima."
+        },
+        "rome_fontana_di_trevi": {
+          "title": "Las Monedas de la Fontana",
+          "description": "Dicen que si lanzas una moneda en la Fontana di Trevi, volverás a Roma. Y bueno, en mi primer viaje lo hice… y aquí estoy de nuevo. Esta vez también lancé otra moneda, por si acaso. Aunque ahora, por renovaciones, el acceso estaba limitado, así que tocó lanzarla desde arriba.\n\nLo curioso fue que mientras estábamos allí, vimos cámaras y un equipo de grabación. Al día siguiente, nos enteramos de que uno de los actores de La Casa de Papel había estado justo después de que nos fuimos, filmando una escena. Casi lo vemos en persona."
         }
       }
     },
     "croatia": {
       "items": {
-        "arrival": {
-          "title": "Llegada congelada y primeras impresiones de Zagreb",
-          "description": "Llegamos a Zagreb la mañana del 23 de diciembre, recibidos por un frío tan intenso que parecía que el aire mismo cortaba la piel. Perdimos el primer autobús y esperamos temblando hasta que llegó el siguiente. El aeropuerto parecía sacado de otra época: pequeño, silencioso, casi mágico. Al subir al tranvía hacia el centro, vimos cómo la ciudad despertaba lentamente, con sus callejuelas adornadas de luces navideñas y su gente abrigada caminando apresurada. La primera impresión fue una mezcla de desconcierto y fascinación: Zagreb nos prometía sorpresas."
+        "zagreb_tram": {
+          "title": "Zagreb y su encanto invernal",
+          "description": "Zagreb fue nuestra única parada en Croacia. Llegamos el 23 de diciembre, con frío fuerte y pocas expectativas, pero terminamos llevándonos una sorpresa. Apenas llegamos al centro, nos encontramos con una escena que parecía salida de una película invernal: luces por todos lados, un pequeño mercadito navideño en la plaza principal, y varios tranvías atravesando la calle principal como si fueran parte del paisaje.\n\nSiempre me han gustado las ciudades europeas donde el tranvía se mezcla con los carros, la gente y los cafés. En Zagreb, eso pasa de forma natural. Todo se mueve con calma, y sin darte cuenta te ves caminando sin rumbo, deteniéndote a tomar una foto, a probar algo de comer o simplemente a mirar.\n\nEntre lo acogedora que se siente y lo bien cuidada que está, Zagreb es una ciudad que recomendaría sin dudarlo, sobre todo en época navideña."
         },
-        "main_street": {
-          "title": "Descubriendo la calle principal y su atmósfera acogedora",
-          "description": "En Zagreb, todo gira en torno a una encantadora calle principal atravesada por tranvías y flanqueada por tiendas y cafeterías acogedoras. Nuestro primer hot dog croata fue toda una revelación: sencillo pero lleno de sabor. Pasear por las calles, ver escaparates iluminados y respirar el aire festivo de la Navidad nos hizo sentir como en una película invernal. Cada esquina parecía invitarte a detenerte, mirar y sonreír."
+        "zagreb_st_mark": {
+          "title": "La Iglesia de San Marcos y un encuentro inesperado",
+          "description": "Uno de los lugares que más quería ver en Zagreb era la Iglesia de San Marcos. Su techo de azulejos de colores con la bandera de Croacia es único, y lo mejor de todo es que, al no haber tantos turistas, puedes disfrutarla en completa tranquilidad. Fuimos dos veces, y en ambas ocasiones estaba prácticamente vacía.\n\nEn una de esas visitas, conocimos a un chico español a quien le pedimos que nos tomara una foto. Al poco rato, se nos acercó una señora, hablando de forma confusa. Decía que no podía volver a su país, que necesitaba ayuda, pero no explicaba muy bien qué pasaba. Le ofrecimos comida, pero la rechazó. Nuestro nuevo amigo español empezó a dudar, y al final, después de insistirle bastante, accedimos a darle algo de dinero. Sorprendentemente, la señora lo rechazó en el último momento, gritó algo, nos dio las gracias y se fue. Un momento muy random del viaje."
         },
-        "st_mark_church": {
-          "title": "La Iglesia de San Marcos y encuentros inesperados",
-          "description": "Subimos por las callejuelas empinadas hasta llegar a la Iglesia de San Marcos, con su característico tejado de mosaicos de colores. Mientras admirábamos la belleza tranquila del lugar, una señora se nos acercó pidiendo ayuda en un confuso cruce de idiomas. Entre gestos y sonrisas, aprendimos que viajar no siempre es sobre monumentos, sino sobre conexiones humanas. Más tarde, exploramos túneles subterráneos usados durante la guerra, un recordatorio silencioso de la resiliencia de la ciudad."
+        "zagreb_alleyways": {
+          "title": "Callejones, túneles y rincones por descubrir",
+          "description": "Zagreb es una ciudad para caminar sin mapa. Desde la zona alta, cerca de la Iglesia de San Marcos, se puede bajar por callejones y escalinatas que te llevan a rincones inesperados. En uno de esos caminos, descubrimos un local con luces, música y gente celebrando, como si fuera un club o centro comunitario. Era la víspera de Navidad, y se sentía como si toda la ciudad estuviera en modo celebración.\n\nMuy cerca de nuestro hotel también descubrimos algo curioso: un túnel subterráneo usado durante la Segunda Guerra Mundial como refugio. Hoy en día, lo transformaron en un pasaje que cruza parte del centro y que incluso tiene decoraciones navideñas y exhibiciones en su interior. Al salir del túnel, llegas directamente a una zona con comercios. Zagreb está lleno de esos pequeños detalles que lo hacen especial."
         },
-        "christmas_eve_tradition": {
-          "title": "Una mágica Nochebuena en Zagreb",
-          "description": "La víspera de Navidad nos regaló una escena imposible de olvidar: toda la ciudad parecía reunirse en una procesión silenciosa, llevando velas encendidas que iluminaban la noche como un río de luz. Caminamos entre miles de personas que compartían un mismo espíritu de paz y comunidad. Fue un momento tan emotivo y hermoso que Zagreb se ganó para siempre un lugar en nuestros corazones."
+        "zagreb_candle_night": {
+          "title": "Una noche iluminada por velas",
+          "description": "Una de las noches más especiales del viaje fue la del 24 de diciembre. Habíamos salido a comprar algunas cosas para preparar nuestra cena navideña en la habitación (porque sí, decidimos hacer algo casero en nuestra pequeña cocina), cuando notamos que algo estaba ocurriendo en la ciudad.\n\nCientos de personas comenzaron a caminar por la calle principal, llevando velas encendidas en una especie de procesión silenciosa. No era un evento oficial ni una celebración con espectáculo, simplemente gente caminando junta, en silencio, en sintonía. Nunca había visto algo así.\n\nEra una noche muy fría, pero la atmósfera era cálida y especial. La ciudad entera parecía unida por un mismo sentimiento. Zagreb, sin pretenderlo, nos regaló uno de los recuerdos más bonitos del viaje."
+        },
+        "zagreb_christmas_farewell": {
+          "title": "Dulces, despedida y magia navideña",
+          "description": "Zagreb fue, sin duda, la ciudad más navideña que hemos visitado. Hemos pasado diciembre en lugares como París y Madrid, pero nunca habíamos sentido la Navidad con tanta fuerza. Todo estaba decorado: luces por todos lados, pistas de hielo, fachadas con guirnaldas, y pequeños detalles que hacían la diferencia, como bastones de caramelo y snacks festivos en cada esquina.\n\nIncluso fuimos a un parque donde tenían instrumentos musicales de tamano real hechos con cuerdas que podías tocar tú mismo. Todo estaba iluminado con luces blancas, creando un ambiente mágico.\n\nEl 25, al llegar al aeropuerto para despedirnos de Zagreb, nos recibieron con una sonrisa y un “Feliz Navidad”. En el vuelo, Lufthansa nos dio chocolates navideños y el capitán nos deseó feliz Navidad por los parlantes.\n\nNo quiero sonar exagerado, pero fue como vivir en una película navideña donde todo el mundo está feliz y desea lo mismo: compartir y pasarla bien."
+        }
+      }
+    },
+    "germany": {
+      "items": {
+        "frankfurt_romerberg": {
+          "title": "Frankfurt en Navidad: escala, frío y pan recién horneado",
+          "description": "Llegamos a Frankfurt el 25 de diciembre, desde Zagreb, como parte de una escala de 10 horas antes de volar a Portugal. Mi idea era simple: si podíamos conocer un país más, ¿por qué no hacerlo?\n\nA las 7 am ya estábamos en la ciudad, y como era feriado, todo se sentía completamente apagado. Caminamos por calles desiertas hasta llegar a Römerberg, el corazón antiguo de Frankfurt, con sus casas tradicionales y fachadas que parecen de cuento. Costó conseguir dónde desayunar, pero por suerte encontramos una panadería con panes buenísimos. Recuerdo que mi esposa botó su café con leche en la mesa—nada grave.\n\nYo estaba algo desanimado al principio. Todo se sentía muy muerto, pero con el paso del tiempo la ciudad comenzó a tomar ritmo. Römerberg se fue llenando poco a poco de turistas, y aunque muchas tiendas estaban cerradas y se notaba bastante la presencia de personas sin hogar (Frankfurt tiene su fama), fue una parada curiosa. No fue la mejor experiencia, pero sumamos un país más y vimos algo distinto."
+        },
+        "frankfurt_river": {
+          "title": "Un paseo junto al río y una comida inolvidable",
+          "description": "A pocos pasos de Römerberg está el río Main, y desde el puente de hierro se puede ver una iglesia (o lo que creemos que es una iglesia) dominando el paisaje. Esa zona fue perfecta para hacer una pausa y simplemente caminar, disfrutar del frío y del contraste que tiene Frankfurt: un lado antiguo, otro lleno de rascacielos modernos. Hay muchas caras de la ciudad.\n\nEntre los objetivos del día, uno era claro: quería probar un schnitzel alemán. Lo conseguí en un local cerca del río—con salsa de hongos y papas fritas. No exagero cuando digo que fue uno de los mejores platos que he comido viajando. Fácil pelea por estar en el top 5 de mis mejores comidas. Solo por eso, valió la pena la escala."
         }
       }
     },
     "portugal": {
       "items": {
-        "porto_crystal_palace_gardens": {
-          "title": "The Hidden Gem of Porto: Crystal Palace Gardens",
-          "description": "After days of intense travel, finding a place like Crystal Palace Gardens in Porto felt like a deep breath of fresh air. It wasn’t an easy climb—steep streets tested our legs—but once there, it was completely worth it. The park was open, peaceful, and offered breathtaking views of the city and the Douro River. What touched me most was the relaxed atmosphere: people lying on the grass, sunbathing without shirts as if it were summer, and birds freely wandering around. Although it was December 26th, the mild weather felt almost like spring. Porto gifted us a peaceful, unforgettable moment here."
+        "porto_capela_almas": {
+          "title": "Azulejos, calles inclinadas y pan venezolano",
+          "description": "Pasamos dos noches en Porto y nos quedamos en un hotel súper bien ubicado, lo que nos permitió caminar gran parte de la ciudad. El 26 de diciembre lo dedicamos por completo a recorrerla. Una de nuestras primeras paradas fue la Capela das Almas, una capilla cubierta completamente por azulejos azules y blancos tradicionales. Es increíble verla aparecer de repente entre las calles, pero también es difícil tomar una foto sin gente: hay que pegarse a la pared y que quien la tome se ubique en la acera de enfrente.\n\nLas calles en Porto pueden ser empinadas, pero no tanto como en Lisboa, y hay zonas llenas de tiendas de recuerdos, donde los precios nos parecieron bastante accesibles y la temática de los azulejos está por todos lados. Portugal estaba en nuestra lista desde hace tiempo, originalmente para un verano europeo, pero diciembre nos sorprendió de la mejor manera.\n\nY una de las razones por las que queríamos ir a Porto era por una panadería portuguesa-venezolana que habíamos encontrado por internet: la Confitería del Bolhão. Después de más de dos años en Dubái sin mucho acceso a comida venezolana, sabíamos que teníamos que aprovechar. Tenían chicha, malta, pan de jamón, empanadas, bombas, todo lo que puedas imaginar. Tanto así que el día que partíamos hacia Lisboa, volvimos para comprar todo lo posible para el camino. Nos atendió una chica venezolana que, al ver lo que estábamos llevando, nos dijo como si fuésemos parte de la casa: '¡Mira que también tenemos golfeados!'. Totalmente recomendada."
         },
-        "porto_capela_das_almas": {
-          "title": "Between Blue Tiles: Capela das Almas",
-          "description": "One of the most photographed spots in Porto—and for good reason. Capela das Almas is covered in beautiful blue-and-white tiles that tell old stories through art. Getting the perfect picture wasn't easy, though: the sidewalk was narrow, cars passed constantly, and tourists crowded around. It felt like a strategic mission, waiting patiently for just the right moment. But when you finally capture your shot, you realize it was worth it: the chapel perfectly captures Porto's artistic and chaotic spirit in one frame."
+        "porto_crystal_palace_gardens": {
+          "title": "Mirador, diciembre y sol",
+          "description": "El Jardín del Palacio de Cristal fue uno de los lugares que más nos sorprendió en Porto. No estaba lleno de gente y tenía una vista increíble de la ciudad. Llegar hasta allí fue una buena caminata, y una vez cerca, costó un poco encontrar la entrada correcta. Pero la vista lo valió todo: el mar al fondo, una palmera enorme en el centro, el puente, y la ciudad dividiéndose a lo lejos. Es uno de esos sitios donde puedes pasar un buen rato simplemente mirando.\n\nAlgo curioso: era 26 de diciembre, pero el clima no era frío. Veníamos de Zagreb, donde hacía mucho frío, y de repente estábamos en un lugar donde la gente tomaba el sol sin camisa. Un contraste inesperado, pero muy bienvenido."
         },
         "porto_luis_bridge": {
-          "title": "Luís I Bridge: Endless Steps to Unforgettable Views",
-          "description": "Walking toward the iconic Luís I Bridge in Porto is an adventure on its own. The city's steep hills make reaching the bridge a real effort, but every step is rewarded. From the top, the view is breathtaking: the Douro River slicing the city in two, colorful houses climbing the hills, and the tram rumbling by as you walk alongside amazed travelers. Porto reveals all its raw beauty here—a city of vibrant chaos, heartfelt charm, and unforgettable sights."
+          "title": "Vistas desde las alturas",
+          "description": "Subir al puente Dom Luís I fue un reto, pero valió totalmente la pena. Desde allí se obtienen algunas de las mejores vistas de Porto. Tomé una foto de un barco enorme cruzando el río que quedó espectacular. Estar ahí arriba te da una nueva perspectiva: ves los techos marrones de la ciudad, las casas apiladas unas sobre otras, escaleras infinitas que suben desde el río, y todo ese caos urbano se ve perfectamente organizado desde la distancia.\n\nPorto tiene mucho verde, es bastante limpia y tiene un encanto relajado que la hace muy especial. Me encantó explorarla."
         },
-        "porto_venezuelan_bakery": {
-          "title": "A Piece of Venezuela in Porto: Confeitaria do Bolhão",
-          "description": "After all the walking and exploring, we stumbled upon one of the most emotional moments of our trip: a Venezuelan bakery hidden in Porto. Confeitaria do Bolhão offered us empanadas, cachitos, pan de jamón, mini lunches, bombas (also called bolas de Berlín), and even chicha, Malta, and Frescolita. Every bite felt like a warm hug from home, bringing back memories of childhood and family celebrations. The owner, born in Venezuela but raised in Portugal, infused each recipe with love and nostalgia. It was the perfect, unexpected ending to our Porto adventure—filled with gratitude, memories, and the delicious taste of home."
+        "lisbon_tram": {
+          "title": "El tranvía más famoso de Lisboa",
+          "description": "Lisboa era una de las ciudades que más esperábamos visitar. Nos hospedamos en el centro turístico, cerca de la playa, en un hotel llamado Art Stay Apartments Baixa. Ahí, como buen detalle, siempre ofrecían tartas de huevo a los huéspedes —¡un clásico lisboeta! Desde esa zona, caminando, llegas a lugares como el Chiado y la Praça do Comércio, con el mar justo ahí.\n\nY claro, el tranvía. Verlo pasar es como ver una postal en vivo. Ese tranvía amarillo, pequeño y clásico, recorriendo las calles empedradas con edificios de fondo, es simplemente parte del alma de la ciudad. No te puedes ir sin tomarte una foto ni sin comprarte un imán con su imagen."
         },
-        "lisbon_tram_hills": {
-          "title": "Entre tranvías y colinas infinitas",
-          "description": "Lisboa es una ciudad que se vive subiendo y bajando colinas. Desde el primer momento que salimos a caminar, sentimos cómo el esfuerzo valía la pena: los tranvías históricos serpenteando entre callejuelas, los colores cálidos de las fachadas, el amarillo vibrante de los vagones mezclándose con las plantas trepadoras. No fue fácil —las subidas eran empinadas, los pies dolían y tomar una buena foto con el tranvía de fondo resultó casi imposible (más aún cuando uno no es fotogénico como yo). Sin embargo, cada paso tenía su recompensa: pequeñas plazas escondidas, vistas hacia la ciudad, vida local a cada esquina. Algo que recuerdo con especial cariño era volver al hotel, cansados pero felices, y encontrar en el lobby siempre una bandeja con pasteles de nata esperándonos. No había mejor manera de terminar esas largas caminatas que saboreando ese dulce perfecto de Lisboa."
-        },
-        "lisbon_viewpoint": {
-          "title": "Lisboa desde lo alto: techos de terracota y vistas al mar",
-          "description": "Una de las experiencias más memorables fue llegar a uno de los miradores más famosos de Lisboa. Después de subir interminables callejuelas, alcanzamos un punto donde podíamos ver la ciudad desplegarse como una pintura: tejados de terracota que parecían olas naranjas, y al fondo, el río Tajo mezclándose con el horizonte. Aunque no fue sencillo encontrar un buen ángulo para las fotos —entre la multitud y mi poca habilidad para posar— la sensación de estar allí, respirando el aire fresco y contemplando esa postal perfecta, hizo que todo valiera la pena. Lisboa desde arriba tiene una magia silenciosa que te envuelve."
+        "lisbon_uphill_walk": {
+          "title": "Cuestas, tranvías y vistas",
+          "description": "Desde donde nos hospedamos, es muy fácil comenzar a subir por las calles de Lisboa… aunque no te voy a mentir: ¡cansan! Pero vale la pena. En el camino puedes pasar por la Catedral de Lisboa, donde muchos hacen una pausa o se montan en esos carritos turísticos eléctricos (que no son baratos, pero me parece que valen la pena). Nosotros decidimos no hacerlo porque aún nos quedaban Madrid y Barcelona por visitar y queríamos cuidar el presupuesto.\n\nSi sigues subiendo, puedes llegar a varios miradores increíbles como el de la Señora del Monte, Portas do Sol, Santa Lucía... y si todavía te quedan fuerzas, puedes seguir hasta el Castillo de San Jorge. Todo el trayecto es bonito: las calles son empedradas, se curvan, y de repente aparece un tranvía subiendo la cuesta o perdiéndose entre los edificios. Es imposible no querer sacar la cámara y atrapar esa escena.\n\nAdemás, en cada esquina puedes encontrar un local con comida o algún rincón con encanto. Lisboa te invita a caminar y descubrir, incluso si las piernas se quejan."
         },
         "lisbon_classic_cars": {
           "title": "Carritos clásicos: un paseo al pasado",
           "description": "Entre los tranvías y las calles empedradas, algo que me encantó de Lisboa fueron los pequeños carritos clásicos que recorrían la ciudad. No eran coches americanos antiguos, sino carruajes motorizados que parecían sacados de principios del siglo XX. Brillaban bajo el sol, cada uno con su propio color y diseño retro, invitando a explorar Lisboa de una manera diferente. Verlos cruzar junto a los tranvías, entre plazas históricas y mercados, agregaba un aire nostálgico y romántico al viaje. Era como si la ciudad misma se empeñara en recordarte que cada rincón, cada paseo, estaba lleno de historia viva."
+        },
+        "lisbon_classic_car_tour": {
+          "title": "Carros clásicos para recorrer Lisboa",
+          "description": "Lisboa tiene estilo incluso para los tours. En lugar de buses grandes o tuktuks como en otros países, aquí verás carritos clásicos, pequeños y coloridos —como salidos de Titanic pero con onda. Son perfectos para las calles angostas de la ciudad y, además, te dan buena visibilidad durante el recorrido.\n\nTe vas a encontrar con muchos, y solo con verlos vas a querer montarte en uno. Son una forma hermosa de explorar Lisboa, sobre todo si quieres ahorrarte algunas caminatas cuesta arriba. Los tours que ofrecen varían según la ruta, así que los precios también dependen de lo que quieras ver. Están por toda la ciudad, y sí, se ven tan bonitos en persona como en las fotos."
+        },
+        "lisbon_downhill_stairs": {
+          "title": "Después de subir... toca bajar",
+          "description": "Después de recorrer las calles empinadas y llegar a lo más alto que el cuerpo aguante, llega el momento de bajar. Y en Lisboa, eso significa escalones. Muchos escalones.\n\nEsta imagen la tomé desde lo alto de uno de esos callejones de escaleras, justo antes de comenzar el descenso. Al frente, una baranda metálica separa los dos lados, y lo curioso es que tenía un sticker pegado que decía: “Muy Bien”. En español. Fue como un mensaje simpático que te felicita por haber llegado hasta allí y te recuerda que ahora viene la otra parte del reto: bajar todo eso.\n\nLisboa se vive caminando —y subiendo, y bajando—, pero esos detalles hacen que cada tramo tenga su propio encanto."
+        }
+      }
+    },
+    "spain": {
+      "items": {
+        "new_year_madrid": {
+          "title": "Madrid, comida venezolana y Año Nuevo",
+          "description": "Desde Lisboa volamos a Madrid, una ciudad que ya conocemos bien. De hecho, era nuestra tercera vez visitándola, y esta vez teníamos tres objetivos claros: disfrutar del Año Nuevo, volver a comer comida venezolana (porque en Madrid hay de todo), y, sobre todo, complacer a mi esposa, que ama esta ciudad.\n\nMadrid fue la primera ciudad que conocimos juntos al salir de Venezuela, y por eso siempre tiene un lugar especial. Así que pensé: si ella quiere visitarla cada año, hagámoslo en Año Nuevo. Así estaríamos el 31 de diciembre de 2024 y el 1 de enero de 2025 en el mismo sitio. Dos años seguidos en España… mente de tiburón.\n\nNos quedamos cerca de la Gran Vía, para aprovechar el tiempo, y la foto que tomé del edificio Metrópolis con ese cielo azul es un buen resumen de lo bonita que puede ser Madrid incluso en invierno. Eso sí, el 31 por la noche, las calles estaban tan llenas que no logramos ver bien los fuegos artificiales en la Puerta del Sol… pero al final, lo importante era estar ahí, comenzando un nuevo año, en una ciudad que siempre nos recibe con buena energía."
+        },
+        "barcelona_sagrada_familia": {
+          "title": "Primera vez en Barcelona y la imponente Sagrada Familia",
+          "description": "Aunque ya habíamos visitado España antes, esta era nuestra primera vez en Barcelona, así que la emoción era grande. Desde el primer momento, la ciudad nos sorprendió: calles amplias, arquitectura impresionante, gente bien vestida, y una vibra cosmopolita muy marcada. Es de esos lugares que te hacen pensar, como en el meme: 'Should I move here?'\n\nPor supuesto, uno de los primeros lugares que teníamos que ver era la Sagrada Familia. Es el hito de la ciudad, la imagen que se te viene a la cabeza cuando piensas en Barcelona. Su diseño tan detallado, las formas, los colores... todo es una obra maestra de Gaudí. Estaba algo dudoso por lo que se comenta del turismo excesivo, pero honestamente, nuestra experiencia fue perfecta: todo fluyó, fue seguro, tranquilo, y Barcelona terminó siendo una de mis ciudades favoritas del viaje."
+        },
+
+        "barcelona_casa_mila": {
+          "title": "Casa Milà, identidad en plena Gran Via",
+          "description": "Nos quedamos en plena Gran Via de Barcelona, y a pocos pasos del hotel teníamos este ícono de la ciudad: la Casa Milà. Es uno de esos edificios que te recuerdan que estás en una ciudad con estilo, con identidad propia. Gaudí dejó su huella por todos lados, y eso es parte de lo que hace a Barcelona tan única.\n\nMe encantan las ciudades que se sienten como una escenografía, donde cada rincón es una oportunidad para tomar una buena foto. Edificios como la Casa Milà o la Casa Batlló no solo son bellísimos, también le dan alma a la ciudad. Barcelona está diseñada con intención, y eso se nota en cada esquina."
+        },
+
+        "barcelona_les_punxes": {
+          "title": "Casa de les Punxes, una sorpresa entre calles",
+          "description": "Una de las cosas más geniales de Barcelona es que puedes caminar sin rumbo y encontrarte con joyas como esta. Íbamos paseando, cuando de repente apareció este edificio con sus torres puntiagudas —la Casa de les Punxes. No sabíamos nada de él, pero su silueta nos obligó a parar y tomar fotos.\n\nBarcelona es así: parece que cada edificio compite por ser el más original. Y ese espíritu se siente en el aire. Cada detalle te invita a mirar hacia arriba, a admirar la arquitectura, y a disfrutar de una ciudad que decidió no parecerse a ninguna otra."
+        },
+        "barcelona_barceloneta_beach": {
+          "title": "Relajarse frente al W Barcelona",
+          "description": "No podíamos dejar Barcelona sin visitar su famosa playa: La Barceloneta. Aunque fuimos en invierno, el clima era perfecto para sentarse a descansar un rato, disfrutar del mar y picar algo. De fondo, el hotel W Barcelona —con su forma que recuerda al Burj Al Arab de Dubái— da un contraste perfecto para una buena foto.\n\nSin duda, en verano esto debe ser aún mejor. Me encantaría volver algún día con sol, calor y la playa en pleno. Pero incluso en diciembre, fue un lugar ideal para desconectar del ruido de la ciudad."
+        },
+        "barcelona_cable_car_port": {
+          "title": "El teleférico del puerto y un paseo inesperado",
+          "description": "Caminando por la Barceloneta, entre calles y mar, de repente levantas la vista… y ahí está: el teleférico del puerto cruzando el cielo. Me encanta que en Barcelona no solo es la arquitectura lo que llama la atención. A cada paso encuentras algo diferente que quieres fotografiar.\n\nEse día fue así: caminar sin rumbo, con la cámara lista, disfrutando del contraste entre lo urbano y lo marítimo, entre la ciudad y el mar. Barcelona tiene de todo, incluso cuando no lo buscas."
+        },
+        "barcelona_goodbye": {
+          "title": "Una despedida perfecta",
+          "description": "Barcelona me encantó. Después de tantos lugares en este viaje, fue el cierre ideal. Tiene historia, tiene estilo, y además, una cantidad exagerada de hoteles y opciones para quedarse, algo que valoro mucho al planear un viaje.\n\nAunque visité el Barrio Gótico, no logré una foto que me encantara para este slide, pero me gustaría contar algo curioso: caminábamos por un pasillo y vi a una chica tomando una foto desde lejos. Le dije a Geraldyne, bromeando, 'posemos, que seguro nos están tomando una foto'. Minutos después, esa misma chica nos alcanzó, nos dijo que le pareció que éramos una pareja muy tierna, y que si queríamos la foto que nos tomó. Sin palabras.\n\nEsta última imagen es del cielo rojizo de Barcelona al atardecer, como si la ciudad también se estuviera despidiendo de nosotros. Una de mis ciudades favoritas del mundo, sin duda."
         }
       }
     }
   },
   "hong_kong": {
     "items": {
-      "nathan_road": {
-        "title": "El Latido de Kowloon",
-        "description": "Nathan Road es mucho más que una calle: es una experiencia para los sentidos. Los letreros de neón, las interminables filas de tiendas y el flujo constante de personas crean una energía vibrante que define el pulso urbano de Hong Kong. Recuerdo caminar por ahí de noche, abrumado por las luces y la vida, como si cada paso fuera una escena de película. Es caótico, sí, pero de una belleza única."
+      "hongkong_intro": {
+        "title": "Hong Kong: una ciudad con identidad",
+        "description": "Visité Hong Kong sin tantas expectativas. No sabía bien qué esperar, pero me terminó sorprendiendo mucho. Hoy en día, es uno de mis lugares favoritos, y no lo niego: me encantaría vivir ahí.\n\nY es que Hong Kong tiene algo difícil de explicar, pero fácil de sentir. Es una ciudad con identidad, con estilo, muy estética. Se siente como si todo estuviera en su sitio, como si la ciudad se adaptara a tu ritmo. Es una isla relativamente pequeña, pero todo está tan concentrado que se forma esta especie de jungla urbana.\n\nParte de su personalidad se ve en los detalles: usan andamios de bambú para construir, algo único. La comida cantonesa, que en Venezuela ya amamos, allá sabe aún mejor. En el centro, ves tranvías al estilo británico, y es que Hong Kong fue una colonia del Reino Unido durante muchos años. Y, por supuesto, están los icónicos letreros de neón, que le dan esa energía visual tan reconocible.\n\nUno de los espectáculos más conocidos es el show de luces que se ve desde Kowloon hacia Hong Kong Island (sí, Hong Kong está dividido en varias regiones principales). Fui una noche a verlo… y la verdad, me decepcionó un poco. Pero entre tanto, logré capturar esta foto. Y con esa vista nocturna, con los reflejos sobre el agua, fue suficiente para que el momento valiera la pena."
       },
-      "the_peak": {
-        "title": "Sobre las Nubes",
-        "description": "Parado en The Peak, no solo ves la ciudad—la contemplas en su totalidad. La vista es un asombro panorámico: desde los rascacielos hasta el puerto activo. Fui justo antes del atardecer y ver cómo la ciudad se iluminaba lentamente desde lo alto fue surreal. Es un recordatorio de la complejidad de Hong Kong: moderna, acelerada, pero también tranquila desde la distancia."
+      "hong_kong_neon": {
+        "title": "Kowloon y los letreros de neón",
+        "description": "Kowloon es la parte vieja de Hong Kong. Se siente más tradicional, más local, con calles donde la vida cotidiana sigue su curso sin tanto brillo… salvo por una cosa: los letreros de neón.\n\nEs aquí donde vas a ver más de estos letreros tan característicos. Lamentablemente, este arte está desapareciendo poco a poco —ya no hay tantos como antes, según he visto en fotos—, pero los que quedan todavía le dan un toque especial a la ciudad.\n\nLas luces, los colores, las formas… generan un detalle visual que resalta entre todo lo demás. Hong Kong tiene muchas facetas, y los letreros de neón son sin duda parte clave de su identidad."
+      },
+      "hong_kong_soho": {
+        "title": "SoHo - escaleras, arte y comida para perderse",
+        "description": "¿Han visto esas escaleras mecánicas larguísimas en Hong Kong que suben por calles empinadas? Bueno, eso es en SoHo.\n\nResulta que esas escaleras solo suben. Para bajar… te toca a pie. Subir es pesado, bajar es más fácil, así que seguramente pensaron que no hacía falta poner escaleras mecánicas en ambos sentidos. Tiene sentido, aunque uno igual lo sufre.\n\nSoHo tiene una vibra muy distinta al resto de la ciudad. Es una zona más “western”, llena de locales con comida internacional, cafés, bares y mucho arte. Entre las calles empinadas, los murales, la decoración y la disposición de los locales, se generan vistas como la de esta foto: un efecto visual interesante, con todo en ángulo, que le da mucha estética al lugar.\n\nEs una de esas zonas que te inspiran a tomar fotos sin parar, a caminar sin rumbo fijo, y a terminar comiendo algo delicioso en un sitio inesperado."
+      },
+      "hong_kong_tram": {
+        "title": "Un paseo en tranvía… y el mejor arroz frito de Hong Kong",
+        "description": "En la parte de Hong Kong Island, que fue la zona británica, todavía circulan unos tranvías de dos pisos que parecen sacados de otra época. Son bonitos, fotogénicos, y verlos pasar es todo un espectáculo. Pero más allá de grabarlos o tomarles fotos, hay que vivir la experiencia de montarse en uno.\n\nNosotros lo hicimos. Nos subimos para vivir la experiencia… y nos bajamos sin tener idea de dónde estábamos. El tranvía ya iba lejos, y no queríamos terminar perdidos, así que nos bajamos por instinto.\n\nY fue lo mejor que pudimos hacer: caímos en una calle cualquiera, pero con un restaurante que tenía el mejor arroz frito estilo Hong Kong que he probado. Dios mío, cómo amo la comida en Hong Kong."
+      },
+      "nan_lian_garden": {
+        "title": "Nan Lian Garden: un pulmón verde entre edificios",
+        "description": "En medio de tanto edificio, encontrarse con Nan Lian Garden fue una grata sorpresa. Es un jardín clásico chino construido al estilo de la dinastía Tang, y justo al frente está el complejo budista Chi Lin Nunnery, que —dato curioso— fue construido completamente con madera de ciprés, sin usar ni un solo clavo. Dicen que es la estructura de madera hecha a mano más grande del mundo (a ver, si ya leíste hasta aquí, debes saber que tuve que googlear esta información).\n\nEl lugar es súper chévere. Desde el jardín puedes ver las montañas al fondo o los rascacielos apareciendo entre la vegetación. Todo está rodeado por la comunidad y se siente muy bien integrado.\n\nSiempre pensaré en este tipo de espacios como los pulmones de una ciudad. Este complejo no solo tiene pagodas y jardines — también hay un molino de agua, un estanque de kois, y detalles que lo hacen muy especial."
       },
       "monster_building": {
-        "title": "Ícono del Concreto Urbano",
-        "description": "El Monster Building es una maravilla arquitectónica y un símbolo cultural. Cuando lo visité, me paré en medio del patio, rodeado por apartamentos apilados en altura. Es casi claustrofóbico, pero hipnotizante. Este lugar cuenta una historia sin palabras: de densidad, resiliencia y una belleza urbana que solo una ciudad como Hong Kong puede ofrecer."
-      },
-      "chi_lin_nunnery": {
-        "title": "Un Oasis de Calma",
-        "description": "Chi Lin Nunnery se siente como un mundo aparte dentro de Hong Kong. Entre la arquitectura de madera y los jardines tranquilos, encontré una paz que no esperaba en una ciudad tan ajetreada. Los estanques de lotos, el incienso en el aire y el sonido suave del agua corriendo hacen que este sitio parezca un templo del tiempo, donde la tradición sigue viva, serena y sagrada."
+        "title": "“Monster Building”… pero a mí me pareció familiar",
+        "description": "Uno de los lugares más fotografiados de Hong Kong es el famoso “Monster Building” — un conjunto de edificios residenciales súper altos, con balcones apilados, ropa colgada y una estética muy compacta. Se supone que representan lo densa que puede ser la ciudad, y sí, Hong Kong es una de las zonas más densamente pobladas del mundo.\n\nPero siendo honesto… no me pareció tan monstruoso. Yo crecí en Unare, en Puerto Ordaz, Venezuela, en el bloque 26. Y cuando vi estos edificios, lo primero que pensé fue: “¿Y cuál es la bulla con estos edificios?” Sí, son mucho más altos, pero para mí, se sentían como casa. Me identifiqué con ese lugar, salvando distancias claro.\n\nLo que sí me pareció curioso es cómo se volvió un lugar turístico. Imaginar a gente tomándose fotos en los bloques de Unare me hizo reír. Pero bueno… cada quien ve con otros ojos lo que uno ya conoce.\n\nEsta zona es claramente más humilde que otras partes como el centro o Nathan Road. Y eso también fue bueno, porque pude ver otra cara de Hong Kong. El trayecto en metro también lo reflejaba: veníamos de zonas más comerciales, y en esta línea éramos los únicos turistas. Ese contraste se notaba, y lo aprecio."
       }
     }
   },
   "indonesia": {
     "bali": {
       "items": {
-        "tegallalang": {
-          "title": "Terrazas de arroz de Ubud",
-          "description": "Las terrazas de arroz de Tegallalang en Ubud son un espectáculo impresionante. Los niveles de verde se extienden como un lienzo tallado en las colinas. Es uno de los lugares más tranquilos que he visitado, caminar por allí se siente como estar dentro de una pintura viva."
+        "aswanaya_villa": {
+          "title": "Nuestra Villa Privada en Ubud",
+          "description": "Desde que tuvimos a Bali en la mira, sabíamos que una de sus mayores ventajas era lo accesible que puede ser. Y es que dos años antes de viajar, ya lo teníamos claro: si alguna vez queríamos quedarnos en una villa privada, Bali sería el lugar perfecto para lograrlo.\n\nY así fue. Nos quedamos en Aswanaya Villas Ubud, y sinceramente, fue una experiencia increíble. Tener tu propia piscina, justo al frente de la habitación, es simplemente un sueño. Despertarte y poder darte un baño privado, rodeado de naturaleza y con todo el silencio del mundo… no tiene precio.\n\nEl lugar fue un 5 estrellas para nosotros. El personal fue muy atento, la comida deliciosa, y si reservas una villa privada, te incluyen el desayuno servido en la habitación. Es una experiencia que recomiendo con los ojos cerrados.\n\nSi alguna vez han soñado con quedarse en una villa privada, Bali es el lugar para hacerlo realidad."
         },
-        "tirta_empul": {
-          "title": "Purificación espiritual en Tirta Empul",
-          "description": "Tirta Empul es más que un templo: es una experiencia espiritual. Ver a las personas entrar en las aguas sagradas para purificarse fue profundamente conmovedor. La energía del lugar es tranquila, respetuosa y llena de historias antiguas."
+        "bali_from_above": {
+          "title": "Bali desde las alturas",
+          "description": "Bali es más grande de lo que uno imagina. Hay tanto por hacer que es difícil verlo todo en una sola visita. Una de las cosas que queríamos hacer era visitar el Monte Batur, el famoso volcán. Estando en Ubud era lo ideal, pero justo después nos mudamos a otra villa en Seminyak, y entre el cambio y el cansancio, no tuvimos fuerzas para hacer esa excursión.\n\nAun así, poder tomar esa foto desde el avión, con el paisaje entre nubes, al menos me dejó una buena imagen de Bali desde las alturas."
         },
         "goa_gajah": {
-          "title": "El misterio de la Cueva del Elefante",
-          "description": "Goa Gajah, conocida como la Cueva del Elefante, es una mezcla de historia y misterio. Entrar por su entrada cubierta de musgo fue como viajar al pasado. Las tallas, el silencio y la atmósfera me dejaron maravillado."
+          "title": "Goa Gajah: Entre Escaleras y Sonrisas",
+          "description": "Goa Gajah, también conocida como 'La Cueva del Elefante', es un santuario pequeño, pero muy especial. Para entrar, como en todos los templos de Bali, hay que usar un sarong, esa falda tradicional que se coloca por respeto. Se accede bajando un tramo largo de escaleras, y al llegar, lo primero que ves son unas caras talladas en piedra en la entrada de la cueva —dicen que están ahí para espantar a los malos espíritus.\n\nAdentro, el espacio es oscuro, algo estrecho y con el olor del incienso flotando en el aire. No había mucha gente cuando fuimos, lo que hizo que el paseo fuera tranquilo. Recuerdo que nos cruzamos con una pareja de españoles, y cuando les dijimos que éramos venezolanos, nos respondieron: \"¡Ah, cómo es que dicen ustedes? ¡Chevere!\".\n\nAl salir, comenzó una ceremonia justo en plena calle: muchas personas caminando juntas, probablemente en algún acto religioso. Iban todos vestidos de blanco, y el tráfico —que ya era complicado con tantas motos— se volvió eterno. Bali puede ser increíble… pero también te entrena la paciencia."
         },
-        "penglipuran": {
-          "title": "Un pueblo lleno de tradición: Penglipuran",
-          "description": "Penglipuran es un pueblo balinés tradicional que parece detenido en el tiempo. Sus caminos ordenados, la hospitalidad de sus habitantes y el fuerte sentido cultural lo hacen sentir como un museo viviente. Me fui con un gran respeto por su forma de vida."
+        "guardians": {
+          "title": "Guardianes tallados",
+          "description": "En los templos balineses, algo que verás con frecuencia son estas figuras talladas en piedra. A veces parecen dioses, otras veces parecen guardianes, pero todas tienen ese estilo distintivo de Bali: expresiones fuertes, mucho detalle, y una energía que llama la atención.\n\nY es que si algo entendí estando allá, es que los balineses son unos expertos en tallado. No importa si es piedra o madera, ves talleres y tiendas con estatuas de todos los tamaños —desde pequeñas figuras para el hogar hasta esculturas enormes que parecen sacadas de un templo— y todas con un trabajo muy pulido."
+        },
+        "tegallalang_ubud": {
+          "title": "Bali comienza aquí",
+          "description": "Cuando uno piensa en Bali, seguramente se imagina algo parecido a esto: colinas verdes con terrazas de arroz perfectamente escalonadas. Y sí, esa imagen existe, y es real: Tegallalang, en Ubud, es el lugar donde muchas postales de Indonesia se hacen realidad.\n\nDecidir dónde hospedarse en Bali no es tarea fácil. Hay muchas zonas —Ubud, Seminyak, Uluwatu— y cada una ofrece algo distinto. Nosotros elegimos Ubud, cerca de lugares como Monkey Forest, Tirta Empul, Goa Gajah y Penglipuran. Pero “cerca” es relativo. Porque en Bali, aunque algo esté a pocos kilómetros, el tráfico puede hacerlo eterno. Y si no sabes manejar moto, como yo (spoiler: hice el ridículo y tuve que devolverla), moverse puede ser un reto. Así que terminarás en un carro, atrapado en calles angostas, deseando que todo sea más fluido.\n\nSobre las terrazas en sí: sí, son bonitas. Puedes caminar entre ellas y la vista es espectacular. Pero todo alrededor parece diseñado para la foto perfecta. Columpios, vestidos alquilables, locales con piscinas, cafés con vista… es un lugar visualmente increíble, pero muy preparado para el turista. Siento que Bali, en general, ha perdido parte de su identidad: ya no se trata tanto de mostrar su esencia, sino de ofrecerte spots para Instagram. ¿Eso hace que sea menos impresionante? No. ¿Hace que sea menos auténtico? Tal vez. Pero igual vale la pena ver todo esto con tus propios ojos."
+        },
+        "tirta_empul": {
+          "title": "Un baño diferente",
+          "description": "Visitamos Tirta Empul por recomendación de nuestro guía. Él armó el itinerario del día y nos incluyó este templo sin darnos muchos detalles, solo dijo que era importante. Lo que no sabíamos era que íbamos a participar en el ritual de purificación.\n\nEste templo fue fundado en el año 962 alrededor de un manantial de agua sagrada, y hasta el día de hoy sigue activo: los hindúes balineses vienen a bañarse aquí para purificar cuerpo y espíritu. Nuestro guía nos llevó directamente a la zona donde ocurre el ritual. Es como una piscina, y el agua fluye desde varias cabezas de piedra. La idea es ir pasando por cada una de ellas, dejar que el agua te caiga, cerrar los ojos, respirar, y seguir a la siguiente.\n\nYo soy bastante reservado con este tipo de cosas. Y cuando me dijeron que me tenía que poner una especie de falda verde, que olía a humedad como si no la hubieran lavado bien, y cambiarme en un vestidor común con el piso mojado y algo resbaloso... lo pensé dos veces. Pero bueno, estábamos ahí, había que hacerlo.\n\nLo cierto es que todo ese momento incómodo pasó rápido, porque apenas entras al agua y empiezas a moverte por cada estación, todo cambia. El sonido del agua, la temperatura, el ambiente… te relajas sin darte cuenta. No piensas en nada. Solo estás ahí. Y al final, me alegré de haberme animado. Fue raro, sí. Y completamente fuera de mi zona de confort. Pero de esas experiencias que no se olvidan."
+        },
+        "tirta_empul_kois": {
+          "title": "Tirta Empul: Más que solo un ritual",
+          "description": "Tirta Empul no es solo el lugar del ritual de purificación. El templo es bastante grande, y si te tomas el tiempo para recorrerlo, vas a encontrar mucho más. Puedes ver pequeñas ceremonias religiosas, gente rezando, el humo del incienso flotando en el aire, y hasta un estanque lleno de peces koi, justo en medio del complejo. Todo tiene una energía muy tranquila.\n\nAl salir, pasas por una zona con pasillos llenos de vendedores. Artesanías, recuerdos, ropa, figuras talladas… todo lo que te puedas imaginar. Pero algo a considerar en Bali es que casi nada tiene precio marcado: hay que preguntar y regatear, lo cual puede ser algo incómodo. A veces puedes encontrar un local con precios fijos, pero son muy pocos."
+        },
+        "uluwatu_beach": {
+          "title": "Uluwatu: Surf, Vistas y Sorpresas",
+          "description": "Uluwatu es una de esas zonas que te muestran otra cara de Bali. La isla es enorme y cada parte ofrece algo distinto, y Uluwatu es claramente para surfistas. No es una playa de relajación, es una playa de acción, y aunque no soy surfista, fue interesante ver esa vibra —gente de todas las edades, desde jóvenes hasta señores, moviéndose con sus tablas como si el mar fuese su hogar.\n\nLa zona está llena de miradores escalonados con restaurantes y locales en distintos niveles. Algunos son súper bonitos, otros más humildes, pero todos con una vista impresionante del océano. Fue mi primer encuentro con ese tipo de ambiente: viajeros que giran su vida en torno al surf.\n\nY bueno… no todo fue perfecto. En uno de esos locales, me comí la peor hamburguesa de mi vida. Así que mejor me enfoqué en la vista, que por suerte, no decepcionó."
         }
       }
     },
     "nusa_penida": {
       "items": {
-        "kelingking": {
-          "title": "La icónica playa de Kelingking",
-          "description": "La playa Kelingking parece la espalda de un dinosaurio desde lo alto y se siente como un paraíso abajo. La vista es impresionante, el agua turquesa y el descenso difícil, pero vale cada paso."
+        "angels_billabong": {
+          "title": "Angel's Billabong: Donde el mar esculpe piscinas",
+          "description": "Angel's Billabong es otro de los spots clásicos del tour por Nusa Penida. A diferencia de los acantilados majestuosos de Broken Beach o la vista inolvidable de Kelingking, aquí lo que ves es una piscina natural formada por la erosión del mar.\n\nEs curioso ver cómo se forman estos pequeños estanques entre las rocas, con agua cristalina y formas irregulares. Sin embargo, no todo es calma: las olas pueden seguir rompiendo con fuerza y salpican de forma inesperada, lo cual hace que acercarse tenga su dosis de emoción.\n\nDe los tres puntos principales que vimos en el tour, probablemente este fue el que menos me impresionó visualmente. Pero aun así, tiene su encanto: es un recordatorio de cómo la naturaleza puede moldear la costa de maneras únicas."
         },
         "broken_beach": {
-          "title": "La maravilla natural de Broken Beach",
-          "description": "Broken Beach es una obra de arte de la naturaleza. El arco colapsado y el puente natural sobre aguas turquesa la convierten en uno de los paisajes más únicos de la isla. Estar allí se siente surreal."
+          "title": "Broken Beach: Acantilados tallados por el mar",
+          "description": "En Nusa Penida, cada lugar parece sacado de un fondo de pantalla, y Broken Beach no es la excepción. Probablemente hayas visto esta imagen sin saberlo: un enorme arco de piedra sobre el mar, rodeado de acantilados, con las olas rompiendo con fuerza justo debajo. La vista es única, y no se parece a nada que puedas encontrar fácilmente en otros lugares.\n\nEl nombre le va perfecto: es como si la naturaleza hubiese abierto un hueco en la roca para regalarnos esta postal. Aunque no se puede bajar hasta el agua, el lugar impresiona solo con estar ahí.\n\nRecuerdo que en ciertos puntos había banquitos altísimos, colocados para que el guía pueda subirse y tomarte fotos con el paisaje de fondo. Todo está pensado para que tengas la toma perfecta. Eso sí, en algunos bordes te acercas bastante al abismo, y aunque esté todo delimitado, da un poco de vértigo… pero también mucha emoción."
         },
-        "angels_billabong": {
-          "title": "Las piscinas esmeralda de Angel’s Billabong",
-          "description": "Angel’s Billabong es una piscina natural de marea entre acantilados rocosos. Sus aguas claras brillan como vidrio esmeralda, y cuando la marea está baja, se transforma en una piscina infinita natural perfecta."
+        "kelingking_beach": {
+          "title": "Kelingking Beach: La postal de Nusa Penida",
+          "description": "Probablemente todos hayamos visto una foto de Kelingking Beach alguna vez, incluso sin saberlo. Es esa imagen típica de escritorio de computadora: un acantilado curvado como una letra T, rodeado por el mar turquesa, con una playa escondida allá abajo. Pero una cosa es verla en fotos… y otra es estar parado ahí, frente a esa vista.\n\nPara llegar a Nusa Penida desde Bali, tienes que tomar un ferry que tarda alrededor de una hora. Y lo primero que hay que entender es que Nusa Penida no es Bali. Aquí todo es más salvaje, más crudo. No es tan fácil moverse, y la mayoría de las visitas se hacen en un tour de día completo. Nosotros hicimos un tour guiado en carro privado, lo cual hizo la experiencia mucho más cómoda.\n\nEso sí, las carreteras son otra historia: llenas de baches, tramos sin asfalto… en algunos momentos pareciera que el carro va más saltando que rodando. Pero créeme: cada golpe en el camino vale la pena cuando llegas a lugares como este.\n\nKelingking Beach me regaló una de las mejores vistas que he tenido en mi vida."
+        },
+        "nusa_penida_cliffs": {
+          "title": "Capas en el Tiempo",
+          "description": "Una de las cosas que más me gustó de Nusa Penida fueron los acantilados. Durante todo el recorrido puedes verlos: gigantes, con formas marcadas y llenos de capas perfectamente visibles.\n\nEsas capas son lo que más me llama la atención. Son señales del tiempo, de cómo el mar ha ido golpeando y moldeando la piedra durante miles de años. No soy experto, pero siempre me ha interesado ese tipo de cosas, y verlas en persona es otra cosa.\n\nSon paisajes que te hacen detenerte, mirar con calma y pensar en todo lo que ha pasado para que luzcan así hoy."
+        },
+        "nusa_penida_ferry": {
+          "title": "El precio de la aventura",
+          "description": "La travesía a Nusa Penida fue una de las experiencias más visualmente impresionantes que he tenido… pero también una de las más duras físicamente. Y todo por culpa del ferry.\n\nYo soy una persona que se marea con facilidad —cualquier cosa que se tambalee mucho, como montañas rusas, no es lo mío— pero nunca había experimentado un mareo tan fuerte como el de este viaje. El ferry era cerrado, sin mucha ventilación, con calor, y desde que arrancó, empezó a sacudirse como loco. Al principio lo ignoré, pero a los diez minutos ya estaba mareado, y a los treinta, acostado en las piernas de mi esposa, luchando por no vomitar. Spoiler: vomité un poco. Y no fui el único.\n\nAlgo que no sabía en ese momento es que las aguas que rodean Bali y Nusa Penida son conocidas por sus fuertes corrientes y grandes olas. No es raro que los ferrys tengan problemas con el oleaje, y ahora entiendo por qué.\n\nCuando llegamos a la isla, tuve que recuperarme a punta de caramelos y refresco en una tiendita que encontramos por suerte. Entre cada punto del tour, iba acostado en el asiento trasero del carro, mareado, esperando poder disfrutar al bajarme. Pero nada se comparó con el viaje de vuelta. Ya venía mal, y el regreso fue el doble de fuerte. Vomité bastante, llegué apenas caminando al carro en Bali y caí rendido hasta llegar a la villa. Fue horrible.\n\nUn mes después, me salió un reel en Instagram de una chica contando lo mismo. Por lo menos sé que no estoy solo en esto."
         }
       }
     }
@@ -879,147 +898,205 @@
   "japan": {
     "tokyo": {
       "items": {
-        "item_1": {
-          "title": "Mi ciudad favorita en el mundo.",
-          "description": "Tokio es mi ciudad favorita en Japón. La he visitado dos veces, y cada vez se sintió como descubrir un mundo nuevo dentro del mismo lugar. Es una ciudad de contrastes: futurista pero tradicional, caótica pero tranquila. Cada rincón de Tokio ofrece algo único y fascinante por explorar."
+        "anime_popculture": {
+          "title": "Anime y cultura pop: más que entretenimiento",
+          "description": "Si te gusta el anime, Japón es como una especie de parque temático cultural. Pero incluso si no eres fan, te va a impresionar. Es parte del día a día: tiendas, anuncios, cafés temáticos, estaciones decoradas… está en todas partes.\n\nEn Tokyo hay barrios dedicados a esto: Akihabara, Nakano, y otros más. Puedes pasar horas explorando pasillos llenos de objetos, figuras, libros, juegos... Una tienda que recomiendo muchísimo es Mandarake. Su sede en Shibuya es de lo mejor que hay: una mezcla entre museo y tienda de colección. Ir ahí es casi obligatorio.\n\nTambién vale la pena visitar al menos una vez un Pokémon Center, aunque cuidado con el bolsillo: Japón te invita a gastar sin darte cuenta. Todo está tan bien hecho que es difícil resistirse.\n\nNo hace falta ser fanático. Basta con tener curiosidad. Esta cultura está tan presente que lo raro sería no notarla."
         },
-        "item_2": {
-          "title": "Una ciudad de historias infinitas.",
-          "description": "Tokio es un lugar donde cada calle tiene una historia. Desde templos serenos escondidos entre callejones hasta el brillo neón de Shibuya, cada momento se siente cinematográfico. He caminado por sus barrios durante horas, siempre encontrando algo inesperado y hermoso."
+        "kushidaore": {
+          "title": "Un rincón cualquiera de Japón",
+          "description": "Una de las cosas que más me gusta de Japón es que siempre hay algo que ver, incluso cuando no estás buscando nada. No todo son templos, luces de neón o paisajes naturales. A veces, simplemente es un edificio en una esquina, con faroles, madera, carteles… y ya está. Es hermoso.\n\nKushidaore, en Shibuya, fue uno de esos ejemplos. Ni siquiera fue una parada planeada, pero pasamos por ahí y era imposible no tomar una foto. En Japón, puedes apuntar la cámara a cualquier lado y ya tienes una foto buenísima. La arquitectura es tan variada, que simplemente te inspira a fotografiar todo.\n\nEste slide lo dedico a eso: a esos rincones que no necesitan explicación, solo atención."
         },
-        "item_3": {
-          "title": "Donde la tradición se encuentra con el futuro.",
-          "description": "Tokio es una ciudad que mezcla rituales centenarios con innovación de vanguardia. He vivido mañanas tranquilas en santuarios y noches intensas en Shinjuku. La ciudad siempre me sorprende, ofreciendo un equilibrio entre calma y energía como ningún otro lugar."
+        "omoide_yokocho": {
+          "title": "Omoide Yokocho: el callejón más fotogénico de Shinjuku",
+          "description": "Omoide Yokocho es uno de esos lugares que, aunque chiquitos, se ven muy Japón. Es un callejón lleno de izakayas diminutas, cada una con su propio olor, su humo, sus luces tenues y farolitos colgando. Es un rincón de Shinjuku, muy fácil de pasar por alto si no sabes que está ahí.\n\nLa entrada es súper fotogénica, y por eso se ha vuelto viral. Hoy en día es normal ver turistas intentando encontrar sitio para comer, especialmente de noche. Pero la verdad es que no es tan fácil: es pequeño, apretado, algo caro y poco intuitivo para quienes no hablan japonés.\n\nSi vas con calma, más temprano, puedes curiosear con más tranquilidad y entender mejor cómo funciona. Pero no esperes un lugar grande ni lleno de cosas para ver. Es más bien un punto de paso, una imagen que se te queda."
+        },
+        "sakuragaoka": {
+          "title": "Sakuragaoka: cuando todo se vuelve rosa",
+          "description": "Si vas a Japón, hacerlo durante la temporada de sakura es lo mejor que puedes vivir. Todo ya es bonito de por sí, pero los cerezos en flor lo transforman todo. Ese color rosa tan característico le da a las ciudades un aire mágico que no se puede comparar con nada más.\n\nEl único detalle es que, aunque hay una temporada clara, el nivel de floración varía según la zona y el año. Acertar con el momento justo no es fácil. Pero por suerte, sin planearlo del todo, llegamos justo cuando las sakura estaban en su mejor momento en todo Japón.\n\nUno de los lugares donde más lo sentimos fue en Sakuragaoka Sakura Matsuri, una calle en Shibuya que se vuelve un espectáculo visual. El camino está flanqueado por cerezos y las típicas lámparas japonesas, y hay tanta gente que incluso colocan guardias para evitar que los visitantes bloqueen el paso al intentar tomarse fotos. Si quieres apreciarlo con más calma, lo mejor es subir a un punto alto cerca de la estación, desde donde se puede ver todo el tramo en perspectiva."
+        },
+        "shinjuku": {
+          "title": "Shinjuku: la vibra que no se puede explicar",
+          "description": "Durante mi viaje, me quedé en Shinjuku. Y si hay una palabra para describirlo, es: locura. Hay de todo. Tiendas, luces, pantallas, maid cafés, restaurantes, cosas que no sabías que existían… Es como si todo Tokyo estuviera concentrado en un solo barrio.\n\nPero lo más impresionante pasa de noche. Cuando el sol baja, Shinjuku se transforma. Las luces de neón dominan todo, y la vibra cambia por completo. Hay gente joven por todos lados, promotores tratando de llevarte a bares, muchachas ofreciendo servicios que no siempre entiendes del todo — y no porque sea oscuro, sino porque allá venden su imagen, no su cuerpo. Es una cultura muy diferente.\n\nPuede ser abrumador si no estás acostumbrado, sobre todo si te metes por calles más estrechas o vas muy tarde. Pero hay algo en esa energía que atrapa. Es el tipo de lugar que no se explica con palabras. Solo yendo lo entiendes.\n\nComo dice el meme: “You wouldn't get the f*cking vibe.”"
+        },
+        "shinjuku_gyoen": {
+          "title": "Shinjuku Gyoen: un descanso dentro del caos",
+          "description": "Shinjuku es enorme. Tokyo es enorme. Y entre tanto caos y movimiento, encontrarse con un parque como Shinjuku Gyoen, justo en el centro, se siente como un respiro. Es un espacio gigante, con jardines, lagos, árboles por todas partes, y carpas nadando tranquilamente. Lo curioso es que todo eso está rodeado de edificios. Naturaleza en medio del concreto.\n\nTiene varios jardines, muchos al estilo japonés (aunque bueno… todos los jardines aquí son japoneses, ¿no?). El contraste entre lo natural y la ciudad de fondo hace que caminar por ahí sea algo especial.\n\nAntes de entrar, pasamos por nuestro desayuno favorito en Japón: el Ham & Maribo Cheese de Starbucks. Comerlo ahí, en un parque tan tranquilo, fue una forma perfecta de comenzar el día.\n\nEl parque es grande, así que hay mucho por ver. Shinjuku tiene de todo, y este parque es otra prueba más de eso."
+        },
+        "tokyo_tower": {
+          "title": "Tokyo Tower: el inicio del sueño japonés",
+          "description": "Tokyo fue siempre la ciudad que más soñé con conocer. Desde niño fui fanático de Japón: por Pokémon, por los videojuegos, por la comida, por la moda (que sí, es top allá), por ese caos tan ordenado que solo ellos manejan. Mi amor por Japón empezó jugando Pokémon en el Game Boy, y años después me llevó a buscar figuras por todo Tokyo y a cazar cartas del set original 151 en japonés, con la esperanza de algún día completarlo.\n\nViajar a Japón a mis 30 años ya era un sueño cumplido. Pero hacerlo dos veces en el mismo año… fue aún más increíble.\n\nTokyo es rápida, intensa, moderna. Un contraste fuerte con otras ciudades como Kyoto. Y para representar esa primera entrada a Japón, ¿qué mejor imagen que la torre que lleva el nombre de la ciudad?\n\nUna ciudad que, desde el primer momento, te envuelve y te arrastra con su energía. Solo hay que dejarse llevar."
         }
       }
     },
     "kyoto": {
       "items": {
-        "item_1": {
-          "title": "La ciudad más hermosa que he visto.",
-          "description": "Kioto es, sin duda, la ciudad más hermosa que he visitado. He estado dos veces, ambas durante la temporada de los cerezos en flor, y el paisaje parecía un sueño. Desde templos antiguos y jardines silenciosos hasta callejones de geishas y ríos tranquilos, Kioto lleva el alma atemporal de Japón."
+        "arashiyama_bamboo_forest": {
+          "title": "Arashiyama: el bosque de bambú más famoso de Japón",
+          "description": "El bosque de bambú de Arashiyama es uno de los lugares más famosos de Kyoto. Como ya he dicho antes, la ciudad tiene tantos sitios emblemáticos que es difícil quedarse solo con uno. Y este, sin duda, es parte de esa lista.\n\nSi nunca has ido a Kyoto y solo has visto fotos del bosque, podrías pensar que es algo enorme. Y sí, el área total es grande, pero el tramo que puedes recorrer rodeado por bambús altos, como los que salen en las fotos, es más limitado. Aun así, vale la pena visitarlo.\n\nTomar una foto aquí sin gente es complicado, como pasa en muchos sitios turísticos de Kyoto. Hay quienes recomiendan visitar otros bosques de bambú menos concurridos, y si tengo la oportunidad de volver una tercera vez, me gustaría intentarlo. Pero igual creo que Arashiyama es una parada necesaria.\n\nCerca del inicio del recorrido hay un pequeño templo, donde puedes escribir un deseo en una tablita de madera y colgarla. Las dos veces que hemos ido, escribimos deseos... y los dos se cumplieron.\n\nPara mí, el bosque en sí no fue lo más impresionante. Lo mejor vino después, y es lo que muestro en la siguiente slide: el río Hozugawa. Pero justo por eso, creo que vale la pena pasar por acá primero, como parte del camino hacia lo más especial."
         },
-        "item_2": {
-          "title": "Un viaje en el tiempo.",
-          "description": "Estar en Kioto es como entrar en un museo viviente. Desde el brillo dorado de Kinkaku-ji hasta los caminos silenciosos de Arashiyama, cada visita es una inmersión en el rico pasado de Japón. Es pacífica, poética y profundamente espiritual."
+        "architecture": {
+          "title": "Arquitectura tradicional en cada rincón",
+          "description": "Algo que hace que Kyoto se sienta especial desde el primer momento es su arquitectura tradicional. Me refiero a ese estilo que uno encuentra en calles como Ninenzaka o Gion, donde todo parece detenido en el tiempo: fachadas de madera oscura, tejados curvados al estilo irimoya, ventanas con rejas de bambú, y estructuras inspiradas en el periodo Edo. Incluso si no sabes los nombres exactos, lo reconoces al instante: es ese Japón clásico que tantas veces hemos visto en películas o ilustraciones.\n\nLo bonito es que no necesitas estar dentro de un templo o un museo para verlo. Lo encuentras caminando por calles normales, a cualquier hora del día. Y si encima vas en temporada de sakura, como fue mi caso, y ves esas estructuras tradicionales con un árbol de cerezos al fondo, la imagen es perfecta. Es de esas cosas que no puedes forzar ni planear. Simplemente pasa, y te atrapa.\n\nPara mí, esa mezcla de arquitectura y ambiente es una de las razones por las que Kyoto no tiene pérdida. Vayas donde vayas, hay algo que mirar."
         },
-        "item_3": {
-          "title": "Elegancia en cada detalle.",
-          "description": "Kioto es elegancia hecha visible. Desde la precisión de sus jardines hasta la gracia de las geishas en Gion, la ciudad te invita a notar la belleza en lo sutil. Es un lugar que te enseña a ver, no solo a mirar."
+        "chion_in": {
+          "title": "Chion-in: el templo que me dejó sin aliento (Literal)",
+          "description": "Lo primero que me sorprendió de Chion-in fue que no hay que entrar para ver algo impresionante: la puerta principal está justo ahí, al borde de la calle, y es gigante. No es como otros templos en los que tienes que cruzar jardines o caminos largos para ver algo llamativo. Aquí, apenas llegas, te recibe una estructura enorme que te hace levantar la vista de inmediato. \n\nY si piensas que eso es todo... viene la parte difícil: una escalera larguísima que lleva al complejo principal. Pero no solo es larga, ¡los escalones son altos! Yo tengo problemas de rodillas, así que fue un poco difícil para mí subirlas, pero para rematar, un grupo de señores japoneses, como de más de 80 años, iba subiendo al mismo ritmo que yo. Yo solo pensaba “Tengo que subir antes que ellos”. \n\nArriba, el templo principal es bonito y amplio, pero mi parte favorita fue el jardín. Hay un pequeño lago, un puentecito y una estructura más pequeña que parece sacada de un cuento. Ese fue el rincón que más me gustó, y es la imagen que elegí mostrar acá."
+        },
+        "hokan_ji": {
+          "title": "Hōkan-ji | La Pagoda Yasaka: el mejor punto de partida en Kyoto",
+          "description": "He estado dos veces en Kyoto, y para mí, este lugar siempre se siente como el punto de partida — como el punto A. Desde aquí puedes caminar hacia Ninenzaka y Sannenzaka, ir hacia Chion-in o Kiyomizu-dera, o simplemente disfrutar de la vista de la pagoda, que es una de las imágenes más icónicas de la ciudad.\n\nSí, Fushimi Inari puede ser lo más famoso de Kyoto, pero el camino hacia la Pagoda Yasaka también es necesario. Es esa vista que uno espera ver en Kyoto: casas de madera, calles de piedra, matas en las entradas... incluso hay una casa con un pequeño estanque justo afuera de la puerta.\n\nEs precioso, pero también es un barrio real. Aquí vive gente. Y con el aumento del turismo en Japón, especialmente en Kyoto, es entendible que muchos locales estén incómodos. Algunas casas tienen letreros pidiendo que no se tomen fotos, y tiene sentido — las calles son angostas, y lo que antes era un barrio tranquilo ahora está lleno de gente todo el día.\n\nAun así, la arquitectura y el ambiente hacen que esta zona sea muy especial. Además, estás cerca de Gion — el distrito de las geishas — así que todo por aquí te invita a caminar sin apuro y dejarte llevar. Lo mejor es que puedes perderte por sus callejones, y siempre vas a volver a encontrar algo nuevo o bonito en el camino."
+        },
+        "hozugawa_river": {
+          "title": "Hozugawa: uno de los paisajes más bonitos de Japón",
+          "description": "Después de terminar el sendero del bosque de bambú de Arashiyama, puedes subir a un mirador y encontrarte con una de las vistas más bonitas de todo Japón: el río Hozugawa. Desde arriba, parece una postal. Ves el agua pasar entre montañas verdes, los botecitos navegando tranquilos, y las piedras a los lados del río que a lo lejos parecen rápidos. Es una escena hermosa, silenciosa, y con una calma que se siente de inmediato.\n\nEsta vista es muy conocida, y con razón. El río está encajonado entre montañas, y el contraste entre el verde intenso y el agua lo hace muy fotogénico. Es uno de mis paisajes favoritos de todo el país.\n\nPero si desde arriba es bonito, desde abajo lo es aún más. Para llegar, tienes que bajar por un camino largo, con escalones de piedra irregulares, rodeado de árboles. Hay que tener cuidado al bajar, porque es empinado y no hay barandas. A medida que avanzas, el ruido de la ciudad desaparece y todo se vuelve muy silencioso, como si te estuvieras metiendo en un bosque donde podrías perderte. Hasta que, de repente, aparece el río frente a ti.\n\nNo he hecho el paseo en bote, pero me encantaría hacerlo algún día. La subida de regreso es fuerte — sí, Japón y sus eternos escalones — pero vale totalmente la pena."
+        },
+        "inari_gates": {
+          "title": "Fushimi Inari Taisha: un símbolo de lo escénico que es Kyoto",
+          "description": "Kyoto probablemente sea la ciudad más escénica que he visitado. Templos, jardines, montañas, puertas tradicionales... todo parece sacado de una postal. Y pocos lugares capturan esa sensación tan bien como las famosas puertas naranjas de Fushimi Inari.\n\nSeguramente ya las has visto en internet: un camino larguísimo cubierto por cientos de torii. Y sí, se ve tal cual como en las fotos. Pero ver tantas puertas alineadas, tan juntas —en diferentes ángulos, niveles y con distintas luces— le da al lugar una vibra muy especial. Es uno de esos sitios donde la vista va cambiando mientras caminas, y eso hace que la experiencia sea divertida y visualmente muy llamativa.\n\nComo en casi todos los lugares turísticos de Kyoto, suele haber bastante gente. Si quieres una foto sin personas, tienes tres opciones: ir muy temprano (antes de las 7am), esperar el momento justo... o seguir subiendo — mientras más alto, menos gente.\n\nSi te gusta la naturaleza, este sendero es ideal: estás rodeado de árboles, y a veces hay pequeños riachuelos donde incluso puedes ver peces.\n\nA pesar de las multitudes, lo disfruté muchísimo. Y ya abajo, hay muchos puestos de comida y tiendas de recuerdos — es difícil salir sin comprar algo."
+        },
+        "kinkaku_ji": {
+          "title": "Kinkaku-ji: el templo que parece flotar",
+          "description": "Kyoto tiene muchos templos, pero Kinkaku-ji (el Pabellón Dorado) es, sin duda, uno de los más llamativos. Está un poco alejado del centro, cerca del bosque de Arashiyama, así que puede visitarse en el mismo día si estás por esa zona.\n\nEl recorrido es corto, el templo no es muy grande, pero aun así creo que es el más bonito de todos — al menos para mí. Lo que más destaca no es solo que sea dorado y brillante, sino el hecho de que está construido junto a un lago, y su reflejo en el agua lo hace ver aún más especial. Da la sensación de que flota, como si fuera un pequeño jardín suspendido en el paisaje. Lo disfruté bastante.\n\nA diferencia de otros puntos turísticos de Kyoto, no noté tantas tiendas o locales alrededor, y eso también lo hizo sentir más tranquilo. Menos caótico, más relajado.\n\nCuriosamente, fui recién en mi segundo viaje a Kyoto. Y después de verlo, pensé: “¿Cómo no vine antes?”. Para mí, es de esos lugares que no te puedes perder si estás en la ciudad."
+        },
+        "lanterns": {
+          "title": "Las linternas que iluminaban mi camino",
+          "description": "Durante mi primer viaje a Kyoto, me hospedé en la zona de Tofukuji, un área residencial más tranquila, sin tanta modernidad como el centro. Todos los días, al ir o volver del metro, pasaba frente al templo Takio-in. De día era bonito, pero de noche era otra cosa.\n\nLo que más me impresionaba eran las linternas japonesas tradicionales que cuelgan ahí, perfectamente alineadas y encendidas al anochecer. En una calle completamente oscura, solo se veían ellas iluminando el camino, creando un ambiente sereno y especial. No era un lugar turístico ni nada preparado para visitas — era parte del recorrido diario. Y eso lo hacía aún más especial.\n\nEn mi segundo viaje me quedé cerca de la estación de Kyoto. Fue mucho más práctico, sí, pero sentía la necesidad de estar en algo más tradicional, como lo que viví cada noche frente a Takio-in. Esos detalles, aunque pequeños, son los que más se quedan contigo."
         }
       }
     },
     "osaka": {
       "items": {
-        "item_1": {
-          "title": "La primera ciudad que vi en Japón.",
-          "description": "Osaka fue la primera ciudad japonesa que conocí, llegando desde Corea del Sur. Exploré el animado distrito de Namba y sentí de inmediato su carácter distintivo: gente amigable, comida increíble y una vibra urbana cálida. Osaka me dio mi primer verdadero sabor de Japón, y nunca lo olvidaré."
+        "glico_man": {
+          "title": "Glico Man: ver en vivo lo que tanto viste en fotos",
+          "description": "Hay cosas que ves tantas veces en fotos, que cuando las ves en persona, sientes que por fin se realizó. Eso me pasó con el Glico Man, el icónico cartel de Osaka que está justo al borde del río.\n\nEs un punto turístico muy conocido, claro, pero estar ahí se siente como cumplir algo que estaba en pausa. Lo viste mil veces, y ahora lo viviste. Simple.\n\nY ya que estás ahí, un consejo: come todo lo que puedas. Todo huele increíble y sabe aún mejor. No por nada dicen que Osaka es el corazón de la comida en Japón."
         },
-        "item_2": {
-          "title": "La ciudad que nunca se detiene.",
-          "description": "Osaka tiene una energía que te atrapa. Su comida, su gente y sus calles están llenas de vida y sabor. Me he reído, comido y perdido más de lo planeado —siempre feliz por hacerlo. Es caótica en el mejor sentido."
+        "namba": {
+          "title": "Namba: el corazón de Osaka",
+          "description": "Namba es el corazón de Osaka. Y lo sientes apenas llegas. Luces, letreros enormes, rojo por todos lados, tiendas, gente por todas partes. Es un lugar donde el movimiento no se detiene.\n\nLo más impresionante es ese pasillo interminable de tiendas que parece no acabar nunca. Puedes caminar por ahí durante horas y seguir encontrando cosas nuevas: ropa, tecnología, comida, y hasta pisos subterráneos llenos de más tiendas. Es como una ciudad debajo de otra ciudad.\n\nY si sigues caminando lo suficiente… el río te espera al final."
         },
-        "item_3": {
-          "title": "Sabores, luces y risas.",
-          "description": "Osaka se siente como un festival. Desde el chisporroteo de los puestos de takoyaki hasta la jungla de neón de Dotonbori, es una sobrecarga sensorial de la que no te cansas. Es divertida, ruidosa y tremendamente encantadora."
+        "osaka_castle": {
+          "title": "Osaka Castle: mi entrada al Japón clásico",
+          "description": "Mi primer contacto con Japón fue en Osaka, porque llegamos por el aeropuerto de Kansai. Y claro, el primer gran lugar que visitamos fue el Osaka Castle. Para mí, fue la introducción a esa vibra tradicional japonesa, a los castillos, la historia, la arquitectura antigua. Un punto de partida perfecto para comenzar a entender lo que estaba por venir.\n\nEl castillo en sí es imponente, rodeado de jardines y con una energía muy tranquila. Por cierto, hay un personaje popular en internet que siempre está ahí: un señor que juega con bloques y los apila y manipula sin dejarlos caer. Me sorprendió verlo en persona.\n\nNo tengo una historia muy larga que contar aquí, pero este castillo fue el inicio visual y emocional de mi experiencia en Japón."
+        },
+        "osaka_castle_river": {
+          "title": "Osaka Castle y el río: cuando Japón te inspira",
+          "description": "Rodeando el castillo de Osaka hay un río. Y fue ahí donde saqué una de mis fotos favoritas del viaje. Tuve que esperar a que un botecito se ubicara justo en el lugar perfecto. Ese momento, esa composición... fue cuando sentí que Japón te inspira a ser más creativo. No solo por los paisajes, sino por cómo todo está puesto de forma tan armónica.\n\nAhí también me ocurrió algo que nunca olvido. Le pedimos a un chamo que nos tomara una foto, y resultó ser fotógrafo. Al ver su cámara, me dio curiosidad. Más adelante, vimos a dos señoras japonesas vestidas en kimono sentadas en un puente. Sentí la necesidad de pedirles una foto… pero no lo hice. Me dio pena. \n\nMinutos después, volví la mirada y vi al mismo chamo, el fotógrafo, tomándoles fotos a ellas. Luego se le unió más gente. Yo solo pensé: “Esa foto debía haber sido mía”. Habría sido una foto épica: dos señoras en sus kimonos, perfectamente ubicadas en el paisaje.\n\nMi esposa diría que fue una lección: para tomar buenas fotos, también hay que tomar riesgos."
         }
       }
     },
     "nara": {
       "items": {
-        "item_1": {
-          "title": "Un encuentro pacífico con la naturaleza y la tradición.",
-          "description": "Visité Nara durante la temporada de los cerezos en flor y pasé tiempo en su famoso parque de ciervos. Caminar entre ciervos amigables, templos antiguos y árboles en flor se sintió pacífico y surrealista. Nara destaca como un refugio espiritual silencioso, profundamente conectado con la naturaleza y la herencia japonesa."
+        "nara_station": {
+          "title": "Kintetsu-Nara: la bienvenida más clara",
+          "description": "Apenas llegas a la estación de Kintetsu-Nara, te recibe un letrero con un venadito en pantalla. Es como si la ciudad te dijera: “Sí, aquí los ciervos son protagonistas”.\n\nEn nuestro segundo viaje a Japón, decidimos hacer un day trip a Nara desde Kyoto. Por la mañana exploramos Nara, por la tarde fuimos a Osaka, y en la noche regresamos a Kyoto. Esa es la ventaja de estar en Kyoto: puedes visitar lugares como Nara y Osaka fácilmente, gracias a la excelente conectividad del país.\n\nVer ese venadito en la estación fue una introducción perfecta a la identidad única de Nara."
         },
-        "item_2": {
-          "title": "Sagrado y sereno.",
-          "description": "Hay una sensación sagrada en Nara, desde el enorme Buda del Tōdai-ji hasta los bosques susurrantes de Kasuga-taisha. Me encantó cómo la naturaleza y la espiritualidad coexisten en perfecta armonía —es una magia tranquila."
+        "nara_deer_bow": {
+          "title": "Los venaditos que hacen reverencia",
+          "description": "En Nara, los ciervos han aprendido que si inclinan la cabeza, reciben comida. Es un comportamiento que han adoptado al interactuar con los visitantes.\n\nLos ciervos están por todas partes: cruzan calles, descansan en las aceras y se acercan a los turistas. Puedes comprar galletas especiales para alimentarlos, y ellos esperan pacientemente su recompensa.\n\nEsta interacción me recordó a mi perrito Fuji, que también hace pequeños trucos para obtener sus golosinas."
         },
-        "item_3": {
-          "title": "El corazón antiguo de Japón.",
-          "description": "Nara fue una vez la capital de Japón, y aún se siente real a su manera. Los viejos templos, los ciervos respetuosos y el ritmo pausado crean un espacio que es tanto reconfortante como impresionante. Es un hermoso lugar para reflexionar."
+        "nara_deer_warning": {
+          "title": "Cuidado, no todo es ternura",
+          "description": "Aunque los ciervos de Nara parecen amigables, es importante tener precaución. Algunos pueden volverse insistentes o incluso agresivos si no reciben comida.\n\nPresencié cómo un ciervo golpeó a un niño que no le dio una galleta. Además, durante la temporada de apareamiento, los machos pueden volverse territoriales y más agresivos.\n\nAunque la mayoría son mansos y se dejan acariciar, es esencial recordar que siguen siendo animales salvajes y deben ser tratados con respeto."
+        },
+        "nara_komainu": {
+          "title": "Los guardianes silenciosos de Nara",
+          "description": "En Nara, más allá de los famosos ciervos, me llamó la atención la presencia de estatuas de komainu, los tradicionales perros guardianes de los santuarios sintoístas, que ojo no se encuentran solamente en Nara.\n\nEstas figuras suelen encontrarse en pares: una con la boca abierta y otra cerrada, representando los sonidos “a” y “un”, que simbolizan el comienzo y el fin de todas las cosas.\n\nLo que más me fascinó fue ver que algunas de estas estatuas llevaban baberos rojos. Pregunté en dos tiendas si vendían réplicas, pero ambas veces la respuesta fue negativa y con cierta incomodidad. Me encantaría saber la verdadera razón.\n\nEstas figuras, silenciosas pero imponentes, parecen observarlo todo. Su presencia añade un aire especial a los lugares donde aparecen."
         }
       }
     },
     "kamakura": {
       "items": {
-        "item_1": {
-          "title": "Donde la tradición se encuentra con la nostalgia.",
-          "description": "Mi visita a Kamakura fue breve pero llena de encanto. Vi el Gran Buda, caminé por calles tradicionales y admiré la vista al mar que se hizo famosa por Slam Dunk. Es una mezcla perfecta de sitios históricos, paisajes nostálgicos y el lado costero y tranquilo de la cultura japonesa."
+        "kotoku_in": {
+          "title": "Kotoku-in: el Gran Buda de Kamakura",
+          "description": "Kamakura es pequeño. Muy pequeño si lo comparas con Tokyo. Pero aun así, vale la pena ir solo para ver esto: el Gran Buda de Kamakura, en Kotoku-in. Hicimos un day trip desde Tokyo, más o menos una hora en tren, y esta fue una de mis fotos favoritas de todo el viaje. De hecho, fue una de las razones que me inspiró a crear esta página.\n\nUna cosa que hay que tener en cuenta es que el transporte en Kamakura es limitado. La línea de tren es lineal, así que si quieres ir a ciertos puntos, te tocará caminar o tomar bus. Lo sorprendente fue el tráfico — ¡en un pueblito así! Fue un poco estresante moverse entre un lugar y otro."
         },
-        "item_2": {
-          "title": "Calma costera y raíces antiguas.",
-          "description": "Kamakura mezcla la brisa del mar con espacios sagrados. A solo una hora de Tokio, se siente como una escapada espiritual. Caminé por la playa y luego por un sendero que me llevó a templos ocultos entre los árboles. Paz pura."
+        "hokoku_ji": {
+          "title": "Hokoku-ji: un rincón de lluvia y bambú",
+          "description": "Uno de los lugares más bonitos que vimos en Kamakura fue Hokoku-ji. Un templo rodeado de bambús, con ese aire místico, lluvia fina y un ambiente que parecía salido de una película de Studio Ghibli. Fue una experiencia distinta, muy calmada.\n\nA mí me encanta la lluvia, pero si pudiera repetir la visita, me pondría un poncho desde el principio. Lo curioso es que para regresar al centro, tuvimos que esperar bastante por el bus. Y eso, aunque parezca menor, forma parte del ritmo de Kamakura: tranquilo, algo disperso, pero bonito.\n\nEs un lugar al que volvería, sobre todo con sol, solo para ver cómo cambia la luz entre los bambús."
         },
-        "item_3": {
-          "title": "El alma costera de Japón.",
-          "description": "No esperaba que Kamakura me conmoviera tanto, pero lo hizo. La mezcla de océano, santuarios y senderismo fue una de mis excursiones favoritas. Es humilde, hermosa y perfecta para una pausa en tu viaje."
+        "kamakura_station_tracks": {
+          "title": "Las estaciones también tienen su encanto",
+          "description": "Después de estar en tantas estaciones en Japón, te das cuenta de que algunas tienen un encanto especial. Especialmente las que están al aire libre, como las de Kamakura. No son como las estaciones subterráneas de Tokyo — aquí hay cielo, estructura metálica, y esa estética simple que te hace querer sacar una foto.\n\nTomé esta desde la vía, mientras esperábamos. En estas estaciones puedes caminar de un lado al otro cruzando por las propias vías, siempre y cuando no venga un tren (claro). Hay señales, timbres, y todo está tan ordenado que uno se siente seguro… incluso mientras toma fotos.\n\nNo fue planeada, pero me gustó. A veces las fotos más sencillas son las que mejor capturan el momento."
+        },
+        "kamakura_slamdunk": {
+          "title": "No fue el spot… pero al menos fue un tren",
+          "description": "Uno de los motivos por los que fuimos a Kamakura era para ver el famoso cruce donde el tren pasa frente al mar. Yo sabía que era famoso, pero no que era por lo del Slam Dunk. Al llegar, me enteré que era por una escena del anime, y había chicas vestidas como colegialas haciéndole homenaje. Ahí entendí que estaba en uno de esos lugares “de culto”.\n\n¿El problema? Lluvia, mucha gente, cero visibilidad… no pude tomar la foto que quería. El lugar estaba abarrotado y el clima tampoco ayudó. Pero no me quería ir con las manos vacías, así que más adelante, en otra parte totalmente distinta, logré tomar una foto de un tren en movimiento.\n\nNo era el lugar, ni el encuadre, ni el fondo que buscaba. Pero era un tren en Kamakura. Así que digamos que fue un pequeño premio de consolación."
         }
       }
     }
   },
   "maldives": {
     "items": {
-      "item1": {
-        "title": "Una luna de miel bajo las estrellas del Ramadán",
-        "description": "Pasar nuestra luna de miel en Maldivas durante el Ramadán le dio a nuestros días un ritmo sereno y especial. La tranquilidad de las islas, junto con el ambiente espiritual del momento, hizo que la experiencia fuera aún más significativa. Con atardeceres silenciosos y mañanas introspectivas, nos sentimos más unidos entre nosotros y con la naturaleza. Fue el inicio perfecto para nuestra vida juntos."
+      "maldives_parasailing_view": {
+        "title": "Vistas aéreas volando sobre Maafushi",
+        "description": "Para celebrar nuestro primer aniversario de bodas, viajamos a Maldivas durante el Ramadán de 2023. En lugar de hospedarnos en un resort de lujo, elegimos Maafushi, una isla local que nos mostró que Maldivas es mucho más que bungalows sobre el mar.\n\nEsta imagen es una captura desde un dron mientras hacíamos parasailing por primera vez. No es exactamente una foto nuestra, pero representa lo que vimos desde allá arriba: aguas turquesas, una isla diminuta debajo, y una belleza que simplemente no se puede capturar con una cámara. También fue la primera vez que monté una moto de agua. Toda la semana estuvo llena de primeras veces cargadas de adrenalina, y esta vista aérea marcó el tono de lo que vendría."
       },
-      "item2": {
-        "title": "Buceando en el turquesa desconocido",
-        "description": "Las aguas de Maldivas son de las más cristalinas del mundo, y bucear allí fue como entrar en un sueño. Rodeados de arrecifes coloridos y vida marina, descubrimos un mundo vibrante y lleno de movimiento. Fue una experiencia emocionante y serena a la vez, que nos hizo sentir pequeños, agradecidos y completamente vivos."
+      "maldives_sharks_and_dolphins": {
+        "title": "Nadando con delfines, rayas y tiburones",
+        "description": "El día más intenso del viaje empezó tranquilo: nadamos con rayas y luego fuimos a ver delfines en mar abierto. Pero la corriente era fuerte —volver nadando al bote fue todo un reto. Escuchar a los delfines bajo el agua fue mágico, pero también dio miedo.\n\nY después vinieron los tiburones. Nos dijeron que era seguro, y técnicamente lo era… siempre que siguiéramos un montón de reglas: no chapotear, no extender los brazos, mantener las manos pegadas al pecho… ya te imaginas.\n\nEn un momento, un tiburón enorme pasó justo debajo de mí. Me quedé congelado. Geraldyne ya se había salido del agua. Yo me quedé con el grupo. Fue pura adrenalina, y una de las experiencias más intensas que hemos vivido juntos."
       },
-      "item3": {
-        "title": "Solo con los tiburones",
-        "description": "Nadamos con tiburones de arrecife y todo iba bien hasta que uno se acercó demasiado. Mi esposa no lo pensó dos veces y regresó al bote, dejándome solo en el agua. Fue divertido y un poco aterrador, pero ahora es una de nuestras anécdotas favoritas. Un momento que resume la aventura salvaje y divertida de nuestra luna de miel en Maldivas."
+      "maldives_snorkeling_coral": {
+        "title": "Arrecifes de coral y calma después de la tormenta",
+        "description": "Después de tanta adrenalina, necesitábamos algo más tranquilo —así que fuimos a hacer snorkel alrededor de una pequeña isla. No era solo flotar cerca de la orilla: fue una ruta guiada que rodeaba toda la isla.\n\nYa habíamos hecho snorkel en Tailandia, pero esto fue distinto. Seguir al guía, ver cómo el arrecife se hundía en un azul profundo, flotar sobre corales vibrantes y bancos de peces... fue hipnótico.\n\nNos recordó que la aventura no siempre tiene que ser extrema. A veces, solo respirar lento y ver pasar el mundo submarino es suficiente para sentirse completamente vivo."
       },
-      "item4": {
-        "title": "Volando sobre el paraíso",
-        "description": "Terminamos uno de nuestros días con un paseo en parapente sobre las aguas turquesa. Flotar a esa altura fue como sobrevolar una pintura. El silencio, interrumpido solo por el viento, nos ofreció una nueva perspectiva de lo hermoso que es Maldivas. Fue un momento mágico de libertad y belleza pura."
+      "maldives_beach_sunset": {
+        "title": "Atardeceres frente al mar y romance sencillo",
+        "description": "Una de nuestras noches favoritas en Maafushi no tuvo tours ni aventuras —fue simplemente no hacer nada. Tomamos dos sillas del hotel (nos quedamos en el Kaani Hotel), caminamos unos pasos hasta la playa y nos sentamos con los pies en el agua mientras caía el sol.\n\nEl cielo se pintó de tonos naranjas y azules, y nos quedamos ahí —hablando, riendo, bailando un poco. Sin lujos, sin ruido, solo el sonido del mar y una noche perfecta juntos. Fue algo sencillo, pero increíblemente especial.\n\nLa verdad es que las playas en Maldivas tienen el agua más rica en la que hemos estado. Es cálida, suave... simplemente deliciosa. Aunque el sol pegaba fuerte (y sí, volví súper bronceado —la gente se sorprendía de lo quemado que estaba), poder salir del hotel y tener ese mar turquesa a solo unos pasos valía completamente la pena.\n\nHay algo profundamente pacífico en empezar el día con desayuno frente al mar y terminarlo con los pies en el agua. Maldivas es más que belleza: es un lugar para relajarse, desconectarse y vivir despacio, en pareja."
       }
     }
   },
   "thailand": {
     "bangkok": {
       "items": {
-        "chinatown": {
-          "title": "Los Colores y Sabores de Chinatown",
-          "description": "Chinatown en Bangkok es una explosión de color, energía y sabores increíbles. Caminar por sus calles vibrantes fue como entrar en una fiesta: faroles colgando, sonidos de woks chisporroteando y un aroma de especias que guiaba a cada puesto. La comida fue de lo mejor del viaje. Cada bocado contaba una historia."
+        "bangkok_intro_temple": {
+          "title": "Bienvenidos a Tailandia: colores, caos y espiritualidad",
+          "description": "Tailandia siempre me había generado curiosidad. Tal vez por películas como Hangover, donde ves un país lleno de color, caos, cultura y un toque de locura divertida. Algo salvaje, pero no peligroso. Una especie de introducción vibrante al sudeste asiático.\n\nY desde el primer momento, Bangkok no decepcionó. Apenas aterrizas, ves monjes budistas en el aeropuerto, tuk-tuks zigzagueando entre calles caóticas, templos por todas partes. Es un país donde la religión está integrada en la vida diaria, y los templos forman parte del día a día.\n\nUno de los momentos más inesperados del primer día fue cuando un señor en la calle se nos acercó, nos preguntó a dónde queríamos ir y —aunque al principio desconfiamos— terminó ayudándonos a armar un recorrido a tres lugares interesantes. Se paró en plena calle, detuvo un tuk-tuk, le explicó al conductor a dónde llevarnos... y listo, nos subimos.\n\nEl primer sitio fue un templo budista clásico, con techo rojo, bordes dorados y una atmósfera de paz total. Fue una bienvenida única a Bangkok."
         },
-        "floating_market": {
-          "title": "Aventuras en el Mercado Flotante",
-          "description": "El mercado flotante parecía sacado de una película: botes llenos de frutas, fideos, recuerdos y sonrisas. Regatear por mango con arroz pegajoso sentado al borde del canal fue inolvidable. Es una experiencia cultural vibrante, atemporal y emocionante."
+        "bangkok_wat_pho": {
+          "title": "El templo del Buda reclinado: Wat Pho",
+          "description": "Una de las paradas más emblemáticas de Bangkok es Wat Pho, un complejo budista que alberga la famosa estatua del Buda reclinado, cubierta en láminas de oro. Es tan grande que una sola foto no alcanza para captarla completa.\n\nEl templo, aunque no es muy grande, tiene otros espacios llenos de encanto: estructuras tradicionales, pequeños estanques con peces y rincones de tranquilidad.\n\nLo mejor es que justo al lado pasa un río, y cruzándolo en ferry llegas a otro templo espectacular: Wat Arun, que exploramos en el siguiente slide."
         },
-        "khao_san": {
-          "title": "El Pulso Salvaje de Khao San",
-          "description": "Khao San Road fue una locura de luces, sonidos y viajeros de todo el mundo. Entre una cerveza fría y un puesto de comida, la energía no bajaba nunca. Es un lugar caótico, excéntrico, inolvidable... y nos encantó cada segundo."
+        "bangkok_wat_arun": {
+          "title": "Wat Arun y la porcelana que cuenta historias",
+          "description": "Wat Arun es uno de los templos más conocidos de Tailandia, y su torre principal —el prang central— está cubierta con pequeñas piezas de porcelana colorida.\n\nEsa torre no solo se admira desde afuera, también se puede recorrer: escaleras empinadas, pasillos, vistas... y sobre todo, detalles minuciosos en cada azulejo.\n\nUna de las cosas que me llamó la atención de Tailandia es que siguen restaurando y trabajando sus templos como siempre, sin perder sus técnicas tradicionales.\n\nBangkok no es solo fiesta y locura —aunque sí tiene esa parte también—, pero viajar también es ir a lugares icónicos. Este fue uno de nuestros primeros viajes, y aunque no estaba tan enfocado en fotografía en ese momento, logré capturar algunas escenas que me hacen querer volver... solo para tomar mejores fotos."
         },
-        "maeklong_train_market": {
-          "title": "El Tren que No Detiene el Mercado",
-          "description": "Visitar el Mercado del Tren Maeklong fue una de las experiencias más surrealistas del viaje. Este mercado lleno de vida opera directamente sobre las vías del tren, y varias veces al día, los vendedores recogen sus toldos y mueven sus productos con una calma impresionante para dejar pasar al tren. Solo unos segundos después, todo vuelve a su sitio como si nada hubiera pasado. Es una combinación extraordinaria de caos y coordinación, un reflejo perfecto de la adaptabilidad tailandesa. Estar a pocos metros de un tren en movimiento mientras compras frutas o especias es algo que no se olvida."
+        "bangkok_wat_saket": {
+          "title": "Wat Saket: templo entre las alturas",
+          "description": "Wat Saket, conocido también como Golden Mountain, está ubicado en lo alto de una colina en Bangkok. Para llegar hasta el templo, hay que subir bastantes escalones, pero la vista lo vale.\n\nEse día no pudimos entrar porque mi esposa llevaba short —y en los templos budistas es obligatorio cubrirse bien—, algo importante que debes tener en cuenta cuando visitas lugares religiosos.\n\nAun así, la experiencia fue linda. Estar arriba, ver el templo desde fuera y observar la ciudad desde las alturas fue un buen recordatorio de que no todo es entrar: a veces basta con estar cerca y respetar el lugar para disfrutarlo."
         },
-        "wat_pho": {
-          "title": "Un Cruce Cultural en Ferry",
-          "description": "Nuestro tour de templos fue como un puente espiritual. De un lado admiramos la majestuosidad del Wat Arun, y cruzando el río en ferry llegamos al Buda Reclinado de Wat Pho. Cada templo era único, pero compartían una calma reverente. Ese pequeño cruce en bote cargaba siglos de tradición."
+        "bangkok_floating_market_shop": {
+          "title": "El mercado flotante: souvenirs, helados y regateo",
+          "description": "Una de las experiencias más curiosas cerca de Bangkok es visitar el mercado flotante —aunque en realidad no está en Bangkok, sino bastante más lejos. Nosotros pedimos un taxi por Bolt para llegar, y aunque nuestras amigas tailandesas dijeron que pagamos mucho, como turistas nos pareció bastante accesible.\n\nUna vez allí, el paseo en bote tiene su costo. Dependiendo del tipo de recorrido, puedes pagar por persona o por bote completo. Lo cierto es que, aunque no es barato, la experiencia lo vale.\n\nMientras navegas, vas viendo tiendas flotantes con todo tipo de souvenirs: artesanías, ropa, cuadros, platos típicos y hasta pequeñas barcas que te ofrecen helado desde el agua.\n\nNosotros nos enamoramos de un cuadro de Bangkok con un tuk-tuk bajo la lluvia. Costó 100 dólares, y sí, es caro, pero también había artistas con trabajos increíbles. Nos pareció lo suficientemente hermoso como para no dejarlo atrás.\n\nEn la foto se ve una de esas tiendas llenas de objetos llamativos: desde placas decorativas hasta figuras de acción de personajes de películas famosas. Es un lugar pensado para el turista, sí, pero tiene su encanto."
+        },
+
+        "bangkok_floating_market_homes": {
+          "title": "Casas, templos... y lagartos nadadores",
+          "description": "Una de las cosas que más me sorprendió del mercado flotante no fueron solo las tiendas, sino ver cómo muchas casas están literalmente construidas sobre el agua.\n\nMientras vas en el bote, pasas frente a hogares donde la vida cotidiana fluye sobre los canales: plantas, hamacas, ropa colgando, todo en un entorno verde y tranquilo. A veces, si haces el tour completo, te llevan hasta un pequeño templo escondido entre los árboles.\n\nPero lo más inesperado... son los lagartos monitor. Se mueven por el agua con naturalidad, y aunque la mayoría son pequeños, hay algunos enormes. Yo solo espero que no te cruces con uno particularmente grande —aunque verlos desde el bote, con algo de distancia, le da un toque salvaje muy particular a la experiencia."
+        },
+        "bangkok_chinatown": {
+          "title": "Bangkok's Chinatown: caos delicioso y luces inolvidables",
+          "description": "Antes de enamorarme de los neones en Hong Kong, mi primer contacto con la cultura china real fue en Chinatown de Bangkok —y qué introducción. Este es uno de los barrios chinos más grandes del mundo, y se nota.\n\nAquí hay de todo: desde puestos humildes hasta locales con estrella Michelin, una locura de sabores, gente, luces y movimiento. Honestamente, es uno de mis lugares favoritos de todos los viajes que he hecho.\n\nAunque no llegué a comer en el sitio con estrella Michelin, probé unos noodles increíbles y unos panes rellenos de Nutella que me recomendó una amiga tailandesa. ¡Inolvidables! Tanto que se los recomendé a otra amiga que viajó después, y me confirmó: son brutales.\n\nLa atmósfera es caótica pero vibrante. Calles llenas de vida, puestos de comida por todas partes, olores intensos, luces rojas, doradas... hasta insectos y escorpiones como snacks. Todo sucede, sobre todo, en la avenida principal, que parece una ciudad propia dentro del monstruo que es Bangkok.\n\nSi buscas algo diferente y lleno de carácter, este lugar es una visita obligada."
         }
       }
     },
     "phuket": {
       "items": {
-        "big_buddha": {
-          "title": "Una Vista Serena desde el Gran Buda",
-          "description": "Nuestra visita al Gran Buda de Phuket fue uno de los momentos más tranquilos del viaje. Situado en lo alto de una colina, la estatua ofrece vistas panorámicas del mar y la vegetación que rodea la isla. El ambiente era sereno y lleno de respeto, con el suave sonido de campanillas y el viento de fondo. Aprovechamos para reflexionar, disfrutar de la brisa fresca y observar a los monjes realizando rituales. Fue como una pausa espiritual en medio de tantas aventuras, y solo por las vistas valió la pena subir."
+        "phuket_pileh": {
+          "title": "Pileh Lagoon, Maya Bay y un mar de color turquesa",
+          "description": "Nuestra idea en Tailandia era comenzar por las playas del sur, así que llegamos a Phuket para hacer varios tours antes de regresar a Bangkok. El primero fue uno de los más emocionantes: un recorrido por Pileh Lagoon, Maya Bay y Phi Phi Island, con snorkel incluido.\n\nLo que más esperaba era ver Pileh Lagoon —y no decepcionó. El agua es de un verde turquesa increíble, y está llena de peces loro, grandes y coloridos, nadando a tu alrededor. Pagamos un pequeño extra para que un bote más pequeño nos llevara a recorrer bien la laguna, y valió cada minuto.\n\nDespués hicimos snorkel en aguas cristalinas, y llegamos a Maya Bay, donde se grabó The Beach con Leonardo DiCaprio. No está permitido bañarse ahí para proteger el ecosistema, pero justo en la orilla vimos un tiburón bebé nadando. Fue un momento perfecto.\n\nCerramos el tour en Phi Phi Island, donde almorzamos tipo buffet y recorrimos un poco la isla. Aunque muchos se quedan a pasar la noche, nosotros hicimos solo un full day tour y volvimos a Phuket al final de la tarde. ¡Una experiencia completa y preciosa!"
         },
-        "bond_island_tour": {
-          "title": "La Isla de James Bond y Lagunas Secretas",
-          "description": "El tour a la Isla de James Bond fue impresionante. Acantilados enormes, lagunas escondidas y cuevas accesibles solo en kayak... se sentía como otro mundo. Uno de los paisajes más cinematográficos que hemos visto. Cada rincón era digno de foto."
+        "phuket_james_bond": {
+          "title": "James Bond Island y una aldea sobre el agua",
+          "description": "Otro tour de día completo que hicimos desde Phuket fue hacia la famosa James Bond Island, con su icónica piedra erosionada saliendo del agua, escenario de la película The Man with the Golden Gun.\n\nEl recorrido incluyó una actividad inesperada y fascinante: hicimos kayak atravesando una grieta en una roca enorme, donde incluso tuvimos que acostarnos en el bote para pasar por debajo y ver el interior. Una experiencia muy particular.\n\nEsta zona de Phuket es diferente: el agua es más turbia, así que no hay snorkel, pero el paisaje sigue siendo impresionante. Como en todos estos tours, el almuerzo tipo buffet estuvo incluido, y en esta ocasión lo disfrutamos en una aldea flotante de pescadores, una comunidad tradicional donde venden artesanías y recuerdos a muy buen precio.\n\nVer cómo vive la gente allí, literalmente sobre el agua, fue algo que me marcó. Tailandia tiene muchas caras, y esta fue una completamente distinta pero igual de especial."
         },
-        "patong_beach": {
-          "title": "Atardeceres en Patong",
-          "description": "La playa de Patong fue el cierre perfecto de nuestros días. Ver el atardecer tras el mar, luego de explorar tanto, fue pacífico e inspirador. El ambiente de playa, la música suave y la luz dorada lo hicieron inolvidable."
+        "phuket_big_buddha": {
+          "title": "El Gran Buda y las vistas desde lo alto",
+          "description": "Una figura que se ve desde muchos puntos del sur de Phuket es el Gran Buda, y teníamos muchas ganas de visitarlo desde que llegamos. Siempre aparecía en el mapa, pero lo dejamos para el final del viaje. Aun así, fue una gran experiencia.\n\nPara llegar hay que subir bastante, pero una vez arriba, entiendes por qué es tan especial. Esta fue la primera estatua gigante de Buda que vimos en persona, y aunque no logré capturar una buena foto, el impacto visual es fuerte.\n\nDesde lo alto, tienes una vista hermosa hacia la costa: el mar, la playa y todo Phuket extendiéndose abajo, con sus colores claros, verdes y azules. Es un lugar que se siente muy tranquilo, a pesar del tamaño y el flujo de turistas."
         },
-        "phi_phi_tour": {
-          "title": "Snorkel y Playas de Ensueño",
-          "description": "Comenzamos con un tour de snorkel por las aguas cristalinas de las islas Phi Phi. Nadar entre corales y peces de colores fue mágico. Luego llegamos a Maya Bay, la playa famosa de la película de DiCaprio, y simplemente nos quedamos sin palabras. El agua, los acantilados, la energía... era el paraíso."
+
+        "phuket_big_buddha_temple_wishes": {
+          "title": "Deseos dorados en el templo del Gran Buda",
+          "description": "El templo del Gran Buda no es solo la gran estatua. Alrededor hay muchas otras esculturas, salas de oración y espacios donde puedes participar de tradiciones locales.\n\nUna de ellas es la posibilidad de dejar un deseo o una dedicatoria comprando una hoja metálica dorada, algo que ayuda a financiar la construcción del templo. Nosotros decidimos hacerlo así: dejar nuestra pequeña contribución, con un mensaje dedicado a nuestros seres queridos.\n\nEs un gesto sencillo, pero significativo. Caminar entre los altares, ver a la gente rezando o escribiendo sus hojas con calma, te hace sentir parte de algo espiritual, aunque solo estés de paso.\n\nEs una forma muy bonita de cerrar la visita, con algo más íntimo que solo ver la gran figura desde lejos."
         }
       }
     }

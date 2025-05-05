@@ -3,45 +3,38 @@ import { TabItem } from "./../types/SlideTabsLayout.d";
 export const EgyptData: TabItem[] = [
   {
     id: 1,
-    name: "Cairo",
-    code: "cairo",
+    name: "Egypt",
+    code: "egypt",
     items: [
       {
         id: 1,
-        code: "giza",
-        img: "/images/egypt/cairo1.jpg",
+        code: "giza_pyramids",
+        img: "/images/egypt/giza_pyramids.jpg",
       },
       {
         id: 2,
-        code: "nile",
-        img: "/images/egypt/cairo2.jpg",
-      },
-    ],
-  },
-  {
-    id: 2,
-    name: "Luxor",
-    code: "luxor",
-    items: [
-      {
-        id: 1,
-        code: "hatshepsut_temple",
-        img: "/images/egypt/luxor1.jpg",
-      },
-      {
-        id: 2,
-        code: "karnak_template",
-        img: "/images/egypt/luxor2.jpg",
+        code: "luxor_karnak_temple",
+        img: "/images/egypt/luxor_karnak_temple.jpg",
       },
       {
         id: 3,
-        code: "luxor_temple",
-        img: "/images/egypt/luxor3.jpg",
+        code: "luxor_karnak_wall_figures",
+        img: "/images/egypt/luxor_karnak_wall_figures.jpg",
       },
       {
         id: 4,
-        code: "valley_of_kings",
-        img: "/images/egypt/luxor4.jpg",
+        code: "valley_tomb_wall_art",
+        img: "/images/egypt/valley_tomb_wall_art.jpg",
+      },
+      {
+        id: 5,
+        code: "valley_seti_column",
+        img: "/images/egypt/valley_seti_column.jpg",
+      },
+      {
+        id: 6,
+        code: "valley_of_the_kings",
+        img: "/images/egypt/valley_of_the_kings.jpg",
       },
     ],
   },

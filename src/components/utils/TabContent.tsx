@@ -13,7 +13,7 @@ export const TabContent = ({ i18nPrefix, tab, item }: TabContentProps) => {
     <AnimatePresence mode="wait">
       <motion.div
         key={item.img}
-        className="w-full"
+        className="w-full overflow-hidden"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
@@ -29,7 +29,7 @@ export const TabContent = ({ i18nPrefix, tab, item }: TabContentProps) => {
             }${tab.code.toLocaleLowerCase()}.items.${item.code}.title`
           )}
         </h2>
-        <p className="text-sm whitespace-normal font-light mt-[20px]">
+        <p className="text-sm whitespace-break-spaces font-light mt-[20px]">
           <strong>
             {t(
               `${

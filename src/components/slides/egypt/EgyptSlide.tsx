@@ -1,57 +1,77 @@
 import { useTranslation } from "react-i18next";
-import { Tab } from "@headlessui/react";
+import { motion, AnimatePresence } from "framer-motion";
 import { SlideTabsLayout } from "../../../layouts/SlideTabsLayout";
 import { EgyptData as tabs } from "../../../data/egyptData";
+import { TabImg } from "../../utils/TabImg";
 
 export const EgyptSlide = () => {
   const { t } = useTranslation();
 
   return (
-    <SlideTabsLayout pageTitle="Lost in Egypt" tabs={tabs}>
+    <SlideTabsLayout
+      pageTitle={t("pages.egypt_title")}
+      tabs={tabs}
+      showTabs={false}
+    >
       {({ currentTab, currentItem }) => (
         <div className="flex flex-row h-full w-full">
-          <div className="h-full w-[33%] flex flex-col justify-start items-start pr-5">
-            <p>
-              {currentTab?.name} {currentItem?.id}/{currentTab?.items.length}
-            </p>
-            <h2 className="text-6xl">
-              {t(
-                `egypt.${currentTab?.code.toLocaleLowerCase()}.items.${
-                  currentItem?.code
-                }.title`
-              )}
-            </h2>
-            <p className="text-sm whitespace-normal font-light mt-[20px]">
-              <strong>
-                {t(
-                  `egypt.${currentTab?.code.toLocaleLowerCase()}.items.${
-                    currentItem?.code
-                  }.description_first`
-                )}
-              </strong>
-            </p>
+          <div className="w-[35%] 3xl:w-[30%] h-full">
+            <AnimatePresence mode="wait">
+              <motion.div
+                key={currentItem?.img}
+                className="w-full overflow-hidden"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 0.25 }}
+              >
+                <p>
+                  {currentTab?.name} {currentItem?.id}/
+                  {currentTab?.items.length}
+                </p>
+                <h2 className="text-6xl">
+                  {t(
+                    `${currentTab?.code.toLocaleLowerCase()}.items.${
+                      currentItem?.code
+                    }.title`
+                  )}
+                </h2>
+                <p className="text-sm whitespace-break-spaces font-light mt-[20px]">
+                  <strong>
+                    {t(
+                      `${currentTab?.code.toLocaleLowerCase()}.items.${
+                        currentItem?.code
+                      }.description_first`
+                    )}
+                  </strong>
+                </p>
+              </motion.div>
+            </AnimatePresence>
           </div>
-          <Tab.Panels className="w-[34vw] flex justify-start h-[100%]">
-            {tabs.map((tab) => (
-              <Tab.Panel
-                key={tab.id}
-                className="w-full bg-cover bg-center bg-no-repeat"
-                style={{
-                  backgroundImage: `url('${currentItem?.img}')`,
-                }}
-              />
-            ))}
-          </Tab.Panels>
-          <div className="h-full w-[33%] flex flex-col justify-end items-start pl-5">
-            <p className="text-sm whitespace-normal font-light mt-[20px]">
-              <strong>
-                {t(
-                  `egypt.${currentTab?.code.toLocaleLowerCase()}.items.${
-                    currentItem?.code
-                  }.description_second`
-                )}
-              </strong>
-            </p>
+          <div className="w-[30%] 3xl:w-[40%] h-full px-5">
+            <TabImg item={currentItem} />
+          </div>
+          <div className="w-[35%] 3xl:w-[30%] h-full flex items-end">
+            <AnimatePresence mode="wait">
+              <motion.div
+                key={currentItem?.img}
+                className="w-full overflow-hidden"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 0.25 }}
+              >
+                <p className="text-sm whitespace-normal font-light mt-[20px]">
+                  <strong>
+                    {t(
+                      `${currentTab?.code.toLocaleLowerCase()}.items.${
+                        currentItem?.code
+                      }.description_second`
+                    )}
+                  </strong>
+                </p>
+              </motion.div>
+            </AnimatePresence>
           </div>
         </div>
       )}
