@@ -18,6 +18,7 @@ export interface PageTitle {
 }
 
 export interface MobileSlideSectionProps {
+  index: number;
   key: string;
   i18nPrefix: string;
   tabs: TabData;
@@ -25,6 +26,7 @@ export interface MobileSlideSectionProps {
 }
 
 export interface ModalSliderViewerProps {
+  index: number;
   tabs: TabData[];
   title: string;
   i18nPrefix: string;

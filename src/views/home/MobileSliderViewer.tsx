@@ -8,6 +8,7 @@ import { MobileSliderItemTitle } from "./partials/MobileSliderItemTitle";
 import { MobileSliderTabs } from "./partials/MobileSliderTabs";
 
 export const MobileSlideViewer = ({
+  index,
   tabs,
   title,
   i18nPrefix,
@@ -71,9 +72,11 @@ export const MobileSlideViewer = ({
       >
         <TabImg item={currentItem} />
 
-        <div className="absolute top-2 right-2 bg-black/70 text-white text-xs px-2 py-1 rounded-full">
-          {currentTab.name} {currentItem.id}/{currentTab.items.length}
-        </div>
+        {index !== 1 && (
+          <div className="absolute top-2 right-2 bg-black/70 text-white text-xs px-2 py-1 rounded-full">
+            {currentTab.name} {currentItem.id}/{currentTab.items.length}
+          </div>
+        )}
 
         <div className="absolute bottom-0 w-full bg-gradient-to-t from-black/80 via-black/40 to-transparent p-4">
           <h2 className="text-white text-lg font-semibold">{t(titleKey)}</h2>
@@ -128,7 +131,7 @@ export const MobileSlideViewer = ({
             >
               Cerrar
             </button>
-            {currentItem?.hasSimpleDescription ? (
+            {!currentItem?.hasSimpleDescription ? (
               <p className="text-sm whitespace-pre-line pt-5">
                 {t(
                   `${prefix}${currentTab.code.toLowerCase()}.items.${

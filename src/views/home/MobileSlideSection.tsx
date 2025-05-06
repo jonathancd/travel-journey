@@ -13,6 +13,7 @@ export const MobileSlideSection = ({
     <div ref={ref} className={`min-h-[calc(100vh-60px)]`}>
       {isInView && (
         <MobileSlideViewer
+          index={slide.index}
           tabs={slide.tabs}
           title={slide.title}
           i18nPrefix={slide.i18nPrefix}
