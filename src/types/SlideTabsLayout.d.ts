@@ -1,30 +1,16 @@
 import React from "react";
 
-interface Item {
-  id: number;
-  code: string;
-  img: string;
-  direction?: string;
-  objectPosition?: string;
-  alt?: string;
-}
-
-export interface TabItem {
-  id: number;
-  name: string;
-  code: string;
-  items: Item[];
-}
+import { Item, TabData } from "./Tabs";
 
 export interface SlideTabsLayoutProps {
   pageTitle: string;
-  tabs: TabItem[];
+  tabs: TabData[];
   showTabs?: boolean;
   paginationOnLeft?: boolean;
   children: (args: {
     selectedItemIndex: number;
     setSelectedItemIndex: (index: number) => void;
     currentItem: Item | null;
-    currentTab: TabItem | null;
+    currentTab: TabData | null;
   }) => React.ReactNode;
 }

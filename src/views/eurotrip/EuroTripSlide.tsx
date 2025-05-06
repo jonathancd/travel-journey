@@ -1,7 +1,7 @@
-import { EuroTripProps } from "../../../types/EuroTripProps";
-import { SlideTabsLayout } from "../../../layouts/SlideTabsLayout";
-import { TabImg } from "../../utils/TabImg";
-import { TabContent } from "../../utils/TabContent";
+import { EuroTripProps } from "../../types/EuroTripProps";
+import { SlideTabsLayout } from "../../layouts/SlideTabsLayout";
+import { TabImg } from "../../components/utils/TabImg";
+import { TabContent } from "../../components/utils/TabContent";
 
 export const EuroTripSlide = ({
   page_title,
@@ -11,10 +11,10 @@ export const EuroTripSlide = ({
   <SlideTabsLayout pageTitle={page_title} tabs={tabs} paginationOnLeft={false}>
     {({ currentTab, currentItem }) => (
       <div className="w-full h-full flex flex-row">
-        <div className="w-[40%] lg:w-[30%] 3xl:w-[40%] h-full">
+        <div className="w-[30%] 3xl:w-[40%] h-full">
           <TabImg item={currentItem} />
         </div>
-        <div className="w-[60%] lg:w-[70%] 3xl:w-[60%] flex-1 flex pl-5">
+        <div className="w-[70%] 3xl:w-[60%] flex-1 flex pl-5">
           <TabContent
             i18nPrefix={i18n_code}
             tab={currentTab}

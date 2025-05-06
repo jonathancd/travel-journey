@@ -1,19 +1,19 @@
 import { useTranslation } from "react-i18next";
-import { SlideTabsLayout } from "../../../layouts/SlideTabsLayout";
-import { TabImg } from "../../utils/TabImg";
-import { TabContent } from "../../utils/TabContent";
-import { JapanData as tabs } from "../../../data/japanData";
+import { SlideTabsLayout } from "../../layouts/SlideTabsLayout";
+import { TabImg } from "../../components/utils/TabImg";
+import { TabContent } from "../../components/utils/TabContent";
+import { ThailandData as tabs } from "../../data/thailandData";
 
-export const JapanSlide = () => {
+export const ThailandSlide = () => {
   const { t } = useTranslation();
 
   return (
-    <SlideTabsLayout pageTitle={t("pages.japan_title")} tabs={tabs}>
+    <SlideTabsLayout pageTitle={t("pages.thailand_title")} tabs={tabs}>
       {({ currentTab, currentItem }) => (
-        <div className="w-full h-full flex justify-end">
+        <div className="w-full h-full flex flex-row">
           <div className="w-[60%] lg:w-[70%] 3xl:w-[60%] flex-1 flex pr-5">
             <TabContent
-              i18nPrefix="japan"
+              i18nPrefix="thailand"
               tab={currentTab}
               item={currentItem}
             />

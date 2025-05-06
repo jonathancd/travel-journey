@@ -1,25 +1,33 @@
 import { Tab } from "@headlessui/react";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
+import { useIsMobile } from "../../hooks/useIsMobile";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { SlideLayout } from "../../../layouts/SlideLayout";
-import { countriesListTabs as tabs } from "../../../data/countriesListData";
+import { SlideLayout } from "../../layouts/SlideLayout";
+import { countriesListTabs as tabs } from "../../data/countriesListData";
 import { CountryCard } from "./partials/CountryCard";
 
 export const CountriesListSlide = () => {
   const [selectedIndex, setSelectedIndex] = useState(0);
   const { t } = useTranslation();
+  const isMobile = useIsMobile();
 
   return (
     <SlideLayout title={t("pages.country_list")}>
       <Tab.Group
-        className="relative w-full max-h-[80vh] min-h-[400px] flex flex-col h-[calc(80vh-40px)] overflow-y-scroll overflow-x-hidden"
+        className={`${
+          !isMobile ? "h-[calc(80vh-40px)]" : ""
+        } relative w-full max-h-[80vh] min-h-[400px] flex flex-col overflow-y-scroll overflow-x-hidden`}
         selectedIndex={selectedIndex}
         onChange={setSelectedIndex}
       >
-        <Tab.List className="w-[88vw] flex justify-center ml-6">
+        <Tab.List
+          className={` ${
+            isMobile ? "justify-start " : "justify-center ml-6"
+          } w-[88vw] flex`}
+        >
           {tabs.map((tab, i) => (
             <div key={`${i}-tab`} className="py-2">
               <Tab

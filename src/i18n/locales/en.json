@@ -3,7 +3,12 @@
     "title": "Travel Journey"
   },
   "hero": {
-    "description": "I'm a software developer from Venezuela who loves to travel and take photos. So I decided to build something that mixes all of that: a personal project where I can show the places I've visited, use my frontend skills, and share a bit of my journey along the way. \n\nMost of the photos you'll find here were taken by me — or at least, they show what I saw. I wasn't really into photography during my first few trips, but after getting my first camera, I slowly started paying more attention to how I capture things. I'm still learning, just enjoying it as a hobby — but as you go through each slide, you might notice how both the places and the way I see them have evolved."
+    "items": {
+      "hero": {
+        "title": "",
+        "description": "I'm a software developer from Venezuela who loves to travel and take photos. So I decided to build something that mixes all of that: a personal project where I can show the places I've visited, use my frontend skills, and share a bit of my journey along the way. \n\nMost of the photos you'll find here were taken by me — or at least, they show what I saw. I wasn't really into photography during my first few trips, but after getting my first camera, I slowly started paying more attention to how I capture things. I'm still learning, just enjoying it as a hobby — but as you go through each slide, you might notice how both the places and the way I see them have evolved."
+      }
+    }
   },
   "pages": {
     "home_title": "About me",
@@ -1024,6 +1029,7 @@
     }
   },
   "utilities": {
-    "view_details": "View details"
+    "view_details": "View details",
+    "view_more": "View more"
   }
 }

@@ -3,7 +3,12 @@
     "title": "Viaje Inolvidable"
   },
   "hero": {
-    "description": "Soy un desarrollador de software de Venezuela al que le encanta viajar y tomar fotos. Así que decidí crear algo que mezclara todo eso: un proyecto personal donde puedo mostrar los lugares que he visitado, usar mis habilidades de frontend y compartir un poco de mi recorrido en el camino. \n\nLa mayoría de las fotos que verás aquí fueron tomadas por mí —o al menos, muestran lo que vi. En mis primeros viajes no estaba muy pendiente de la fotografía, pero después de comprar mi primera cámara, comencé poco a poco a fijarme más en cómo capturaba cada lugar. Aún estoy aprendiendo y lo disfruto como un hobby, pero a medida que avances por cada slide, quizás notes cómo han cambiado tanto los destinos como la forma en que los veo."
+    "items": {
+      "hero": {
+        "title": "",
+        "description": "Soy un desarrollador de software de Venezuela al que le encanta viajar y tomar fotos. Así que decidí crear algo que mezclara todo eso: un proyecto personal donde puedo mostrar los lugares que he visitado, usar mis habilidades de frontend y compartir un poco de mi recorrido en el camino. \n\nLa mayoría de las fotos que verás aquí fueron tomadas por mí —o al menos, muestran lo que vi. En mis primeros viajes no estaba muy pendiente de la fotografía, pero después de comprar mi primera cámara, comencé poco a poco a fijarme más en cómo capturaba cada lugar. Aún estoy aprendiendo y lo disfruto como un hobby, pero a medida que avances por cada slide, quizás notes cómo han cambiado tanto los destinos como la forma en que los veo."
+      }
+    }
   },
   "pages": {
     "home_title": "Acerca de mí",
@@ -1120,6 +1125,7 @@
     }
   },
   "utilities": {
-    "view_details": "Ver detalles"
+    "view_details": "Ver detalles",
+    "view_more": "View más"
   }
 }

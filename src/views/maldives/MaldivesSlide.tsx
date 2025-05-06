@@ -1,8 +1,8 @@
 import { useTranslation } from "react-i18next";
-import { SlideTabsLayout } from "../../../layouts/SlideTabsLayout";
-import { TabImg } from "../../utils/TabImg";
-import { TabContent } from "../../utils/TabContent";
-import { MaldivesData as tabs } from "../../../data/maldivesData";
+import { SlideTabsLayout } from "../../layouts/SlideTabsLayout";
+import { TabImg } from "../../components/utils/TabImg";
+import { TabContent } from "../../components/utils/TabContent";
+import { MaldivesData as tabs } from "../../data/maldivesData";
 
 export const MaldivesSlide = () => {
   const { t } = useTranslation();
