@@ -35,12 +35,12 @@ export const SlideTabsLayout = ({
         className="relative w-full max-h-[80vh] min-h-[400px] flex flex-col h-[calc(80vh-40px)]"
       >
         {showTabs && (
-          <Tab.List className="flex justify-center ml-6">
+          <Tab.List className="flex justify-center">
             {tabs.map((tab, i) => (
               <div key={tab.id} className="py-2">
                 <Tab
                   className={({ selected }) =>
-                    `cursor-pointer px-15 ${
+                    `cursor-pointer px-5 lg:px-15 ${
                       selected ? "text-black" : "text-red-500"
                     }
                     ${i < tabs.length - 1 ? "border-r border-gray-400" : ""}`

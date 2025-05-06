@@ -15,7 +15,7 @@ export const CountryOverlay = ({ type, country }: CountryCardProps) => {
       />
 
       <div className="text-center mt-auto mb-auto">
-        <h3 className="text-sm font-bold">
+        <h3 className="text-xs md:text-sm font-bold">
           {t(`countries.${type}.${code}.name`)}
         </h3>
         {type === "visited" && (

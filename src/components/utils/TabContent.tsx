@@ -22,14 +22,14 @@ export const TabContent = ({ i18nPrefix, tab, item }: TabContentProps) => {
         <p>
           {tab.name} {item.id}/{tab.items.length}
         </p>
-        <h2 className="text-6xl">
+        <h2 className="text-2xl lg:text-3xl 2xl:text-6xl">
           {t(
             `${
               i18nPrefix ? i18nPrefix + "." : ""
             }${tab.code.toLocaleLowerCase()}.items.${item.code}.title`
           )}
         </h2>
-        <p className="text-sm whitespace-break-spaces font-light mt-[20px]">
+        <p className="text-xs lg:text-sm whitespace-break-spaces font-light mt-[20px]">
           <strong>
             {t(
               `${

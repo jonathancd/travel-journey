@@ -15,7 +15,7 @@ export const EgyptSlide = () => {
     >
       {({ currentTab, currentItem }) => (
         <div className="flex flex-row h-full w-full">
-          <div className="w-[35%] 3xl:w-[30%] h-full">
+          <div className="w-[60%] lg:w-[35%] 3xl:w-[30%] h-full pr-5">
             <AnimatePresence mode="wait">
               <motion.div
                 key={currentItem?.img}
@@ -29,14 +29,14 @@ export const EgyptSlide = () => {
                   {currentTab?.name} {currentItem?.id}/
                   {currentTab?.items.length}
                 </p>
-                <h2 className="text-6xl">
+                <h2 className="text-2xl lg:text-3xl 2xl:text-6xl">
                   {t(
                     `${currentTab?.code.toLocaleLowerCase()}.items.${
                       currentItem?.code
                     }.title`
                   )}
                 </h2>
-                <p className="text-sm whitespace-break-spaces font-light mt-[20px]">
+                <p className="text-xs lg:text-sm  whitespace-break-spaces font-light mt-[20px]">
                   <strong>
                     {t(
                       `${currentTab?.code.toLocaleLowerCase()}.items.${
@@ -48,10 +48,10 @@ export const EgyptSlide = () => {
               </motion.div>
             </AnimatePresence>
           </div>
-          <div className="w-[30%] 3xl:w-[40%] h-full px-5">
+          <div className="w-[40%] lg:w-[30%] 3xl:w-[40%] h-full">
             <TabImg item={currentItem} />
           </div>
-          <div className="w-[35%] 3xl:w-[30%] h-full flex items-end">
+          <div className="hidden lg:flex lg:w-[35%] 3xl:w-[30%] h-full items-end pl-5">
             <AnimatePresence mode="wait">
               <motion.div
                 key={currentItem?.img}
@@ -61,7 +61,7 @@ export const EgyptSlide = () => {
                 exit={{ opacity: 0 }}
                 transition={{ duration: 0.25 }}
               >
-                <p className="text-sm whitespace-normal font-light mt-[20px]">
+                <p className="text-xs lg:text-sm  whitespace-normal font-light mt-[20px]">
                   <strong>
                     {t(
                       `${currentTab?.code.toLocaleLowerCase()}.items.${

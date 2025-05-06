@@ -18,7 +18,7 @@ export const SlidePagination = ({
 
   return (
     <div
-      className={`absolute bottom-0 flex items-center ${
+      className={`absolute bottom-0 flex items-center bg-white ${
         paginationOnLeft ? "left-0" : "right-0 flex-row-reverse"
       }`}
     >
@@ -36,7 +36,7 @@ export const SlidePagination = ({
           arrowAlt="Next"
         />
       </div>
-      <div className="flex gap-2">
+      <div className="hidden md:flex gap-2">
         {Array.from({ length: totalItems }).map((_, i) => (
           <PaginationButton
             key={i}

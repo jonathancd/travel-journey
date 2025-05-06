@@ -15,7 +15,7 @@ export const OverlayTag = ({ countryCode, tag, type }: OverlayTagProps) => {
   const icons = tag.isCustomized ? tag.icons : [];
 
   return (
-    <div className="absolute top-2 left-2 bg-black/70 text-white text-xs px-2 py-1 rounded shadow flex items-center gap-1">
+    <div className="flex absolute top-2 left-2 bg-black/70 text-white text-xs px-2 py-1 rounded shadow items-center gap-1">
       {icons.map((icon, idx) => (
         <span key={idx}>{icon}</span>
       ))}

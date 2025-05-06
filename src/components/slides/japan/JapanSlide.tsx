@@ -11,14 +11,14 @@ export const JapanSlide = () => {
     <SlideTabsLayout pageTitle={t("pages.japan_title")} tabs={tabs}>
       {({ currentTab, currentItem }) => (
         <div className="w-full h-full flex justify-end">
-          <div className="w-[70%] 3xl:w-[60%] flex-1 flex pr-5">
+          <div className="w-[60%] lg:w-[70%] 3xl:w-[60%] flex-1 flex pr-5">
             <TabContent
               i18nPrefix="japan"
               tab={currentTab}
               item={currentItem}
             />
           </div>
-          <div className="w-[30%] 3xl:w-[40%] h-full">
+          <div className="w-[40%] lg:w-[30%] 3xl:w-[40%] h-full">
             <TabImg item={currentItem} />
           </div>
         </div>

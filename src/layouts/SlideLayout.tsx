@@ -10,7 +10,7 @@ export const SlideLayout = ({ title, children }: SlideLayoutProps) => {
             max-w-screen-2xl 
             mx-auto
             px-4 
-            pl-20 
+            min-[767px]:pl-[80px]
             min-[1700px]:pl-4 
             w-full
           "
