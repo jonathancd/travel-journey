@@ -1,5 +1,6 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { Item } from "../../types/Tabs";
+import { getBaseUrl } from "../../utils/path";
 
 export const TabImg = ({ item }: { item: Item | null }) => {
   if (!item) return;
@@ -13,7 +14,7 @@ export const TabImg = ({ item }: { item: Item | null }) => {
       <AnimatePresence mode="wait">
         <motion.img
           key={item.img}
-          src={item.img}
+          src={getBaseUrl(item.img)}
           className="w-full h-full object-cover absolute top-0 left-0"
           alt={item.alt || ""}
           style={{

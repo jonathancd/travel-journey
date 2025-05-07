@@ -1,6 +1,7 @@
 import { CountryCardProps } from "../../../types/Country";
 import { CountryOverlay } from "./CountryOverlay";
 import { CountryPending, CountryVisited } from "../../../types/Country";
+import { getBaseUrl } from "../../../utils/path";
 
 export const CountryCard = ({ type, country }: CountryCardProps) => {
   const overlayProps =
@@ -12,7 +13,7 @@ export const CountryCard = ({ type, country }: CountryCardProps) => {
     <div className="w-2/4 xs:w-4/4 md:w-1/4 xl:w-1/6 p-2">
       <div
         className="w-full aspect-[4/3] bg-contain bg-center bg-no-repeat border-2 border-gray-100 relative group rounded overflow-hidden"
-        style={{ backgroundImage: `url('${country.flagImg}')` }}
+        style={{ backgroundImage: `url('${getBaseUrl(country.flagImg)}')` }}
       >
         <CountryOverlay {...overlayProps} />
       </div>
