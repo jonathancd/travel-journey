@@ -4,7 +4,9 @@ export interface Item {
   img: string;
   direction?: string;
   objectPosition?: string;
+  objectPositionHorizontal?: string;
   alt?: string;
+  hasSimpleDescription?: boolean;
 }
 
 export interface TabData {

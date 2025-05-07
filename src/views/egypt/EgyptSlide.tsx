@@ -1,8 +1,8 @@
 import { useTranslation } from "react-i18next";
 import { motion, AnimatePresence } from "framer-motion";
-import { SlideTabsLayout } from "../../../layouts/SlideTabsLayout";
-import { EgyptData as tabs } from "../../../data/egyptData";
-import { TabImg } from "../../utils/TabImg";
+import { SlideTabsLayout } from "../../layouts/SlideTabsLayout";
+import { EgyptData as tabs } from "../../data/egyptData";
+import { TabImg } from "../../components/utils/TabImg";
 
 export const EgyptSlide = () => {
   const { t } = useTranslation();

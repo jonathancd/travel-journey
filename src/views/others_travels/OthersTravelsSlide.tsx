@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
-import { SlideLayout } from "../../../layouts/SlideLayout";
-import { otherTravelsData } from "../../../data/otherTravelsData";
+import { SlideLayout } from "../../layouts/SlideLayout";
+import { otherTravelsData } from "../../data/otherTravelsData";
 
 export const OthersTravelsSlide = () => {
   const { t } = useTranslation();

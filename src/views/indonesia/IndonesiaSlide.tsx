@@ -1,7 +1,7 @@
-import { SlideTabsLayout } from "../../../layouts/SlideTabsLayout";
-import { TabImg } from "../../utils/TabImg";
-import { TabContent } from "../../utils/TabContent";
-import { IndonesiaData as tabs } from "../../../data/indonesiaData";
+import { SlideTabsLayout } from "../../layouts/SlideTabsLayout";
+import { TabImg } from "../../components/utils/TabImg";
+import { TabContent } from "../../components/utils/TabContent";
+import { IndonesiaData as tabs } from "../../data/indonesiaData";
 
 export const IndonesiaSlide = () => (
   <SlideTabsLayout pageTitle="Indonesia" tabs={tabs}>

@@ -27,7 +27,7 @@
 html,
 body {
   height: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
   font-family: "Josefin Sans", sans-serif;
 }
 
@@ -48,11 +48,11 @@ body {
 }
 
 #fp-nav.fp-left {
-  left: 1rem;
+  left: 1rem !important;
 }
 @media (min-width: 1700px) {
   #fp-nav.fp-left {
-    left: calc((100vw - var(--content-max-width)) / 2 - 48px);
+    left: calc((100vw - var(--content-max-width)) / 2 - 48px) !important;
   }
 }
 
@@ -65,12 +65,12 @@ body {
 #fp-nav ul {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 4px;
 }
 #fp-nav ul li {
   margin: 0px;
   height: 14px;
-  width: 60px;
+  width: 60px !important;
 }
 
 #fp-nav ul li::marker {
@@ -80,8 +80,8 @@ body {
 
 #fp-nav.fp-left span {
   background: #e82626;
-  border-radius: 0;
-  height: 2px;
+  border-radius: 0 !important;
+  height: 2.5px !important;
   width: 40px;
 }
 #fp-nav ul li a {
@@ -96,20 +96,20 @@ body {
 #fp-nav ul li a.active span {
   background: #000;
   border-radius: unset;
-  height: 2px;
-  margin: 0;
-  width: 60px;
+  height: 2.5px !important;
+  margin: 0 !important;
+  width: 50px !important;
 }
 #fp-nav ul li:hover a span,
 #fp-nav ul li:hover a.active span {
-  height: 2px;
-  border-radius: unset;
-  margin: 0;
-  width: 60px;
+  height: 2.5px !important;
+  border-radius: unset !important;
+  margin: 0 !important;
+  width: 60px !important;
 }
 #fp-nav ul li a span {
-  left: 0;
-  margin: 0;
+  left: 0 !important;
+  margin: 0 !important;
 }
 .fp-sr-only {
   display: none;

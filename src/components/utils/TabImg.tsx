@@ -4,6 +4,10 @@ import { Item } from "../../types/Tabs";
 export const TabImg = ({ item }: { item: Item | null }) => {
   if (!item) return;
 
+  const horizontal = item.objectPositionHorizontal || "center";
+  const vertical = item.objectPosition || "center";
+  const finalPosition = `${horizontal} ${vertical}`;
+
   return (
     <div className="w-full h-full relative overflow-hidden">
       <AnimatePresence mode="wait">
@@ -13,7 +17,7 @@ export const TabImg = ({ item }: { item: Item | null }) => {
           className="w-full h-full object-cover absolute top-0 left-0"
           alt={item.alt || ""}
           style={{
-            objectPosition: item.objectPosition || "center",
+            objectPosition: finalPosition,
           }}
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}

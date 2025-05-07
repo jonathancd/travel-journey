@@ -1,8 +1,8 @@
 import { useTranslation } from "react-i18next";
-import { SlideTabsLayout } from "../../../layouts/SlideTabsLayout";
-import { TabImg } from "../../utils/TabImg";
-import { TabContent } from "../../utils/TabContent";
-import { HongKongData as tabs } from "../../../data/hongkongData";
+import { SlideTabsLayout } from "../../layouts/SlideTabsLayout";
+import { TabImg } from "../../components/utils/TabImg";
+import { TabContent } from "../../components/utils/TabContent";
+import { HongKongData as tabs } from "../../data/hongkongData";
 
 export const HongKongSlide = () => {
   const { t } = useTranslation();
