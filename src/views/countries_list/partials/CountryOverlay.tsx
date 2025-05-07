@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { OverlayTag } from "./OverlayTag";
-import { CountryCardProps } from "../../../../types/Country";
+import { CountryCardProps } from "../../../types/Country";
 
 export const CountryOverlay = ({ type, country }: CountryCardProps) => {
   const { t } = useTranslation();

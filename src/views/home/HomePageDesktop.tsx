@@ -1,18 +1,17 @@
 import ReactFullpage from "@fullpage/react-fullpage";
 import tippy from "tippy.js";
 import { useEffect, useMemo, useState } from "react";
-import { CountriesListSlide } from "../countries_list/CountriesListSlide";
-import { EgyptSlide } from "../egypt/EgyptSlide";
-import { EuroTripSlide } from "../eurotrip/EuroTripSlide";
-import { HomeSlide } from "./HomeSlide";
-import { HongKongSlide } from "../hongkong/HongKongSlide";
-import { IndonesiaSlide } from "../indonesia/IndonesiaSlide";
-import { JapanSlide } from "../japan/JapanSlide";
-import { MaldivesSlide } from "../maldives/MaldivesSlide";
-import { OthersTravelsSlide } from "../others_travels/OthersTravelsSlide";
-import { ThailandSlide } from "../thailand/ThailandSlide";
-import { ScrollArrow } from "../../components/utils/ScrollArrow";
 import { dataEuroTrip2023, dataEuroTrip2024 } from "../../data/euroTripsData";
+import { ScrollArrow } from "../../components/utils/ScrollArrow";
+import CountriesListSlide from "../countries_list/CountriesListSlide";
+import EgyptSlide from "../egypt/EgyptSlide";
+import EuroTripSlide from "../eurotrip/EuroTripSlide";
+import HomeSlide from "./HomeSlide";
+import HongKongSlide from "../hongkong/HongKongSlide";
+import IndonesiaSlide from "../indonesia/IndonesiaSlide";
+import JapanSlide from "../japan/JapanSlide";
+import MaldivesSlide from "../maldives/MaldivesSlide";
+import ThailandSlide from "../thailand/ThailandSlide";
 
 export const HomePageDesktop = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -66,7 +65,7 @@ export const HomePageDesktop = () => {
         credits={{ enabled: false }}
         anchors={sections.map((item) => item.anchor)}
         lockAnchors={false}
-        afterLoad={(origin, destination) => {
+        afterLoad={(_, destination) => {
           setCurrentIndex(destination.index);
         }}
         render={() => {

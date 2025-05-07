@@ -4,9 +4,12 @@ import path from "path";
 import { defineConfig } from "vite";
 
 // https://vite.dev/config/
-export default defineConfig({
-  base: "/travel-journey/",
+export default defineConfig(({ command }) => ({
+  base: command === "build" ? "/travel-journey/" : "/",
   plugins: [react(), tailwindcss()],
+  build: {
+    chunkSizeWarningLimit: 1000,
+  },
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
@@ -14,4 +17,4 @@ export default defineConfig({
       "@assets": path.resolve(__dirname, "./src/assets"),
     },
   },
-});
+}));

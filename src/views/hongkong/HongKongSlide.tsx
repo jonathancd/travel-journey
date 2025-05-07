@@ -4,7 +4,7 @@ import { TabImg } from "../../components/utils/TabImg";
 import { TabContent } from "../../components/utils/TabContent";
 import { HongKongData as tabs } from "../../data/hongkongData";
 
-export const HongKongSlide = () => {
+const HongKongSlide = () => {
   const { t } = useTranslation();
 
   return (
@@ -27,3 +27,5 @@ export const HongKongSlide = () => {
     </SlideTabsLayout>
   );
 };
+
+export default HongKongSlide;

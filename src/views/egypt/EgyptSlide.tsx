@@ -4,7 +4,7 @@ import { SlideTabsLayout } from "../../layouts/SlideTabsLayout";
 import { EgyptData as tabs } from "../../data/egyptData";
 import { TabImg } from "../../components/utils/TabImg";
 
-export const EgyptSlide = () => {
+const EgyptSlide = () => {
   const { t } = useTranslation();
 
   return (
@@ -78,3 +78,5 @@ export const EgyptSlide = () => {
     </SlideTabsLayout>
   );
 };
+
+export default EgyptSlide;

@@ -1,3 +1,4 @@
+import React from "react";
 import { MobileSlideSection } from "./MobileSlideSection";
 import { HeroData } from "../../data/heroData";
 import { EgyptData } from "../../data/egyptData";
@@ -8,7 +9,10 @@ import { MaldivesData } from "../../data/maldivesData";
 import { ThailandData } from "../../data/thailandData";
 import { dataEuroTrip2023, dataEuroTrip2024 } from "../../data/euroTripsData";
 import { MobileSlideSectionProps } from "../../types/MobileSlider";
-import { CountriesListSlide } from "../countries_list/CountriesListSlide";
+
+const CountriesListSlide = React.lazy(
+  () => import("../countries_list/CountriesListSlide")
+);
 
 const slides: MobileSlideSectionProps[] = [
   {

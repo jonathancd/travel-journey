@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { OverlayTagProps } from "../../../../types/Country";
+import { OverlayTagProps } from "../../../types/Country";
 
 export const OverlayTag = ({ countryCode, tag, type }: OverlayTagProps) => {
   const { t } = useTranslation();

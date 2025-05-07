@@ -9,7 +9,7 @@ import { SlideLayout } from "../../layouts/SlideLayout";
 import { countriesListTabs as tabs } from "../../data/countriesListData";
 import { CountryCard } from "./partials/CountryCard";
 
-export const CountriesListSlide = () => {
+const CountriesListSlide = () => {
   const [selectedIndex, setSelectedIndex] = useState(0);
   const { t } = useTranslation();
   const isMobile = useIsMobile();
@@ -47,7 +47,7 @@ export const CountriesListSlide = () => {
         </Tab.List>
         {/*  */}
         <div className="relative h-full w-full flex justify-center">
-          <Tab.Panels className="w-full lg:w-[70vw] mt-6 h-[100%]">
+          <Tab.Panels className="w-full lg:w-[80vw] mt-6 h-[100%]">
             {tabs.map((tab, i) => (
               <Tab.Panel key={i} className="flex flex-wrap">
                 {tab.type === "visited"
@@ -65,3 +65,5 @@ export const CountriesListSlide = () => {
     </SlideLayout>
   );
 };
+
+export default CountriesListSlide;

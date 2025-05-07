@@ -3,7 +3,7 @@ import { TabImg } from "../../components/utils/TabImg";
 import { TabContent } from "../../components/utils/TabContent";
 import { IndonesiaData as tabs } from "../../data/indonesiaData";
 
-export const IndonesiaSlide = () => (
+const IndonesiaSlide = () => (
   <SlideTabsLayout pageTitle="Indonesia" tabs={tabs}>
     {({ currentTab, currentItem }) => (
       <div className="w-full h-full flex justify-end">
@@ -21,3 +21,5 @@ export const IndonesiaSlide = () => (
     )}
   </SlideTabsLayout>
 );
+
+export default IndonesiaSlide;

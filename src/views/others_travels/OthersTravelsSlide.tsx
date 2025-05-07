@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 import { SlideLayout } from "../../layouts/SlideLayout";
 import { otherTravelsData } from "../../data/otherTravelsData";
 
-export const OthersTravelsSlide = () => {
+const OthersTravelsSlide = () => {
   const { t } = useTranslation();
 
   return (
@@ -42,3 +42,5 @@ export const OthersTravelsSlide = () => {
     </SlideLayout>
   );
 };
+
+export default OthersTravelsSlide;

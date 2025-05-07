@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 import { SlideLayout } from "../../layouts/SlideLayout";
 import HeroWallpaper from "/hero.jpg";
 
-export const HomeSlide = () => {
+const HomeSlide = () => {
   const { t } = useTranslation();
 
   return (
@@ -21,3 +21,5 @@ export const HomeSlide = () => {
     </SlideLayout>
   );
 };
+
+export default HomeSlide;

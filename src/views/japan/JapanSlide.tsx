@@ -4,7 +4,7 @@ import { TabImg } from "../../components/utils/TabImg";
 import { TabContent } from "../../components/utils/TabContent";
 import { JapanData as tabs } from "../../data/japanData";
 
-export const JapanSlide = () => {
+const JapanSlide = () => {
   const { t } = useTranslation();
 
   return (
@@ -26,3 +26,5 @@ export const JapanSlide = () => {
     </SlideTabsLayout>
   );
 };
+
+export default JapanSlide;

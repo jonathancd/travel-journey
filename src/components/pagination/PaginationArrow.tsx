@@ -2,7 +2,6 @@ import ArrowRight from "../../assets/icons/arrow-right.svg";
 import { PaginationArrowProps } from "../../types/PaginationArrowProps";
 
 export const PaginationArrow = ({
-  isDisabled,
   rotateImage,
   arrowAlt,
   onClick,

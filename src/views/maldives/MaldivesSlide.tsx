@@ -4,7 +4,7 @@ import { TabImg } from "../../components/utils/TabImg";
 import { TabContent } from "../../components/utils/TabContent";
 import { MaldivesData as tabs } from "../../data/maldivesData";
 
-export const MaldivesSlide = () => {
+const MaldivesSlide = () => {
   const { t } = useTranslation();
 
   return (
@@ -39,3 +39,5 @@ export const MaldivesSlide = () => {
     </SlideTabsLayout>
   );
 };
+
+export default MaldivesSlide;

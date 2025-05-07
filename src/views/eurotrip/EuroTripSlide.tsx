@@ -3,11 +3,7 @@ import { SlideTabsLayout } from "../../layouts/SlideTabsLayout";
 import { TabImg } from "../../components/utils/TabImg";
 import { TabContent } from "../../components/utils/TabContent";
 
-export const EuroTripSlide = ({
-  page_title,
-  tabs,
-  i18n_code,
-}: EuroTripProps) => (
+const EuroTripSlide = ({ page_title, tabs, i18n_code }: EuroTripProps) => (
   <SlideTabsLayout pageTitle={page_title} tabs={tabs} paginationOnLeft={false}>
     {({ currentTab, currentItem }) => (
       <div className="w-full h-full flex flex-row">
@@ -25,3 +21,5 @@ export const EuroTripSlide = ({
     )}
   </SlideTabsLayout>
 );
+
+export default EuroTripSlide;
