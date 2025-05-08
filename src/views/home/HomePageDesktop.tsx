@@ -1,6 +1,7 @@
 import ReactFullpage from "@fullpage/react-fullpage";
 import tippy from "tippy.js";
 import { useEffect, useMemo, useState } from "react";
+import { trackEvent } from "../../utils/analytics";
 import { dataEuroTrip2023, dataEuroTrip2024 } from "../../data/euroTripsData";
 import { ScrollArrow } from "../../components/utils/ScrollArrow";
 import CountriesListSlide from "../countries_list/CountriesListSlide";
@@ -67,6 +68,13 @@ export const HomePageDesktop = () => {
         lockAnchors={false}
         afterLoad={(_, destination) => {
           setCurrentIndex(destination.index);
+        }}
+        onLeave={(_, destination) => {
+          trackEvent(
+            `Desktop Slide ${destination.index}`,
+            "Navigation",
+            `Reached slide ${sections[destination.index].tooltip}`
+          );
         }}
         render={() => {
           return (

@@ -83,7 +83,6 @@ const slides: MobileSlideSectionProps[] = [
 export const HomePageMobile = () => {
   return (
     <div className="min-h-screen bg-white pt-[60px]">
-      <div className="h-full"></div>
       {slides.map((slide) => (
         <MobileSlideSection key={slide.key} slide={slide} />
       ))}
