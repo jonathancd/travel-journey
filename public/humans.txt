@@ -1,7 +1,6 @@
-/* TEAM */
 Developer: Jonathan Cuotto
 Location: Dubai, UAE
-GitHub: https://github.com/yourusername
+GitHub: https://github.com/jonathancd
 
 /* SITE */
 Last updated: 2025-04-18
