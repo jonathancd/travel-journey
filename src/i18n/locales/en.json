@@ -6,7 +6,7 @@
     "items": {
       "hero": {
         "title": "",
-        "description": "I'm a software developer from Venezuela who loves to travel and take photos. So I decided to build something that mixes all of that: a personal project where I can show the places I've visited, use my frontend skills, and share a bit of my journey along the way. \n\nMost of the photos you'll find here were taken by me — or at least, they show what I saw. I wasn't really into photography during my first few trips, but after getting my first camera, I slowly started paying more attention to how I capture things. I'm still learning, just enjoying it as a hobby, but as you go through each slide, you might notice how both the places and the way I see them have evolved."
+        "description": "I'm a software developer from Venezuela who loves to travel and take photos. So I decided to build something that mixes all of that: a personal project where I can show the places I've visited, use my frontend skills, and share a bit of my journey along the way. \n\nMost of the photos you'll find here were taken by me, or at least, they show what I saw. I wasn't really into photography during my first few trips, but after getting my first camera, I slowly started paying more attention to how I capture things. I'm still learning, just enjoying it as a hobby, but as you go through each slide, you might notice how both the places and the way I see them have evolved."
       }
     }
   },
@@ -52,7 +52,7 @@
       "de": {
         "name": "Germany",
         "title": "Memories.",
-        "short_summary": "A “one and done” kind of trip. I don’t think I’ll go back",
+        "short_summary": "A “one and done” kind of trip. I don't think I'll go back",
         "tag": {
           "label": ""
         },
@@ -65,7 +65,7 @@
         "title": "Memories from Egypt",
         "short_summary": "A long-awaited dream come true. Impressive, though chaotic.",
         "tag": {
-          "label": "Don’t say I didn’t warn you."
+          "label": "Best for history"
         },
         "details": {
           "notes": ""
@@ -74,7 +74,7 @@
       "es": {
         "name": "Spain",
         "title": "Memories from Spain",
-        "short_summary": "I’ve visited three times. It’s my favorite destination. Madrid has become a special place.",
+        "short_summary": "I've visited three times. It's my favorite destination. Madrid has become a special place.",
         "tag": {
           "label": ""
         },
@@ -85,7 +85,7 @@
       "fr": {
         "name": "France",
         "title": "Memories from France",
-        "short_summary": "My mother’s dream come true. Not my favorite place, but I’m glad we went.",
+        "short_summary": "My mother's dream come true. Not my favorite place, but I'm glad we went.",
         "tag": {
           "label": ""
         },
@@ -96,7 +96,7 @@
       "gr": {
         "name": "Greece",
         "title": "Memories from Greece",
-        "short_summary": "Visited Santorini, my wife’s dream. Great vibes, but the water was colder than expected.",
+        "short_summary": "Visited Santorini, my wife's dream. Great vibes, but the water was colder than expected.",
         "tag": {
           "label": ""
         },
@@ -118,7 +118,7 @@
       "hr": {
         "name": "Croatia",
         "title": "Memories from Croatia",
-        "short_summary": " A surprise destination. We didn’t expect much, but we loved it.",
+        "short_summary": " A surprise destination. We didn't expect much, but we loved it.",
         "tag": {
           "label": ""
         },
@@ -140,9 +140,9 @@
       "it": {
         "name": "Italy",
         "title": "Memories from Italy",
-        "short_summary": "Visited twice. Rome never gets old. Milan: where I fulfilled every rossonero fan’s dream.",
+        "short_summary": "Visited twice. Rome never gets old. Milan: where I fulfilled every rossonero fan's dream.",
         "tag": {
-          "label": "Best european country"
+          "label": "Best All-Around"
         },
         "details": {
           "notes": ""
@@ -151,7 +151,7 @@
       "jp": {
         "name": "Japan",
         "title": "Memories from Japan",
-        "short_summary": "There’s no better destination, TOP. I’ve been twice, and I always want to go back.",
+        "short_summary": "There's no better destination, TOP. I've been twice, and I always want to go back.",
         "tag": {
           "label": "Best country ever"
         },
@@ -162,7 +162,7 @@
       "kr": {
         "name": "South Korea",
         "title": "Memories from South Korea",
-        "short_summary": "A one-day trip to celebrate my wife’s birthday.",
+        "short_summary": "A one-day trip to celebrate my wife's birthday.",
         "tag": {
           "label": "Visited multiple times"
         },
@@ -206,7 +206,7 @@
       "va": {
         "name": "Vatican City",
         "title": "Memories from Vatican City",
-        "short_summary": "Very interesting. A lot of art within a religion I don’t follow, but grateful to have seen it.",
+        "short_summary": "Very interesting. A lot of art within a religion I don't follow, but grateful to have seen it.",
         "tag": {
           "label": "Visited multiple times"
         },
@@ -497,33 +497,33 @@
     "items": {
       "giza_pyramids": {
         "title": "The first big adventure: the Pyramids of Giza",
-        "description_first": "Our trip to Egypt was our first big travel adventure since moving to Dubai. It all started in September 2022 when our company told us we had to use our vacation days. We had originally planned to go a year later, but we realized this was the perfect moment to make one of our biggest dreams come true: visiting the pyramids. Along with Japan, Egypt had always been one of my most desired destinations since childhood — full of history and mystery.",
-        "description_second": "The journey was chaotic and exciting. We flew from Dubai to Alexandria in the early morning, then took a bus to Giza, completely sleep-deprived. Outside the airport, taxi drivers fought to take us to the terminal. From the bus, we saw the tip of a pyramid rising above the city — it felt like we were kids again. At the hotel, after some setbacks, I climbed to the rooftop and saw them with my own eyes. Later, we took a camel tour, went inside one of the pyramids, and I ended the day with a post dedicated to my mom: 'I did it.' She always told me I'd visit Egypt one day. And I did."
+        "description_first": "Our trip to Egypt was our first big travel adventure since moving to Dubai. It all started in September 2022 when our company told us we had to use our vacation days. We had originally planned to go a year later, but we realized this was the perfect moment to make one of our biggest dreams come true: visiting the pyramids. Along with Japan, Egypt had always been one of my most desired destinations since childhood, full of history and mystery.",
+        "description_second": "The journey was chaotic and exciting. We flew from Dubai to Alexandria in the early morning, then took a bus to Giza, completely sleep-deprived. Outside the airport, taxi drivers fought to take us to the terminal. From the bus, we saw the tip of a pyramid rising above the city, it felt like we were kids again. At the hotel, after some setbacks, I climbed to the rooftop and saw them with my own eyes. Later, we took a camel tour, went inside one of the pyramids, and I ended the day with a post dedicated to my mom: 'I did it.' She always told me I'd visit Egypt one day. And I did."
       },
       "luxor_karnak_temple": {
         "title": "From chaos to calm: eternal columns in Karnak",
-        "description_first": "After an intense day in Giza, the next morning we visited the Egyptian Museum —seeing the mummies was mind-blowing— and from there, we headed straight to Luxor. We arrived in the afternoon, but getting transport wasn't easy. The Careem app wasn't working, drivers kept canceling, and we were left alone outside the airport. One taxi driver mocked us for using the app, but then came Eddy — kind, respectful, and even spoke a bit of Spanish. From the start, he gave us a good feeling and offered to take us where we needed.",
-        "description_second": "Eddy suggested that instead of going straight to the hotel, we should head to Karnak Temple while we still had time. We trusted him — and it was the right call. I had always imagined walking between those massive columns you see on Instagram… and there I was. Unlike the chaos of the pyramids, Karnak was peaceful, almost empty by then. The carved walls and towering columns left me even more amazed than Giza. Thanks to Eddy, we didn't waste the afternoon and got to experience one of the most impressive places in Egypt the moment we arrived."
+        "description_first": "After an intense day in Giza, the next morning we visited the Egyptian Museum, seeing the mummies was mind-blowing, and from there, we headed straight to Luxor. We arrived in the afternoon, but getting transport wasn't easy. The Careem app wasn't working, drivers kept canceling, and we were left alone outside the airport. One taxi driver mocked us for using the app, but then came Eddy, kind, respectful, and even spoke a bit of Spanish. From the start, he gave us a good feeling and offered to take us where we needed.",
+        "description_second": "Eddy suggested that instead of going straight to the hotel, we should head to Karnak Temple while we still had time. We trusted him, and it was the right call. I had always imagined walking between those massive columns you see on Instagram… and there I was. Unlike the chaos of the pyramids, Karnak was peaceful, almost empty by then. The carved walls and towering columns left me even more amazed than Giza. Thanks to Eddy, we didn't waste the afternoon and got to experience one of the most impressive places in Egypt the moment we arrived."
       },
       "luxor_karnak_wall_figures": {
         "title": "Stories carved in stone",
-        "description_first": "The pyramids are breathtaking, no doubt — but it's in the temples and tombs where Ancient Egypt truly comes to life. At Karnak, among massive walls and columns, you find human figures and detailed carvings that seem to whisper forgotten stories. In this image, a man and woman are etched into the stone — the kind of detail you simply don't see in the pyramids.",
-        "description_second": "These scenes make you want to understand more, to stop and try to decode the hieroglyphs. The Egyptians' art and precision are mesmerizing. The reliefs, the proportions, the symbols… they leave you wanting to know what each stone is trying to say. No wonder Egyptologists dedicate their lives to studying these markings — they hold the keys to how people lived, what they believed, and what they left behind. Karnak doesn't just impress with its scale, but with the history that radiates from every surface."
+        "description_first": "The pyramids are breathtaking, no doubt, but it's in the temples and tombs where Ancient Egypt truly comes to life. At Karnak, among massive walls and columns, you find human figures and detailed carvings that seem to whisper forgotten stories. In this image, a man and woman are etched into the stone, the kind of detail you simply don't see in the pyramids.",
+        "description_second": "These scenes make you want to understand more, to stop and try to decode the hieroglyphs. The Egyptians' art and precision are mesmerizing. The reliefs, the proportions, the symbols… they leave you wanting to know what each stone is trying to say. No wonder Egyptologists dedicate their lives to studying these markings, they hold the keys to how people lived, what they believed, and what they left behind. Karnak doesn't just impress with its scale, but with the history that radiates from every surface."
       },
       "valley_tomb_wall_art": {
         "title": "Valley of the Kings: each tomb, its own story",
-        "description_first": "The Valley of the Kings is something else entirely. There are no towering monuments here — everything is hidden underground. Entering a tomb is like stepping into another world. In one of them, the walls were covered in figures and hieroglyphs that looked freshly painted. Each tomb has its own color scheme, its own style, its own narrative.",
-        "description_second": "The most impressive part isn't just what you see — it's imagining how much effort and precision went into carving those stories into stone. Temple art is amazing, but inside the tombs, there's a deeper intimacy. A silence that pulls you in and makes you think: they made this thousands of years ago, without electricity or machines. And still… it's stunning."
+        "description_first": "The Valley of the Kings is something else entirely. There are no towering monuments here, everything is hidden underground. Entering a tomb is like stepping into another world. In one of them, the walls were covered in figures and hieroglyphs that looked freshly painted. Each tomb has its own color scheme, its own style, its own narrative.",
+        "description_second": "The most impressive part isn't just what you see, it's imagining how much effort and precision went into carving those stories into stone. Temple art is amazing, but inside the tombs, there's a deeper intimacy. A silence that pulls you in and makes you think: they made this thousands of years ago, without electricity or machines. And still… it's stunning."
       },
       "valley_seti_column": {
         "title": "Seti I: the big boss of tombs",
-        "description_first": "Of all the tombs we visited, none impacted me like KV17 — the tomb of Seti I. The locals who work there even call it 'the big boss', and rightfully so. It's massive, complex, and deeply decorated. One of the columns had carvings so precise and vibrant I had to capture it in this photo.",
-        "description_second": "We bought extra tickets for both Tutankhamun and Seti I. Tutankhamun's tomb was small —though meaningful for its story— but Seti I's tomb… that's a whole other level. Bright colors, incredible details, and the kind of place that makes you feel truly humbled. If you ever visit Egypt, don't miss this one."
+        "description_first": "Of all the tombs we visited, none impacted me like KV17, the tomb of Seti I. The locals who work there even call it 'the big boss', and rightfully so. It's massive, complex, and deeply decorated. One of the columns had carvings so precise and vibrant I had to capture it in this photo.",
+        "description_second": "We bought extra tickets for both Tutankhamun and Seti I. Tutankhamun's tomb was small, though meaningful for its story, but Seti I's tomb… that's a whole other level. Bright colors, incredible details, and the kind of place that makes you feel truly humbled. If you ever visit Egypt, don't miss this one."
       },
       "valley_of_the_kings": {
         "title": "Hollow mountains and ancient knowledge",
-        "description_first": "The last image I want to share from Egypt is this mountain in the Valley of the Kings. It might look like a simple rocky landscape — but it's a clue to what lies beneath. These brittle sandstone formations don't look solid… and yet the ancient Egyptians knew exactly where to dig. They studied the rock, understood its weaknesses, and still managed to build eternal tombs.",
-        "description_second": "Think about it: over 3,000 years ago, people chose this place —without modern tools— and carved out entire underground chambers that still amaze us today. And then there's the work done to rediscover them centuries later, buried by mud, storms, and time. The Valley of the Kings isn't just a destination — it's a living legacy of knowledge, craftsmanship, and human greatness."
+        "description_first": "The last image I want to share from Egypt is this mountain in the Valley of the Kings. It might look like a simple rocky landscape, but it's a clue to what lies beneath. These brittle sandstone formations don't look solid… and yet the ancient Egyptians knew exactly where to dig. They studied the rock, understood its weaknesses, and still managed to build eternal tombs.",
+        "description_second": "Think about it: over 3,000 years ago, people chose this place, without modern tools, and carved out entire underground chambers that still amaze us today. And then there's the work done to rediscover them centuries later, buried by mud, storms, and time. The Valley of the Kings isn't just a destination, it's a living legacy of knowledge, craftsmanship, and human greatness."
       }
     }
   },
@@ -532,15 +532,15 @@
       "items": {
         "madrid_reunion_intro": {
           "title": "A long-awaited reunion in Madrid",
-          "description": "This trip was more than just sightseeing—it was the reunion with my family after nearly two years apart. The original plan was for my mom, dad, and nephew to meet me in Europe, and then we'd travel together to Dubai. But like all family trips, things got complicated: we found out my nephew couldn't enter the UAE without one of his parents. What followed was a race against time. We had to get my sister's passport urgently, rearrange flights… but in the end, we made it. We were all together again.\n\nWe met in Madrid, a city I already knew and one I was sure they would love. It was December, and there was no better way to start the holidays than walking through El Retiro Park. With hugs, laughter, and relief, it truly felt like a retreat—no worries, just enjoying the moment and being together again."
+          "description": "This trip was more than just sightseeing, it was the reunion with my family after nearly two years apart. The original plan was for my mom, dad, and nephew to meet me in Europe, and then we'd travel together to Dubai. But like all family trips, things got complicated: we found out my nephew couldn't enter the UAE without one of his parents. What followed was a race against time. We had to get my sister's passport urgently, rearrange flights… but in the end, we made it. We were all together again.\n\nWe met in Madrid, a city I already knew and one I was sure they would love. It was December, and there was no better way to start the holidays than walking through El Retiro Park. With hugs, laughter, and relief, it truly felt like a retreat, no worries, just enjoying the moment and being together again."
         },
         "madrid_crystal_palace": {
           "title": "Crystal Palace: a unique corner in El Retiro",
-          "description": "Inside El Retiro Park there are many beautiful spots, but few have the charm and personality of the Crystal Palace. This glass-and-metal structure looks like it belongs in a fairy tale. It's one of those iconic places in Madrid—just like the Metrópolis building or the Scheppers—that stays with you.\n\nThat day, my nephew was running all around the park, full of energy and joy. While he played, we just enjoyed being there, with the palace in the background, watching the winter light shine through the glass. It was one of those perfect moments where architecture, nature, and family come together seamlessly."
+          "description": "Inside El Retiro Park there are many beautiful spots, but few have the charm and personality of the Crystal Palace. This glass-and-metal structure looks like it belongs in a fairy tale. It's one of those iconic places in Madrid, just like the Metrópolis building or the Scheppers, that stays with you.\n\nThat day, my nephew was running all around the park, full of energy and joy. While he played, we just enjoyed being there, with the palace in the background, watching the winter light shine through the glass. It was one of those perfect moments where architecture, nature, and family come together seamlessly."
         },
         "madrid_winter_walk": {
           "title": "Fallen flowers, Madrid's winter, and a perfect beginning",
-          "description": "Our visit to Madrid happened right in the middle of December. And even though the winter can be chilly, the atmosphere had something truly special. I remember walking down a path covered in fallen flowers, like the park was quietly welcoming us. I was a bit worried about my dad—he doesn't handle cold weather well—but to my surprise, he enjoyed it a lot.\n\nWe stayed near Gran Vía, which made it easy to explore the city on foot: plazas, shops, architecture… everything within reach. But beyond what we saw, Madrid was where it all began. A city that welcomed my family warmly and gave us one of the best possible starts to our Europe trip."
+          "description": "Our visit to Madrid happened right in the middle of December. And even though the winter can be chilly, the atmosphere had something truly special. I remember walking down a path covered in fallen flowers, like the park was quietly welcoming us. I was a bit worried about my dad, he doesn't handle cold weather well, but to my surprise, he enjoyed it a lot.\n\nWe stayed near Gran Vía, which made it easy to explore the city on foot: plazas, shops, architecture… everything within reach. But beyond what we saw, Madrid was where it all began. A city that welcomed my family warmly and gave us one of the best possible starts to our Europe trip."
         }
       }
     },
@@ -548,15 +548,15 @@
       "items": {
         "eiffel_proposal": {
           "title": "A dream come true… and a surprise by the Eiffel Tower",
-          "description": "France wasn't really on my personal travel list — honestly, I was hoping my mom would say Egypt, or maybe Japan — but when I asked her about her dream country, she answered without hesitation: France. So, this trip was for her. We wanted to give her that gift.\n\nWe flew from Madrid to Paris, dragging way too many suitcases (note to self: never do a Eurotrip with that much luggage), took a couple of trams from the airport to our Airbnb, and from day one, Paris charmed us.\n\nBut the city had another moment in store: a marriage proposal. No one knew it, but I had planned it ahead of time. We were walking down Rue de l'Université, with the Eiffel Tower in the background, and I told Geraldyne how we met at university… and now we were here, on University Street, in Paris. I asked the question — and she said yes. What more could I ask for?"
+          "description": "France wasn't really on my personal travel list, honestly, I was hoping my mom would say Egypt, or maybe Japan, but when I asked her about her dream country, she answered without hesitation: France. So, this trip was for her. We wanted to give her that gift.\n\nWe flew from Madrid to Paris, dragging way too many suitcases (note to self: never do a Eurotrip with that much luggage), took a couple of trams from the airport to our Airbnb, and from day one, Paris charmed us.\n\nBut the city had another moment in store: a marriage proposal. No one knew it, but I had planned it ahead of time. We were walking down Rue de l'Université, with the Eiffel Tower in the background, and I told Geraldyne how we met at university… and now we were here, on University Street, in Paris. I asked the question, and she said yes. What more could I ask for?"
         },
         "louvre_code": {
           "title": "The Louvre and the hunt for the Code of Hammurabi",
-          "description": "I was really looking forward to visiting the Louvre. Beyond the stunning pyramid architecture and its massive collection, I had one very specific goal: I wanted to see the Code of Hammurabi.\n\nThe museum is huge — you need an entire day, at least, to explore it properly. We walked through galleries full of incredible art and artifacts, but I kept searching for that ancient stone tablet containing one of the first written laws in human history. And yes, after a long search, I found it.\n\nStanding in front of it was a powerful moment. As a history fan, seeing something from ancient Mesopotamia made me want to dive deeper into that era. The Louvre is worth visiting, even if you're not a history or art lover — there's something there for everyone."
+          "description": "I was really looking forward to visiting the Louvre. Beyond the stunning pyramid architecture and its massive collection, I had one very specific goal: I wanted to see the Code of Hammurabi.\n\nThe museum is huge, you need an entire day, at least, to explore it properly. We walked through galleries full of incredible art and artifacts, but I kept searching for that ancient stone tablet containing one of the first written laws in human history. And yes, after a long search, I found it.\n\nStanding in front of it was a powerful moment. As a history fan, seeing something from ancient Mesopotamia made me want to dive deeper into that era. The Louvre is worth visiting, even if you're not a history or art lover there's something there for everyone."
         },
         "mona_lisa": {
           "title": "The Mona Lisa: an icon that comes to life",
-          "description": "After the Eiffel Tower and the Louvre, there's one more thing that defines France for most people: the Mona Lisa. It's that artwork you see over and over online, in books, on posters… but seeing it in person is something else.\n\nIt's quite the scene — crowds gather to catch a glimpse, cameras clicking nonstop. Her fame draws everyone in, and while the painting is smaller than most people expect, it holds a unique presence.\n\nSeeing it live felt like checking off a cultural milestone. Not just because it's famous, but because it represents that surreal moment where something you've always seen through a screen is finally right in front of you."
+          "description": "After the Eiffel Tower and the Louvre,, there's one more thing that defines France for most people: the Mona Lisa. It's that artwork you see over and over online, in books, on posters… but seeing it in person is something else.\n\nIt's quite the scene, crowds gather to catch a glimpse, cameras clicking nonstop. Her fame draws everyone in, and while the painting is smaller than most people expect, it holds a unique presence.\n\nSeeing it live felt like checking off a cultural milestone. Not just because it's famous, but because it represents that surreal moment where something you've always seen through a screen is finally right in front of you."
         }
       }
     },
@@ -564,23 +564,23 @@
       "items": {
         "milan_san_siro_match": {
           "title": "San Siro and a dream come true with AC Milan",
-          "description": "Italy began with a deeply personal experience: watching AC Milan play at San Siro. I've been a Milan fan since 2005, and seeing a live match was something I always dreamed of. The game was against Monza, in December 2023, and we won 3-0 with goals from Reijnders, Jan Carlo Simic, and Okafor.\n\nOriginally, the plan after Paris was to take a bus to Zurich and then the Bernina train to Milan with my family. But when I saw the match date, I made a call: I'd go ahead on my own. From Strasbourg, I had to race to catch the train to Paris and then fly to Milan. It was my first time traveling completely solo, and the adrenaline was intense — I couldn't find a taxi, the streets were packed, and yes… I even jumped on the tram without a ticket, desperate to make it in time.\n\nBut it was all worth it. I explored Milan a bit in the morning, had breakfast, and headed to the stadium. As I was walking up the stairs, the song “Che confusione” started playing. I ran until I got that full view of the pitch — the one in this photo — and it was just incredible. Singing with the curva, watching the team win… one of the best moments of my life."
+          "description": "Italy began with a deeply personal experience: watching AC Milan play at San Siro. I've been a Milan fan since 2005, and seeing a live match was something I always dreamed of. The game was against Monza, in December 2023, and we won 3-0 with goals from Reijnders, Jan Carlo Simic, and Okafor.\n\nOriginally, the plan after Paris was to take a bus to Zurich and then the Bernina train to Milan with my family. But when I saw the match date, I made a call: I'd go ahead on my own. From Strasbourg, I had to race to catch the train to Paris and then fly to Milan. It was my first time traveling completely solo, and the adrenaline was intense, I couldn't find a taxi, the streets were packed, and yes… I even jumped on the tram without a ticket, desperate to make it in time.\n\nBut it was all worth it. I explored Milan a bit in the morning, had breakfast, and headed to the stadium. As I was walking up the stairs, the song “Che confusione” started playing. I ran until I got that full view of the pitch, the one in this photo, and it was just incredible. Singing with the curva, watching the team win… one of the best moments of my life."
         },
         "florence_cathedral": {
           "title": "Florence: art, history… and the best panini ever",
-          "description": "The Cathedral of Santa Maria del Fiore is hands down one of the most beautiful buildings I've seen in Europe. Majestic, imposing, and incredibly detailed. Florence as a whole truly amazed me — a city overflowing with art, culture, Renaissance architecture, and iconic monuments.\n\nI was really excited to visit, and it exceeded my expectations. My mom was especially thrilled to see the Ponte Vecchio, and my nephew had a great time walking around the city. Honestly, we all enjoyed it more than I expected.\n\nAnd speaking of enjoyment… I had the best panini of my life here. Absolutely delicious. Florence gave me history, beauty, and flavor — a true gem of a city."
+          "description": "The Cathedral of Santa Maria del Fiore is hands down one of the most beautiful buildings I've seen in Europe. Majestic, imposing, and incredibly detailed. Florence as a whole truly amazed me, a city overflowing with art, culture, Renaissance architecture, and iconic monuments.\n\nI was really excited to visit, and it exceeded my expectations. My mom was especially thrilled to see the Ponte Vecchio, and my nephew had a great time walking around the city. Honestly, we all enjoyed it more than I expected.\n\nAnd speaking of enjoyment… I had the best panini of my life here. Absolutely delicious. Florence gave me history, beauty, and flavor, a true gem of a city."
         },
         "rome_colosseum": {
           "title": "The Colosseum: living history carved in stone",
-          "description": "I was really looking forward to visiting the Colosseum. It's the home of gladiators — pure history — and my family loves that stuff. We got to go inside, walk through the halls, touch the ancient walls… we fully lived the experience.\n\nI felt genuinely happy to be there, thinking about how many people had passed through this monument over the centuries. Time may not forgive, but the Colosseum still stands tall, like a gladiator who's won his final battle. (Okay, maybe I'm being a bit dramatic.) The only downside? The steps — huge and awkward. But hey, even that's part of the experience. A little pain is worth it after enjoying something that legendary."
+          "description": "I was really looking forward to visiting the Colosseum. It's the home of gladiators, pure history, and my family loves that stuff. We got to go inside, walk through the halls, touch the ancient walls… we fully lived the experience.\n\nI felt genuinely happy to be there, thinking about how many people had passed through this monument over the centuries. Time may not forgive, but the Colosseum still stands tall, like a gladiator who's won his final battle. (Okay, maybe I'm being a bit dramatic.) The only downside? The steps, huge and awkward. But hey, even that's part of the experience. A little pain is worth it after enjoying something that legendary."
         },
         "rome_roman_forum": {
           "title": "The Roman Forum: ruins that speak of greatness",
-          "description": "Walking through the Roman Forum feels like stepping into an open history book. Sure, it's not as it was in its prime, but you can still see the brilliance of Roman engineering in every column and structure that remains.\n\nThe craftsmanship is mind-blowing. Knowledge is power — and the Romans had plenty of both. Lately that meme's been going around: “How often do you think about the Roman Empire?” Honestly? Pretty often. It really is the epitome of civilization. And as the saying goes: all roads lead to Rome — and thankfully, I made it here."
+          "description": "Walking through the Roman Forum feels like stepping into an open history book. Sure, it's not as it was in its prime, but you can still see the brilliance of Roman engineering in every column and structure that remains.\n\nThe craftsmanship is mind-blowing. Knowledge is power, and the Romans had plenty of both. Lately that meme's been going around: “How often do you think about the Roman Empire?” Honestly? Pretty often. It really is the epitome of civilization. And as the saying goes: all roads lead to Rome, and thankfully, I made it here."
         },
         "rome_trevi_fountain": {
           "title": "Trevi Fountain: the end… and the return",
-          "description": "We stayed very close to the Trevi Fountain, so we went there several times. We had gelato, strolled through the nearby streets, and explored spots like the Spanish Steps and the Pantheon. Rome is a city made for walking — and each day, we seemed to end it at the fountain.\n\nAnd it wasn't just the end of the day… it was the end of the trip. They say if you throw a coin into the Trevi Fountain, you'll return to Rome. I tossed mine in, hoping that would be true… and a year later, I came back. Coincidence? Maybe. But I'd rather believe the fountain remembered me."
+          "description": "We stayed very close to the Trevi Fountain, so we went there several times. We had gelato, strolled through the nearby streets, and explored spots like the Spanish Steps and the Pantheon. Rome is a city made for walking, and each day, we seemed to end it at the fountain.\n\nAnd it wasn't just the end of the day… it was the end of the trip. They say if you throw a coin into the Trevi Fountain, you'll return to Rome. I tossed mine in, hoping that would be true… and a year later, I came back. Coincidence? Maybe. But I'd rather believe the fountain remembered me."
         }
       }
     }
@@ -590,11 +590,11 @@
       "items": {
         "rome_colosseum": {
           "title": "An (Almost) Romantic Stop",
-          "description": "Rome was just a strategic stop. It was our second time visiting, and since flights from Abu Dhabi were cheap, we took the chance to stay for one night and relive some of its magic. And what better way to do that than by returning to the Colosseum? We didn't go inside this time —we had done that on our previous trip— but just seeing it from the outside is still incredible. It has something that connects you with history, with the gladiators, with what once was.\n\nThe plan was to end the day with a romantic dinner facing the Colosseum. My wife had made a reservation at a restaurant that supposedly had that view. But when they called to confirm if we were going, we opened Google Maps… and something didn't add up. How could it be a 40-minute bus ride to a place with a view of the Colosseum if the Colosseum was right there?\n\nAfter checking online about the restaurant, we found out the famous “view of the Colosseum” was actually just a photo of it on the wall. A poster. Yes, the restaurant had an image of the Colosseum, not the real thing. So we called back and canceled. It wasn't the night we planned, but it was still one to remember."
+          "description": "Rome was just a strategic stop. It was our second time visiting, and since flights from Abu Dhabi were cheap, we took the chance to stay for one night and relive some of its magic. And what better way to do that than by returning to the Colosseum? We didn't go inside this time, we had done that on our previous trip, but just seeing it from the outside is still incredible. It has something that connects you with history, with the gladiators, with what once was.\n\nThe plan was to end the day with a romantic dinner facing the Colosseum. My wife had made a reservation at a restaurant that supposedly had that view. But when they called to confirm if we were going, we opened Google Maps… and something didn't add up. How could it be a 40-minute bus ride to a place with a view of the Colosseum if the Colosseum was right there?\n\nAfter checking online about the restaurant, we found out the famous “view of the Colosseum” was actually just a photo of it on the wall. A poster. Yes, the restaurant had an image of the Colosseum, not the real thing. So we called back and canceled. It wasn't the night we planned, but it was still one to remember."
         },
         "rome_bridge": {
           "title": "A Pause on the Way",
-          "description": "Rome is a city made for walking. On our way to the Colosseum, we passed one of its many bridges —I think it was Ponte Sisto— and I had to stop and take a picture. Watching the river, feeling the breeze, just taking a break. In Rome, even a simple pause by the water becomes part of the experience. It's one of those moments you don't plan but end up enjoying anyway."
+          "description": "Rome is a city made for walking. On our way to the Colosseum, we passed one of its many bridges, I think it was Ponte Sisto, and I had to stop and take a picture. Watching the river, feeling the breeze, just taking a break. In Rome, even a simple pause by the water becomes part of the experience. It's one of those moments you don't plan but end up enjoying anyway."
         },
         "rome_pantheon": {
           "title": "The Pantheon Always Appears",
@@ -610,7 +610,7 @@
       "items": {
         "zagreb_tram": {
           "title": "Zagreb and Its Winter Charm",
-          "description": "Zagreb was our only stop in Croatia. We arrived on December 23rd with freezing temperatures and few expectations—but we ended up pleasantly surprised. As soon as we got to the city center, we were welcomed by a scene straight out of a winter movie: lights everywhere, a small Christmas market in the main square, and multiple trams passing through the heart of the city like part of the decor.\n\nI've always liked European cities where the tram shares the street with cars, people, and cafés. In Zagreb, that mix feels natural. Everything moves calmly, and you find yourself walking without a plan—stopping to take a photo, trying a snack, or just watching the city go by.\n\nBetween how cozy it feels and how well-kept everything is, Zagreb is a city I'd definitely recommend, especially around Christmas."
+          "description": "Zagreb was our only stop in Croatia. We arrived on December 23rd with freezing temperatures and few expectations, but we ended up pleasantly surprised. As soon as we got to the city center, we were welcomed by a scene straight out of a winter movie: lights everywhere, a small Christmas market in the main square, and multiple trams passing through the heart of the city like part of the decor.\n\nI've always liked European cities where the tram shares the street with cars, people, and cafés. In Zagreb, that mix feels natural. Everything moves calmly, and you find yourself walking without a plan, stopping to take a photo, trying a snack, or just watching the city go by.\n\nBetween how cozy it feels and how well-kept everything is, Zagreb is a city I'd definitely recommend, especially around Christmas."
         },
         "zagreb_st_mark": {
           "title": "St. Mark's Church and a Random Encounter",
@@ -618,15 +618,15 @@
         },
         "zagreb_alleyways": {
           "title": "Alleyways, Tunnels, and Hidden Corners",
-          "description": "Zagreb is a city made for walking aimlessly. From the upper part near St. Mark's Church, you can go down through narrow alleys and staircases that lead to hidden corners. In one of those spots, we stumbled upon a place full of lights, music, and people celebrating—it felt like a small club or a community center. It was Christmas Eve, and the city seemed to be in full celebration mode.\n\nRight next to our hotel, we also found something interesting: a tunnel used as a bomb shelter during World War II. Today, it's a public passage that connects parts of the city center, decorated with Christmas lights and small exhibits. When you come out, you're right in the middle of a shopping area. Zagreb is full of little surprises like that."
+          "description": "Zagreb is a city made for walking aimlessly. From the upper part near St. Mark's Church, you can go down through narrow alleys and staircases that lead to hidden corners. In one of those spots, we stumbled upon a place full of lights, music, and people celebrating, it felt like a small club or a community center. It was Christmas Eve, and the city seemed to be in full celebration mode.\n\nRight next to our hotel, we also found something interesting: a tunnel used as a bomb shelter during World War II. Today, it's a public passage that connects parts of the city center, decorated with Christmas lights and small exhibits. When you come out, you're right in the middle of a shopping area. Zagreb is full of little surprises like that."
         },
         "zagreb_candle_night": {
           "title": "A Night Lit by Candles",
-          "description": "One of the most memorable moments of the trip happened on the night of December 24th. We had gone out to grab a few things to cook our Christmas dinner in the room—we had a small kitchen and wanted something personal—when we noticed something unusual in the city.\n\nHundreds of people started walking down the main street, holding candles in what seemed like a silent procession. There was no music or big display—just people walking together, quietly and respectfully. It was something I'd never seen before.\n\nIt was a freezing night, but the feeling was warm. The whole city seemed to be moving in harmony, and without trying too hard, Zagreb gave us one of the most touching memories of the trip."
+          "description": "One of the most memorable moments of the trip happened on the night of December 24th. We had gone out to grab a few things to cook our Christmas dinner in the room, we had a small kitchen and wanted something personal, when we noticed something unusual in the city.\n\nHundreds of people started walking down the main street, holding candles in what seemed like a silent procession. There was no music or big display, just people walking together, quietly and respectfully. It was something I'd never seen before.\n\nIt was a freezing night, but the feeling was warm. The whole city seemed to be moving in harmony, and without trying too hard, Zagreb gave us one of the most touching memories of the trip."
         },
         "zagreb_christmas_farewell": {
           "title": "Candy Canes and a Christmas Farewell",
-          "description": "Zagreb was, hands down, the most Christmassy city we've ever visited. We've spent December in places like Paris and Madrid, but nothing has felt as festive as Zagreb. The whole city was decorated: lights everywhere, ice rinks, garlands on every facade, and small details that made a big difference—like candy canes and festive snacks on every corner.\n\nWe even found a park with real size string instruments you could play. Everything was lit with white lights, adding to the magical atmosphere.\n\nOn the 25th, when we got to the airport, the staff greeted us with a warm “Merry Christmas.” On the Lufthansa flight, they gave us Christmas chocolates, and the captain wished everyone a Merry Christmas over the speaker.\n\nIt truly felt like something out of a Christmas movie—where everyone is happy, friendly, and full of holiday spirit."
+          "description": "Zagreb was, hands down, the most Christmassy city we've ever visited. We've spent December in places like Paris and Madrid, but nothing has felt as festive as Zagreb. The whole city was decorated: lights everywhere, ice rinks, garlands on every facade, and small details that made a big difference, like candy canes and festive snacks on every corner.\n\nWe even found a park with real size string instruments you could play. Everything was lit with white lights, adding to the magical atmosphere.\n\nOn the 25th, when we got to the airport, the staff greeted us with a warm “Merry Christmas.” On the Lufthansa flight, they gave us Christmas chocolates, and the captain wished everyone a Merry Christmas over the speaker.\n\nIt truly felt like something out of a Christmas movie, where everyone is happy, friendly, and full of holiday spirit."
         }
       }
     },
@@ -634,11 +634,11 @@
       "items": {
         "frankfurt_romerberg": {
           "title": "Frankfurt at Christmas: a layover, the cold, and warm bread",
-          "description": "We arrived in Frankfurt on December 25, coming from Zagreb, during a 10-hour layover before flying to Portugal. The idea was simple: if we could visit another country, why not?\n\nBy 7 am we were already in the city, and being a holiday, everything felt completely still. We walked through empty streets until we reached Römerberg, Frankfurt's old town center, with its fairytale-like buildings. It took us a while to find a place to eat, but we eventually found a bakery with amazing bread. I remember my wife spilled her latte on the table—nothing major.\n\nI felt a bit down at first. The city was dead quiet, but as time went on, more people started showing up. Römerberg slowly filled with tourists, and even though many places were closed and there were quite a few homeless people around (Frankfurt has that reputation), it was still an interesting stop. Not the best experience, but we added a new country and saw something different."
+          "description": "We arrived in Frankfurt on December 25, coming from Zagreb, during a 10-hour layover before flying to Portugal. The idea was simple: if we could visit another country, why not?\n\nBy 7 am we were already in the city, and being a holiday, everything felt completely still. We walked through empty streets until we reached Römerberg, Frankfurt's old town center, with its fairytale-like buildings. It took us a while to find a place to eat, but we eventually found a bakery with amazing bread. I remember my wife spilled her latte on the table, nothing major.\n\nI felt a bit down at first. The city was dead quiet, but as time went on, more people started showing up. Römerberg slowly filled with tourists, and even though many places were closed and there were quite a few homeless people around (Frankfurt has that reputation), it was still an interesting stop. Not the best experience, but we added a new country and saw something different."
         },
         "frankfurt_river": {
           "title": "A riverside walk and an unforgettable meal",
-          "description": "Just a short walk from Römerberg is the Main River, and from the iron bridge you can see a church (or what we think is a church) standing tall in the distance. The riverside was the perfect spot to pause, enjoy the cold air, and take in the contrast Frankfurt offers: one side historic, the other full of modern skyscrapers. The city has many faces.\n\nOne mission I had for the day was clear: I wanted to try a real German schnitzel. I finally got one near the river—covered in mushroom sauce and served with fries. I'm not exaggerating when I say it was one of the best meals I've had while traveling. Easily a top 5 contender. For that alone, the layover was worth it."
+          "description": "Just a short walk from Römerberg is the Main River, and from the iron bridge you can see a church (or what we think is a church) standing tall in the distance. The riverside was the perfect spot to pause, enjoy the cold air, and take in the contrast Frankfurt offers: one side historic, the other full of modern skyscrapers. The city has many faces.\n\nOne mission I had for the day was clear: I wanted to try a real German schnitzel. I finally got one near the river, covered in mushroom sauce and served with fries. I'm not exaggerating when I say it was one of the best meals I've had while traveling. Easily a top 5 contender. For that alone, the layover was worth it."
         }
       }
     },
@@ -646,31 +646,31 @@
       "items": {
         "porto_capela_almas": {
           "title": "Tiles, Sloped Streets, and Venezuelan Bread",
-          "description": "We spent two nights in Porto and stayed in a very central hotel, which made it easy to walk almost everywhere. December 26 was fully dedicated to exploring the city. One of our first stops was the Capela das Almas, a chapel completely covered in traditional blue-and-white tiles. It's striking to see it appear suddenly on the street, but hard to take a proper photo—it requires standing against the wall while the photographer crosses to the opposite sidewalk.\n\nThe streets in Porto can be steep, though not as much as Lisbon, and there are areas full of souvenir shops with very reasonable prices. Tiles are everywhere and clearly a symbol of the city. We had been planning to visit Portugal for a while, originally for a summer trip, but December ended up being a great surprise.\n\nOne of the main reasons we wanted to visit Porto was because of a Portuguese-Venezuelan bakery we found online: Confitería del Bolhão. After over two years in Dubai with limited access to Venezuelan food, we knew we had to go. They had chicha, malta, pan de jamón, empanadas, bombas—you name it. On the day we left for Lisbon, we went back to grab more for the road. The Venezuelan girl working there saw our order and smiled: 'Hey, we also have golfeados!' Highly recommended spot."
+          "description": "We spent two nights in Porto and stayed in a very central hotel, which made it easy to walk almost everywhere. December 26 was fully dedicated to exploring the city. One of our first stops was the Capela das Almas, a chapel completely covered in traditional blue-and-white tiles. It's striking to see it appear suddenly on the street, but hard to take a proper photo, it requires standing against the wall while the photographer crosses to the opposite sidewalk.\n\nThe streets in Porto can be steep, though not as much as Lisbon, and there are areas full of souvenir shops with very reasonable prices. Tiles are everywhere and clearly a symbol of the city. We had been planning to visit Portugal for a while, originally for a summer trip, but December ended up being a great surprise.\n\nOne of the main reasons we wanted to visit Porto was because of a Portuguese-Venezuelan bakery we found online: Confitería del Bolhão. After over two years in Dubai with limited access to Venezuelan food, we knew we had to go. They had chicha, malta, pan de jamón, empanadas, bombas, you name it. On the day we left for Lisbon, we went back to grab more for the road. The Venezuelan girl working there saw our order and smiled: 'Hey, we also have golfeados!' Highly recommended spot."
         },
         "porto_crystal_palace_gardens": {
           "title": "Viewpoint, December, and Sun",
-          "description": "The Crystal Palace Gardens were one of the biggest surprises in Porto. Not crowded at all and with an incredible view of the city. Getting there involved a good walk, and even once nearby, we struggled a bit to find the right entrance. But it was worth it: the ocean in the distance, a huge palm tree in the middle, the bridge, and the city split across the horizon. It's the kind of place you just want to stay and admire.\n\nFunny thing—it was December 26, but the weather wasn't cold. Coming from the freezing temps of Zagreb to people sunbathing shirtless in Porto was a very welcome change."
+          "description": "The Crystal Palace Gardens were one of the biggest surprises in Porto. Not crowded at all and with an incredible view of the city. Getting there involved a good walk, and even once nearby, we struggled a bit to find the right entrance. But it was worth it: the ocean in the distance, a huge palm tree in the middle, the bridge, and the city split across the horizon. It's the kind of place you just want to stay and admire.\n\nFunny thing, it was December 26, but the weather wasn't cold. Coming from the freezing temps of Zagreb to people sunbathing shirtless in Porto was a very welcome change."
         },
         "porto_luis_bridge": {
           "title": "Views from Above",
-          "description": "Climbing up the Dom Luís I Bridge was a bit of a workout, but totally worth it. From the top, you get some of the best views in Porto. I took a photo of a massive boat passing under the bridge, and it came out great. Up there, you can see the brown rooftops, tightly stacked homes, endless stairs coming up from the river—it all looks like a beautifully chaotic postcard.\n\nPorto has a lot of green, it's clean, and has a relaxed charm that really stood out. I loved walking around and discovering it."
+          "description": "Climbing up the Dom Luís I Bridge was a bit of a workout, but totally worth it. From the top, you get some of the best views in Porto. I took a photo of a massive boat passing under the bridge, and it came out great. Up there, you can see the brown rooftops, tightly stacked homes, endless stairs coming up from the river, it all looks like a beautifully chaotic postcard.\n\nPorto has a lot of green, it's clean, and has a relaxed charm that really stood out. I loved walking around and discovering it."
         },
         "lisbon_tram": {
           "title": "Lisbon's Most Iconic Tram",
-          "description": "Lisbon was one of the cities we were most excited to visit. We stayed right in the tourist center, near the water, at a hotel called Art Stay Apartments Baixa. A nice touch was that they always offered pastel de nata to guests —a classic Lisbon treat! From that area, you can easily walk to Chiado or Praça do Comércio, with the sea breeze just steps away.\n\nAnd of course, the tram. Watching it pass feels like seeing a live postcard. That small, yellow, classic tram riding through cobbled streets and colorful buildings is simply part of the city's soul. You can't leave without taking a photo—or grabbing a fridge magnet of it."
+          "description": "Lisbon was one of the cities we were most excited to visit. We stayed right in the tourist center, near the water, at a hotel called Art Stay Apartments Baixa. A nice touch was that they always offered pastel de nata to guests, a classic Lisbon treat! From that area, you can easily walk to Chiado or Praça do Comércio, with the sea breeze just steps away.\n\nAnd of course, the tram. Watching it pass feels like seeing a live postcard. That small, yellow, classic tram riding through cobbled streets and colorful buildings is simply part of the city's soul. You can't leave without taking a photo, or grabbing a fridge magnet of it."
         },
         "lisbon_uphill_walk": {
           "title": "Hills, Trams, and City Views",
-          "description": "From our hotel, it was easy to start climbing Lisbon's hills… though I won't lie: it's a bit of a workout! But it's worth it. Along the way, you pass by the Lisbon Cathedral, where many stop or hop on one of those electric tour carts (they're not cheap, but I think they're worth it). We decided to skip it since we still had Madrid and Barcelona ahead and wanted to save our budget.\n\nIf you keep climbing, you'll reach incredible viewpoints like Senhora do Monte, Portas do Sol, and Santa Luzia... and if you've got energy left, you can go all the way up to the São Jorge Castle. The walk is beautiful: winding cobblestone streets where trams occasionally appear or disappear behind a curve. It's hard not to stop for a photo.\n\nPlus, you'll find small food spots and cozy corners all around. Lisbon invites you to walk and explore — even if your legs complain a little."
+          "description": "From our hotel, it was easy to start climbing Lisbon's hills… though I won't lie: it's a bit of a workout! But it's worth it. Along the way, you pass by the Lisbon Cathedral, where many stop or hop on one of those electric tour carts (they're not cheap, but I think they're worth it). We decided to skip it since we still had Madrid and Barcelona ahead and wanted to save our budget.\n\nIf you keep climbing, you'll reach incredible viewpoints like Senhora do Monte, Portas do Sol, and Santa Luzia... and if you've got energy left, you can go all the way up to the São Jorge Castle. The walk is beautiful: winding cobblestone streets where trams occasionally appear or disappear behind a curve. It's hard not to stop for a photo.\n\nPlus, you'll find small food spots and cozy corners all around. Lisbon invites you to walk and explore, even if your legs complain a little."
         },
         "lisbon_classic_car_tour": {
           "title": "Classic Cars to Tour the City",
-          "description": "Lisbon has style — even when it comes to tours. Instead of big buses or tuktuks like in other countries, here you'll find small, colorful vintage cars —like something out of Titanic, but cooler. They're ideal for the city's narrow streets and give you great visibility during the ride.\n\nYou'll see lots of them, and just looking at one will make you want to hop in. It's a beautiful way to explore Lisbon, especially if you'd rather skip some of the uphill climbs. Each car offers different types of tours depending on what you want to see, so prices vary too. They're all over the city, and yes —they look just as charming in real life as they do in pictures."
+          "description": "Lisbon has style , even when it comes to tours. Instead of big buses or tuktuks like in other countries, here you'll find small, colorful vintage cars, like something out of Titanic, but cooler. They're ideal for the city's narrow streets and give you great visibility during the ride.\n\nYou'll see lots of them, and just looking at one will make you want to hop in. It's a beautiful way to explore Lisbon, especially if you'd rather skip some of the uphill climbs. Each car offers different types of tours depending on what you want to see, so prices vary too. They're all over the city, and yes they look just as charming in real life as they do in pictures."
         },
         "lisbon_downhill_stairs": {
           "title": "After Going Up… Comes the Way Down",
-          "description": "Once you've climbed Lisbon's steep streets and reached the highest point your legs can handle, it's time to go back down. And in Lisbon, that means stairs. Lots of stairs.\n\nI took this photo from the top of one of those narrow stairway alleys, just before starting the descent. Right in front of me, a metal railing divided the path, and what caught my eye was a sticker that read: “Muy Bien.” In Spanish. It felt like a little motivational message —like, \"Well done, now time to head down.\"\n\nLisbon is a city made for walking —up and down— but it's those small, quirky moments that make the experience memorable."
+          "description": "Once you've climbed Lisbon's steep streets and reached the highest point your legs can handle, it's time to go back down. And in Lisbon, that means stairs. Lots of stairs.\n\nI took this photo from the top of one of those narrow stairway alleys, just before starting the descent. Right in front of me, a metal railing divided the path, and what caught my eye was a sticker that read: “Muy Bien.” In Spanish. It felt like a little motivational message —like, \"Well done, now time to head down.\"\n\nLisbon is a city made for walking, up and down, but it's those small, quirky moments that make the experience memorable."
         }
       }
     },
@@ -678,11 +678,11 @@
       "items": {
         "new_year_madrid": {
           "title": "Madrid, Venezuelan Food & New Year",
-          "description": "We flew to Madrid from Lisbon —a city we know well. In fact, this was our third visit, and we came with three goals: to celebrate New Year's Eve, eat some good Venezuelan food (which is easy to find in Madrid), and most importantly, because my wife loves it here.\n\nMadrid was the first city we explored together after leaving Venezuela, so it holds a special meaning for us. I figured if she wants to return every year, why not come for New Year's? That way, we'd be in Spain on both December 31st, 2024 and January 1st, 2025. Two years in one trip —shark mindset.\n\nWe stayed near Gran Vía to make the most of our time, and the photo I took of the Metrópolis building under that clear blue sky sums up how pretty Madrid can be, even in winter. The night of the 31st was packed though —so many people that we couldn't really see the fireworks at Puerta del Sol… but in the end, being there to kick off the new year in a city we love made it all worth it."
+          "description": "We flew to Madrid from Lisbon, a city we know well. In fact, this was our third visit, and we came with three goals: to celebrate New Year's Eve, eat some good Venezuelan food (which is easy to find in Madrid), and most importantly, because my wife loves it here.\n\nMadrid was the first city we explored together after leaving Venezuela, so it holds a special meaning for us. I figured if she wants to return every year, why not come for New Year's? That way, we'd be in Spain on both December 31st, 2024 and January 1st, 2025. Two years in one trip, shark mindset.\n\nWe stayed near Gran Vía to make the most of our time, and the photo I took of the Metrópolis building under that clear blue sky sums up how pretty Madrid can be, even in winter. The night of the 31st was packed though, so many people that we couldn't really see the fireworks at Puerta del Sol… but in the end, being there to kick off the new year in a city we love made it all worth it."
         },
         "barcelona_sagrada_familia": {
           "title": "First Time in Barcelona and the Sagrada Familia",
-          "description": "Although we'd been to Spain before, this was our first time in Barcelona —and the excitement was real. Right away, the city impressed us: wide streets, stunning architecture, stylish people, and a very cosmopolitan vibe. It's one of those places that makes you think: 'Should I move here?'\n\nOf course, our first stop had to be the Sagrada Familia. It's the city's most iconic landmark, the image that comes to mind when you think of Barcelona. The design, the detail, the colors —Gaudí's masterpiece doesn't disappoint. I had some concerns due to the talk around overtourism, but honestly, our experience was smooth, safe, and left me completely impressed. Barcelona quickly became one of my favorite cities from the trip."
+          "description": "Although we'd been to Spain before, this was our first time in Barcelona, and the excitement was real. Right away, the city impressed us: wide streets, stunning architecture, stylish people, and a very cosmopolitan vibe. It's one of those places that makes you think: 'Should I move here?'\n\nOf course, our first stop had to be the Sagrada Familia. It's the city's most iconic landmark, the image that comes to mind when you think of Barcelona. The design, the detail, the colors, Gaudí's masterpiece doesn't disappoint. I had some concerns due to the talk around overtourism, but honestly, our experience was smooth, safe, and left me completely impressed. Barcelona quickly became one of my favorite cities from the trip."
         },
         "barcelona_casa_mila": {
           "title": "Casa Milà, Style in the Heart of Gran Via",

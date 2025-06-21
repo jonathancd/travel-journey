@@ -36,7 +36,7 @@ export const countriesListTabs: TabItem[] = [
           tag: {
             show: true,
             isCustomized: true,
-            icons: ["⚠️"],
+            icons: ["👁️"],
           },
         },
       },
@@ -237,50 +237,50 @@ export const countriesListTabs: TabItem[] = [
           },
         },
       },
-      {
-        code: "us",
-        flagImg: "/images/flags/us.svg",
-        details: {
-          placesToGo: [],
-          tag: {
-            show: true,
-            isCustomized: false,
-          },
-        },
-      },
-      {
-        code: "cr",
-        flagImg: "/images/flags/cr.svg",
-        details: {
-          placesToGo: [],
-          tag: {
-            show: true,
-            isCustomized: false,
-          },
-        },
-      },
-      {
-        code: "br",
-        flagImg: "/images/flags/br.svg",
-        details: {
-          placesToGo: [],
-          tag: {
-            show: true,
-            isCustomized: false,
-          },
-        },
-      },
-      {
-        code: "gb",
-        flagImg: "/images/flags/gb.svg",
-        details: {
-          placesToGo: [],
-          tag: {
-            show: true,
-            isCustomized: false,
-          },
-        },
-      },
+      // {
+      //   code: "us",
+      //   flagImg: "/images/flags/us.svg",
+      //   details: {
+      //     placesToGo: [],
+      //     tag: {
+      //       show: true,
+      //       isCustomized: false,
+      //     },
+      //   },
+      // },
+      // {
+      //   code: "cr",
+      //   flagImg: "/images/flags/cr.svg",
+      //   details: {
+      //     placesToGo: [],
+      //     tag: {
+      //       show: true,
+      //       isCustomized: false,
+      //     },
+      //   },
+      // },
+      // {
+      //   code: "br",
+      //   flagImg: "/images/flags/br.svg",
+      //   details: {
+      //     placesToGo: [],
+      //     tag: {
+      //       show: true,
+      //       isCustomized: false,
+      //     },
+      //   },
+      // },
+      // {
+      //   code: "gb",
+      //   flagImg: "/images/flags/gb.svg",
+      //   details: {
+      //     placesToGo: [],
+      //     tag: {
+      //       show: true,
+      //       isCustomized: false,
+      //     },
+      //   },
+      // },
       {
         code: "is",
         flagImg: "/images/flags/is.svg",
@@ -298,84 +298,84 @@ export const countriesListTabs: TabItem[] = [
         details: {
           placesToGo: [],
           tag: {
-            show: true,
+            show: false,
             isCustomized: false,
           },
         },
       },
-      {
-        code: "fi",
-        flagImg: "/images/flags/fi.svg",
-        details: {
-          placesToGo: [],
-          tag: {
-            show: true,
-            isCustomized: false,
-          },
-        },
-      },
-      {
-        code: "ch",
-        flagImg: "/images/flags/ch.svg",
-        details: {
-          placesToGo: [],
-          tag: {
-            show: true,
-            isCustomized: false,
-          },
-        },
-      },
-      {
-        code: "ba",
-        flagImg: "/images/flags/ba.svg",
-        details: {
-          placesToGo: [],
-          tag: {
-            show: true,
-            isCustomized: false,
-          },
-        },
-      },
+      // {
+      //   code: "fi",
+      //   flagImg: "/images/flags/fi.svg",
+      //   details: {
+      //     placesToGo: [],
+      //     tag: {
+      //       show: true,
+      //       isCustomized: false,
+      //     },
+      //   },
+      // },
+      // {
+      //   code: "ch",
+      //   flagImg: "/images/flags/ch.svg",
+      //   details: {
+      //     placesToGo: [],
+      //     tag: {
+      //       show: true,
+      //       isCustomized: false,
+      //     },
+      //   },
+      // },
+      // {
+      //   code: "ba",
+      //   flagImg: "/images/flags/ba.svg",
+      //   details: {
+      //     placesToGo: [],
+      //     tag: {
+      //       show: true,
+      //       isCustomized: false,
+      //     },
+      //   },
+      // },
       {
         code: "cz",
         flagImg: "/images/flags/cz.svg",
         details: {
           placesToGo: [],
           tag: {
-            show: true,
+            show: false,
             isCustomized: false,
           },
         },
       },
-      {
-        code: "hu",
-        flagImg: "/images/flags/hu.svg",
-        details: {
-          placesToGo: [],
-          tag: {
-            show: true,
-            isCustomized: false,
-          },
-        },
-      },
-      {
-        code: "az",
-        flagImg: "/images/flags/az.svg",
-        details: {
-          placesToGo: [],
-          tag: {
-            show: true,
-            isCustomized: false,
-          },
-        },
-      },
+      // {
+      //   code: "hu",
+      //   flagImg: "/images/flags/hu.svg",
+      //   details: {
+      //     placesToGo: [],
+      //     tag: {
+      //       show: true,
+      //       isCustomized: false,
+      //     },
+      //   },
+      // },
+      // {
+      //   code: "az",
+      //   flagImg: "/images/flags/az.svg",
+      //   details: {
+      //     placesToGo: [],
+      //     tag: {
+      //       show: true,
+      //       isCustomized: false,
+      //     },
+      //   },
+      // },
       {
         code: "tr",
         flagImg: "/images/flags/tr.svg",
         details: {
           placesToGo: [],
           tag: {
-            show: true,
+            show: false,
             isCustomized: false,
           },
         },
@@ -386,51 +386,51 @@ export const countriesListTabs: TabItem[] = [
         details: {
           placesToGo: [],
           tag: {
-            show: true,
+            show: false,
             isCustomized: false,
           },
         },
       },
-      {
-        code: "om",
-        flagImg: "/images/flags/om.svg",
-        details: {
-          placesToGo: [],
-          tag: {
-            show: true,
-            isCustomized: false,
-          },
-        },
-      },
+      // {
+      //   code: "om",
+      //   flagImg: "/images/flags/om.svg",
+      //   details: {
+      //     placesToGo: [],
+      //     tag: {
+      //       show: true,
+      //       isCustomized: false,
+      //     },
+      //   },
+      // },
       {
         code: "ma",
         flagImg: "/images/flags/ma.svg",
         details: {
           placesToGo: [],
           tag: {
-            show: true,
+            show: false,
             isCustomized: false,
           },
         },
       },
-      {
-        code: "ke",
-        flagImg: "/images/flags/ke.svg",
-        details: {
-          placesToGo: [],
-          tag: {
-            show: true,
-            isCustomized: false,
-          },
-        },
-      },
+      // {
+      //   code: "ke",
+      //   flagImg: "/images/flags/ke.svg",
+      //   details: {
+      //     placesToGo: [],
+      //     tag: {
+      //       show: true,
+      //       isCustomized: false,
+      //     },
+      //   },
+      // },
       {
         code: "tz",
         flagImg: "/images/flags/tz.svg",
         details: {
           placesToGo: [],
           tag: {
-            show: true,
+            show: false,
             isCustomized: false,
           },
         },
@@ -441,7 +441,7 @@ export const countriesListTabs: TabItem[] = [
         details: {
           placesToGo: [],
           tag: {
-            show: true,
+            show: false,
             isCustomized: false,
           },
         },
@@ -468,24 +468,24 @@ export const countriesListTabs: TabItem[] = [
           },
         },
       },
-      {
-        code: "ph",
-        flagImg: "/images/flags/ph.svg",
-        details: {
-          placesToGo: [],
-          tag: {
-            show: true,
-            isCustomized: false,
-          },
-        },
-      },
+      // {
+      //   code: "ph",
+      //   flagImg: "/images/flags/ph.svg",
+      //   details: {
+      //     placesToGo: [],
+      //     tag: {
+      //       show: true,
+      //       isCustomized: false,
+      //     },
+      //   },
+      // },
       {
         code: "vn",
         flagImg: "/images/flags/vn.svg",
         details: {
           placesToGo: [],
           tag: {
-            show: true,
+            show: false,
             isCustomized: false,
           },
         },

@@ -47,7 +47,7 @@ const CountriesListSlide = () => {
         </Tab.List>
         {/*  */}
         <div className="relative h-full w-full flex justify-center">
-          <Tab.Panels className="w-full lg:w-[80vw] mt-6 h-[100%]">
+          <Tab.Panels className="w-full lg:w-[80vw] h-[100%]">
             {tabs.map((tab, i) => (
               <Tab.Panel key={i} className="flex flex-wrap">
                 {tab.type === "visited"
