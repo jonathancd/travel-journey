@@ -36,7 +36,7 @@ export const countriesListTabs: TabItem[] = [
           tag: {
             show: true,
             isCustomized: true,
-            icons: ["👁️"],
+            icons: ["⚠️"],
           },
         },
       },
