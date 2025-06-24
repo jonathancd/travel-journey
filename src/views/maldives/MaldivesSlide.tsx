@@ -19,7 +19,7 @@ const MaldivesSlide = () => {
           <div
             className={`${
               currentItem?.direction === "horizontal"
-                ? "w-[60%] lg:w-[70%] 3xl:w-[60%]"
+                ? "w-[60%] lg:w-[60%] 3xl:w-[60%]"
                 : "w-[40%] lg:w-[30%] 3xl:w-[40%]"
             } h-full`}
           >
@@ -28,7 +28,7 @@ const MaldivesSlide = () => {
           <div
             className={`${
               currentItem?.direction === "horizontal"
-                ? "w-[40%] lg:w-[30%] 3xl:w-[40%]"
+                ? "w-[40%] lg:w-[40%] 3xl:w-[40%]"
                 : "w-[60%] lg:w-[70%] 3xl:w-[60%]"
             } flex-1 flex pl-5`}
           >
